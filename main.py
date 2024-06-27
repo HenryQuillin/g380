@@ -1,9 +1,5 @@
 import streamlit as st
-from newsapi import NewsApiClient
-
-
-# Initialize News API client
-newsapi = NewsApiClient(api_key='220006a62eee4308af38c32b7e0fbabf')
+from mock_data import get_mock_data
 
 st.title('News Alert Dashboard')
 
@@ -27,18 +23,15 @@ st.button('Add another company', on_click=add_company)
 # Button to fetch news
 fetch_button = st.button('Fetch News')
 
-
-# Assuming continuation from the above code
-
 # Fetch news and store in session state when the button is clicked
 if fetch_button:
     # Dictionary to hold news articles for each company
     st.session_state.news_log = {}
     for company in st.session_state.companies:
         if company['name']:
-            # Fetch top headlines for the company
-            articles = newsapi.get_everything(q=company['name'],from_param="2024-06-21", to="2024-06-22")
-            st.session_state.news_log[company['name']] = articles['articles']
+            # Fetch mock headlines for the company
+            articles = get_mock_data(company['name'])
+            st.session_state.news_log[company['name']] = articles.to_dict('records')
 
 # Dropdown to select a company to view news
 if 'news_log' in st.session_state and st.session_state.news_log:

@@ -1,0 +1,38 @@
+Query:
+
+var url = 'https://newsapi.org/v2/everything?' +
+          'q=figma&' +
+          'searchIn=title&' +
+          'from=2024-05-27&' +
+          'sortBy=publishedAt&' +
+          'language=en&' +
+          'apiKey=220006a62eee4308af38c32b7e0fbabf';
+
+var req = new Request(url);
+
+async function fetchData() {
+    try {
+        let response = await fetch(req);
+        let data = await response.json();
+        console.log(data.articles);
+    } catch (error) {
+        console.error('Error fetching data:', error);
+    }
+}
+
+fetchData();
+
+
+
+
+
+
+- Figure out what data I need
+- get the data into dataframes
+- get the fetch working and showing the data
+
+
+companies:
+- Microsoft
+- Figma
+-
