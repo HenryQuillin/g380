@@ -1,7 +1,5 @@
 import pandas as pd
 
-# Example of mock data for different companies
-
 
 def get_mock_data(company_name):
     return data.get(company_name, pd.DataFrame(columns=['title','description','url']))
@@ -1728,7 +1726,1311 @@ figma = [
     }
 ]
 
+robinhood = [
+    {
+        "source": {
+            "id": None,
+            "name": "ETF Daily News"
+        },
+        "author": "MarketBeat News",
+        "title": "Robinhood Markets (NASDAQ:HOOD) Stock Price Up 2.3%",
+        "description": "Robinhood Markets, Inc. (NASDAQ:HOOD – Get Free Report)’s share price rose 2.3% during mid-day trading on Tuesday . The company traded as high as $21.89 and last traded at $21.87. Approximately 3,414,269 shares traded hands during trading, a decline of 79% fr…",
+        "url": "https://www.etfdailynews.com/2024/06/27/robinhood-markets-nasdaqhood-stock-price-up-2-3/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/robinhood-markets-inc-logo-1200x675.png?v=20210729133331&w=240&h=240&zc=2",
+        "publishedAt": "2024-06-27T11:28:42Z",
+        "content": "Robinhood Markets, Inc. (NASDAQ:HOOD – Get Free Report)’s share price rose 2.3% during mid-day trading on Tuesday . The company traded as high as $21.89 and last traded at $21.87. Approximately 3,414… [+5917 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "investors.com",
+        "title": "Robinhood Stock Surges On Upgrade; Analyst Views 'Much Too Low'",
+        "description": "Access to this page has been denied because we believe you are using automation tools to browse the website.\nThis may happen as a result of the following:\n- Javascript is disabled or blocked by an extension (ad blockers for example)\n- Your browser does not su…",
+        "url": "https://biztoc.com/x/a99380cfa7f80e2e",
+        "urlToImage": "https://biztoc.com/cdn/799/og.png",
+        "publishedAt": "2024-06-26T14:06:09Z",
+        "content": "Access to this page has been denied because we believe you are using automation tools to browse the website.This may happen as a result of the following:- Javascript is disabled or blocked by an exte… [+131 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Investor's Business Daily"
+        },
+        "author": "Investor's Business Daily",
+        "title": "Robinhood Stock Surges On Upgrade; Analyst Views 'Much Too Low'",
+        "description": "The digital broker hosts its annual meeting on Wednesday.",
+        "url": "https://www.investors.com/news/robinhood-stock-upgrade-meeting/",
+        "urlToImage": "https://www.investors.com/wp-content/uploads/2018/09/stock-robinhood-01-shutter.jpg",
+        "publishedAt": "2024-06-26T13:46:53Z",
+        "content": "Robinhood stock leapt early Wednesday after the digital broker received an upgrade from Wolfe Research. Meanwhile, Robinhood (HOOD) is scheduled to host its annual meeting Wednesday at 12:30 p.m. ET.… [+2159 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "ETF Daily News"
+        },
+        "author": "MarketBeat News",
+        "title": "Robinhood Markets (NASDAQ:HOOD) Upgraded to Outperform by Wolfe Research",
+        "description": "Robinhood Markets (NASDAQ:HOOD – Get Free Report) was upgraded by investment analysts at Wolfe Research from a “peer perform” rating to an “outperform” rating in a report issued on Wednesday, Marketbeat Ratings reports. The firm presently has a $29.00 price o…",
+        "url": "https://www.etfdailynews.com/2024/06/26/robinhood-markets-nasdaqhood-upgraded-to-outperform-by-wolfe-research/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/robinhood-markets-inc-logo-1200x675.png?v=20210729133331&w=240&h=240&zc=2",
+        "publishedAt": "2024-06-26T12:16:43Z",
+        "content": "Robinhood Markets (NASDAQ:HOOD – Get Free Report) was upgraded by investment analysts at Wolfe Research from a “peer perform” rating to an “outperform” rating in a report issued on Wednesday, Marketb… [+6016 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "ETF Daily News"
+        },
+        "author": "MarketBeat News",
+        "title": "Robinhood Markets (NASDAQ:HOOD) Rating Increased to Outperform at Wolfe Research",
+        "description": "Robinhood Markets (NASDAQ:HOOD – Get Free Report) was upgraded by equities research analysts at Wolfe Research from a “peer perform” rating to an “outperform” rating in a research note issued to investors on Wednesday, FinViz reports. The firm currently has a…",
+        "url": "https://www.etfdailynews.com/2024/06/26/robinhood-markets-nasdaqhood-rating-increased-to-outperform-at-wolfe-research/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/robinhood-markets-inc-logo-1200x675.png?v=20210729133331&w=240&h=240&zc=2",
+        "publishedAt": "2024-06-26T12:16:42Z",
+        "content": "Robinhood Markets (NASDAQ:HOOD – Get Free Report) was upgraded by equities research analysts at Wolfe Research from a “peer perform” rating to an “outperform” rating in a research note issued to inve… [+5706 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "ETF Daily News"
+        },
+        "author": "MarketBeat News",
+        "title": "Baiju Bhatt Sells 121,226 Shares of Robinhood Markets, Inc. (NASDAQ:HOOD) Stock",
+        "description": "Robinhood Markets, Inc. (NASDAQ:HOOD – Get Free Report) Director Baiju Bhatt sold 121,226 shares of the company’s stock in a transaction on Thursday, June 20th. The stock was sold at an average price of $21.63, for a total transaction of $2,622,118.38. The tr…",
+        "url": "https://www.etfdailynews.com/2024/06/26/baiju-bhatt-sells-121226-shares-of-robinhood-markets-inc-nasdaqhood-stock/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/robinhood-markets-inc-logo-1200x675.png?v=20210729133331&w=240&h=240&zc=2",
+        "publishedAt": "2024-06-26T08:26:43Z",
+        "content": "Robinhood Markets, Inc. (NASDAQ:HOOD – Get Free Report) Director Baiju Bhatt sold 121,226 shares of the company’s stock in a transaction on Thursday, June 20th. The stock was sold at an average price… [+5716 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Bangkok Post"
+        },
+        "author": "Online Reporters",
+        "title": "Robinhood app shutting down on July 31",
+        "description": "Robinhood, the commission-free application for on-demand food delivery, hotel booking and other services, will cease operations on July 31, Siam Commercial Bank announced on Tuesday.",
+        "url": "https://www.bangkokpost.com/business/general/2817574/robinhood-app-shutting-down-on-july-31",
+        "urlToImage": "https://static.bangkokpost.com/media/content/20240625/c1_2817574_240625204758_700.jpg",
+        "publishedAt": "2024-06-25T13:41:00Z",
+        "content": "Robinhood, the commission-free application for on-demand food delivery, hotel booking and other services, will cease operations on July 31, Siam Commercial Bank announced on Tuesday.\r\nSCB X Plc, the … [+2443 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Frequentmiler.com"
+        },
+        "author": "Nick Reyes",
+        "title": "Borrow up to $2K interest-free with Robinhood Gold (targeted / YMMV)",
+        "description": "Robinhood Gold costs $5 per month and comes with a number of benefits, including (currently) 5% APY on uninvested cash, a 3% match on IRA contributions, and a handful of other benefits. A while back, Doctor of Credit reported a cool benefit I hadn’t realized:…",
+        "url": "https://frequentmiler.com/borrow-up-to-2k-interest-free-with-robinhood-gold-targeted-ymmv/",
+        "urlToImage": "https://frequentmiler.com/wp-content/uploads/2024/06/wp-17192648180368102286705392091476.jpg",
+        "publishedAt": "2024-06-24T21:45:45Z",
+        "content": "Robinhood Gold costs $5 per month and comes with a number of benefits, including (currently) 5% APY on uninvested cash, a 3% match on IRA contributions, and a handful of other benefits. A while back,… [+2391 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "finance.yahoo.com",
+        "title": "Robinhood CEO discusses the brokerage's evolution leading up to another ride on the meme stock wave",
+        "description": "Meme stocks like GameStop are hot again, reviving memories of early 2021 when they turned into a craze that ended up burning many investors along with Robinhood Markets. The online brokerage was especially popular among younger generations helped propel the m…",
+        "url": "https://biztoc.com/x/51440baa223eb9de",
+        "urlToImage": "https://biztoc.com/cdn/51440baa223eb9de_s.webp",
+        "publishedAt": "2024-06-24T19:56:40Z",
+        "content": "Meme stocks like GameStop are hot again, reviving memories of early 2021 when they turned into a craze that ended up burning many investors along with Robinhood Markets. The online brokerage was espe… [+137 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "seattletimes.com",
+        "title": "Robinhood CEO discusses the brokerage’s evolution leading up to another ride on the meme stock wave",
+        "description": "Meme stocks like GameStop are hot again, reviving memories of early 2021 when they turned into a craze that ended up burning many investors along with Robinhood Markets.",
+        "url": "https://biztoc.com/x/0bc69f0ecac8c584",
+        "urlToImage": "https://biztoc.com/cdn/0bc69f0ecac8c584_s.webp",
+        "publishedAt": "2024-06-24T17:32:18Z",
+        "content": "Meme stocks like GameStop are hot again, reviving memories of early 2021 when they turned into a craze that ended up burning many investors along with Robinhood Markets.\r\nThis story appeared on seatt… [+23 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "apnews.com",
+        "title": "Robinhood CEO discusses the brokerage's evolution leading up to another ride on the meme stock wave",
+        "description": "Meme stocks like GameStop are hot again, reviving memories of early 2021 when they turned into a craze that ended up burning many investors along with Robinhood Markets. The online brokerage was especially popular among younger generations helped propel the m…",
+        "url": "https://biztoc.com/x/da58d41332d1de80",
+        "urlToImage": "https://biztoc.com/cdn/da58d41332d1de80_s.webp",
+        "publishedAt": "2024-06-24T17:09:53Z",
+        "content": "Meme stocks like GameStop are hot again, reviving memories of early 2021 when they turned into a craze that ended up burning many investors along with Robinhood Markets. The online brokerage was espe… [+130 chars]"
+    },
+    {
+        "source": {
+            "id": "abc-news",
+            "name": "ABC News"
+        },
+        "author": "MICHAEL LIEDTKE AP technology writer",
+        "title": "Robinhood CEO discusses the brokerage's evolution leading up to another ride on the meme stock wave",
+        "description": "Meme stocks like GameStop are hot again, reviving memories of early 2021 when they turned into a craze that ended up burning many investors along with Robinhood Markets",
+        "url": "https://abcnews.go.com/Technology/wireStory/robinhood-ceo-discusses-brokerages-evolution-leading-ride-meme-111373510",
+        "urlToImage": "https://i.abcnewsfe.com/a/4cdbebe9-4f98-4dc3-9e0c-f9d22f7e5df5/wirestory_e28c801d0e2fd310269fd751167132d1_16x9.jpg?w=1600",
+        "publishedAt": "2024-06-24T16:38:13Z",
+        "content": "SAN FRANCISCO -- Meme stocks like GameStop are hot again, reviving memories of early 2021 when they turned into a craze that ended up burning many investors along with Robinhood Markets. The online b… [+4431 chars]"
+    },
+    {
+        "source": {
+            "id": "abc-news",
+            "name": "ABC News"
+        },
+        "author": "MICHAEL LIEDTKE AP technology writer",
+        "title": "Robinhood CEO discusses the brokerage's evolution leading up to another ride on the meme stock wave",
+        "description": "Meme stocks like GameStop are hot again, reviving memories of early 2021 when they turned into a craze that ended up burning many investors along with Robinhood Markets",
+        "url": "https://abcnews.go.com/Business/wireStory/robinhood-ceo-discusses-brokerages-evolution-leading-ride-meme-111373509",
+        "urlToImage": "https://i.abcnewsfe.com/a/4cdbebe9-4f98-4dc3-9e0c-f9d22f7e5df5/wirestory_e28c801d0e2fd310269fd751167132d1_16x9.jpg?w=1600",
+        "publishedAt": "2024-06-24T16:30:37Z",
+        "content": "SAN FRANCISCO -- Meme stocks like GameStop are hot again, reviving memories of early 2021 when they turned into a craze that ended up burning many investors along with Robinhood Markets. The online b… [+4431 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "The Seattle Times"
+        },
+        "author": "MICHAEL LIEDTKE",
+        "title": "Robinhood CEO discusses the brokerage’s evolution leading up to another ride on the meme stock wave",
+        "description": "Meme stocks like GameStop are hot again, reviving memories of early 2021 when they turned into a craze that ended up burning many investors along with Robinhood Markets.",
+        "url": "https://www.seattletimes.com/business/robinhood-ceo-discusses-the-brokerages-evolution-leading-up-to-another-ride-on-the-meme-stock-wave/",
+        "urlToImage": "https://images.seattletimes.com/wp-content/uploads/2024/06/urnpublicidap.orge28c801d0e2fd310269fd751167132d1Insider-QampA-Vlad-Tenev-Robinhood.jpg?d=1200x630",
+        "publishedAt": "2024-06-24T16:24:17Z",
+        "content": "SAN FRANCISCO (AP) Meme stocks like GameStop are hot again, reviving memories of early 2021 when they turned into a craze that ended up burning many investors along with Robinhood Markets. The online… [+4433 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Minneapolis Star Tribune"
+        },
+        "author": "MICHAEL LIEDTKE",
+        "title": "Robinhood CEO discusses the brokerage's evolution leading up to another ride on the meme stock wave",
+        "description": "Meme stocks like GameStop are hot again, reviving memories of early 2021 when they turned into a craze that ended up burning many investors along with Robinhood Markets. The online brokerage was especially popular among younger generations helped propel the m…",
+        "url": "https://www.startribune.com/robinhood-ceo-discusses-the-brokerages-evolution-leading-up-to-another-ride-on-the-meme-stock-wave/600375725/",
+        "urlToImage": "https://www.startribune.com/static/img/branding/logos/strib-social-card.png?d=1717510706",
+        "publishedAt": "2024-06-24T16:24:01Z",
+        "content": "SAN FRANCISCO Meme stocks like GameStop are hot again, reviving memories of early 2021 when they turned into a craze that ended up burning many investors along with Robinhood Markets. The online brok… [+4445 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "ETF Daily News"
+        },
+        "author": "MarketBeat News",
+        "title": "Gulf International Bank UK Ltd Has $1.27 Million Stock Holdings in Robinhood Markets, Inc. (NASDAQ:HOOD)",
+        "description": "Gulf International Bank UK Ltd increased its position in shares of Robinhood Markets, Inc. (NASDAQ:HOOD – Free Report) by 5.3% during the 1st quarter, according to its most recent filing with the Securities and Exchange Commission. The institutional investor …",
+        "url": "https://www.etfdailynews.com/2024/06/23/gulf-international-bank-uk-ltd-has-1-27-million-stock-holdings-in-robinhood-markets-inc-nasdaqhood/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/robinhood-markets-inc-logo-1200x675.png?v=20210729133331&w=240&h=240&zc=2",
+        "publishedAt": "2024-06-23T12:50:49Z",
+        "content": "Gulf International Bank UK Ltd increased its position in shares of Robinhood Markets, Inc. (NASDAQ:HOOD – Free Report) by 5.3% during the 1st quarter, according to its most recent filing with the Sec… [+6509 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "ETF Daily News"
+        },
+        "author": "MarketBeat News",
+        "title": "Vanguard Group Inc. Trims Holdings in Robinhood Markets, Inc. (NASDAQ:HOOD)",
+        "description": "Vanguard Group Inc. lowered its stake in shares of Robinhood Markets, Inc. (NASDAQ:HOOD – Free Report) by 2.5% in the fourth quarter, according to its most recent 13F filing with the SEC. The firm owned 55,825,098 shares of the company’s stock after selling 1…",
+        "url": "https://www.etfdailynews.com/2024/06/23/vanguard-group-inc-trims-holdings-in-robinhood-markets-inc-nasdaqhood/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/robinhood-markets-inc-logo-1200x675.png?v=20210729133331&w=240&h=240&zc=2",
+        "publishedAt": "2024-06-23T09:02:42Z",
+        "content": "Vanguard Group Inc. lowered its stake in shares of Robinhood Markets, Inc. (NASDAQ:HOOD – Free Report) by 2.5% in the fourth quarter, according to its most recent 13F filing with the SEC. The firm ow… [+6036 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "ETF Daily News"
+        },
+        "author": "MarketBeat News",
+        "title": "Robinhood Markets (NASDAQ:HOOD) Trading 1.2% Higher on Analyst Upgrade",
+        "description": "Robinhood Markets, Inc. (NASDAQ:HOOD – Get Free Report)’s stock price traded up 1.2% during mid-day trading on Friday after Deutsche Bank Aktiengesellschaft raised their price target on the stock from $19.00 to $20.00. Deutsche Bank Aktiengesellschaft current…",
+        "url": "https://www.etfdailynews.com/2024/06/23/robinhood-markets-nasdaqhood-trading-1-2-higher-on-analyst-upgrade/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/robinhood-markets-inc-logo-1200x675.png?v=20210729133331&w=240&h=240&zc=2",
+        "publishedAt": "2024-06-23T05:20:47Z",
+        "content": "Robinhood Markets, Inc. (NASDAQ:HOOD – Get Free Report)’s stock price traded up 1.2% during mid-day trading on Friday after Deutsche Bank Aktiengesellschaft raised their price target on the stock fro… [+6013 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Bitcoinist"
+        },
+        "author": "Christian Encila",
+        "title": "Dog Days Over? Robinhood Moves 2.2 Trillion Shiba Inu Amidst Cooling Meme Market",
+        "description": "Shiba Inu (SHIB), the self-proclaimed “Dogecoin Killer,” is facing choppy waters. A recent colossal transfer by Robinhood, a leading crypto exchange, has given jitters to SHIB enthusiasts, raising questions about the future of meme coins. Related Reading: Jap…",
+        "url": "https://bitcoinist.com/robinhood-moves-2-2-trillion-shiba-inu/",
+        "urlToImage": "https://bitcoinist.com/wp-content/uploads/2024/06/a_f42e0d.jpg",
+        "publishedAt": "2024-06-22T14:00:40Z",
+        "content": "Shiba Inu (SHIB), the self-proclaimed “Dogecoin Killer,” is facing choppy waters. A recent colossal transfer by Robinhood, a leading crypto exchange, has given jitters to SHIB enthusiasts, raising qu… [+3277 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Yahoo Entertainment"
+        },
+        "author": "Affan Mir",
+        "title": "Carnival Corporation & plc (CCL): Is this Robinhood Stock a Good Buy?",
+        "description": "We recently compiled a list of the 10 Best Robinhood Stocks Under $20. In this article, we are going to take a look at where Carnival Corporation & plc...",
+        "url": "https://finance.yahoo.com/news/carnival-corporation-plc-ccl-robinhood-125109423.html",
+        "urlToImage": "https://s.yimg.com/ny/api/res/1.2/vUrdsC1iWmxjPSj6jgZt4g--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzM-/https://media.zenfs.com/en/insidermonkey.com/66f6dd83cd222d38b1b617434c143fa8",
+        "publishedAt": "2024-06-22T12:51:09Z",
+        "content": "We recently compiled a list of the 10 Best Robinhood Stocks Under $20. In this article, we are going to take a look at where Carnival Corporation &amp; plc (NYSE:CCL) stands against the other Robinho… [+6720 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Yahoo Entertainment"
+        },
+        "author": "Affan Mir",
+        "title": "What Makes Kinder Morgan, Inc. (KMI) a Good Robinhood Stock to Buy Right Now?",
+        "description": "We recently compiled a list of the 10 Best Robinhood Stocks Under $20. In this article, we are going to take a look at where Kinder Morgan, Inc. (NYSE:KMI...",
+        "url": "https://finance.yahoo.com/news/makes-kinder-morgan-inc-kmi-122905223.html",
+        "urlToImage": "https://s.yimg.com/ny/api/res/1.2/e6W1_0xZyOSq6OhxCm2OUQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzM-/https://media.zenfs.com/en/insidermonkey.com/f2815fee8dd87c41e4294d91093397d7",
+        "publishedAt": "2024-06-22T12:29:05Z",
+        "content": "We recently compiled a list of the 10 Best Robinhood Stocks Under $20. In this article, we are going to take a look at where Kinder Morgan, Inc. (NYSE:KMI) stands against the other Robinhood stocks.\r… [+6051 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Shiba Inu Whale Withdraws 2.2 Billion SHIB From Robinhood, Should You Follow The Whales?",
+        "description": "Shiba Inu whales are on the move again, sparking speculations on what they expect from the meme coin. One whale, in particular, has caught the attention of the SHIB community following a massive withdrawal from the popular crypto and stock trading exchange Ro…",
+        "url": "http://www.newsbtc.com/shiba-inu/shiba-inu-whale-shib-robinhood/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2024/06/Shiba-Inu-2.jpeg?fit=1792%2C1024",
+        "publishedAt": "2024-06-22T02:00:03Z",
+        "content": "Shiba Inu whales are on the move again, sparking speculations on what they expect from the meme coin. One whale, in particular, has caught the attention of the SHIB community following a massive with… [+2472 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "ETF Daily News"
+        },
+        "author": "MarketBeat News",
+        "title": "Robinhood Markets (NASDAQ:HOOD) Price Target Raised to $20.00",
+        "description": "Robinhood Markets (NASDAQ:HOOD – Get Free Report) had its price target lifted by research analysts at Deutsche Bank Aktiengesellschaft from $19.00 to $20.00 in a research note issued to investors on Thursday, Benzinga reports. The firm presently has a “hold” …",
+        "url": "https://www.etfdailynews.com/2024/06/20/robinhood-markets-nasdaqhood-price-target-raised-to-20-00/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/robinhood-markets-inc-logo-1200x675.png?v=20210729133331&w=240&h=240&zc=2",
+        "publishedAt": "2024-06-20T13:16:41Z",
+        "content": "Robinhood Markets (NASDAQ:HOOD – Get Free Report) had its price target lifted by research analysts at Deutsche Bank Aktiengesellschaft from $19.00 to $20.00 in a research note issued to investors on … [+5587 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Thefly.com"
+        },
+        "author": None,
+        "title": "Robinhood price target raised by $1 at Deutsche Bank, here's why",
+        "description": "See the rest of the story here.\n\nthefly.com provides the latest financial news as it breaks. Known as a leader in market intelligence, The Fly's real-time, streaming news feed keeps individual investors, professional money managers, active traders, and corpor…",
+        "url": "https://thefly.com/permalinks/entry.php/id3935577/HOOD-Robinhood-price-target-raised-by--at-Deutsche-Bank-heres-why",
+        "urlToImage": "https://thefly.com/images/meta/streetresearch_recommendations.jpg",
+        "publishedAt": "2024-06-20T12:37:28Z",
+        "content": "Earnings calls, analyst events, roadshows and more"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "ETF Daily News"
+        },
+        "author": "MarketBeat News",
+        "title": "Centaurus Financial Inc. Makes New $102,000 Investment in Robinhood Markets, Inc. (NASDAQ:HOOD)",
+        "description": "Centaurus Financial Inc. acquired a new position in shares of Robinhood Markets, Inc. (NASDAQ:HOOD – Free Report) in the 4th quarter, according to its most recent filing with the Securities & Exchange Commission. The fund acquired 8,005 shares of the company’…",
+        "url": "https://www.etfdailynews.com/2024/06/20/centaurus-financial-inc-makes-new-102000-investment-in-robinhood-markets-inc-nasdaqhood/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/robinhood-markets-inc-logo-1200x675.png?v=20210729133331&w=240&h=240&zc=2",
+        "publishedAt": "2024-06-20T08:40:41Z",
+        "content": "Centaurus Financial Inc. acquired a new position in shares of Robinhood Markets, Inc. (NASDAQ:HOOD – Free Report) in the 4th quarter, according to its most recent filing with the Securities &amp; Exc… [+5895 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "ETF Daily News"
+        },
+        "author": "MarketBeat News",
+        "title": "Robinhood Markets, Inc. (NASDAQ:HOOD) Receives Average Rating of “Hold” from Analysts",
+        "description": "Robinhood Markets, Inc. (NASDAQ:HOOD – Get Free Report) has earned a consensus rating of “Hold” from the fifteen analysts that are currently covering the company, MarketBeat reports. Three analysts have rated the stock with a sell rating, seven have assigned …",
+        "url": "https://www.etfdailynews.com/2024/06/20/robinhood-markets-inc-nasdaqhood-receives-average-rating-of-hold-from-analysts/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/robinhood-markets-inc-logo-1200x675.png?v=20210729133331&w=240&h=240&zc=2",
+        "publishedAt": "2024-06-20T05:42:49Z",
+        "content": "Robinhood Markets, Inc. (NASDAQ:HOOD – Get Free Report) has earned a consensus rating of “Hold” from the fifteen analysts that are currently covering the company, MarketBeat reports. Three analysts h… [+5384 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "ETF Daily News"
+        },
+        "author": "MarketBeat News",
+        "title": "Robinhood Markets (NASDAQ:HOOD) Stock Price Down 1.6%",
+        "description": "Robinhood Markets, Inc. (NASDAQ:HOOD – Get Free Report)’s share price was down 1.6% during trading on Monday . The stock traded as low as $21.70 and last traded at $22.07. Approximately 4,602,341 shares changed hands during mid-day trading, a decline of 72% f…",
+        "url": "https://www.etfdailynews.com/2024/06/19/robinhood-markets-nasdaqhood-stock-price-down-1-6/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/robinhood-markets-inc-logo-1200x675.png?v=20210729133331&w=240&h=240&zc=2",
+        "publishedAt": "2024-06-19T12:04:42Z",
+        "content": "Robinhood Markets, Inc. (NASDAQ:HOOD – Get Free Report)’s share price was down 1.6% during trading on Monday . The stock traded as low as $21.70 and last traded at $22.07. Approximately 4,602,341 sha… [+6139 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "ETF Daily News"
+        },
+        "author": "MarketBeat News",
+        "title": "HighPoint Advisor Group LLC Takes Position in Robinhood Markets, Inc. (NASDAQ:HOOD)",
+        "description": "HighPoint Advisor Group LLC acquired a new stake in Robinhood Markets, Inc. (NASDAQ:HOOD – Free Report) in the fourth quarter, according to its most recent 13F filing with the Securities & Exchange Commission. The fund acquired 46,798 shares of the company’s …",
+        "url": "https://www.etfdailynews.com/2024/06/19/highpoint-advisor-group-llc-takes-position-in-robinhood-markets-inc-nasdaqhood/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/robinhood-markets-inc-logo-1200x675.png?v=20210729133331&w=240&h=240&zc=2",
+        "publishedAt": "2024-06-19T10:30:47Z",
+        "content": "HighPoint Advisor Group LLC acquired a new stake in Robinhood Markets, Inc. (NASDAQ:HOOD – Free Report) in the fourth quarter, according to its most recent 13F filing with the Securities &amp; Exchan… [+6246 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Forbes"
+        },
+        "author": "Sandy Carter, Contributor, \n Sandy Carter, Contributor\n https://www.forbes.com/sites/sandycarter/",
+        "title": "Alliances Show The Web3 Revolution Is Unstoppable With Robinhood, Secret Network, And Tezos",
+        "description": "The Web3 movement forges relationships outside its initial cadre of early adopters. Alliances and acquisitions from Robinhood, Secret Network, Tezos and World of Women.",
+        "url": "https://www.forbes.com/sites/digital-assets/2024/06/18/alliances-show-the-web3-revolution-is-unstoppable-with-robinhood-secret-network-and-tezos/",
+        "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/6670d9dda08de44947a5f05f/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
+        "publishedAt": "2024-06-18T10:30:00Z",
+        "content": "The Secret Network Team for the DeCC Day \r\nSecret Network\r\nWhen does a revolution become unstoppable? In my view, its when a movement forges relationships outside its small, initial cadre of visionar… [+12863 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Mymoneyblog.com"
+        },
+        "author": "Jonathan Ping",
+        "title": "Robinhood Gold x Free $1,000 Margin ($2,000 Until August 2024)",
+        "description": "If you joined the Robinhood Gold subscription service for the (expired) 3% IRA transfer bonus, you have have noticed that it includes $1,000 of margin interest-free (0% APR). Right now, they are increasing this amount to $2,000 of margin interest-free until 8…",
+        "url": "https://www.mymoneyblog.com/robinhood-gold-free-margin.html",
+        "urlToImage": "https://www.mymoneyblog.com/wordpress/wp-content/uploads/2024/06/rh_margin_rates2406.gif",
+        "publishedAt": "2024-06-17T06:19:58Z",
+        "content": "If you joined the Robinhood Gold subscription service for the (expired) 3% IRA transfer bonus, you have have noticed that it includes $1,000 of margin interest-free (0% APR). Right now, they are incr… [+5615 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "ETF Daily News"
+        },
+        "author": "MarketBeat News",
+        "title": "Citigroup Increases Robinhood Markets (NASDAQ:HOOD) Price Target to $18.00",
+        "description": "Robinhood Markets (NASDAQ:HOOD – Get Free Report) had its price target hoisted by analysts at Citigroup from $16.00 to $18.00 in a report issued on Thursday, Benzinga reports. The firm currently has a “sell” rating on the stock. Citigroup’s price objective po…",
+        "url": "https://www.etfdailynews.com/2024/06/15/citigroup-increases-robinhood-markets-nasdaqhood-price-target-to-18-00/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/robinhood-markets-inc-logo-1200x675.png?v=20210729133331&w=240&h=240&zc=2",
+        "publishedAt": "2024-06-15T07:50:42Z",
+        "content": "Robinhood Markets (NASDAQ:HOOD – Get Free Report) had its price target hoisted by analysts at Citigroup from $16.00 to $18.00 in a report issued on Thursday, Benzinga reports. The firm currently has … [+5651 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "ETF Daily News"
+        },
+        "author": "MarketBeat News",
+        "title": "Prudential PLC Invests $287,000 in Robinhood Markets, Inc. (NASDAQ:HOOD)",
+        "description": "Prudential PLC acquired a new position in shares of Robinhood Markets, Inc. (NASDAQ:HOOD – Free Report) in the 4th quarter, HoldingsChannel reports. The fund acquired 22,498 shares of the company’s stock, valued at approximately $287,000. Several other large …",
+        "url": "https://www.etfdailynews.com/2024/06/12/prudential-plc-invests-287000-in-robinhood-markets-inc-nasdaqhood/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/robinhood-markets-inc-logo-1200x675.png?v=20210729133331&w=240&h=240&zc=2",
+        "publishedAt": "2024-06-12T08:14:43Z",
+        "content": "Prudential PLC acquired a new position in shares of Robinhood Markets, Inc. (NASDAQ:HOOD – Free Report) in the 4th quarter, HoldingsChannel reports. The fund acquired 22,498 shares of the company’s s… [+6124 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Marketscreener.com"
+        },
+        "author": None,
+        "title": "Robinhood Markets, Inc. Reports May 2024 Operating Data",
+        "description": "(marketscreener.com) MENLO PARK, Calif., June 11, 2024 -- Robinhood Markets, Inc. today reported select monthly operating data for May 2024: Funded Customers at the end of May were 24.1 million .Assets Under Custody at the end of May were $135.0 billion . Net…",
+        "url": "https://www.marketscreener.com/quote/stock/ROBINHOOD-MARKETS-INC-125228571/news/Robinhood-Markets-Inc-Reports-May-2024-Operating-Data-46951180/",
+        "urlToImage": "https://www.marketscreener.com/images/twitter_MS_fdblanc.png",
+        "publishedAt": "2024-06-11T20:05:06Z",
+        "content": "MENLO PARK, Calif., June 11, 2024 (GLOBE NEWSWIRE) -- Robinhood Markets, Inc. (Robinhood) (NASDAQ: HOOD) today reported select monthly operating data for May 2024:\r\n<ul><li>Funded Customers at the en… [+5717 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "GlobeNewswire"
+        },
+        "author": "Robinhood Markets, Inc.",
+        "title": "Robinhood Markets, Inc. Reports May 2024 Operating Data",
+        "description": "MENLO PARK, Calif., June 11, 2024 (GLOBE NEWSWIRE) -- Robinhood Markets, Inc. (“Robinhood”) (NASDAQ: HOOD) today reported select monthly operating data for May 2024:",
+        "url": "https://www.globenewswire.com/news-release/2024/06/11/2897157/0/en/Robinhood-Markets-Inc-Reports-May-2024-Operating-Data.html",
+        "urlToImage": "https://ml.globenewswire.com/Resource/Download/0c13ddea-b824-48cd-8eec-4af2003cf1ba",
+        "publishedAt": "2024-06-11T20:05:00Z",
+        "content": "MENLO PARK, Calif., June 11, 2024 (GLOBE NEWSWIRE) -- Robinhood Markets, Inc. (Robinhood) (NASDAQ: HOOD) today reported select monthly operating data for May 2024:\r\n<ul><li>Funded Customers at the en… [+5712 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "investorplace.com",
+        "title": "The 3 Most Undervalued Robinhood Stocks to Buy in June 2024",
+        "description": "Finding the most undervalued Robinhood stocks isn’t as difficult a task as you might expect. The trading platform is often thought of as a place for traders to buy meme stocks like GameStop (NYSE:GME) and AMC Entertainment (NYSE:AMC). And to be clear, both st…",
+        "url": "https://biztoc.com/x/ae09e2a9bb1ad7c6",
+        "urlToImage": "https://biztoc.com/cdn/ae09e2a9bb1ad7c6_s.webp",
+        "publishedAt": "2024-06-11T17:34:12Z",
+        "content": "Finding the most undervalued Robinhood stocks isnt as difficult a task as you might expect. The trading platform is often thought of as a place for traders to buy meme stocks like GameStop (NYSE:GME)… [+140 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "marketbeat.com",
+        "title": "Can Robinhood Stock Double Again in 2024? Here's Why It Might",
+        "description": "Robinhood stock has already doubled in the past year, but today's KPI trends show investors how the stock could double again before 2024 is over",
+        "url": "https://biztoc.com/x/ea16329fe2ad79b7",
+        "urlToImage": "https://biztoc.com/cdn/799/og.png",
+        "publishedAt": "2024-06-11T11:39:48Z",
+        "content": "Robinhood stock has already doubled in the past year, but today's KPI trends show investors how the stock could double again before 2024 is over\r\nThis story appeared on marketbeat.com, 2024-06-11."
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Investing.com"
+        },
+        "author": "Investing.com",
+        "title": "Cathie Wood's ARK sheds Robinhood stock, buys into Arcturus",
+        "description": "Cathie Wood's ARK sheds Robinhood stock, buys into Arcturus",
+        "url": "https://www.investing.com/news/company-news/cathie-woods-ark-sheds-robinhood-stock-buys-into-arcturus-93CH-3478967",
+        "urlToImage": "https://i-invdn-com.investing.com/news/World_News_10_800x533_L_1420026292.jpg",
+        "publishedAt": "2024-06-11T10:49:40Z",
+        "content": "Cathie Wood's ARK ETFs have reported their daily trades for Monday, June 10th, 2024, with a significant sell-off of Robinhood Markets Inc (NASDAQ:HOOD) and purchases across a range of biotech and tec… [+2733 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Marketscreener.com"
+        },
+        "author": None,
+        "title": "Robinhood Markets : Piper Sandler Global Exchange and Trading Conference Transcript",
+        "description": "(marketscreener.com) \n \n Company Name: Robinhood Markets, Inc. \n \n \n Event: Piper Sandler's Global Exchange and Trading Conference\n \n \n Date: June 5, 2024\n \n \n As a reminder, this discussion may include forward-looking statements, and actual results may diffe…",
+        "url": "https://www.marketscreener.com/quote/stock/ROBINHOOD-MARKETS-INC-125228571/news/Robinhood-Markets-Piper-Sandler-Global-Exchange-and-Trading-Conference-Transcript-46939680/",
+        "urlToImage": "https://www.marketscreener.com/images/twitter_MS_fdblanc.png",
+        "publishedAt": "2024-06-10T13:20:08Z",
+        "content": "Company Name: Robinhood Markets, Inc. (HOOD)\r\nEvent: Piper Sandler's Global Exchange and Trading Conference\r\nDate: June 5, 2024\r\nAs a reminder, this discussion may include forward-looking statements,… [+21967 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "investorplace.com",
+        "title": "Is Robinhood Stock Worth the Risk? Weighing HOOD’s Pros and Cons",
+        "description": "Since its late July 2021 IPO, Robinhood Markets (NASDAQ:HOOD) stock has seen a tumultuous journey, yet its stock soared 137% over the past year. Diversified offerings and increased customer engagement drove this growth, alongside its best quarterly profit pos…",
+        "url": "https://biztoc.com/x/84299e93eac37ec8",
+        "urlToImage": "https://biztoc.com/cdn/799/og.png",
+        "publishedAt": "2024-06-10T10:54:40Z",
+        "content": "Since its late July 2021 IPO, Robinhood Markets (NASDAQ:HOOD) stock has seen a tumultuous journey, yet its stock soared 137% over the past year. Diversified offerings and increased customer engagemen… [+141 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "ETF Daily News"
+        },
+        "author": "MarketBeat News",
+        "title": "California State Teachers Retirement System Raises Stock Position in Robinhood Markets, Inc. (NASDAQ:HOOD)",
+        "description": "California State Teachers Retirement System raised its holdings in Robinhood Markets, Inc. (NASDAQ:HOOD – Free Report) by 6.3% during the 4th quarter, according to the company in its most recent Form 13F filing with the SEC. The fund owned 705,551 shares of t…",
+        "url": "https://www.etfdailynews.com/2024/06/09/california-state-teachers-retirement-system-raises-stock-position-in-robinhood-markets-inc-nasdaqhood/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/robinhood-markets-inc-logo-1200x675.png?v=20210729133331&w=240&h=240&zc=2",
+        "publishedAt": "2024-06-09T10:02:45Z",
+        "content": "California State Teachers Retirement System raised its holdings in Robinhood Markets, Inc. (NASDAQ:HOOD – Free Report) by 6.3% during the 4th quarter, according to the company in its most recent Form… [+5997 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "ETF Daily News"
+        },
+        "author": "MarketBeat News",
+        "title": "Robinhood Markets (NASDAQ:HOOD) Rating Reiterated by JMP Securities",
+        "description": "Robinhood Markets (NASDAQ:HOOD – Get Free Report)‘s stock had its “market outperform” rating reaffirmed by JMP Securities in a note issued to investors on Friday, Benzinga reports. They currently have a $30.00 price objective on the stock. JMP Securities’ tar…",
+        "url": "https://www.etfdailynews.com/2024/06/09/robinhood-markets-nasdaqhood-rating-reiterated-by-jmp-securities/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/robinhood-markets-inc-logo-1200x675.png?v=20210729133331&w=240&h=240&zc=2",
+        "publishedAt": "2024-06-09T06:38:43Z",
+        "content": "Robinhood Markets (NASDAQ:HOOD – Get Free Report)‘s stock had its “market outperform” rating reaffirmed by JMP Securities in a note issued to investors on Friday, Benzinga reports. They currently hav… [+5797 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "ETF Daily News"
+        },
+        "author": "MarketBeat News",
+        "title": "Robinhood Markets (NASDAQ:HOOD) Trading Up 6%",
+        "description": "Shares of Robinhood Markets, Inc. (NASDAQ:HOOD – Get Free Report) were up 6% on Thursday . The company traded as high as $22.95 and last traded at $22.86. Approximately 17,778,478 shares were traded during mid-day trading, an increase of 9% from the average d…",
+        "url": "https://www.etfdailynews.com/2024/06/08/robinhood-markets-nasdaqhood-trading-up-6/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/robinhood-markets-inc-logo-1200x675.png?v=20210729133331&w=240&h=240&zc=2",
+        "publishedAt": "2024-06-08T14:20:42Z",
+        "content": "Shares of Robinhood Markets, Inc. (NASDAQ:HOOD – Get Free Report) were up 6% on Thursday . The company traded as high as $22.95 and last traded at $22.86. Approximately 17,778,478 shares were traded … [+5491 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Premium Times"
+        },
+        "author": "Stephen Onu",
+        "title": "MOVIE REVIEW: \"Kesari” is misfired indigenous attempt at 'Robinhood'",
+        "description": "Watching it to the end requires significant effort, and one might feel their intelligence quotient (IQ) is being challenged.",
+        "url": "https://www.premiumtimesng.com/entertainment/nollywood/701865-movie-review-kesari-is-misfired-indigenous-attempt-at-robinhood.html",
+        "urlToImage": "https://media.premiumtimesng.com/wp-content/files/2024/06/image3-e1717846162852.jpeg",
+        "publishedAt": "2024-06-08T11:34:38Z",
+        "content": "Title: Kesari (The King)\r\nRunning Time: 1 hour 40 minutes\r\nStreaming platform:Netflix\r\nGenre: Yoruba Drama/Action\r\nDirector: Ibrahim Yekini and Tope Adebayo\r\nCast: Ibrahim Yekini, Odunlade Adeoka, De… [+976 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "ETF Daily News"
+        },
+        "author": "MarketBeat News",
+        "title": "Robinhood Markets (NASDAQ:HOOD) Rating Reiterated by Needham & Company LLC",
+        "description": "Robinhood Markets (NASDAQ:HOOD – Get Free Report)‘s stock had its “hold” rating reiterated by Needham & Company LLC in a research report issued to clients and investors on Thursday, Benzinga reports. A number of other equities research analysts have also rece…",
+        "url": "https://www.etfdailynews.com/2024/06/08/robinhood-markets-nasdaqhood-rating-reiterated-by-needham-company-llc/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/robinhood-markets-inc-logo-1200x675.png?v=20210729133331&w=240&h=240&zc=2",
+        "publishedAt": "2024-06-08T06:36:41Z",
+        "content": "Robinhood Markets (NASDAQ:HOOD – Get Free Report)‘s stock had its “hold” rating reiterated by Needham &amp; Company LLC in a research report issued to clients and investors on Thursday, Benzinga repo… [+5213 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Investing.com"
+        },
+        "author": "Investing.com",
+        "title": "Cathie Wood's ARK buys PagerDuty, sells Robinhood stock",
+        "description": "Cathie Wood's ARK buys PagerDuty, sells Robinhood stock",
+        "url": "https://www.investing.com/news/company-news/cathie-woods-ark-buys-pagerduty-sells-robinhood-stock-93CH-3476575",
+        "urlToImage": "https://i-invdn-com.investing.com/news/World_News_8_800x533_L_1420026210.jpg",
+        "publishedAt": "2024-06-08T00:13:41Z",
+        "content": "Cathie Wood's ARK ETFs published their daily trades for Friday, June 7th, 2024, revealing a series of strategic moves across various sectors. Leading the day's acquisitions was the purchase of 85,785… [+1940 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "billboard.com",
+        "title": "You Can Earn 5% APY With Robinhood Gold",
+        "description": "All products and services featured are independently chosen by editors. However, Billboard may receive a commission on orders placed through its retail links, and the retailer may receive certain auditable data for accounting purposes. Investing for retiremen…",
+        "url": "https://biztoc.com/x/a6ea59ca2cac8394",
+        "urlToImage": "https://c.biztoc.com/p/a6ea59ca2cac8394/s.webp",
+        "publishedAt": "2024-06-07T21:56:05Z",
+        "content": "All products and services featured are independently chosen by editors. However, Billboard may receive a commission on orders placed through its retail links, and the retailer may receive certain aud… [+311 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Yahoo Entertainment"
+        },
+        "author": None,
+        "title": "You Can Earn 5% APY With Robinhood Gold – Here’s How to Get Started",
+        "description": None,
+        "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_644c9bdd-f1ed-48ad-9d14-9167a8c56ba5",
+        "urlToImage": None,
+        "publishedAt": "2024-06-07T21:42:40Z",
+        "content": "If you click 'Accept all', we and our partners, including 238 who are part of the IAB Transparency &amp; Consent Framework, will also store and/or access information on a device (in other words, use … [+678 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "ZyCrypto"
+        },
+        "author": "Brenda Ngari",
+        "title": "Robinhood Inks Game-Changing Deal To Acquire Crypto Giant Bitstamp For $200 Million",
+        "description": "Trading platform Robinhood is expanding its footing in the crypto industry by acquiring U.K.-based crypto exchange Bitstamp in a $200 million cash deal.",
+        "url": "https://zycrypto.com/robinhood-inks-game-changing-deal-to-acquire-crypto-giant-bitstamp-for-200-million/",
+        "urlToImage": "https://zycrypto.com/wp-content/uploads/2024/06/Robinhood-Inks-Game-Changing-Deal-To-Acquire-Crypto-Giant-Bitstamp-For-200-Million.jpg",
+        "publishedAt": "2024-06-07T18:01:28Z",
+        "content": "Trading platform Robinhood is expanding its footing in the crypto industry by acquiring U.K.-based crypto exchange Bitstamp in a $200 million cash deal. With the new acquisition, Robinhood seeks to e… [+2964 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Investing.com"
+        },
+        "author": "Investing.com",
+        "title": "Robinhood maintains stock target amid Bitstamp strategy",
+        "description": "Robinhood maintains stock target amid Bitstamp strategy",
+        "url": "https://www.investing.com/news/company-news/robinhood-maintains-stock-target-amid-bitstamp-strategy-93CH-3475979",
+        "urlToImage": "https://i-invdn-com.investing.com/news/Robinhood_800x533_L_1632377846.jpg",
+        "publishedAt": "2024-06-07T16:05:54Z",
+        "content": "On Friday, Bernstein, a financial firm, maintained its Outperform rating on Robinhood Markets (NASDAQ:HOOD) with a stock price target of $30.00. The firm's stance comes with the perspective that Robi… [+4169 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "ETF Daily News"
+        },
+        "author": "MarketBeat News",
+        "title": "Robinhood Markets, Inc. (NASDAQ:HOOD) Insider Daniel Martin Gallagher, Jr. Sells 12,500 Shares",
+        "description": "Robinhood Markets, Inc. (NASDAQ:HOOD – Get Free Report) insider Daniel Martin Gallagher, Jr. sold 12,500 shares of Robinhood Markets stock in a transaction dated Tuesday, June 4th. The stock was sold at an average price of $21.05, for a total value of $263,12…",
+        "url": "https://www.etfdailynews.com/2024/06/07/robinhood-markets-inc-nasdaqhood-insider-daniel-martin-gallagher-jr-sells-12500-shares/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/robinhood-markets-inc-logo-1200x675.png?v=20210729133331&w=240&h=240&zc=2",
+        "publishedAt": "2024-06-07T12:56:42Z",
+        "content": "Robinhood Markets, Inc. (NASDAQ:HOOD – Get Free Report) insider Daniel Martin Gallagher, Jr. sold 12,500 shares of Robinhood Markets stock in a transaction dated Tuesday, June 4th. The stock was sold… [+4533 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "watcher.guru",
+        "title": "Robinhood May List Ripple’s XRP After Exchange Acquisition",
+        "description": "Cryptocurrency exchange Robinhood has announced that it will acquire fellow crypto exchange Bitstamp in a $200 million cash deal. The development has led to online speculation if Ripple’s XRP will finally make its way into Robinhood, given that Bitstamp is an…",
+        "url": "https://biztoc.com/x/b7d573ea57d6275a",
+        "urlToImage": "https://c.biztoc.com/p/b7d573ea57d6275a/s.webp",
+        "publishedAt": "2024-06-07T12:44:07Z",
+        "content": "Cryptocurrency exchange Robinhood has announced that it will acquire fellow crypto exchange Bitstamp in a $200 million cash deal. The development has led to online speculation if Ripples XRP will fin… [+316 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "ETF Daily News"
+        },
+        "author": "MarketBeat News",
+        "title": "Robinhood Markets, Inc. (NASDAQ:HOOD) CEO Vladimir Tenev Sells 250,000 Shares",
+        "description": "Robinhood Markets, Inc. (NASDAQ:HOOD – Get Free Report) CEO Vladimir Tenev sold 250,000 shares of Robinhood Markets stock in a transaction on Tuesday, June 4th. The shares were sold at an average price of $21.03, for a total value of $5,257,500.00. The sale w…",
+        "url": "https://www.etfdailynews.com/2024/06/07/robinhood-markets-inc-nasdaqhood-ceo-vladimir-tenev-sells-250000-shares/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/robinhood-markets-inc-logo-1200x675.png?v=20210729133331&w=240&h=240&zc=2",
+        "publishedAt": "2024-06-07T12:02:43Z",
+        "content": "Robinhood Markets, Inc. (NASDAQ:HOOD – Get Free Report) CEO Vladimir Tenev sold 250,000 shares of Robinhood Markets stock in a transaction on Tuesday, June 4th. The shares were sold at an average pri… [+5655 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "coinpedia.org",
+        "title": "Robinhood Acquisition Of Bitstamp Sparks Optimism About the Listing of XRP",
+        "description": "The post Robinhood Acquisition Of Bitstamp Sparks Optimism About the Listing of XRP appeared first on Coinpedia Fintech News Robinhood Markets has announced its plan to acquire the well-known crypto exchange Bitstamp for $200 million. This acquisition aims to…",
+        "url": "https://biztoc.com/x/429670969f8e5bd7",
+        "urlToImage": "https://c.biztoc.com/p/429670969f8e5bd7/s.webp",
+        "publishedAt": "2024-06-07T11:30:14Z",
+        "content": "The post Robinhood Acquisition Of Bitstamp Sparks Optimism About the Listing of XRP appeared first on Coinpedia Fintech NewsRobinhood Markets has announced its plan to acquire the well-known crypto e… [+285 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "International Business Times"
+        },
+        "author": "Marvie Basilan",
+        "title": "Crypto Community Divided After Robinhood Announces $200M Acquisition Of Bitstamp",
+        "description": "Robinhood will acquire crypto exchange Bitstamp – the announcement has had the crypto community divided, with some unsure if the move will be beneficial for the sector or not.",
+        "url": "https://www.ibtimes.com/crypto-community-divided-after-robinhood-announces-200m-acquisition-bitstamp-3733851",
+        "urlToImage": "https://d.ibtimes.com/en/full/4529526/robinhood-bitstamp.png",
+        "publishedAt": "2024-06-07T09:20:03Z",
+        "content": "KEY POINTS\r\n<ul><li>Robinhood said the acquisition is part of its efforts toward expanding outside the US</li><li>Congratulatory posts poured in, but so did queries about Robinhood's plans moving for… [+3016 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "thecryptobasic.com",
+        "title": "Robinhood May Finally List XRP after Acquiring This XRPL-Friendly Exchange",
+        "description": "Prominent figures in the XRP community have become increasingly optimistic about the possibility of XRP listing on the American exchange Robinhood, renowned for its strict listing policies. Notably, leading U.S.-based exchanges such as Coinbase, Gemini, and K…",
+        "url": "https://biztoc.com/x/efb8f7340b87517b",
+        "urlToImage": "https://c.biztoc.com/p/efb8f7340b87517b/s.webp",
+        "publishedAt": "2024-06-07T07:54:06Z",
+        "content": "Prominent figures in the XRP community have become increasingly optimistic about the possibility of XRP listing on the American exchange Robinhood, renowned for its strict listing policies.Notably, l… [+293 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Yahoo Entertainment"
+        },
+        "author": None,
+        "title": "Insider Sale: Chief Legal Officer Gallagher Daniel Martin Jr Sells 12,500 Shares of Robinhood ...",
+        "description": None,
+        "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_d44af3eb-3514-4042-a1e7-539535db5910",
+        "urlToImage": None,
+        "publishedAt": "2024-06-07T06:39:30Z",
+        "content": "If you click 'Accept all', we and our partners, including 238 who are part of the IAB Transparency &amp; Consent Framework, will also store and/or access information on a device (in other words, use … [+678 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "youtube.com",
+        "title": "HUGE CRYPTO NEWS! ROBINHOOD BITSTAMP ACQUISITION, KRAKEN IPO, FRANKLIN TEMPLETON ALTCOIN FUND!",
+        "description": "In crypto news today Robinhood is acquiring Bitstamp crypto exchange, Kraken Exchange is planning to IPO, Franklin Templeton is looking to launch a new crypto fund focused on Altcoins. SEC and Gary Gensler gets sued.Get the (Re)Thinking Crypto Book on Amazo…",
+        "url": "https://biztoc.com/x/9927a71a1298e1ba",
+        "urlToImage": "https://c.biztoc.com/p/9927a71a1298e1ba/s.webp",
+        "publishedAt": "2024-06-07T02:07:25Z",
+        "content": "In crypto news today Robinhood is acquiring Bitstamp crypto exchange, Kraken Exchange is planning to IPO, Franklin Templeton is looking to launch a new crypto fund focused on Altcoins. SEC and Gary G… [+296 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "fortune.com",
+        "title": "Robinhood defies the SEC by forking over $200 million for a crypto exchange",
+        "description": "Robinhood plans to buy crypto exchange BitStamp to expand its crypto business internationally even as it faces increased scrutiny by regulators at home. The financial services company said Thursday it would buy BitStamp for $200 million in cash to help it exp…",
+        "url": "https://biztoc.com/x/325836cb3314e8c1",
+        "urlToImage": "https://c.biztoc.com/p/325836cb3314e8c1/og.webp",
+        "publishedAt": "2024-06-06T23:40:06Z",
+        "content": "Robinhood plans to buy crypto exchange BitStamp to expand its crypto business internationally even as it faces increased scrutiny by regulators at home.The financial services company said Thursday it… [+308 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Yahoo Entertainment"
+        },
+        "author": None,
+        "title": "Robinhood to acquire Bitstamp in $200m deal",
+        "description": None,
+        "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_7fb013e0-b04c-4f0d-be4a-aecd1a25399d",
+        "urlToImage": None,
+        "publishedAt": "2024-06-06T22:56:19Z",
+        "content": "If you click 'Accept all', we and our partners, including 238 who are part of the IAB Transparency &amp; Consent Framework, will also store and/or access information on a device (in other words, use … [+678 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "aol.com",
+        "title": "Robinhood defies the SEC by forking over $200 million for a crypto exchange",
+        "description": "Robinhood plans to buy crypto exchange BitStamp to expand its crypto business internationally even as it faces increased scrutiny by regulators at home. The financial services company said Thursday it would buy BitStamp for $200 million in cash to help it exp…",
+        "url": "https://biztoc.com/x/2bcda4400e82419a",
+        "urlToImage": "https://c.biztoc.com/p/2bcda4400e82419a/s.webp",
+        "publishedAt": "2024-06-06T22:52:10Z",
+        "content": "Robinhood plans to buy crypto exchange BitStamp to expand its crypto business internationally even as it faces increased scrutiny by regulators at home.The financial services company said Thursday it… [+302 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Investing.com"
+        },
+        "author": "Investing.com",
+        "title": "Robinhood CEO Vladimir Tenev sells $5.3 million in stock",
+        "description": "Robinhood CEO Vladimir Tenev sells $5.3 million in stock",
+        "url": "https://www.investing.com/news/company-news/robinhood-ceo-vladimir-tenev-sells-53-million-in-stock-93CH-3474880",
+        "urlToImage": "https://i-invdn-com.investing.com/news/Robinhood_800x533_L_1627591582jpg_800x533_L_1628136692.jpg",
+        "publishedAt": "2024-06-06T22:28:11Z",
+        "content": "Robinhood (NASDAQ:HOOD) Markets, Inc. (NASDAQ:HOOD) CEO Vladimir Tenev has sold 250,000 shares of the company's Class A common stock, according to a recent SEC filing. The transaction, which took pla… [+4945 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "dlnews.com",
+        "title": "Robinhood crypto head says Bitstamp will help lure wealthy investors",
+        "description": "Robinhood, the publicly traded fintech company that lets users buy and sell stocks and crypto, announced on Thursday that it planned to purchase crypto exchange Bitstamp for about $200 million. Best known for its role in the memestock craze of 2021, Robinhood…",
+        "url": "https://biztoc.com/x/db3814219b520438",
+        "urlToImage": "https://c.biztoc.com/p/db3814219b520438/s.webp",
+        "publishedAt": "2024-06-06T22:06:10Z",
+        "content": "Robinhood, the publicly traded fintech company that lets users buy and sell stocks and crypto, announced on Thursday that it planned to purchase crypto exchange Bitstamp for about $200 million.Best k… [+296 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "fortune.com",
+        "title": "Unfazed by likely SEC lawsuit, Robinhood just forked over $200 million to buy a crypto exchange",
+        "description": "Robinhood plans to buy crypto exchange BitStamp to expand its crypto business internationally even as it faces increased scrutiny by regulators at home. The financial services company said Thursday it would buy BitStamp for $200 million in cash to help it exp…",
+        "url": "https://biztoc.com/x/3c351656d5dcf0c5",
+        "urlToImage": "https://c.biztoc.com/p/3c351656d5dcf0c5/s.webp",
+        "publishedAt": "2024-06-06T20:30:05Z",
+        "content": "Robinhood plans to buy crypto exchange BitStamp to expand its crypto business internationally even as it faces increased scrutiny by regulators at home.The financial services company said Thursday it… [+308 chars]"
+    },
+    {
+        "source": {
+            "id": "fortune",
+            "name": "Fortune"
+        },
+        "author": "Marco Quiroz-Gutierrez",
+        "title": "Unfazed by likely SEC lawsuit, Robinhood just forked over $200 million to buy a crypto exchange",
+        "description": "The company, which received a Wells Notice from the SEC in May, touted the move as “a major step in growing our crypto business.”",
+        "url": "https://fortune.com/crypto/2024/06/06/robinhood-crypto-bitstamp-sec-warning/",
+        "urlToImage": "https://fortune.com/img-assets/wp-content/uploads/2024/06/GettyImages-1331330210-e1717702872490.jpg?resize=1200,600",
+        "publishedAt": "2024-06-06T20:23:44Z",
+        "content": "Robinhood plans to buy crypto exchange BitStamp to expand its crypto business internationally even as it faces increased scrutiny by regulators at home.The financial services company said Thursday it… [+3290 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Marketscreener.com"
+        },
+        "author": None,
+        "title": "Trending : Robinhood Markets to Buy Bitstamp for About $200 Million",
+        "description": "(marketscreener.com) \n 14:52 ET -- Robinhood Markets is one of the most mentioned companies in the U.S. across all news items in the past 12 hours, according to Factiva data. The company will buy the crypto exchange Bitstamp for about $200 million, its larges…",
+        "url": "https://www.marketscreener.com/quote/stock/ROBINHOOD-MARKETS-INC-125228571/news/Trending-Robinhood-Markets-to-Buy-Bitstamp-for-About-200-Million-46922899/",
+        "urlToImage": "https://www.marketscreener.com/images/twitter_MS_fdblanc.png",
+        "publishedAt": "2024-06-06T19:08:17Z",
+        "content": "14:52 ET -- Robinhood Markets is one of the most mentioned companies in the U.S. across all news items in the past 12 hours, according to Factiva data. The company will buy the crypto exchange Bitsta… [+381 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "fortune.com",
+        "title": "Robinhood buys crypto exchange Bitstamp in surprise $200 million deal",
+        "description": "Robinhood announced on Thursday that it has acquired Bitstamp, one of the world’s oldest cryptocurrency exchanges, in an all-cash deal expected to be worth around $200 million. The acquisition, which is expected to close in the first half of 2025, will advanc…",
+        "url": "https://biztoc.com/x/c7a7e655e6cdfbfc",
+        "urlToImage": "https://c.biztoc.com/p/c7a7e655e6cdfbfc/og.webp",
+        "publishedAt": "2024-06-06T18:46:07Z",
+        "content": "Robinhood announced on Thursday that it has acquired Bitstamp, one of the worlds oldest cryptocurrency exchanges, in an all-cash deal expected to be worth around $200 million. The acquisition, which … [+304 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "dailyhodl.com",
+        "title": "Despite SEC Pressure, Robinhood Acquires Crypto Exchange Bitstamp for $200,000,000",
+        "description": "Retail trading giant Robinhood is acquiring crypto exchange Bitstamp for hundreds of millions of dollars despite receiving a Wells Notice by the U.S. Securities and Exchange Commission (SEC) earlier this year. According to a new press release, Robinhood has a…",
+        "url": "https://biztoc.com/x/acb49fb6350a1bb7",
+        "urlToImage": "https://c.biztoc.com/p/acb49fb6350a1bb7/s.webp",
+        "publishedAt": "2024-06-06T18:44:06Z",
+        "content": "Retail trading giant Robinhood is acquiring crypto exchange Bitstamp for hundreds of millions of dollars despite receiving a Wells Notice by the U.S. Securities and Exchange Commission (SEC) earlier … [+324 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "The Daily Hodl"
+        },
+        "author": "Mehron Rokhy",
+        "title": "Despite SEC Pressure, Robinhood Acquires Crypto Exchange Bitstamp for $200,000,000",
+        "description": "Retail trading giant Robinhood is acquiring crypto exchange Bitstamp for hundreds of millions of dollars despite receiving a Wells Notice by the U.S. Securities and Exchange Commission (SEC) earlier this year. According to a new press release, Robinhood has a…",
+        "url": "https://dailyhodl.com/2024/06/06/despite-sec-pressure-robinhood-acquires-crypto-exchange-bitstamp-for-200000000/",
+        "urlToImage": "https://dailyhodl.com/wp-content/uploads/2022/03/robinhood-unveils-new-card.jpg",
+        "publishedAt": "2024-06-06T18:41:56Z",
+        "content": "Retail trading giant Robinhood is acquiring crypto exchange Bitstamp for hundreds of millions of dollars despite receiving a Wells Notice by the U.S. Securities and Exchange Commission (SEC) earlier … [+2127 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "fortune.com",
+        "title": "Robinhood just made a very big bet on crypto: What the $200 million Bitstamp deal means for the company",
+        "description": "I didn’t see that coming. On Thursday, Robinhood announced it is buying long-running crypto exchange Bitstamp for $200 million, a move that has big implications for both the company and the broader crypto industry. The deal will add four million to five milli…",
+        "url": "https://biztoc.com/x/13d600ddea188a11",
+        "urlToImage": "https://c.biztoc.com/p/13d600ddea188a11/og.webp",
+        "publishedAt": "2024-06-06T18:18:09Z",
+        "content": "I didnt see that coming. On Thursday, Robinhood announced it is buying long-running crypto exchange Bitstamp for $200 million, a move that has big implications for both the company and the broader cr… [+296 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "aol.com",
+        "title": "Robinhood expands crypto efforts with $200M purchase of Bitstamp",
+        "description": "In a press release, the company said it expects to pay about $200 million in cash as part of the deal to become the owner of the cryptocurrency exchange. It is aiming to complete the acquisition sometime in the first six months of next year. The deal comes as…",
+        "url": "https://biztoc.com/x/08dc90c8e24e81c5",
+        "urlToImage": "https://c.biztoc.com/p/08dc90c8e24e81c5/s.webp",
+        "publishedAt": "2024-06-06T18:12:11Z",
+        "content": "In a press release, the company said it expects to pay about $200 million in cash as part of the deal to become the owner of the cryptocurrency exchange. It is aiming to complete the acquisition some… [+276 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "tftc.io",
+        "title": "Robinhood Enters $200M Deal to Acquire Bitstamp",
+        "description": "Robinhood has entered into an agreement to acquire the European cryptocurrency exchange Bitstamp for a sum of $200 million. The transaction, which is expected to close in the first half of 2025, marks Robinhood's leap into the global Bitcoin and crypto market…",
+        "url": "https://biztoc.com/x/4d4797a74daf098e",
+        "urlToImage": "https://c.biztoc.com/p/4d4797a74daf098e/s.webp",
+        "publishedAt": "2024-06-06T18:04:12Z",
+        "content": "Robinhood has entered into an agreement to acquire the European cryptocurrency exchange Bitstamp for a sum of $200 million. The transaction, which is expected to close in the first half of 2025, mark… [+316 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Finovate.com"
+        },
+        "author": "Julie Muhn (@julieschicktanz)",
+        "title": "Robinhood Agrees to Buy Crypto Exchange Bitstamp",
+        "description": "Hours after I published a piece mourning the lack of application of the blockchain in fintech, I get to report on some news that proves me wrong. Digital stock brokerage app Robinhood has agreed to acquire digital currency marketplace Bitstamp for $200 millio…",
+        "url": "https://finovate.com/robinhood-agrees-to-buy-crypto-exchange-bitstamp/",
+        "urlToImage": "https://finovate.com/wp-content/uploads/2024/06/Screen-Shot-2024-06-06-at-7.35.01-AM.png",
+        "publishedAt": "2024-06-06T17:35:24Z",
+        "content": "<ul><li>Robinhood has agreed to acquire digital currency marketplace Bitstamp for $200 million in cash.</li><li>The acquisition will help Robinhood fuel its global expansion and serve institutional c… [+3815 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Forkast.news"
+        },
+        "author": "CryptoSlam",
+        "title": "Robinhood acquires Bitstamp in US$200 mln deal",
+        "description": "Trading platform Robinhood Markets to expand its crypto services with Bitstamp acquisition.",
+        "url": "https://forkast.news/robinhood-acquires-bitstamp-in-us200-mln-deal/",
+        "urlToImage": "https://forkast.news/wp-content/uploads/2022/04/Robinhood-1260x847.jpg",
+        "publishedAt": "2024-06-06T17:17:48Z",
+        "content": "Robinhood Markets has announced the purchase of Bitstamp Ltd., a cryptocurrency exchange, for US$200 million. \r\nThe all-cash deal, slated for completion in the first half of 2025 pending regulatory c… [+727 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Yahoo Entertainment"
+        },
+        "author": "CryptoSlam",
+        "title": "Robinhood acquires Bitstamp in US$200 mln deal",
+        "description": "Trading platform Robinhood Markets to expand its crypto services with Bitstamp acquisition.",
+        "url": "https://finance.yahoo.com/news/robinhood-acquires-bitstamp-us-200-171748641.html",
+        "urlToImage": "https://s.yimg.com/ny/api/res/1.2/FgNW3qmdn2T_Yu0AXsKTKg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDc-/https://media.zenfs.com/en/forkast_news_articles_672/c42996e41315fa4df5f49d28656b94ee",
+        "publishedAt": "2024-06-06T17:17:48Z",
+        "content": "Robinhood Markets has announced the purchase of Bitstamp Ltd., a cryptocurrency exchange, for US$200 million.\r\nThe all-cash deal, slated for completion in the first half of 2025 pending regulatory co… [+721 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Investopedia"
+        },
+        "author": "Bill McColl",
+        "title": "Top Stock Movers Now: Robinhood, Salesforce, J.M. Smucker, and More",
+        "description": "U.S. equities were mixed at midday Thursday, June 6, 2024 ahead of Friday's key employment report.",
+        "url": "https://www.investopedia.com/top-stock-movers-now-robinhood-salesforce-j-m-smucker-and-more-8659363",
+        "urlToImage": "https://www.investopedia.com/thmb/zTmxTr0oEQ12b-iRMCxTS-d1PSc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-2046166963-39b54f0065db4041b78c37d1de4fe9c6.jpg",
+        "publishedAt": "2024-06-06T17:07:27Z",
+        "content": "<ul><li>U.S. equities were mixed at midday Thursday, June 6, 2024 ahead of Friday's key employment report.</li><li>J.M. Smucker shares rose after the company reported better-than-expected quarterly p… [+1837 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "bostonherald.com",
+        "title": "Robinhood buying crytocurrency exchange Bitstamp for about $200 million",
+        "description": "Robinhood Markets Inc. is buying crytocurrency exchange Bitstamp for about $200 million in cash as the company looks to speed up its cryptocurrency expansion globally. Bitstamp, founded in 2011, has offices in Luxembourg, the UK, Slovenia, Singapore, and the …",
+        "url": "https://biztoc.com/x/91906abee1f49a5c",
+        "urlToImage": "https://c.biztoc.com/p/91906abee1f49a5c/s.webp",
+        "publishedAt": "2024-06-06T17:00:21Z",
+        "content": "Robinhood Markets Inc. is buying crytocurrency exchange Bitstamp for about $200 million in cash as the company looks to speed up its cryptocurrency expansion globally.Bitstamp, founded in 2011, has o… [+316 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "aol.com",
+        "title": "Robinhood just made a very big bet on crypto: What the $200 million Bitstamp deal means for the company",
+        "description": "I didn't see that coming. On Thursday, Robinhood announced it is buying long-running crypto exchange Bitstamp for $200 million, a move that has big implications for both the company and the broader crypto industry. The deal will add four million to five milli…",
+        "url": "https://biztoc.com/x/c0eb50b9739be13e",
+        "urlToImage": "https://c.biztoc.com/p/c0eb50b9739be13e/s.webp",
+        "publishedAt": "2024-06-06T16:48:07Z",
+        "content": "I didn't see that coming. On Thursday, Robinhood announced it is buying long-running crypto exchange Bitstamp for $200 million, a move that has big implications for both the company and the broader c… [+282 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "foxbusiness.com",
+        "title": "Robinhood expands crypto efforts with $200M purchase of Bitstamp",
+        "description": "Robinhood Markets revealed Thursday it will purchase Bitstamp. In a press release, the company said it expects to pay about $200 million in cash as part of the deal to become the owner of the cryptocurrency exchange. It is aiming to complete the acquisition s…",
+        "url": "https://biztoc.com/x/639745f62cfaadd4",
+        "urlToImage": "https://c.biztoc.com/p/639745f62cfaadd4/s.webp",
+        "publishedAt": "2024-06-06T16:10:06Z",
+        "content": "Robinhood Markets revealed Thursday it will purchase Bitstamp.In a press release, the company said it expects to pay about $200 million in cash as part of the deal to become the owner of the cryptocu… [+302 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "aol.com",
+        "title": "Robinhood to buy crypto exchange Bitstamp in effort to expand globally",
+        "description": "In a move that could change the cryptocurrency trading landscape, Robinhood (HOOD), the popular stock trading app, announced a $200 million strategic acquisition on Thursday with Bitstamp, one of the most globally established cryptocurrency exchanges. While t…",
+        "url": "https://biztoc.com/x/b529328a275e7516",
+        "urlToImage": "https://c.biztoc.com/p/b529328a275e7516/s.webp",
+        "publishedAt": "2024-06-06T15:52:11Z",
+        "content": "In a move that could change the cryptocurrency trading landscape, Robinhood (HOOD), the popular stock trading app, announced a $200 million strategic acquisition on Thursday with Bitstamp, one of the… [+328 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "investorplace.com",
+        "title": "HOOD Stock Alert: Robinhood Makes Big Crypto Bet With Bitstamp Buy",
+        "description": "The deal may further undermine Robinhood's position with U.S. regulators Robinhood (NASDAQ: ) stock is rallying for the second straight day after the firm announced that it will pay $200 million of cash to acquire cryptocurrency exchange Bitstamp. Experts are…",
+        "url": "https://biztoc.com/x/25379092c24b540e",
+        "urlToImage": "https://c.biztoc.com/p/25379092c24b540e/s.webp",
+        "publishedAt": "2024-06-06T15:48:07Z",
+        "content": "The deal may further undermine Robinhood's position with U.S. regulatorsRobinhood (NASDAQ: ) stock is rallying for the second straight day after the firm announced that it will pay $200 million of ca… [+284 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "SiliconANGLE News"
+        },
+        "author": "Kyt Dotson",
+        "title": "Robinhood agrees to acquire crypto exchange Bitstamp in global expansion effort",
+        "description": "Online stockbroker and trading Robinhood Markets Inc. said today that it has agreed to acquire Bitstamp Ltd., a cryptocurrency exchange with global reach, in an effort to deepen the company’s crypto offerings and expand its customer base outside the United St…",
+        "url": "https://siliconangle.com/2024/06/06/robinhood-agrees-acquire-crypto-exchange-bitstamp-global-expansion-effort/",
+        "urlToImage": "https://d15shllkswkct0.cloudfront.net/wp-content/blogs.dir/1/files/2022/08/bitcoin-g8ebe6cd25_1280.jpg",
+        "publishedAt": "2024-06-06T15:30:02Z",
+        "content": "Online stockbroker and trading Robinhood Markets Inc. said today that it has agreed to acquire Bitstamp Ltd., a cryptocurrency exchange with global reach, in an effort to deepen the companys crypto o… [+3106 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "aol.com",
+        "title": "Robinhood to acquire Bitstamp crypto exchange in $200 million deal",
+        "description": "Stock trading platform Robinhood has made its biggest bet yet on crypto with an announcement Thursday that it will acquire crypto exchange Bitsamp for about $200 million. The deal marks its biggest-ever push into the digital assets industry, the company said …",
+        "url": "https://biztoc.com/x/7c5017fd388999e7",
+        "urlToImage": "https://c.biztoc.com/p/7c5017fd388999e7/s.webp",
+        "publishedAt": "2024-06-06T14:56:12Z",
+        "content": "Stock trading platform Robinhood has made its biggest bet yet on crypto with an announcement Thursday that it will acquire crypto exchange Bitsamp for about $200 million.The deal marks its biggest-ev… [+305 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "bankless.com",
+        "title": "Robinhood Doubles Down on Crypto with Bitstamp Acquisition on Bankless",
+        "description": "Robinhood is set to acquire Bitstamp in a potential $200 million deal designed to better position the crypto and stock trading platform for expansion outside the U.S. • Global Expansion: Expected to close in the first half of 2025, this acquisition aims to ex…",
+        "url": "https://biztoc.com/x/a72ea69f56f71130",
+        "urlToImage": "https://c.biztoc.com/p/a72ea69f56f71130/s.webp",
+        "publishedAt": "2024-06-06T14:54:22Z",
+        "content": "Robinhood is set to acquire Bitstamp in a potential $200 million deal designed to better position the crypto and stock trading platform for expansion outside the U.S.Global Expansion: Expected to clo… [+263 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Slashdot.org"
+        },
+        "author": "feedfeeder",
+        "title": "Robinhood acquires global crypto exchange Bitstamp for $200M - TechCrunch",
+        "description": "Robinhood acquires global crypto exchange Bitstamp for $200MTechCrunch Robinhood to acquire Bitstamp crypto exchange in $200 million dealCBS News Robinhood Buys Bitstamp To Expand Crypto, International BusinessInvestopedia Robinhood buys crypto exchange Bitst…",
+        "url": "https://slashdot.org/firehose.pl?op=view&amp;id=174068461",
+        "urlToImage": None,
+        "publishedAt": "2024-06-06T14:54:10Z",
+        "content": "Sign up for the Slashdot newsletter! OR check out the new Slashdot job board to browse remote jobs or jobs in your areaDo you develop on GitHub? You can keep using GitHub but automatically sync your … [+268 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "techcrunch.com",
+        "title": "Robinhood acquires global crypto exchange Bitstamp for $200M",
+        "description": "Stock-trading app Robinhood is diving deeper into the cryptocurrency realm with the acquisition of crypto exchange Bitstamp. Robinhood on Thursday said it expects the final transaction value to be around $200 million, and the deal to close in the first half o…",
+        "url": "https://biztoc.com/x/005eee5265b6efef",
+        "urlToImage": "https://c.biztoc.com/p/005eee5265b6efef/og.webp",
+        "publishedAt": "2024-06-06T14:48:08Z",
+        "content": "Stock-trading app Robinhood is diving deeper into the cryptocurrency realm with the acquisition of crypto exchange Bitstamp.Robinhood on Thursday said it expects the final transaction value to be aro… [+272 chars]"
+    },
+    {
+        "source": {
+            "id": "cbs-news",
+            "name": "CBS News"
+        },
+        "author": "Megan Cerullo",
+        "title": "Robinhood to acquire Bitstamp crypto exchange in $200 million deal",
+        "description": "With the deal, the trading platform will become a competitor to larger crypto trading firms like Binance and Coinbase.",
+        "url": "https://www.cbsnews.com/news/robinhood-to-acquire-bitstamp-crypto-expansion/",
+        "urlToImage": "https://assets3.cbsnewsstatic.com/hub/i/r/2024/06/06/c4dfd4df-ca25-4979-b756-cde523c1a93e/thumbnail/1200x630/bdba46c29387f2800189965a1fc3315a/gettyimages-1253318890.jpg?v=6d480a252670b63de1e37fef02c977a5",
+        "publishedAt": "2024-06-06T14:43:47Z",
+        "content": "Stock trading platform Robinhood has made its biggest bet yet on digital currencies with an announcement Thursday that it will acquire crypto exchange Bitsamp for about $200 million. \r\nThe deal marks… [+2349 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Investopedia"
+        },
+        "author": "Aaron McDade",
+        "title": "Robinhood Buys Bitstamp To Expand Crypto, International Business",
+        "description": "Online trading platform Robinhood agreed to buy Bitstamp, a European cryptocurrency exchange, for about $200 million as it works to expand its crypto and international capabilities.",
+        "url": "https://www.investopedia.com/robinhood-buys-bitstamp-to-expand-crypto-international-business-8659197",
+        "urlToImage": "https://www.investopedia.com/thmb/_mxpx8hTgVEhRSMq1522nb5StPY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1239946791-7c881740696e490a8e40cf9df286e659.jpg",
+        "publishedAt": "2024-06-06T14:41:23Z",
+        "content": "<ul><li>Online trading platform Robinhood agreed to purchase European cryptocurrency exchange Bitstamp for about $200 million.</li><li>The deal will help grow Robinhood's cryptocurrency business, whi… [+2118 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "ft.com",
+        "title": "Robinhood agrees to buy Bitstamp crypto exchange for $200mn",
+        "description": "US retail broker targets overseas and institutional markets with digital assets deal",
+        "url": "https://biztoc.com/x/59e9928b7b681e4c",
+        "urlToImage": "https://c.biztoc.com/274/og.png",
+        "publishedAt": "2024-06-06T14:16:05Z",
+        "content": "US retail broker targets overseas and institutional markets with digital assets deal\r\nThis story appeared on ft.com, 2024-06-06."
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Slashdot.org"
+        },
+        "author": "feedfeeder",
+        "title": "Robinhood bets big on crypto with $200 million deal for Bitstamp - Reuters",
+        "description": "Robinhood bets big on crypto with $200 million deal for BitstampReuters View Full Coverage on Google News ...",
+        "url": "https://slashdot.org/firehose.pl?op=view&amp;id=174068285",
+        "urlToImage": None,
+        "publishedAt": "2024-06-06T14:15:16Z",
+        "content": "Sign up for the Slashdot newsletter! OR check out the new Slashdot job board to browse remote jobs or jobs in your areaDo you develop on GitHub? You can keep using GitHub but automatically sync your … [+268 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Quartz India"
+        },
+        "author": "Vinamrata Chaturvedi",
+        "title": "Robinhood is buying the crypto exchange Bitstamp for $200 million",
+        "description": "Robinhood is purchasing U.K.-based crypto exchange Bitstamp for $200 million in order to expand outside the U.S. The trading platform aims to expand its global presence in cryptocurrency and attract institutional clients with new product offerings. Read more.…",
+        "url": "https://qz.com/robinhood-to-buy-crypto-exchange-bitstamp-for-200-mill-1851523094",
+        "urlToImage": "https://i.kinja-img.com/image/upload/c_fill,h_675,pg_1,q_80,w_1200/1000093f3ed310c987606c2b428c16bb.jpg",
+        "publishedAt": "2024-06-06T14:13:00Z",
+        "content": "Robinhood is purchasing U.K.-based crypto exchange Bitstamp for $200 million in order to expand outside the U.S. The trading platform aims to expand its global presence in cryptocurrency and attract … [+1880 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "thecryptobasic.com",
+        "title": "Robinhood Confirms Plans to Acquire Bitstamp",
+        "description": "Prominent crypto trading app Robinhood confirms plans to acquire leading European-based exchange Bitstamp for around $200 million. Robinhood confirmed the development in a press release today, emphasizing that it has reached an agreement with Bitstamp. Follow…",
+        "url": "https://biztoc.com/x/237a43b1049b21d2",
+        "urlToImage": "https://c.biztoc.com/p/237a43b1049b21d2/s.webp",
+        "publishedAt": "2024-06-06T14:10:06Z",
+        "content": "Prominent crypto trading app Robinhood confirms plans to acquire leading European-based exchange Bitstamp for around $200 million.Robinhood confirmed the development in a press release today, emphasi… [+290 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "thedefiant.io",
+        "title": "Robinhood To Acquire Veteran Crypto Exchange Bitstamp",
+        "description": "This move will allow Robinhood to compete more aggressively in the crypto exchange market. Robinhood, the popular stock and crypto trading platform, announced it has entered an agreement to acquire Bitstamp, the veteran cryptocurrency exchange, for $200 milli…",
+        "url": "https://biztoc.com/x/7cb2082a26534903",
+        "urlToImage": "https://c.biztoc.com/p/7cb2082a26534903/s.webp",
+        "publishedAt": "2024-06-06T14:06:08Z",
+        "content": "This move will allow Robinhood to compete more aggressively in the crypto exchange market.Robinhood, the popular stock and crypto trading platform, announced it has entered an agreement to acquire Bi… [+311 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "bitcoinist.com",
+        "title": "BREAKING: Robinhood To Acquire Crypto Exchange Bitstamp In Major Expansion",
+        "description": "Robinhood Markets, Inc., is set to acquire global crypto exchange Bitstamp to expand its reach outside the US. The acquisition, which is expected to close in 2025, will become Robinhood’s first institutional buy. Robinhood Eyes Global Expansion Robinhood’s tr…",
+        "url": "https://biztoc.com/x/1dc7642242c6bd8d",
+        "urlToImage": "https://c.biztoc.com/p/1dc7642242c6bd8d/s.webp",
+        "publishedAt": "2024-06-06T13:36:05Z",
+        "content": "Robinhood Markets, Inc., is set to acquire global crypto exchange Bitstamp to expand its reach outside the US. The acquisition, which is expected to close in 2025, will become Robinhoods first instit… [+311 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Slashdot.org"
+        },
+        "author": "feedfeeder",
+        "title": "Robinhood to Buy Crypto Exchange Bitstamp in Effort to Expand Outside the U.S. - CoinDesk",
+        "description": "Robinhood to Buy Crypto Exchange Bitstamp in Effort to Expand Outside the U.S.CoinDesk View Full Coverage on Google News ...",
+        "url": "https://slashdot.org/firehose.pl?op=view&amp;id=174068059",
+        "urlToImage": None,
+        "publishedAt": "2024-06-06T13:34:17Z",
+        "content": "Sign up for the Slashdot newsletter! OR check out the new Slashdot job board to browse remote jobs or jobs in your areaDo you develop on GitHub? You can keep using GitHub but automatically sync your … [+268 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "abcnews.go.com",
+        "title": "Robinhood buying crytocurrency exchange Bitstamp for about $200 million",
+        "description": "Robinhood Markets Inc. is buying crytocurrency exchange Bitstamp for about $200 million as the company looks to speed up its cryptocurrency expansion globally Robinhood Markets Inc. is buying crytocurrency exchange Bitstamp for about $200 million in cash as t…",
+        "url": "https://biztoc.com/x/3324b048539131a8",
+        "urlToImage": "https://c.biztoc.com/p/3324b048539131a8/s.webp",
+        "publishedAt": "2024-06-06T13:34:10Z",
+        "content": "Robinhood Markets Inc. is buying crytocurrency exchange Bitstamp for about $200 million as the company looks to speed up its cryptocurrency expansion globallyRobinhood Markets Inc. is buying crytocur… [+307 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "investors.com",
+        "title": "Robinhood Stock - In A Buy Zone",
+        "description": "Robinhood stock surged early Thursday after the mobile broker announced plans to buy cryptocurrency exchange Bitstamp. Robinhood (HOOD) on Thursday said it entered an agreement to acquire global crypto exchange Bitstamp for roughly $200 million in cash. Londo…",
+        "url": "https://biztoc.com/x/409995d4bc96a4ee",
+        "urlToImage": "https://c.biztoc.com/p/409995d4bc96a4ee/s.webp",
+        "publishedAt": "2024-06-06T13:32:05Z",
+        "content": "Robinhood stock surged early Thursday after the mobile broker announced plans to buy cryptocurrency exchange Bitstamp.Robinhood (HOOD) on Thursday said it entered an agreement to acquire global crypt… [+275 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "fortune.com",
+        "title": "Robinhood buys crypto exchange Bitstamp in surprise $200 million deal",
+        "description": "Robinhood announced on Thursday that it has acquired Bitstamp, one of the world’s oldest cryptocurrency exchanges, in an all-cash deal expected to be worth around $200 million. The acquisition, which is expected to close in the first half of 2025, will advanc…",
+        "url": "https://biztoc.com/x/ec37952ddf605dc2",
+        "urlToImage": "https://c.biztoc.com/p/ec37952ddf605dc2/s.webp",
+        "publishedAt": "2024-06-06T13:30:04Z",
+        "content": "Robinhood announced on Thursday that it has acquired Bitstamp, one of the worlds oldest cryptocurrency exchanges, in an all-cash deal expected to be worth around $200 million. The acquisition, which … [+304 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Bitcoinist"
+        },
+        "author": "Rubmar Garcia",
+        "title": "BREAKING: Robinhood To Acquire Crypto Exchange Bitstamp In Major Expansion",
+        "description": "Robinhood Markets, Inc., is set to acquire global crypto exchange Bitstamp to expand its reach outside the US. The acquisition, which is expected to close in 2025, will become Robinhood’s first institutional buy. Related Reading: Spanish Court Grants Bail To …",
+        "url": "https://bitcoinist.com/robinhood-to-acquire-crypto-bitstamp-in-expansion/",
+        "urlToImage": "https://bitcoinist.com/wp-content/uploads/2022/05/Robinhood-1.jpeg",
+        "publishedAt": "2024-06-06T13:26:06Z",
+        "content": "Robinhood Markets, Inc., is set to acquire global crypto exchange Bitstamp to expand its reach outside the US. The acquisition, which is expected to close in 2025, will become Robinhoods first instit… [+2334 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Investing.com"
+        },
+        "author": "Reuters",
+        "title": "Robinhood bets big on crypto with $200 million deal for Bitstamp",
+        "description": "Robinhood bets big on crypto with $200 million deal for Bitstamp",
+        "url": "https://www.investing.com/news/stock-market-news/robinhood-bets-big-on-crypto-with-200-million-deal-for-bitstamp-3473308",
+        "urlToImage": "https://i-invdn-com.investing.com/news/LYNXNPEB7Q0U9_L.jpg",
+        "publishedAt": "2024-06-06T13:26:05Z",
+        "content": "By Manya Saini\r\n(Reuters) -Trading platform Robinhood (NASDAQ:HOOD) Markets said on Thursday it has agreed to buy crypto exchange Bitstamp for about $200 million in cash, speeding up a broader push i… [+1978 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "bitcointoday.app",
+        "title": "Robinhood Acquires Bitstamp to Expand Global Crypto Presence",
+        "description": "Robinhood acquires Bitstamp, a UK-based crypto exchange, for $200 million in an all-cash deal.** This strategic move aims to significantly expand Robinhood's crypto operations globally and attract institutional clients. Bitstamp is one of the oldest and most …",
+        "url": "https://biztoc.com/x/a43526f9a6236f9b",
+        "urlToImage": "https://c.biztoc.com/p/a43526f9a6236f9b/s.webp",
+        "publishedAt": "2024-06-06T13:24:06Z",
+        "content": "Robinhood acquires Bitstamp, a UK-based crypto exchange, for $200 million in an all-cash deal.** This strategic move aims to significantly expand Robinhood's crypto operations globally and attract in… [+238 chars]"
+    }
+]
+
 data = {
     'microsoft': pd.DataFrame(microsoft),
-    'figma': pd.DataFrame(figma)
+    'figma': pd.DataFrame(figma),
+    'robinhood': pd.DataFrame(robinhood)
 }
