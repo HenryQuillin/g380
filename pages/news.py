@@ -4,6 +4,7 @@ from database import get_all_companies, get_company_keywords
 from datetime import datetime
 
 companies = get_all_companies()
+st.title('News Log')
 
 fetch_button = st.button('Fetch News')
 
@@ -22,7 +23,8 @@ if 'news_log' in st.session_state and st.session_state.news_log:
 
     if selected_company_id:
         selected_company_name = company_options[selected_company_id]
-        st.subheader(f'News for {selected_company_name}')
+
+        st.markdown("""<hr style="background-color:#333;" /> """, unsafe_allow_html=True)
 
         keywords = get_company_keywords(selected_company_id)
         keyword_list = [k['keyword'].lower() for k in keywords if k['keyword']]
@@ -36,7 +38,7 @@ if 'news_log' in st.session_state and st.session_state.news_log:
 
         for article in filtered_news:
             with st.container():
-                st.markdown(f"### [{article.get('title', 'No Title')}]({article.get('url', '#')})")
+                st.markdown(f"###### [{article.get('title', 'No Title')}]({article.get('url', '#')})")
                 st.markdown(
                     f"**Source:** [{article.get('source', {}).get('name', 'Unknown Source')}]({article.get('url', '#')})")
                 if 'publishedAt' in article:
