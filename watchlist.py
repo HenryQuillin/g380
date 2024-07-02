@@ -7,7 +7,7 @@ st.title('Watchlist')
 
 def add_company():
     add_company_to_db('')
-    st.experimental_rerun()  # rerun to rerfesh the list from the database
+    st.rerun()  # rerun to rerfesh the list from the database
 
 companies = get_all_companies()
 
@@ -19,12 +19,12 @@ for company in companies:
         if company_name != company['name']:
             remove_company_from_db(company['id'])
             add_company_to_db(company_name)
-            st.experimental_rerun()
+            st.rerun()
     with col2:
         remove_button = st.button("Remove", key=f"remove_{company['id']}")
         if remove_button:
             remove_company_from_db(company['id'])
-            st.experimental_rerun()
+            st.rerun()
 
 if st.button('Add company'):
     add_company()

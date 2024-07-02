@@ -18,7 +18,7 @@ if selected_company_id:
 
     def add_keyword():
         add_keyword_to_db(selected_company_id, '')
-        st.experimental_rerun()
+        st.rerun()
 
     keywords = get_company_keywords(selected_company_id)
 
@@ -29,11 +29,11 @@ if selected_company_id:
             if new_keyword != keyword['keyword']:
                 remove_keyword_from_db(keyword['id'])
                 add_keyword_to_db(selected_company_id, new_keyword)
-                st.experimental_rerun()
+                st.rerun()
         with col2:
             if st.button("Remove", key=f"remove_{keyword['id']}"):
                 remove_keyword_from_db(keyword['id'])
-                st.experimental_rerun()
+                st.rerun()
 
     if st.button('Add keyword'):
         add_keyword()
