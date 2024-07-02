@@ -25,6 +25,7 @@ if 'news_log' in st.session_state and st.session_state.news_log:
         selected_company_name = company_options[selected_company_id]
 
         st.markdown("""<hr style="background-color:#333;" /> """, unsafe_allow_html=True)
+        # st.markdown("""<hr /> """)
 
         keywords = get_company_keywords(selected_company_id)
         keyword_list = [k['keyword'].lower() for k in keywords if k['keyword']]
@@ -35,6 +36,10 @@ if 'news_log' in st.session_state and st.session_state.news_log:
             description = article.get('description', '') if article.get('description', '') else ''
             if not keyword_list or any(keyword in title or keyword in description for keyword in keyword_list):
                 filtered_news.append(article)
+            # if not keyword_list:
+            #   for keyword in keyword_list:
+            #   if keyword in title or keyword in description
+            #     filtered_news.append(article)
 
         for article in filtered_news:
             with st.container():
@@ -46,6 +51,3 @@ if 'news_log' in st.session_state and st.session_state.news_log:
                     st.markdown(f"**Published:** {published_date.strftime('%B %d, %Y at %I:%M %p')}")
                 st.markdown(f"**Description:** {article.get('description', 'No description available')}")
                 st.markdown("---")
-
-    st.write(f"Keywords: {keyword_list if 'keyword_list' in locals() else 'No keywords found'}")
-    st.write(f"Number of filtered news articles: {len(filtered_news) if 'filtered_news' in locals() else 0}")

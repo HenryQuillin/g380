@@ -35,5 +35,5 @@ if selected_company_id:
                 remove_keyword_from_db(keyword['id'])
                 st.experimental_rerun()
 
-    if st.button('Add another keyword'):
+    if st.button('Add keyword'):
         add_keyword()

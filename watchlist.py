@@ -24,5 +24,5 @@ for company in companies:
             remove_company_from_db(company['id'])
             st.experimental_rerun()
 
-if st.button('Add another company'):
+if st.button('Add company'):
     add_company()
