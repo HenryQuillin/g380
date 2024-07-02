@@ -15,9 +15,11 @@ companies = get_all_companies()
 for company in companies:
     col1, col2 = st.columns([4, 1])
     with col1:
-        company_name = st.text_input("company", value=company['name'], key=f"company_{company['id']}", label_visibility="collapsed")
+        company_name = st.text_input(f"company {company['id']}", value=company['name'], key=f"company_{company['id']}", label_visibility="collapsed")
         if company_name != company['name']:
+            remove_company_from_db(company['id'])
             add_company_to_db(company_name)
+            st.experimental_rerun()
     with col2:
         remove_button = st.button("Remove", key=f"remove_{company['id']}")
         if remove_button:

@@ -25,7 +25,7 @@ if selected_company_id:
     for keyword in keywords:
         col1, col2 = st.columns([4, 1])
         with col1:
-            new_keyword = st.text_input("keyword", value=keyword['keyword'], key=f"keyword_{keyword['id']}", label_visibility="collapsed")
+            new_keyword = st.text_input(f"keyword {keyword['id']}", value=keyword['keyword'], key=f"keyword_{keyword['id']}", label_visibility="collapsed")
             if new_keyword != keyword['keyword']:
                 remove_keyword_from_db(keyword['id'])
                 add_keyword_to_db(selected_company_id, new_keyword)
