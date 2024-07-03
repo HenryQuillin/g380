@@ -1,9 +1,5 @@
 import pandas as pd
 
-
-def get_mock_data(company_name):
-    return data.get(company_name, pd.DataFrame(columns=['title','description','url']))
-
 microsoft = [
     {
         "source": {

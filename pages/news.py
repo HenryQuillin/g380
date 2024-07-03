@@ -1,18 +1,26 @@
 import streamlit as st
-from mock_data import get_mock_data
+from data_helpers import get_mock_data
 from database import get_all_companies, get_company_keywords
-from datetime import datetime
+from datetime import datetime, timedelta
+import pandas as pd
 
 companies = get_all_companies()
 st.title('News Log')
 
-fetch_button = st.button('Fetch News')
+# Add date inputs
+col1, col2, col3 = st.columns(3)
+with col1:
+    start_date = st.date_input("Start Date", datetime.now() - timedelta(days=30))
+with col2:
+    end_date = st.date_input("End Date", datetime.now())
+with col3:
+    fetch_button = st.button('Fetch News')
 
 if fetch_button:
     st.session_state.news_log = {}
     for company in companies:
         if company['name']:
-            articles = get_mock_data(company['name'])
+            articles = get_mock_data(company['name'], start_date, end_date)
             st.session_state.news_log[company['name']] = articles.to_dict('records')
 
 if 'news_log' in st.session_state and st.session_state.news_log:
@@ -47,7 +55,11 @@ if 'news_log' in st.session_state and st.session_state.news_log:
                 st.markdown(
                     f"**Source:** [{article.get('source', {}).get('name', 'Unknown Source')}]({article.get('url', '#')})")
                 if 'publishedAt' in article:
-                    published_date = datetime.strptime(article['publishedAt'], "%Y-%m-%dT%H:%M:%SZ")
+                    # Handle the case where publishedAt is already a Timestamp
+                    if isinstance(article['publishedAt'], pd.Timestamp):
+                        published_date = article['publishedAt'].to_pydatetime()
+                    else:
+                        published_date = datetime.strptime(article['publishedAt'], "%Y-%m-%dT%H:%M:%SZ")
                     st.markdown(f"**Published:** {published_date.strftime('%B %d, %Y at %I:%M %p')}")
                 st.markdown(f"**Description:** {article.get('description', 'No description available')}")
                 st.markdown("---")
