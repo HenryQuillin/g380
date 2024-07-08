@@ -14,7 +14,18 @@ st.markdown(f'<style>{css}</style>', unsafe_allow_html=True)
 companies = get_all_companies()
 st.title('News Log')
 
-# Add date inputs
+
+def trigger_notification(articles):
+    if articles:
+        if len(articles) == 1:
+            title = f"News Alert: {articles[0]['title']}"
+            body = f"{articles[0]['description']}..."
+        else:
+            title = f"News Alert: {articles[0]['title']}"
+            body = f"+{len(articles) - 1} other news alerts"
+
+        show_notification(title, body)
+
 col1, col2, col3, col4, col5 = st.columns(5)
 with col1:
     start_date = st.date_input("Start Date", datetime.now() - timedelta(days=3))
@@ -25,23 +36,12 @@ with col3:
 
 if fetch_button:
     st.session_state.news_log = {}
-    all_articles = []
     for company in companies:
         if company['name']:
             articles = get_mock_data(company['name'], start_date, end_date)
             st.session_state.news_log[company['name']] = articles.to_dict('records')
-            all_articles.extend(articles.to_dict('records'))
 
-    # Create notification based on fetched articles
-    if all_articles:
-        if len(all_articles) == 1:
-            title = f"News Alert: {all_articles[0]['title']}"
-            body = f"{all_articles[0]['description']}..."
-        else:
-            title = f"News Alert: {all_articles[0]['title']}"
-            body = f"+{len(all_articles) - 1} other news alerts"
 
-        show_notification(title, body)
 if 'news_log' in st.session_state and st.session_state.news_log:
     companies = get_all_companies()
     company_options = {company['id']: company['name'] for company in companies}
@@ -74,7 +74,7 @@ if 'news_log' in st.session_state and st.session_state.news_log:
                 st.markdown(
                     f"**Source:** [{article.get('source', {}).get('name', 'Unknown Source')}]({article.get('url', '#')})")
                 if 'publishedAt' in article:
-                    # Handle the case where publishedAt is already a Timestamp
+                    # Handle the case where publishedAt is already a tiemstamp
                     if isinstance(article['publishedAt'], pd.Timestamp):
                         published_date = article['publishedAt'].to_pydatetime()
                     else:
@@ -82,3 +82,6 @@ if 'news_log' in st.session_state and st.session_state.news_log:
                     st.markdown(f"**Published:** {published_date.strftime('%B %d, %Y at %I:%M %p')}")
                 st.markdown(f"**Description:** {article.get('description', 'No description available')}")
                 st.markdown("---")
+
+        if fetch_button: trigger_notification(filtered_news)
+
