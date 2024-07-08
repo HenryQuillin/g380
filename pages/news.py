@@ -14,7 +14,6 @@ st.markdown(f'<style>{css}</style>', unsafe_allow_html=True)
 companies = get_all_companies()
 st.title('News Log')
 
-
 def trigger_notification(articles):
     if articles:
         if len(articles) == 1:
@@ -26,11 +25,21 @@ def trigger_notification(articles):
 
         show_notification(title, body)
 
+# Initialize session state for date inputs if they don't exist
+if 'start_date' not in st.session_state:
+    st.session_state.start_date = datetime.now() - timedelta(days=3)
+if 'end_date' not in st.session_state:
+    st.session_state.end_date = datetime.now()
+
+def update_dates():
+    st.session_state.start_date = st.session_state.start_date_input
+    st.session_state.end_date = st.session_state.end_date_input
+
 col1, col2, col3, col4, col5 = st.columns(5)
 with col1:
-    start_date = st.date_input("Start Date", datetime.now() - timedelta(days=3))
+    start_date = st.date_input("Start Date", st.session_state.start_date, key='start_date_input', on_change=update_dates)
 with col2:
-    end_date = st.date_input("End Date", datetime.now())
+    end_date = st.date_input("End Date", st.session_state.end_date, key='end_date_input', on_change=update_dates)
 with col3:
     fetch_button = st.button('Fetch News')
 
@@ -38,7 +47,7 @@ if fetch_button:
     st.session_state.news_log = {}
     for company in companies:
         if company['name']:
-            articles = get_mock_data(company['name'], start_date, end_date)
+            articles = get_mock_data(company['name'], st.session_state.start_date, st.session_state.end_date)
             st.session_state.news_log[company['name']] = articles.to_dict('records')
 
 
