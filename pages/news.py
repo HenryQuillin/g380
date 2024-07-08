@@ -25,7 +25,6 @@ def trigger_notification(articles):
 
         show_notification(title, body)
 
-# Initialize session state for date inputs if they don't exist
 if 'start_date' not in st.session_state:
     st.session_state.start_date = datetime.now() - timedelta(days=3)
 if 'end_date' not in st.session_state:
