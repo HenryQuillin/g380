@@ -4,7 +4,7 @@ This application is a news alert tool that allows users to monitor news for spec
 
 
 ## Setup
-1. Clone the SCA repository
+1. Clone the repository
 2. Navigate to the News Alerts Tool directory: ```cd Projects/NewsAlertsTool ```
 
 3. Create a virtual environment (optional): ```python -m venv venv```
