@@ -3,14 +3,21 @@ from data_helpers import get_mock_data
 from database import get_all_companies, get_company_keywords
 from datetime import datetime, timedelta
 import pandas as pd
+from notifications import show_notification
+
+st.set_page_config(page_title="News Log", page_icon="📰")
+
+with open('./styles.css') as f:
+    css = f.read()
+st.markdown(f'<style>{css}</style>', unsafe_allow_html=True)
 
 companies = get_all_companies()
 st.title('News Log')
 
 # Add date inputs
-col1, col2, col3 = st.columns(3)
+col1, col2, col3, col4, col5 = st.columns(5)
 with col1:
-    start_date = st.date_input("Start Date", datetime.now() - timedelta(days=30))
+    start_date = st.date_input("Start Date", datetime.now() - timedelta(days=3))
 with col2:
     end_date = st.date_input("End Date", datetime.now())
 with col3:
@@ -18,11 +25,23 @@ with col3:
 
 if fetch_button:
     st.session_state.news_log = {}
+    all_articles = []
     for company in companies:
         if company['name']:
             articles = get_mock_data(company['name'], start_date, end_date)
             st.session_state.news_log[company['name']] = articles.to_dict('records')
+            all_articles.extend(articles.to_dict('records'))
 
+    # Create notification based on fetched articles
+    if all_articles:
+        if len(all_articles) == 1:
+            title = f"News Alert: {all_articles[0]['title']}"
+            body = f"{all_articles[0]['description']}..."
+        else:
+            title = f"News Alert: {all_articles[0]['title']}"
+            body = f"+{len(all_articles) - 1} other news alerts"
+
+        show_notification(title, body)
 if 'news_log' in st.session_state and st.session_state.news_log:
     companies = get_all_companies()
     company_options = {company['id']: company['name'] for company in companies}

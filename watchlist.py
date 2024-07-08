@@ -5,6 +5,10 @@ init_db()
 
 st.title('Watchlist')
 
+with open('./styles.css') as f:
+    css = f.read()
+st.markdown(f'<style>{css}</style>', unsafe_allow_html=True)
+
 def add_company():
     add_company_to_db('')
     st.rerun()  # rerun to rerfesh the list from the database
