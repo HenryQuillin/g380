@@ -45,9 +45,11 @@ def filter_articles(articles, keywords):
     filtered_articles = []
 
     for article in articles:
-        title = article.get('title', '').lower()
-        description = article.get('description', '').lower()
+        title = article.get('title', '') or ''
+        description = article.get('description', '') or ''
 
+        title = title.lower()
+        description = description.lower()
         # check if any keyword is in the title or description
         for keyword in keyword_list:
             if keyword in title or keyword in description:

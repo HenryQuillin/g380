@@ -3,3 +3,29 @@
 - Select a company to view news should appear before clicking fetch news
 - Clicking fetch news before changing the date causes an error
 - Should get alerts for all companies when clicking fetch news
+
+
+
+PR: Implement Browser Notifications and Date Filtering
+
+
+1. Browser Notifications:
+   - Browser notifications are displayed when new articles are fetched
+   - Notifications aggregate new articles matching the specified dates and keywords across all companies in the watchlist
+   - Single article notifications display the title and a snippet of the description
+   - Multiple article notifications show the first article title and the count of additional articles
+
+2. Date Filtering:
+   - Users can now specify start and end dates when fetching news
+   - The date range is saved to session state so switching pages doesnt reset the range
+
+3. Other:
+   - Made the watchlist case-insensitive
+
+Demo:
+
+ - show all article fetch
+ - show end of the month
+ - show that it works with keywords
+ -
+
