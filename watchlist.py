@@ -11,24 +11,29 @@ st.markdown(f'<style>{css}</style>', unsafe_allow_html=True)
 
 def add_company():
     add_company_to_db('')
-    st.rerun()  # rerun to rerfesh the list from the database
+    st.rerun()  # This essentially reruns the code on this page.
+    # We just added an empty entry to the DB,
+    # so we need to refresh the UI to display the new input element for that enty
 
 companies = get_all_companies()
 
 
 for company in companies:
-    col1, col2 = st.columns([4, 1])
+    col1, col2 = st.columns([4, 1]) # setting up the UI
     with col1:
-        company_name = st.text_input(f"company {company['id']}", value=company['name'], key=f"company_{company['id']}", label_visibility="collapsed")
+        company_name = st.text_input(f"company {company['id']}", value=company['name'], key=f"company_{company['id']}", label_visibility="collapsed").lower()
+        # Edit company
         if company_name != company['name']:
             remove_company_from_db(company['id'])
             add_company_to_db(company_name)
             st.rerun()
     with col2:
+        # Remove company
         remove_button = st.button("Remove", key=f"remove_{company['id']}")
         if remove_button:
             remove_company_from_db(company['id'])
             st.rerun()
 
+# Add company
 if st.button('Add company'):
     add_company()

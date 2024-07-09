@@ -1,3 +1,4 @@
+/*Hide the iframe element that gets created from the html insertion*/
 iframe {
     display: none;
 }

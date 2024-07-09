@@ -36,3 +36,13 @@ This application is a news alert tool that allows users to monitor news for spec
 2. **Keywords**: Navigate to the keywords page to add and edit keywords for each company.
 
 3. **News Log**: Go to the News page to fetch and view news.
+
+## Mock Data 
+
+- The mock data includes pre-defined news articles for three companies:
+   - Microsoft
+   - Figma
+   - Robinhood
+- Currently, you can only add these three companies to the watchlist.
+- The get_mock_data() function in `mock_data.py` simulates fetching news articles for these companies.
+

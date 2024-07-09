@@ -4,7 +4,7 @@ from database import init_db, add_keyword_to_db, get_company_keywords, remove_ke
 init_db()
 
 st.title('Keywords')
-
+# setting up comapny
 companies = get_all_companies()
 company_options = {company['id']: company['name'] for company in companies}
 
@@ -15,7 +15,7 @@ selected_company_id = st.selectbox('Select a company', options=list(company_opti
 if selected_company_id:
     st.markdown("""<hr style="background-color:#333;" /> """, unsafe_allow_html=True)
 
-
+# essentially same logic as watchlist.py
     def add_keyword():
         add_keyword_to_db(selected_company_id, '')
         st.rerun()
@@ -27,13 +27,15 @@ if selected_company_id:
         with col1:
             new_keyword = st.text_input(f"keyword {keyword['id']}", value=keyword['keyword'], key=f"keyword_{keyword['id']}", label_visibility="collapsed")
             if new_keyword != keyword['keyword']:
+                # edit
                 remove_keyword_from_db(keyword['id'])
                 add_keyword_to_db(selected_company_id, new_keyword)
                 st.rerun()
         with col2:
+            #remove
             if st.button("Remove", key=f"remove_{keyword['id']}"):
                 remove_keyword_from_db(keyword['id'])
                 st.rerun()
-
+    #add
     if st.button('Add keyword'):
         add_keyword()

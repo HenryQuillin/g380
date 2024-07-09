@@ -5,6 +5,8 @@ def get_db_connection():
     conn.row_factory = sqlite3.Row
     return conn
 
+# setting up the DB tables
+# Note that currently the actual news articles are not stored in the DB, they're stored in watchlist.py/
 def init_db():
     with get_db_connection() as conn:
         conn.execute('''

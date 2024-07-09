@@ -7,6 +7,18 @@ microsoft = [
             "name": "PCMag.com"
         },
         "author": "Brian Westover",
+        "title": "test - Microsoft Surface Pro (2024)",
+        "description": "Arm makes this stunning flagship 2-in-1 a bit of a stretch\nWatching history circle around again is fascinating, especially at the intersection of laptops and tablet PCs. The original device that would eventually be called the Surface Pro remains a vivid memor…",
+        "url": "https://uk.pcmag.com/laptops/153008/microsoft-surface-pro-2024",
+        "urlToImage": "https://sm.pcmag.com/t/pcmag_uk/review/m/microsoft-/microsoft-surface-pro-2024_pt8m.1200.jpg",
+        "publishedAt": "2024-07-01T20:24:59Z",
+        "content": "Watching history circle around again is fascinating, especially at the intersection of laptops and tablet PCs. The original device that would eventually be called the Surface Pro remains a vivid memo… [+36810 chars]"
+    },    {
+        "source": {
+            "id": None,
+            "name": "PCMag.com"
+        },
+        "author": "Brian Westover",
         "title": "Microsoft Surface Pro (2024)",
         "description": "Arm makes this stunning flagship 2-in-1 a bit of a stretch\nWatching history circle around again is fascinating, especially at the intersection of laptops and tablet PCs. The original device that would eventually be called the Surface Pro remains a vivid memor…",
         "url": "https://uk.pcmag.com/laptops/153008/microsoft-surface-pro-2024",
@@ -1307,14 +1319,14 @@ figma = [
     {
         "source": {
             "id": None,
-            "name": "Small Business Trends"
+            "name": "test - Small Business Trends"
         },
         "author": "Michael Guta",
         "title": "Wix Studio Introduces Figma Plugin for Seamless Design-to-Web Transition",
         "description": "Wix Studio launches a Figma plugin to seamlessly convert designs into interactive websites for better design efficiency and web functionality.",
         "url": "https://smallbiztrends.com/?p=1490761",
         "urlToImage": "https://smallbiztrends.com/wp-content/themes/sahifa/images/logo-full.jpg",
-        "publishedAt": "2024-06-26T21:00:37Z",
+        "publishedAt": "2024-07-01T21:00:37Z",
         "content": "Wix.com Ltd. has announced the launch of a new plugin that allows professionals to export their Figma designs directly into the Wix Studio platform. This new tool, named the Figma to Wix Studio plugi… [+1947 chars]"
     },
     {
@@ -1729,11 +1741,11 @@ robinhood = [
             "name": "ETF Daily News"
         },
         "author": "MarketBeat News",
-        "title": "Robinhood Markets (NASDAQ:HOOD) Stock Price Up 2.3 percent",
+        "title": "test - Robinhood Markets (NASDAQ:HOOD) Stock Price Up 2.3 percent",
         "description": "Robinhood Markets, Inc. (NASDAQ:HOOD – Get Free Report)’s share price rose 2.3% during mid-day trading on Tuesday . The company traded as high as $21.89 and last traded at $21.87. Approximately 3,414,269 shares traded hands during trading, a decline of 79% fr…",
         "url": "https://www.etfdailynews.com/2024/06/27/robinhood-markets-nasdaqhood-stock-price-up-2-3/",
         "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/robinhood-markets-inc-logo-1200x675.png?v=20210729133331&w=240&h=240&zc=2",
-        "publishedAt": "2024-07-3T11:28:42Z",
+        "publishedAt": "2024-07-1T11:28:42Z",
         "content": "Robinhood Markets, Inc. (NASDAQ:HOOD – Get Free Report)’s share price rose 2.3% during mid-day trading on Tuesday . The company traded as high as $21.89 and last traded at $21.87. Approximately 3,414… [+5917 chars]"
     },    {
         "source": {
