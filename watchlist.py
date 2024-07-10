@@ -6,7 +6,7 @@ def render_watchlist():
     init_db()
 
 
-    st.title('Watchlist')
+    st.subheader('Watchlist')
 
     with open('./styles.css') as f:
         css = f.read()

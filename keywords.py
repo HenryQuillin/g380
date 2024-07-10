@@ -5,7 +5,7 @@ from database import init_db, add_keyword_to_db, get_company_keywords, remove_ke
 def render_keywords():
     init_db()
 
-    st.title('Keywords')
+    st.subheader('Keywords')
     # setting up comapny
     companies = get_all_companies()
     company_options = {company['id']: company['name'] for company in companies}
