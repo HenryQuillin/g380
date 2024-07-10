@@ -29,3 +29,32 @@ Demo:
  - show that it works with keywords
  -
 
+Acceptance criteria:
+
+Settings page & All News Page:
+Settings page:
+The watchlist and keywords list will now be accessible in one settings page
+
+All news page:
+This page will display a table of all the available news (in this case, mock data).
+Table columns will include: Title, Company, URL, Source, Published At, Description, and Content.
+The user can filter by company, source, and date range.
+The user can search the articles.
+The user can sort by source, company, and published date.
+
+Duplicate Prevention :
+
+I'll use a Python NLP library with a text similarity model to identify duplicate or near-duplicate articles
+When duplicate articles are detected, they are grouped together under a single primary article The primary article has a new field called "duplicates" which contains links to all detected duplicate articles
+The "duplicates" field is visible on the article log page and can be expanded to show all duplicate articles
+Duplicate articles are not shown as separate entries in the main article log, but are accessible through the primary article
+The duplicate detection process runs automatically when new articles are fetched
+
+
+Article Log:
+
+- Every time news is fetched, the new unique filtered articles are added to the database and displayed in the article log.
+- There is a ‘clear log’ button (for testing).
+- By default, the article log shows articles from all companies on the watchlist.
+- The user can filter the list by company.
+- The same article cannot be added to the log twice.

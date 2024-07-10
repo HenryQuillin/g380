@@ -3049,8 +3049,3309 @@ robinhood = [
     }
 ]
 
+bofa = [
+    {
+        "source": {
+            "id": None,
+            "name": "Yahoo Entertainment"
+        },
+        "author": "TipRanks",
+        "title": "Looking for Bargains? Bank of America Suggests 3 Value Stocks to Consider",
+        "description": "Every shopper wants to find a bargain; it’s one of the thrills when we go looking to buy things. Finding what we want at a lower price than we planned on...",
+        "url": "https://finance.yahoo.com/news/looking-bargains-bank-america-suggests-173649746.html",
+        "urlToImage": "https://media.zenfs.com/en/tipranks_452/b72ff9cbdfdb29c3fc586cdbc39efbdc",
+        "publishedAt": "2024-07-09T17:36:49Z",
+        "content": "Every shopper wants to find a bargain; its one of the thrills when we go looking to buy things. Finding what we want at a lower price than we planned on spending thats always a bit exciting. And this… [+10068 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "ETF Daily News"
+        },
+        "author": "MarketBeat News",
+        "title": "Piper Sandler Companies Upgrades Bank of America (NYSE:BAC) to Neutral",
+        "description": "Bank of America (NYSE:BAC) was upgraded by equities researchers at Piper Sandler Companies from an “underweight” rating to a “neutral” rating in a report released on Tuesday, BayStreet.CA reports. The brokerage presently has a $42.00 price target on the finan…",
+        "url": "https://www.etfdailynews.com/2024/07/09/piper-sandler-companies-upgrades-bank-of-america-nysebac-to-neutral/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/bank-of-america-co-logo-1200x675.jpg?v=20221020143030&w=240&h=240&zc=2",
+        "publishedAt": "2024-07-09T15:22:41Z",
+        "content": "Bank of America (NYSE:BAC) was upgraded by equities researchers at Piper Sandler Companies from an “underweight” rating to a “neutral” rating in a report released on Tuesday, BayStreet.CA reports. Th… [+4591 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "ETF Daily News"
+        },
+        "author": "MarketBeat News",
+        "title": "Tempus AI (NASDAQ:TEM) Coverage Initiated by Analysts at Bank of America",
+        "description": "Equities research analysts at Bank of America began coverage on shares of Tempus AI (NASDAQ:TEM – Get Free Report) in a note issued to investors on Tuesday, Briefing.com reports. The firm set a “buy” rating and a $41.00 price target on the stock. Bank of Amer…",
+        "url": "https://www.etfdailynews.com/2024/07/09/tempus-ai-nasdaqtem-coverage-initiated-by-analysts-at-bank-of-america/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/tempus-ai-inc-logo-1200x675.png?v=20240703143024&w=240&h=240&zc=2",
+        "publishedAt": "2024-07-09T15:20:41Z",
+        "content": "Equities research analysts at Bank of America began coverage on shares of Tempus AI (NASDAQ:TEM – Get Free Report) in a note issued to investors on Tuesday, Briefing.com reports. The firm set a “buy”… [+2212 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "fastcompany.com",
+        "title": "JPMorgan and Bank of America are on track to report weaker profits in Q2",
+        "description": "Some of the largest U.S. banks will probably report weaker profits for the second quarter as they earn less from interest payments and set aside more money to cover deteriorating loans, analysts said.\nAs banks kick off earnings season on Friday, analysts pred…",
+        "url": "https://biztoc.com/x/c518d75b1cb2fafc",
+        "urlToImage": "https://biztoc.com/cdn/c518d75b1cb2fafc_s.webp",
+        "publishedAt": "2024-07-09T13:51:29Z",
+        "content": "Some of the largest U.S. banks will probably report weaker profits for the second quarter as they earn less from interest payments and set aside more money to cover deteriorating loans, analysts said… [+140 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "marketbeat.com",
+        "title": "Inside Scoop: Bank of America Raised Potlatch Stock Price Target",
+        "description": "Wall Street analysts are always careful to boost a price target for a stock beaten down by the market in recent months, mainly measured as a 52-week period, which roughly covers the whole trading year. This is why investors should pay attention when analysts …",
+        "url": "https://biztoc.com/x/df35d3fa7075dec4",
+        "urlToImage": "https://biztoc.com/cdn/df35d3fa7075dec4_s.webp",
+        "publishedAt": "2024-07-09T11:18:20Z",
+        "content": "Wall Street analysts are always careful to boost a price target for a stock beaten down by the market in recent months, mainly measured as a 52-week period, which roughly covers the whole trading yea… [+138 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Thefly.com"
+        },
+        "author": None,
+        "title": "Piper Sandler gets more bullish on Bank of America, upgrades shares",
+        "description": "See the rest of the story here.\n\nthefly.com provides the latest financial news as it breaks. Known as a leader in market intelligence, The Fly's real-time, streaming news feed keeps individual investors, professional money managers, active traders, and corpor…",
+        "url": "https://thefly.com/permalinks/entry.php/id3942592/BAC-Piper-Sandler-gets-more-bullish-on-Bank-of-America-upgrades-shares",
+        "urlToImage": "https://thefly.com/images/meta/streetresearch_upgrade.jpg",
+        "publishedAt": "2024-07-09T08:48:01Z",
+        "content": "Earnings calls, analyst events, roadshows and more"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "ETF Daily News"
+        },
+        "author": "MarketBeat News",
+        "title": "CSX (NASDAQ:CSX) Downgraded by Bank of America to Neutral",
+        "description": "Bank of America downgraded shares of CSX (NASDAQ:CSX – Free Report) from a buy rating to a neutral rating in a research note released on Monday morning, MarketBeat.com reports. Other research analysts have also recently issued reports about the company. Royal…",
+        "url": "https://www.etfdailynews.com/2024/07/09/csx-nasdaqcsx-downgraded-by-bank-of-america-to-neutral/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/csx-co-logo.png?v=20231214113911&w=240&h=240&zc=2",
+        "publishedAt": "2024-07-09T06:52:42Z",
+        "content": "Bank of America downgraded shares of CSX (NASDAQ:CSX – Free Report) from a buy rating to a neutral rating in a research note released on Monday morning, MarketBeat.com reports.\r\nOther research analys… [+4769 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "marketwatch.com",
+        "title": "UBS leans into Bank of America ahead of micro-focused bank earnings",
+        "description": "UBS analysts on Monday called Bank of America the “most interesting money center,” as major banks approach second-quarter earnings season later this week.",
+        "url": "https://biztoc.com/x/13eb010caa6fb63f",
+        "urlToImage": "https://biztoc.com/cdn/799/og.png",
+        "publishedAt": "2024-07-08T18:07:55Z",
+        "content": "UBS analysts on Monday called Bank of America the most interesting money center, as major banks approach second-quarter earnings season later this week.\r\nThis story appeared on marketwatch.com, 2024-… [+5 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Yahoo Entertainment"
+        },
+        "author": None,
+        "title": "SolarEdge Stock Soars After Bank of America Upgrade",
+        "description": None,
+        "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_55ba7ac1-00cf-4f21-8f25-bc8abf94951b",
+        "urlToImage": None,
+        "publishedAt": "2024-07-08T17:57:31Z",
+        "content": "If you click 'Accept all', we and our partners, including 238 who are part of the IAB Transparency &amp; Consent Framework, will also store and/or access information on a device (in other words, use … [+678 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Investopedia"
+        },
+        "author": "Bill McColl",
+        "title": "SolarEdge Stock Soars After Bank of America Upgrade",
+        "description": "SolarEdge Technologies shares surged in intraday trading Monday after Bank of America upgraded the solar power equipment maker.",
+        "url": "https://www.investopedia.com/solaredge-stock-soars-after-bank-of-america-upgrade-8674648",
+        "urlToImage": "https://www.investopedia.com/thmb/VqzuUN2_tBO_Luwu66KEIn09TFY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1233808386-8c7e1cd8372946a49b9703836dc2466e.jpg",
+        "publishedAt": "2024-07-08T17:57:31Z",
+        "content": "<ul><li>Bank of America upgraded SolarEdge Technologies, saying the solar power equipment maker will be profitable next year.</li><li>BofA Securities added that the recent slide in SolarEdge's share … [+1623 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "ETF Daily News"
+        },
+        "author": "MarketBeat News",
+        "title": "PepsiCo (NASDAQ:PEP) Given New $190.00 Price Target at Bank of America",
+        "description": "PepsiCo (NASDAQ:PEP – Get Free Report) had its target price reduced by equities researchers at Bank of America from $210.00 to $190.00 in a report released on Monday, Benzinga reports. The brokerage currently has a “buy” rating on the stock. Bank of America‘s…",
+        "url": "https://www.etfdailynews.com/2024/07/08/pepsico-nasdaqpep-given-new-190-00-price-target-at-bank-of-america/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/pepsico-inc-logo-1200x675.jpg?v=20210728083446&w=240&h=240&zc=2",
+        "publishedAt": "2024-07-08T17:08:01Z",
+        "content": "PepsiCo (NASDAQ:PEP – Get Free Report) had its target price reduced by equities researchers at Bank of America from $210.00 to $190.00 in a report released on Monday, Benzinga reports. The brokerage … [+5240 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "ETF Daily News"
+        },
+        "author": "MarketBeat News",
+        "title": "Bryn Mawr Capital Management LLC Decreases Position in Bank of America Co. (NYSE:BAC)",
+        "description": "Bryn Mawr Capital Management LLC lowered its stake in shares of Bank of America Co. (NYSE:BAC) by 1.3% in the 1st quarter, according to the company in its most recent 13F filing with the Securities & Exchange Commission. The fund owned 51,319 shares of the fi…",
+        "url": "https://www.etfdailynews.com/2024/07/08/bryn-mawr-capital-management-llc-decreases-position-in-bank-of-america-co-nysebac/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/bank-of-america-co-logo-1200x675.jpg?v=20221020143030&w=240&h=240&zc=2",
+        "publishedAt": "2024-07-08T16:54:45Z",
+        "content": "Bryn Mawr Capital Management LLC lowered its stake in shares of Bank of America Co. (NYSE:BAC) by 1.3% in the 1st quarter, according to the company in its most recent 13F filing with the Securities &… [+5530 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "marketwatch.com",
+        "title": "JPMorgan downgraded on valuation, while Bank of America shines as top pick: analyst",
+        "description": "Wolfe Research cuts JPMorgan to peer perform and highlights Bank of America as an outperforming stock.",
+        "url": "https://biztoc.com/x/0e746b0fd36187fb",
+        "urlToImage": "https://biztoc.com/cdn/799/og.png",
+        "publishedAt": "2024-07-08T14:45:35Z",
+        "content": "Wolfe Research cuts JPMorgan to peer perform and highlights Bank of America as an outperforming stock.\r\nThis story appeared on marketwatch.com, 2024-07-08."
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "ETF Daily News"
+        },
+        "author": "MarketBeat News",
+        "title": "SolarEdge Technologies (NASDAQ:SEDG) Upgraded to Neutral at Bank of America",
+        "description": "SolarEdge Technologies (NASDAQ:SEDG – Get Free Report) was upgraded by Bank of America from an “underperform” rating to a “neutral” rating in a research note issued on Monday, Benzinga reports. The brokerage presently has a $29.00 price objective on the semic…",
+        "url": "https://www.etfdailynews.com/2024/07/08/solaredge-technologies-nasdaqsedg-upgraded-to-neutral-at-bank-of-america/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/solaredge-technologies-inc-logo-1200x675.png&w=240&h=240&zc=2",
+        "publishedAt": "2024-07-08T12:14:41Z",
+        "content": "SolarEdge Technologies (NASDAQ:SEDG – Get Free Report) was upgraded by Bank of America from an “underperform” rating to a “neutral” rating in a research note issued on Monday, Benzinga reports. The b… [+4378 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Investing.com"
+        },
+        "author": "Investing.com",
+        "title": "Bank of America technical strategists say S&P 500 will hit 6150",
+        "description": "Bank of America technical strategists say S&P 500 will hit 6150",
+        "url": "https://www.investing.com/news/stock-market-news/bank-of-america-technical-strategists-say-sp-500-will-hit-6150-3509831",
+        "urlToImage": "https://i-invdn-com.investing.com/news/LYNXNPEC0K0YG_L.jpg",
+        "publishedAt": "2024-07-08T11:37:21Z",
+        "content": "Bank of America's technical strategists see a healthy summer rally for US equities on the horizon, with the S&amp;P 500 (SPX) projected to reach 6150.\r\nTheir analysis highlights the recent surge in t… [+1516 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "The Daily Hodl"
+        },
+        "author": "Daily Hodl Staff",
+        "title": "JPMorgan Chase, Bank of America and Wells Fargo To Testify After Allegedly Refusing To Reimburse $115,000,000 To Customers on Payments Network Zelle: Report",
+        "description": "JPMorgan Chase, Bank of America and Wells Fargo have reportedly agreed to testify at a US Senate hearing over hundreds of millions of dollars in fraud on the payments network Zelle. Executives involved in the banks’ payment operations are expected to appear o…",
+        "url": "https://dailyhodl.com/2024/07/06/jpmorgan-chase-bank-of-america-and-wells-fargo-to-testify-after-allegedly-refusing-to-reimburse-115000000-to-customers-in-one-year-report/",
+        "urlToImage": "https://dailyhodl.com/wp-content/uploads/2024/07/jpmorgan-bank-wells-.jpg",
+        "publishedAt": "2024-07-07T00:22:38Z",
+        "content": "JPMorgan Chase, Bank of America and Wells Fargo have reportedly agreed to testify at a US Senate hearing over hundreds of millions of dollars in fraud on the payments network Zelle.\r\nExecutives invol… [+1798 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "cnbc.com",
+        "title": "These stocks, including Nvidia, have more room to run in July, Bank of America says",
+        "description": "Bank of America said this week that a slate of stocks is poised for upside as the summer heats up. The firm said companies such as Nvidia are well positioned heading into the second half of the year. CNBC Pro combed through Bank of America's research to find …",
+        "url": "https://biztoc.com/x/5e471fc85c10f088",
+        "urlToImage": "https://biztoc.com/cdn/5e471fc85c10f088_s.webp",
+        "publishedAt": "2024-07-06T19:05:11Z",
+        "content": "Bank of America said this week that a slate of stocks is poised for upside as the summer heats up. The firm said companies such as Nvidia are well positioned heading into the second half of the year.… [+134 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "The Daily Hodl"
+        },
+        "author": "Alex Richardson",
+        "title": "JPMorgan Chase, Bank of America and 7 Mega Banks Paying $46,000,000 Over Alleged Conspiracy To Rig Trillion-Dollar Derivatives Market",
+        "description": "Nine of the largest banks in the world are settling a long-running lawsuit that accuses them of conspiring to rig a $465.9 trillion market. Lawyers representing investors have filed for preliminary approval of a $46 million cash settlement against JPMorgan Ch…",
+        "url": "https://dailyhodl.com/2024/07/06/jpmorgan-chase-bank-of-america-and-7-mega-banks-paying-46000000-over-alleged-conspiracy-to-rig-trillion-dollar-derivatives-market/",
+        "urlToImage": "https://dailyhodl.com/wp-content/uploads/2024/07/bank-banks-jpmorgan.jpg",
+        "publishedAt": "2024-07-06T19:04:57Z",
+        "content": "Nine of the largest banks in the world are settling a long-running lawsuit that accuses them of conspiring to rig a $465.9 trillion market.\r\nLawyers representing investors have filed for preliminary … [+2496 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "benzinga.com",
+        "title": "Walmart Presentation Highlights At Bank Of America London Conference: Key Insights And Observations",
+        "description": "Discover Walmart's key insights and observations from the Bank of America London Conference presentation:\nWalmart Inc. (NYSE: WMT) participated in the Bank of America London Investor Conference on June 25, 2024.\nJohn David Rainey, CFO of Walmart, and represen…",
+        "url": "https://biztoc.com/x/5557e9cd653c1aed",
+        "urlToImage": "https://biztoc.com/cdn/5557e9cd653c1aed_s.webp",
+        "publishedAt": "2024-07-05T14:22:02Z",
+        "content": "Discover Walmart's key insights and observations from the Bank of America London Conference presentation:Walmart Inc. (NYSE: WMT) participated in the Bank of America London Investor Conference on Jun… [+128 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "ETF Daily News"
+        },
+        "author": "MarketBeat News",
+        "title": "Insmed’s (INSM) Buy Rating Reaffirmed at Bank of America",
+        "description": "Insmed (NASDAQ:INSM – Get Free Report)‘s stock had its “buy” rating reiterated by stock analysts at Bank of America in a report issued on Friday, Benzinga reports. They presently have a $83.00 target price on the biopharmaceutical company’s stock. Bank of Ame…",
+        "url": "https://www.etfdailynews.com/2024/07/05/insmeds-insm-buy-rating-reaffirmed-at-bank-of-america/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/insmed-incorporated-logo-1200x675.jpg?v=20221122124124&w=240&h=240&zc=2",
+        "publishedAt": "2024-07-05T14:18:56Z",
+        "content": "Insmed (NASDAQ:INSM – Get Free Report)‘s stock had its “buy” rating reiterated by stock analysts at Bank of America in a report issued on Friday, Benzinga reports. They presently have a $83.00 target… [+5559 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "ETF Daily News"
+        },
+        "author": "MarketBeat News",
+        "title": "Marshall Financial Group LLC Has $800,000 Stake in Bank of America Co. (NYSE:BAC)",
+        "description": "Marshall Financial Group LLC decreased its position in Bank of America Co. (NYSE:BAC – Free Report) by 5.4% during the 1st quarter, according to its most recent filing with the Securities and Exchange Commission (SEC). The firm owned 21,110 shares of the fina…",
+        "url": "https://www.etfdailynews.com/2024/07/05/marshall-financial-group-llc-has-800000-stake-in-bank-of-america-co-nysebac/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/bank-of-america-co-logo-1200x675.jpg?v=20221020143030&w=240&h=240&zc=2",
+        "publishedAt": "2024-07-05T14:12:41Z",
+        "content": "Marshall Financial Group LLC decreased its position in Bank of America Co. (NYSE:BAC – Free Report) by 5.4% during the 1st quarter, according to its most recent filing with the Securities and Exchang… [+5209 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "ETF Daily News"
+        },
+        "author": "MarketBeat News",
+        "title": "1,298 Shares in Laboratory Co. of America Holdings (NYSE:LH) Bought by American National Bank & Trust Co. VA",
+        "description": "American National Bank & Trust Co. VA bought a new position in Laboratory Co. of America Holdings (NYSE:LH – Free Report) in the first quarter, HoldingsChannel.com reports. The firm bought 1,298 shares of the medical research company’s stock, valued at approx…",
+        "url": "https://www.etfdailynews.com/2024/07/05/1298-shares-in-laboratory-co-of-america-holdings-nyselh-bought-by-american-national-bank-trust-co-va/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/laboratory-co-of-america-holdings-logo-1200x675.jpg?v=20221103134944&w=240&h=240&zc=2",
+        "publishedAt": "2024-07-05T13:18:41Z",
+        "content": "American National Bank &amp; Trust Co. VA bought a new position in Laboratory Co. of America Holdings (NYSE:LH – Free Report) in the first quarter, HoldingsChannel.com reports. The firm bought 1,298 … [+6351 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "ETF Daily News"
+        },
+        "author": "MarketBeat News",
+        "title": "Advisor Resource Council Sells 10,536 Shares of Bank of America Co. (NYSE:BAC)",
+        "description": "Advisor Resource Council trimmed its holdings in shares of Bank of America Co. (NYSE:BAC) by 48.3% in the first quarter, HoldingsChannel reports. The institutional investor owned 11,268 shares of the financial services provider’s stock after selling 10,536 sh…",
+        "url": "https://www.etfdailynews.com/2024/07/05/advisor-resource-council-sells-10536-shares-of-bank-of-america-co-nysebac/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/bank-of-america-co-logo-1200x675.jpg?v=20221020143030&w=240&h=240&zc=2",
+        "publishedAt": "2024-07-05T11:52:41Z",
+        "content": "Advisor Resource Council trimmed its holdings in shares of Bank of America Co. (NYSE:BAC) by 48.3% in the first quarter, HoldingsChannel reports. The institutional investor owned 11,268 shares of the… [+5486 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "ETF Daily News"
+        },
+        "author": "MarketBeat News",
+        "title": "HealthEquity (NASDAQ:HQY) Rating Reiterated by Bank of America",
+        "description": "HealthEquity (NASDAQ:HQY – Get Free Report)‘s stock had its “buy” rating restated by investment analysts at Bank of America in a report issued on Wednesday, Benzinga reports. They currently have a $105.00 price target on the stock. Bank of America‘s price tar…",
+        "url": "https://www.etfdailynews.com/2024/07/05/healthequity-nasdaqhqy-rating-reiterated-by-bank-of-america/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/healthequity-inc-logo-1200x675.png?v=20240521132849&w=240&h=240&zc=2",
+        "publishedAt": "2024-07-05T08:38:49Z",
+        "content": "HealthEquity (NASDAQ:HQY – Get Free Report)‘s stock had its “buy” rating restated by investment analysts at Bank of America in a report issued on Wednesday, Benzinga reports. They currently have a $1… [+5411 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "ETF Daily News"
+        },
+        "author": "MarketBeat News",
+        "title": "Bank of America (NYSE:BAC) PT Raised to $41.00",
+        "description": "Bank of America (NYSE:BAC) had its price objective boosted by Jefferies Financial Group from $39.00 to $41.00 in a note issued to investors on Wednesday, Benzinga reports. The brokerage presently has a “hold” rating on the financial services provider’s stock.…",
+        "url": "https://www.etfdailynews.com/2024/07/05/bank-of-america-nysebac-pt-raised-to-41-00/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/bank-of-america-co-logo-1200x675.jpg?v=20221020143030&w=240&h=240&zc=2",
+        "publishedAt": "2024-07-05T07:40:42Z",
+        "content": "Bank of America (NYSE:BAC) had its price objective boosted by Jefferies Financial Group from $39.00 to $41.00 in a note issued to investors on Wednesday, Benzinga reports. The brokerage presently has… [+4928 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "ETF Daily News"
+        },
+        "author": "MarketBeat News",
+        "title": "Seaport Res Ptn Equities Analysts Boost Earnings Estimates for Bank of America Co. (NYSE:BAC)",
+        "description": "Bank of America Co. (NYSE:BAC – Free Report) – Equities research analysts at Seaport Res Ptn lifted their Q3 2024 earnings per share estimates for Bank of America in a research report issued on Tuesday, July 2nd. Seaport Res Ptn analyst J. Mitchell now expect…",
+        "url": "https://www.etfdailynews.com/2024/07/04/seaport-res-ptn-equities-analysts-boost-earnings-estimates-for-bank-of-america-co-nysebac/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/bank-of-america-co-logo-1200x675.jpg?v=20221020143030&w=240&h=240&zc=2",
+        "publishedAt": "2024-07-04T10:30:41Z",
+        "content": "Bank of America Co. (NYSE:BAC – Free Report) – Equities research analysts at Seaport Res Ptn lifted their Q3 2024 earnings per share estimates for Bank of America in a research report issued on Tuesd… [+5539 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "ETF Daily News"
+        },
+        "author": "MarketBeat News",
+        "title": "Bank of America (NYSE:BAC) Given New $43.00 Price Target at Evercore ISI",
+        "description": "Bank of America (NYSE:BAC) had its price target upped by Evercore ISI from $41.00 to $43.00 in a research note published on Wednesday morning, Benzinga reports. They currently have an outperform rating on the financial services provider’s stock. A number of o…",
+        "url": "https://www.etfdailynews.com/2024/07/04/bank-of-america-nysebac-given-new-43-00-price-target-at-evercore-isi/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/bank-of-america-co-logo.jpg?v=20221020143030&w=240&h=240&zc=2",
+        "publishedAt": "2024-07-04T07:54:42Z",
+        "content": "Bank of America (NYSE:BAC) had its price target upped by Evercore ISI from $41.00 to $43.00 in a research note published on Wednesday morning, Benzinga reports. They currently have an outperform rati… [+4701 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "ETF Daily News"
+        },
+        "author": "MarketBeat News",
+        "title": "Bank of America (NYSE:BAC) Stock Rating Upgraded by Seaport Res Ptn",
+        "description": "Bank of America (NYSE:BAC) was upgraded by research analysts at Seaport Res Ptn from a “hold” rating to a “strong-buy” rating in a research report issued on Tuesday, Zacks.com reports. Seaport Res Ptn also issued estimates for Bank of America’s Q4 2024 earnin…",
+        "url": "https://www.etfdailynews.com/2024/07/04/bank-of-america-nysebac-stock-rating-upgraded-by-seaport-res-ptn/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/bank-of-america-co-logo-1200x675.jpg?v=20221020143030&w=240&h=240&zc=2",
+        "publishedAt": "2024-07-04T06:12:41Z",
+        "content": "Bank of America (NYSE:BAC) was upgraded by research analysts at Seaport Res Ptn from a “hold” rating to a “strong-buy” rating in a research report issued on Tuesday, Zacks.com reports. Seaport Res Pt… [+4919 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "ETF Daily News"
+        },
+        "author": "MarketBeat News",
+        "title": "Q4 2024 EPS Estimates for Bank of America Co. Lifted by Analyst (NYSE:BAC)",
+        "description": "Bank of America Co. (NYSE:BAC – Free Report) – Research analysts at Seaport Res Ptn lifted their Q4 2024 earnings per share estimates for Bank of America in a research note issued on Tuesday, July 2nd. Seaport Res Ptn analyst J. Mitchell now anticipates that …",
+        "url": "https://www.etfdailynews.com/2024/07/04/q4-2024-eps-estimates-for-bank-of-america-co-lifted-by-analyst-nysebac/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/bank-of-america-co-logo-1200x675.jpg?v=20221020143030&w=240&h=240&zc=2",
+        "publishedAt": "2024-07-04T05:30:41Z",
+        "content": "Bank of America Co. (NYSE:BAC – Free Report) – Research analysts at Seaport Res Ptn lifted their Q4 2024 earnings per share estimates for Bank of America in a research note issued on Tuesday, July 2n… [+5203 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Fark.com"
+        },
+        "author": None,
+        "title": "Well, it's nice to know that America is still an example to the rest of the world, even if it an example of what NOT to do: China's central bank is very carefully monitoring surging bond sales because they want to avoid another SVB situation [Interesting]",
+        "description": "Well, it's nice to know that America is still an example to the rest of the world, even if it an example of what NOT to do: China's central bank is very carefully monitoring surging bond sales because they want to avoid another SVB situation",
+        "url": "https://www.fark.com/comments/13309900/Well-its-nice-to-know-that-America-is-still-an-example-to-rest-of-world-even-if-it-an-example-of-what-NOT-to-do-Chinas-central-bank-is-very-carefully-monitoring-surging-bond-sales-because-they-want-to-avoid-another-SVB-situation",
+        "urlToImage": "https://img.fark.net/images/2013/site/farkLogo2Big.gif",
+        "publishedAt": "2024-07-03T16:50:17Z",
+        "content": "<li>Links are submitted by members of the Fark community.\r\n</li><li>When community members submit a link, they also write a custom headline for the story.\r\n</li><li>Other Farkers comment on the links… [+177 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "ETF Daily News"
+        },
+        "author": "MarketBeat News",
+        "title": "Bank of America (NYSE:BAC) Trading Down 0.1%",
+        "description": "Bank of America Co. (NYSE:BAC)’s stock price traded down 0.1% during trading on Monday . The stock traded as low as $39.74 and last traded at $39.74. 8,833,333 shares were traded during trading, a decline of 77% from the average session volume of 38,725,973 s…",
+        "url": "https://www.etfdailynews.com/2024/07/03/bank-of-america-nysebac-trading-down-0-1/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/bank-of-america-co-logo-1200x675.jpg?v=20221020143030&w=240&h=240&zc=2",
+        "publishedAt": "2024-07-03T14:02:48Z",
+        "content": "Bank of America Co. (NYSE:BAC)’s stock price traded down 0.1% during trading on Monday . The stock traded as low as $39.74 and last traded at $39.74. 8,833,333 shares were traded during trading, a de… [+4550 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Investing.com"
+        },
+        "author": "Investing.com",
+        "title": "Dell is a new Top Pick at Bank of America",
+        "description": "Dell is a new Top Pick at Bank of America",
+        "url": "https://www.investing.com/news/stock-market-news/dell-is-a-new-top-pick-at-bank-of-america-3506900",
+        "urlToImage": "https://i-invdn-com.investing.com/news/LYNXMPEE0P0AE_L.jpg",
+        "publishedAt": "2024-07-03T10:39:23Z",
+        "content": "Analysts at Bank of America revealed they are adding Dell to their US 1 List. The list is a a collection of the bank's best investment ideas.\r\nIt is made up of stocks from the bank's universe of Buy-… [+1018 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "ETF Daily News"
+        },
+        "author": "MarketBeat News",
+        "title": "Bank of America Co. (NYSE:BAC) Stock Holdings Cut by Cullinan Associates Inc.",
+        "description": "Cullinan Associates Inc. cut its position in shares of Bank of America Co. (NYSE:BAC) by 9.4% during the 1st quarter, according to the company in its most recent filing with the SEC. The firm owned 54,609 shares of the financial services provider’s stock afte…",
+        "url": "https://www.etfdailynews.com/2024/07/03/bank-of-america-co-nysebac-stock-holdings-cut-by-cullinan-associates-inc/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/bank-of-america-co-logo-1200x675.jpg?v=20221020143030&w=240&h=240&zc=2",
+        "publishedAt": "2024-07-03T10:24:44Z",
+        "content": "Cullinan Associates Inc. cut its position in shares of Bank of America Co. (NYSE:BAC) by 9.4% during the 1st quarter, according to the company in its most recent filing with the SEC. The firm owned 5… [+4876 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Yahoo Entertainment"
+        },
+        "author": "Soumya Eswaran",
+        "title": "Should You Invest in Bank of America (BAC)?",
+        "description": "ClearBridge Investments, an investment management company, released its “ClearBridge Value Equity Strategy” first quarter 2024 investor letter. A copy of the...",
+        "url": "https://finance.yahoo.com/news/invest-bank-america-bac-075548527.html",
+        "urlToImage": "https://media.zenfs.com/en/insidermonkey.com/a99efb8f27faa6de732c064467bc2316",
+        "publishedAt": "2024-07-03T07:55:48Z",
+        "content": "ClearBridge Investments, an investment management company, released its ClearBridge Value Equity Strategy first quarter 2024 investor letter. A copy of the letter can be downloaded here. The strategy… [+3070 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "ETF Daily News"
+        },
+        "author": "MarketBeat News",
+        "title": "Bank of America Boosts Spotify Technology (NYSE:SPOT) Price Target to $380.00",
+        "description": "Spotify Technology (NYSE:SPOT – Free Report) had its price objective increased by Bank of America from $370.00 to $380.00 in a research note released on Tuesday morning, MarketBeat reports. They currently have a buy rating on the stock. A number of other equi…",
+        "url": "https://www.etfdailynews.com/2024/07/03/bank-of-america-boosts-spotify-technology-nysespot-price-target-to-380-00/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/spotify-technology-sa-logo.png?v=20221104145543&w=240&h=240&zc=2",
+        "publishedAt": "2024-07-03T07:36:50Z",
+        "content": "Spotify Technology (NYSE:SPOT – Free Report) had its price objective increased by Bank of America from $370.00 to $380.00 in a research note released on Tuesday morning, MarketBeat reports. They curr… [+4419 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "ETF Daily News"
+        },
+        "author": "MarketBeat News",
+        "title": "Bank of America Initiates Coverage on Waystar (NASDAQ:WAY)",
+        "description": "Bank of America started coverage on shares of Waystar (NASDAQ:WAY – Free Report) in a research note released on Tuesday morning, MarketBeat reports. The firm issued a buy rating and a $27.00 price target on the stock. WAY has been the subject of a number of o…",
+        "url": "https://www.etfdailynews.com/2024/07/03/bank-of-america-initiates-coverage-on-waystar-nasdaqway/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/altgenericstocks1.jpg&w=240&h=240&zc=2",
+        "publishedAt": "2024-07-03T06:48:45Z",
+        "content": "Bank of America started coverage on shares of Waystar (NASDAQ:WAY – Free Report) in a research note released on Tuesday morning, MarketBeat reports. The firm issued a buy rating and a $27.00 price ta… [+1516 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "ETF Daily News"
+        },
+        "author": "MarketBeat News",
+        "title": "Bank of America (NYSE:BAC) & Banc of California (NYSE:BANC) Head-To-Head Review",
+        "description": "Bank of America (NYSE:BAC – Get Free Report) and Banc of California (NYSE:BANC – Get Free Report) are both finance companies, but which is the superior business? We will contrast the two businesses based on the strength of their profitability, dividends, inst…",
+        "url": "https://www.etfdailynews.com/2024/07/03/bank-of-america-nysebac-banc-of-california-nysebanc-head-to-head-review/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/banc-of-california-inc-logo-1200x675.png&w=240&h=240&zc=2",
+        "publishedAt": "2024-07-03T05:38:41Z",
+        "content": "Bank of America (NYSE:BAC – Get Free Report) and Banc of California (NYSE:BANC – Get Free Report) are both finance companies, but which is the superior business? We will contrast the two businesses b… [+7329 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Investing.com"
+        },
+        "author": "Investing.com",
+        "title": "Bank of America executives trade Gabelli Utility Trust shares worth over $6,000",
+        "description": "Bank of America executives trade Gabelli Utility Trust shares worth over $6,000",
+        "url": "https://www.investing.com/news/company-news/bank-of-america-executives-trade-gabelli-utility-trust-shares-worth-over-6000-93CH-3506579",
+        "urlToImage": "https://i-invdn-com.investing.com/news/news_pile_69x52._800x533_L_1419494209.jpg",
+        "publishedAt": "2024-07-03T01:57:55Z",
+        "content": "Executives at Bank of America Corp (NYSE:BAC) and its subsidiary Merrill Lynch, Pierce, Fenner &amp; Smith Inc. have recently engaged in trading shares of the Gabelli Utility Trust (NYSE:GUT), with t… [+3403 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "ETF Daily News"
+        },
+        "author": "MarketBeat News",
+        "title": "Allspring Global Investments Holdings LLC Sells 124,827 Shares of Bank of America Co. (NYSE:BAC)",
+        "description": "Allspring Global Investments Holdings LLC decreased its holdings in shares of Bank of America Co. (NYSE:BAC) by 5.4% during the 1st quarter, HoldingsChannel.com reports. The institutional investor owned 2,176,170 shares of the financial services provider’s st…",
+        "url": "https://www.etfdailynews.com/2024/07/02/allspring-global-investments-holdings-llc-sells-124827-shares-of-bank-of-america-co-nysebac/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/bank-of-america-co-logo-1200x675.jpg?v=20221020143030&w=240&h=240&zc=2",
+        "publishedAt": "2024-07-02T14:44:45Z",
+        "content": "Allspring Global Investments Holdings LLC decreased its holdings in shares of Bank of America Co. (NYSE:BAC) by 5.4% during the 1st quarter, HoldingsChannel.com reports. The institutional investor ow… [+5699 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "ETF Daily News"
+        },
+        "author": "MarketBeat News",
+        "title": "BKM Wealth Management LLC Has $199,000 Holdings in Bank of America Co. (NYSE:BAC)",
+        "description": "BKM Wealth Management LLC increased its stake in Bank of America Co. (NYSE:BAC) by 30.1% in the first quarter, Holdings Channel.com reports. The firm owned 5,243 shares of the financial services provider’s stock after purchasing an additional 1,213 shares dur…",
+        "url": "https://www.etfdailynews.com/2024/07/02/bkm-wealth-management-llc-has-199000-holdings-in-bank-of-america-co-nysebac/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/bank-of-america-co-logo-1200x675.jpg?v=20221020143030&w=240&h=240&zc=2",
+        "publishedAt": "2024-07-02T11:16:46Z",
+        "content": "BKM Wealth Management LLC increased its stake in Bank of America Co. (NYSE:BAC) by 30.1% in the first quarter, Holdings Channel.com reports. The firm owned 5,243 shares of the financial services prov… [+5519 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "thetradenews.com",
+        "title": "Ex-Bank of America Merrill Lynch VP joins Goldman Sachs in ETF role",
+        "description": "Jessica Lane has been named executive director – ETF distribution at Goldman Sachs having previously spent almost six years at Bank of America Merrill Lynch. \nPrior to the move, Lane worked as vice president – institutional commodity sales EMEA, ETFs, quantit…",
+        "url": "https://biztoc.com/x/0298c867bdfba570",
+        "urlToImage": "https://biztoc.com/cdn/0298c867bdfba570_s.webp",
+        "publishedAt": "2024-07-02T10:35:15Z",
+        "content": "Jessica Lane has been named executive director ETF distribution at Goldman Sachs having previously spent almost six years at Bank of America Merrill Lynch. Prior to the move, Lane worked as vice pres… [+135 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Yahoo Entertainment"
+        },
+        "author": "Jason Stoogenke",
+        "title": "Some say Bank of America garnished their money, but shouldn’t have",
+        "description": "Several people have told Action 9 that Bank of America garnished their wages when they shouldn’t have, causing them to stress over the missing money.",
+        "url": "https://www.yahoo.com/news/bank-america-garnished-money-shouldn-204505455.html",
+        "urlToImage": "https://media.zenfs.com/en/wsoc_cox_articles_386/29847bf2f436501ff97a22cbc4405e8f",
+        "publishedAt": "2024-07-01T20:45:05Z",
+        "content": "Some have told Action 9 that Bank of America garnished their money when they shouldnt have, causing them to stress over the missing money.\r\nThe Murrays own Morrison Cleaners in SouthPark.\r\nALSO READ:… [+3085 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "fortune.com",
+        "title": "Bank of America data shows today marks beginning of the S&P 500’s ‘strongest’ average 10-day period of the year…over 96 years",
+        "description": "Bank of America’s strategist Stephen Suttmeier says the S&P 500’s best performing 10 day period has started in July, going back to 1928. Read More",
+        "url": "https://biztoc.com/x/77743eb97b3ef1a9",
+        "urlToImage": "https://biztoc.com/cdn/799/og.png",
+        "publishedAt": "2024-07-01T19:03:20Z",
+        "content": "Bank of Americas strategist Stephen Suttmeier says the S&amp;P 500s best performing 10 day period has started in July, going back to 1928. Read More\r\nThis story appeared on fortune.com, 2024-07-01."
+    },
+    {
+        "source": {
+            "id": "fortune",
+            "name": "Fortune"
+        },
+        "author": "Michael del Castillo",
+        "title": "Bank of America data shows today marks beginning of the S&P 500’s ‘strongest’ average 10-day period of the year…over 96 years",
+        "description": "Bank of America’s  strategist Stephen Suttmeier says the S&P 500’s best performing 10 day period has started in July, going back to 1928.",
+        "url": "https://fortune.com/2024/07/01/spx-predictions-news-stocks-outlook-july/",
+        "urlToImage": "https://fortune.com/img-assets/wp-content/uploads/2024/07/GettyImages-1554398965.jpg?resize=1200,600",
+        "publishedAt": "2024-07-01T18:50:24Z",
+        "content": "The first week of July since 1928 has secretly marked the most successful two-week period for investors in the S&amp;P 500 Index (SPX), tracking the movement of the largest companies listed on Americ… [+2312 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "ETF Daily News"
+        },
+        "author": "MarketBeat News",
+        "title": "Bank of America (NYSE:BAC) Sets New 12-Month High at $40.34",
+        "description": "Bank of America Co. (NYSE:BAC) shares reached a new 52-week high during mid-day trading on Monday . The company traded as high as $40.34 and last traded at $39.83, with a volume of 8356529 shares trading hands. The stock had previously closed at $39.77. Analy…",
+        "url": "https://www.etfdailynews.com/2024/07/01/bank-of-america-nysebac-sets-new-12-month-high-at-40-34/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/bank-of-america-co-logo-1200x675.jpg?v=20221020143030&w=240&h=240&zc=2",
+        "publishedAt": "2024-07-01T17:45:12Z",
+        "content": "Bank of America Co. (NYSE:BAC) shares reached a new 52-week high during mid-day trading on Monday . The company traded as high as $40.34 and last traded at $39.83, with a volume of 8356529 shares tra… [+5075 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "ETF Daily News"
+        },
+        "author": "MarketBeat News",
+        "title": "Diversified Trust Co Has $6.41 Million Stock Position in Bank of America Co. (NYSE:BAC)",
+        "description": "Diversified Trust Co lifted its stake in shares of Bank of America Co. (NYSE:BAC) by 18.3% during the 1st quarter, according to the company in its most recent 13F filing with the SEC. The institutional investor owned 168,915 shares of the financial services p…",
+        "url": "https://www.etfdailynews.com/2024/07/01/diversified-trust-co-has-6-41-million-stock-position-in-bank-of-america-co-nysebac/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/bank-of-america-co-logo-1200x675.jpg?v=20221020143030&w=240&h=240&zc=2",
+        "publishedAt": "2024-07-01T16:34:44Z",
+        "content": "Diversified Trust Co lifted its stake in shares of Bank of America Co. (NYSE:BAC) by 18.3% during the 1st quarter, according to the company in its most recent 13F filing with the SEC. The institution… [+5528 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Southernsavers.com"
+        },
+        "author": "Jenny",
+        "title": "Free Museum Admission For Bank of America, Merrill Cardholders 6/6 and 6/7",
+        "description": "Bank of America, Merrill or Bank of America Private Bank credit or debit cardholders get FREE general admission to museums across the country July 6th & 7th and again the first full weekend of every month! One free general admission is limited to the individu…",
+        "url": "https://www.southernsavers.com/free-admission-to-cultural-attractions-for-bank-of-america-merrill-cardholders-66-and-67/",
+        "urlToImage": "https://www.southernsavers.com/wp-content/uploads/2024/06/free-museum-entry.jpg",
+        "publishedAt": "2024-07-01T13:30:29Z",
+        "content": "Bank of America, Merrill or Bank of America Private Bank credit or debit cardholders get FREE general admission to museums across the country July 6th &amp; 7th and again the first full weekend of ev… [+287 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "ETF Daily News"
+        },
+        "author": "MarketBeat News",
+        "title": "LVW Advisors LLC Has $1.60 Million Stake in Bank of America Co. (NYSE:BAC)",
+        "description": "LVW Advisors LLC raised its stake in shares of Bank of America Co. (NYSE:BAC) by 19.9% in the 1st quarter, Holdings Channel.com reports. The institutional investor owned 42,303 shares of the financial services provider’s stock after purchasing an additional 7…",
+        "url": "https://www.etfdailynews.com/2024/07/01/lvw-advisors-llc-has-1-60-million-stake-in-bank-of-america-co-nysebac/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/bank-of-america-co-logo-1200x675.jpg?v=20221020143030&w=240&h=240&zc=2",
+        "publishedAt": "2024-07-01T12:10:41Z",
+        "content": "LVW Advisors LLC raised its stake in shares of Bank of America Co. (NYSE:BAC) by 19.9% in the 1st quarter, Holdings Channel.com reports. The institutional investor owned 42,303 shares of the financia… [+5376 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "ETF Daily News"
+        },
+        "author": "MarketBeat News",
+        "title": "Baker Ellis Asset Management LLC Purchases 3,800 Shares of Bank of America Co. (NYSE:BAC)",
+        "description": "Baker Ellis Asset Management LLC lifted its position in Bank of America Co. (NYSE:BAC) by 52.0% during the 1st quarter, HoldingsChannel reports. The firm owned 11,105 shares of the financial services provider’s stock after acquiring an additional 3,800 shares…",
+        "url": "https://www.etfdailynews.com/2024/06/30/baker-ellis-asset-management-llc-purchases-3800-shares-of-bank-of-america-co-nysebac/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/bank-of-america-co-logo-1200x675.jpg?v=20221020143030&w=240&h=240&zc=2",
+        "publishedAt": "2024-06-30T13:50:43Z",
+        "content": "Baker Ellis Asset Management LLC lifted its position in Bank of America Co. (NYSE:BAC) by 52.0% during the 1st quarter, HoldingsChannel reports. The firm owned 11,105 shares of the financial services… [+5534 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "ETF Daily News"
+        },
+        "author": "MarketBeat News",
+        "title": "First Bank & Trust Cuts Position in Bank of America Co. (NYSE:BAC)",
+        "description": "First Bank & Trust lessened its stake in Bank of America Co. (NYSE:BAC) by 6.7% in the first quarter, according to its most recent 13F filing with the Securities & Exchange Commission. The institutional investor owned 7,910 shares of the financial services pr…",
+        "url": "https://www.etfdailynews.com/2024/06/30/first-bank-trust-cuts-position-in-bank-of-america-co-nysebac/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/bank-of-america-co-logo-1200x675.jpg?v=20221020143030&w=240&h=240&zc=2",
+        "publishedAt": "2024-06-30T12:30:52Z",
+        "content": "First Bank &amp; Trust lessened its stake in Bank of America Co. (NYSE:BAC) by 6.7% in the first quarter, according to its most recent 13F filing with the Securities &amp; Exchange Commission. The in… [+5591 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "ETF Daily News"
+        },
+        "author": "MarketBeat News",
+        "title": "Bank of America Co. (NYSE:BAC) Shares Sold by Hennion & Walsh Asset Management Inc.",
+        "description": "Hennion & Walsh Asset Management Inc. reduced its position in shares of Bank of America Co. (NYSE:BAC) by 17.7% in the 1st quarter, according to the company in its most recent 13F filing with the Securities and Exchange Commission. The fund owned 88,581 share…",
+        "url": "https://www.etfdailynews.com/2024/06/30/bank-of-america-co-nysebac-shares-sold-by-hennion-walsh-asset-management-inc/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/bank-of-america-co-logo-1200x675.jpg?v=20221020143030&w=240&h=240&zc=2",
+        "publishedAt": "2024-06-30T11:38:45Z",
+        "content": "Hennion &amp; Walsh Asset Management Inc. reduced its position in shares of Bank of America Co. (NYSE:BAC) by 17.7% in the 1st quarter, according to the company in its most recent 13F filing with the… [+5570 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "ETF Daily News"
+        },
+        "author": "MarketBeat News",
+        "title": "OneAscent Financial Services LLC Has $1.03 Million Position in Bank of America Co. (NYSE:BAC)",
+        "description": "OneAscent Financial Services LLC boosted its stake in Bank of America Co. (NYSE:BAC) by 1.6% in the 1st quarter, according to the company in its most recent 13F filing with the Securities and Exchange Commission (SEC). The fund owned 26,990 shares of the fina…",
+        "url": "https://www.etfdailynews.com/2024/06/30/oneascent-financial-services-llc-has-1-03-million-position-in-bank-of-america-co-nysebac/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/bank-of-america-co-logo-1200x675.jpg?v=20221020143030&w=240&h=240&zc=2",
+        "publishedAt": "2024-06-30T10:38:44Z",
+        "content": "OneAscent Financial Services LLC boosted its stake in Bank of America Co. (NYSE:BAC) by 1.6% in the 1st quarter, according to the company in its most recent 13F filing with the Securities and Exchang… [+5619 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "finance.yahoo.com",
+        "title": "Is Bank of America Stock a Buy?",
+        "description": "Since late October last year, Bank of America (NYSE: BAC) has been on a tear, increasing 58% as the Federal Reserve signaled a pause in its interest rate hiking campaign. The stock has gained significantly as investors priced in the pause and potential intere…",
+        "url": "https://biztoc.com/x/e5534483ce0d512e",
+        "urlToImage": "https://biztoc.com/cdn/e5534483ce0d512e_s.webp",
+        "publishedAt": "2024-06-30T03:19:39Z",
+        "content": "Since late October last year, Bank of America (NYSE: BAC) has been on a tear, increasing 58% as the Federal Reserve signaled a pause in its interest rate hiking campaign. The stock has gained signifi… [+140 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "The Daily Hodl"
+        },
+        "author": "Daily Hodl Staff",
+        "title": "JPMorgan Chase, Bank of America and Wells Fargo Accounts Used in Alleged $92,000,000 Money Laundering Scheme: Report",
+        "description": "An alleged $92 million money laundering scheme went “right through” three of the largest banks in the US, according to a new report. A group of alleged drug runners and money launderers are accused of depositing hundreds of thousands of dollars in illicit fun…",
+        "url": "https://dailyhodl.com/2024/06/29/jpmorgan-chase-bank-of-america-and-wells-fargo-accounts-used-in-alleged-92000000-money-laundering-scheme-report/",
+        "urlToImage": "https://dailyhodl.com/wp-content/uploads/2024/06/bank-laun-jpmorgan.jpg",
+        "publishedAt": "2024-06-29T16:48:56Z",
+        "content": "An alleged $92 million money laundering scheme went “right through” three of the largest banks in the US, according to a new report.\r\nA group of alleged drug runners and money launderers are accused … [+1325 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "ETF Daily News"
+        },
+        "author": "MarketBeat News",
+        "title": "Kathmere Capital Management LLC Has $964,000 Holdings in Bank of America Co. (NYSE:BAC)",
+        "description": "Kathmere Capital Management LLC boosted its position in shares of Bank of America Co. (NYSE:BAC) by 26.1% during the first quarter, according to its most recent disclosure with the Securities & Exchange Commission. The institutional investor owned 25,417 shar…",
+        "url": "https://www.etfdailynews.com/2024/06/29/kathmere-capital-management-llc-has-964000-holdings-in-bank-of-america-co-nysebac/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/bank-of-america-co-logo-1200x675.jpg?v=20221020143030&w=240&h=240&zc=2",
+        "publishedAt": "2024-06-29T13:44:43Z",
+        "content": "Kathmere Capital Management LLC boosted its position in shares of Bank of America Co. (NYSE:BAC) by 26.1% during the first quarter, according to its most recent disclosure with the Securities &amp; E… [+5606 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "ETF Daily News"
+        },
+        "author": "MarketBeat News",
+        "title": "Runway Growth Finance (NASDAQ:RWAY) Receives New Coverage from Analysts at Bank of America",
+        "description": "Bank of America started coverage on shares of Runway Growth Finance (NASDAQ:RWAY – Free Report) in a report released on Friday, Marketbeat Ratings reports. The firm issued a neutral rating and a $12.00 price target on the stock. A number of other research fir…",
+        "url": "https://www.etfdailynews.com/2024/06/29/runway-growth-finance-nasdaqrway-receives-new-coverage-from-analysts-at-bank-of-america/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/runway-growth-finance-corp-logo.png?v=20211115075210&w=240&h=240&zc=2",
+        "publishedAt": "2024-06-29T10:22:41Z",
+        "content": "Bank of America started coverage on shares of Runway Growth Finance (NASDAQ:RWAY – Free Report) in a report released on Friday, Marketbeat Ratings reports. The firm issued a neutral rating and a $12.… [+4768 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "ETF Daily News"
+        },
+        "author": "MarketBeat News",
+        "title": "Walgreens Boots Alliance’s (WBA) Underperform Rating Reaffirmed at Bank of America",
+        "description": "Bank of America reissued their underperform rating on shares of Walgreens Boots Alliance (NASDAQ:WBA – Free Report) in a research note issued to investors on Friday morning, Benzinga reports. The firm currently has a $11.00 target price on the pharmacy operat…",
+        "url": "https://www.etfdailynews.com/2024/06/29/walgreens-boots-alliances-wba-underperform-rating-reaffirmed-at-bank-of-america/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/walgreens-boots-alliance-inc-logo.jpg?v=20221101151332&w=240&h=240&zc=2",
+        "publishedAt": "2024-06-29T09:48:42Z",
+        "content": "Bank of America reissued their underperform rating on shares of Walgreens Boots Alliance (NASDAQ:WBA – Free Report) in a research note issued to investors on Friday morning, Benzinga reports. The fir… [+6602 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "ETF Daily News"
+        },
+        "author": "MarketBeat News",
+        "title": "Enhabit (NYSE:EHAB) Given New $8.00 Price Target at Bank of America",
+        "description": "Enhabit (NYSE:EHAB – Get Free Report) had its price target cut by equities research analysts at Bank of America from $9.00 to $8.00 in a note issued to investors on Thursday, Benzinga reports. The brokerage currently has an “underperform” rating on the stock.…",
+        "url": "https://www.etfdailynews.com/2024/06/29/enhabit-nyseehab-given-new-8-00-price-target-at-bank-of-america/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/enhabit-inc-logo-1200x675.png?v=20220726112954&w=240&h=240&zc=2",
+        "publishedAt": "2024-06-29T08:52:43Z",
+        "content": "Enhabit (NYSE:EHAB – Get Free Report) had its price target cut by equities research analysts at Bank of America from $9.00 to $8.00 in a note issued to investors on Thursday, Benzinga reports. The br… [+4882 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Investing.com"
+        },
+        "author": "Investing.com",
+        "title": "Bank of America updates bylaws, clarifies shareholder meetings",
+        "description": "Bank of America updates bylaws, clarifies shareholder meetings",
+        "url": "https://www.investing.com/news/company-news/bank-of-america-updates-bylaws-clarifies-shareholder-meetings-93CH-3502133",
+        "urlToImage": "https://i-invdn-com.investing.com/news/bankofamerica_2_800x533_L_1412747682.jpg",
+        "publishedAt": "2024-06-28T21:23:51Z",
+        "content": "Bank of America Corp (NYSE:BAC) has made amendments to its bylaws, effective June 26, 2024, as part of its regular review of governance documents. The changes, approved by the Board of Directors, inc… [+4228 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Fark.com"
+        },
+        "author": None,
+        "title": "Bank of America says housing market is \"stuck\" for at least the next year and a half, unless a step-billionaire helps out [Awkward]",
+        "description": "Bank of America says housing market is \"stuck\" for at least the next year and a half, presumably unless a step-billionaire helps out",
+        "url": "https://www.fark.com/comments/13304862/Bank-of-America-says-housing-market-is-stuck-for-at-least-next-year-a-half-presumably-unless-a-step-billionaire-helps-out",
+        "urlToImage": "https://usrimg-850.fark.net/T/TP/fark_TPDwj47MFRVpUEBx2AtPo-I_KWw.jpg?AWSAccessKeyId=JO3ELGV4BGLFW7Y3EZXN&Expires=1719806400&Signature=Uq0FcickU9ANKPOjQYkyv%2BO6KZs%3D",
+        "publishedAt": "2024-06-28T15:35:06Z",
+        "content": "<li>Links are submitted by members of the Fark community.\r\n</li><li>When community members submit a link, they also write a custom headline for the story.\r\n</li><li>Other Farkers comment on the links… [+177 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "The Daily Dot"
+        },
+        "author": "Braden Bjella",
+        "title": "‘You should’ve dealt with a teller’: Woman issues warning about Bank of America ATM after she tried to deposit $3,000",
+        "description": "Depositing money into one’s bank account is a straightforward process—or so one might think.\n\n\nIn theory, one should simply be able to go to an ATM or bank teller, share their account information, hand over a check or cash, and be on their way.\n\n\nHowever, as …",
+        "url": "https://www.dailydot.com/?p=1610413",
+        "urlToImage": "https://uploads.dailydot.com/2024/06/bank-of-america-stealing-money.jpg?auto=compress&fm=pjpg",
+        "publishedAt": "2024-06-28T13:00:00Z",
+        "content": "Depositing money into ones bank account is a straightforward processor so one might think.\r\nIn theory, one should simply be able to go to an ATM or bank teller, share their account information, hand … [+3092 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "benzinga.com",
+        "title": "Bank of America Analyst Highlights Fed Stress Test Opacity, Varying Bank Impacts: 'Goldman Sachs Worst Hit, Huntington Best' - Citigroup (NYSE:C), Citizens Financial Group (NYSE:CFG)",
+        "description": "The latest Federal Reserve stress test results have highlighted “the inherent opacity” of the Fed evaluation process, according to Bank of America analyst Ebrahim H. Poonawala.\nThe tests, which assess the resilience of banks under severe economic scenarios, r…",
+        "url": "https://biztoc.com/x/21d58cd1b26f3284",
+        "urlToImage": "https://biztoc.com/cdn/21d58cd1b26f3284_s.webp",
+        "publishedAt": "2024-06-28T11:49:38Z",
+        "content": "The latest Federal Reserve stress test results have highlighted the inherent opacity of the Fed evaluation process, according to Bank of America analyst Ebrahim H. Poonawala.The tests, which assess t… [+129 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "ETF Daily News"
+        },
+        "author": "MarketBeat News",
+        "title": "CG Oncology (NASDAQ:CGON) Earns Buy Rating from Analysts at Bank of America",
+        "description": "Research analysts at Bank of America assumed coverage on shares of CG Oncology (NASDAQ:CGON – Get Free Report) in a report released on Friday, Briefing.com reports. The firm set a “buy” rating and a $65.00 price target on the stock. Bank of America‘s price ta…",
+        "url": "https://www.etfdailynews.com/2024/06/28/cg-oncology-nasdaqcgon-earns-buy-rating-from-analysts-at-bank-of-america/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/cg-oncology-inc-common-stock-logo-1200x675.jpg?v=20240206091956&w=240&h=240&zc=2",
+        "publishedAt": "2024-06-28T11:48:45Z",
+        "content": "Research analysts at Bank of America assumed coverage on shares of CG Oncology (NASDAQ:CGON – Get Free Report) in a report released on Friday, Briefing.com reports. The firm set a “buy” rating and a … [+3342 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "ETF Daily News"
+        },
+        "author": "MarketBeat News",
+        "title": "General Mills (NYSE:GIS) Price Target Cut to $68.00 by Analysts at Bank of America",
+        "description": "General Mills (NYSE:GIS – Free Report) had its target price trimmed by Bank of America from $70.00 to $68.00 in a report issued on Thursday morning, Benzinga reports. The firm currently has a neutral rating on the stock. A number of other research analysts ha…",
+        "url": "https://www.etfdailynews.com/2024/06/28/general-mills-nysegis-price-target-cut-to-68-00-by-analysts-at-bank-of-america/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/general-mills-inc-logo.jpg?v=20221021152352&w=240&h=240&zc=2",
+        "publishedAt": "2024-06-28T11:38:41Z",
+        "content": "General Mills (NYSE:GIS – Free Report) had its target price trimmed by Bank of America from $70.00 to $68.00 in a report issued on Thursday morning, Benzinga reports. The firm currently has a neutral… [+5648 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Finextra"
+        },
+        "author": "Editorial Team",
+        "title": "Bank of America backs Simply Asset Finance",
+        "description": "The Bank of America has moved to support Simply Asset Finance, a fintech that focuses on lending to SMEs, with a loan facility worth up to $120 million.",
+        "url": "https://www.finextra.com/newsarticle/44390/bank-of-america-backs-simply-asset-finance",
+        "urlToImage": "https://www.finextra.com/finextra-images/top_pics/xl/5163.jpg",
+        "publishedAt": "2024-06-28T09:52:54Z",
+        "content": "The Bank of America has moved to support Simply Asset Finance, a fintech that focuses on lending to SMEs, with a loan facility worth up to $120 million.\r\n The loan facility has an accordion feature t… [+1367 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "ETF Daily News"
+        },
+        "author": "MarketBeat News",
+        "title": "Brokerages Set Bank of America Co. (NYSE:BAC) Target Price at $39.79",
+        "description": "Bank of America Co. (NYSE:BAC) has received a consensus rating of “Moderate Buy” from the eighteen research firms that are covering the stock, MarketBeat Ratings reports. One analyst has rated the stock with a sell rating, six have given a hold rating and ele…",
+        "url": "https://www.etfdailynews.com/2024/06/28/brokerages-set-bank-of-america-co-nysebac-target-price-at-39-79/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/bank-of-america-co-logo-1200x675.jpg?v=20221020143030&w=240&h=240&zc=2",
+        "publishedAt": "2024-06-28T06:28:47Z",
+        "content": "Bank of America Co. (NYSE:BAC) has received a consensus rating of “Moderate Buy” from the eighteen research firms that are covering the stock, MarketBeat Ratings reports. One analyst has rated the st… [+4593 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "ETF Daily News"
+        },
+        "author": "MarketBeat News",
+        "title": "Alcoa (NYSE:AA) PT Raised to $46.00 at Bank of America",
+        "description": "Alcoa (NYSE:AA – Get Free Report) had its price objective boosted by equities researchers at Bank of America from $40.00 to $46.00 in a report released on Wednesday, MarketBeat.com reports. The brokerage currently has a “neutral” rating on the industrial prod…",
+        "url": "https://www.etfdailynews.com/2024/06/28/alcoa-nyseaa-pt-raised-to-46-00-at-bank-of-america/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/alcoa-co-logo-1200x675.png?v=20230119111004&w=240&h=240&zc=2",
+        "publishedAt": "2024-06-28T05:52:41Z",
+        "content": "Alcoa (NYSE:AA – Get Free Report) had its price objective boosted by equities researchers at Bank of America from $40.00 to $46.00 in a report released on Wednesday, MarketBeat.com reports. The broke… [+4419 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "fortune.com",
+        "title": "Goldman Sachs was the ‘worst hit’ in the Fed’s latest stress test of big banks. Bank of America still lists it as a buy",
+        "description": "Goldman Sachs passed a recent Federal Reserve stress test, though was harder hit than the other 30 banks tested, according to Bank of America analysts. Read More",
+        "url": "https://biztoc.com/x/0d8a35282fdd4dc8",
+        "urlToImage": "https://biztoc.com/cdn/799/og.png",
+        "publishedAt": "2024-06-27T17:32:51Z",
+        "content": "Goldman Sachs passed a recent Federal Reserve stress test, though was harder hit than the other 30 banks tested, according to Bank of America analysts. Read More\r\nThis story appeared on fortune.com, … [+10 chars]"
+    },
+    {
+        "source": {
+            "id": "fortune",
+            "name": "Fortune"
+        },
+        "author": "Michael del Castillo",
+        "title": "Goldman Sachs was the ‘worst hit’ in the Fed’s latest stress test of big banks. Bank of America still lists it as a buy",
+        "description": "Goldman Sachs passed a recent Federal Reserve stress test, though was harder hit than the other 30 banks tested, according to Bank of America analysts.",
+        "url": "https://fortune.com/2024/06/27/goldman-sachs-was-the-worst-hit-in-the-feds-latest-stress-test-of-big-banks-bank-of-america-still-lists-it-as-a-buy/",
+        "urlToImage": "https://fortune.com/img-assets/wp-content/uploads/2024/06/GettyImages-1074422492.jpg?resize=1200,600",
+        "publishedAt": "2024-06-27T17:29:30Z",
+        "content": "The Federal Reserve on Wednesday released the results of its annual stress test to see how Americas 31 largest banks would fare in a financial crisis. While the hypothetical recession showed that all… [+3475 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "marketwatch.com",
+        "title": "Kering shares jump on double upgrade of Gucci owner by Bank of America",
+        "description": "Bank of America said Gucci-owner Kering may see the ‘green shoots’ of a recovery as early as the second half of this year",
+        "url": "https://biztoc.com/x/ae3a4863825251dc",
+        "urlToImage": "https://biztoc.com/cdn/799/og.png",
+        "publishedAt": "2024-06-27T15:21:11Z",
+        "content": "Bank of America said Gucci-owner Kering may see the green shoots of a recovery as early as the second half of this year\r\nThis story appeared on marketwatch.com, 2024-06-27."
+    },
+    {
+        "source": {
+            "id": "cnn",
+            "name": "CNN"
+        },
+        "author": "Matt Egan, CNN",
+        "title": "The housing market is ‘stuck’ until at least 2026, Bank of America warns",
+        "description": "Help may not be on the way for first-time homebuyers frustrated by high mortgage rates and even higher home prices.",
+        "url": "https://www.cnn.com/2024/06/27/economy/housing-market-prices-inflation?cid=external-feeds_iluminar_yahoo",
+        "urlToImage": "https://media.zenfs.com/en/cnn_business_articles_218/937ee40c20dfa08fb6314586595b403c",
+        "publishedAt": "2024-06-27T14:47:35Z",
+        "content": "Help may not be on the way for first-time homebuyers frustrated by high mortgage rates and even higher home prices.\r\nEconomists at Bank of America warned this week that the US housing market is stuck… [+4772 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "ETF Daily News"
+        },
+        "author": "MarketBeat News",
+        "title": "Defined Wealth Management LLC Increases Position in Bank of America Co. (NYSE:BAC)",
+        "description": "Defined Wealth Management LLC lifted its stake in Bank of America Co. (NYSE:BAC – Free Report) by 3.0% in the 1st quarter, according to its most recent Form 13F filing with the Securities & Exchange Commission. The firm owned 14,179 shares of the financial se…",
+        "url": "https://www.etfdailynews.com/2024/06/27/defined-wealth-management-llc-increases-position-in-bank-of-america-co-nysebac/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/bank-of-america-co-logo-1200x675.jpg?v=20221020143030&w=240&h=240&zc=2",
+        "publishedAt": "2024-06-27T14:10:57Z",
+        "content": "Defined Wealth Management LLC lifted its stake in Bank of America Co. (NYSE:BAC – Free Report) by 3.0% in the 1st quarter, according to its most recent Form 13F filing with the Securities &amp; Excha… [+5527 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "ETF Daily News"
+        },
+        "author": "MarketBeat News",
+        "title": "Matrix Asset Advisors Inc. NY Trims Stake in Bank of America Co. (NYSE:BAC)",
+        "description": "Matrix Asset Advisors Inc. NY lowered its stake in Bank of America Co. (NYSE:BAC) by 3.9% during the first quarter, Holdings Channel.com reports. The institutional investor owned 7,111 shares of the financial services provider’s stock after selling 290 shares…",
+        "url": "https://www.etfdailynews.com/2024/06/27/matrix-asset-advisors-inc-ny-trims-stake-in-bank-of-america-co-nysebac/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/bank-of-america-co-logo-1200x675.jpg?v=20221020143030&w=240&h=240&zc=2",
+        "publishedAt": "2024-06-27T13:26:42Z",
+        "content": "Matrix Asset Advisors Inc. NY lowered its stake in Bank of America Co. (NYSE:BAC) by 3.9% during the first quarter, Holdings Channel.com reports. The institutional investor owned 7,111 shares of the … [+5522 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "ETF Daily News"
+        },
+        "author": "MarketBeat News",
+        "title": "Bank of America Co. (NYSE:BAC) Stock Position Reduced by Aspiriant LLC",
+        "description": "Aspiriant LLC lessened its position in shares of Bank of America Co. (NYSE:BAC – Free Report) by 2.2% during the first quarter, according to the company in its most recent 13F filing with the Securities & Exchange Commission. The fund owned 45,388 shares of t…",
+        "url": "https://www.etfdailynews.com/2024/06/27/bank-of-america-co-nysebac-stock-position-reduced-by-aspiriant-llc/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/bank-of-america-co-logo-1200x675.jpg?v=20221020143030&w=240&h=240&zc=2",
+        "publishedAt": "2024-06-27T13:26:42Z",
+        "content": "Aspiriant LLC lessened its position in shares of Bank of America Co. (NYSE:BAC – Free Report) by 2.2% during the first quarter, according to the company in its most recent 13F filing with the Securit… [+5211 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "cnn.com",
+        "title": "The housing market is ‘stuck’ until at least 2026, Bank of America warns",
+        "description": "Help may not be on the way for first-time homebuyers frustrated by high mortgage rates and even higher home prices.\nEconomists at Bank of America warned this week that the US housing market is “stuck and we are not convinced it will become unstuck” until 2026…",
+        "url": "https://biztoc.com/x/589317aabf96a749",
+        "urlToImage": "https://biztoc.com/cdn/589317aabf96a749_s.webp",
+        "publishedAt": "2024-06-27T13:10:40Z",
+        "content": "Help may not be on the way for first-time homebuyers frustrated by high mortgage rates and even higher home prices.Economists at Bank of America warned this week that the US housing market is stuck a… [+124 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "ETF Daily News"
+        },
+        "author": "MarketBeat News",
+        "title": "Centuri (NYSE:CTRI) Receives “Underperform” Rating from Bank of America",
+        "description": "Centuri (NYSE:CTRI – Get Free Report)‘s stock had its “underperform” rating reiterated by analysts at Bank of America in a research report issued on Thursday, Benzinga reports. They presently have a $21.00 price objective on the stock, down from their prior p…",
+        "url": "https://www.etfdailynews.com/2024/06/27/centuri-nysectri-receives-underperform-rating-from-bank-of-america/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/generic-stocks8.jpg&w=240&h=240&zc=2",
+        "publishedAt": "2024-06-27T12:07:12Z",
+        "content": "Centuri (NYSE:CTRI – Get Free Report)‘s stock had its “underperform” rating reiterated by analysts at Bank of America in a research report issued on Thursday, Benzinga reports. They presently have a … [+4193 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "ETF Daily News"
+        },
+        "author": "MarketBeat News",
+        "title": "Paychex (NASDAQ:PAYX) PT Raised to $113.00 at Bank of America",
+        "description": "Paychex (NASDAQ:PAYX – Get Free Report) had its target price boosted by stock analysts at Bank of America from $111.00 to $113.00 in a research report issued on Thursday, Benzinga reports. The firm currently has an “underperform” rating on the business servic…",
+        "url": "https://www.etfdailynews.com/2024/06/27/paychex-nasdaqpayx-pt-raised-to-113-00-at-bank-of-america/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/paychex-inc-logo-1200x675.png?v=20221024140257&w=240&h=240&zc=2",
+        "publishedAt": "2024-06-27T12:04:52Z",
+        "content": "Paychex (NASDAQ:PAYX – Get Free Report) had its target price boosted by stock analysts at Bank of America from $111.00 to $113.00 in a research report issued on Thursday, Benzinga reports. The firm c… [+4642 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "ETF Daily News"
+        },
+        "author": "MarketBeat News",
+        "title": "Petróleo Brasileiro S.A. – Petrobras (NYSE:PBR) Lifted to “Buy” at Bank of America",
+        "description": "Petróleo Brasileiro S.A. – Petrobras (NYSE:PBR – Get Free Report) was upgraded by equities research analysts at Bank of America from a “neutral” rating to a “buy” rating in a note issued to investors on Thursday, Benzinga reports. The brokerage presently has …",
+        "url": "https://www.etfdailynews.com/2024/06/27/petroleo-brasileiro-s-a-petrobras-nysepbr-lifted-to-buy-at-bank-of-america/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/petroleo-brasileiro-sa-logo-1200x675.jpg&w=240&h=240&zc=2",
+        "publishedAt": "2024-06-27T12:04:51Z",
+        "content": "Petróleo Brasileiro S.A. – Petrobras (NYSE:PBR – Get Free Report) was upgraded by equities research analysts at Bank of America from a “neutral” rating to a “buy” rating in a note issued to investors… [+4790 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "ETF Daily News"
+        },
+        "author": "MarketBeat News",
+        "title": "St. Johns Investment Management Company LLC Acquires 1,380 Shares of Bank of America Co. (NYSE:BAC)",
+        "description": "St. Johns Investment Management Company LLC increased its holdings in Bank of America Co. (NYSE:BAC) by 1.5% during the 1st quarter, according to its most recent Form 13F filing with the SEC. The fund owned 96,036 shares of the financial services provider’s s…",
+        "url": "https://www.etfdailynews.com/2024/06/27/st-johns-investment-management-company-llc-acquires-1380-shares-of-bank-of-america-co-nysebac/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/bank-of-america-co-logo-1200x675.jpg?v=20221020143030&w=240&h=240&zc=2",
+        "publishedAt": "2024-06-27T11:36:43Z",
+        "content": "St. Johns Investment Management Company LLC increased its holdings in Bank of America Co. (NYSE:BAC) by 1.5% during the 1st quarter, according to its most recent Form 13F filing with the SEC. The fun… [+5870 chars]"
+    },
+    {
+        "source": {
+            "id": "cnn",
+            "name": "CNN"
+        },
+        "author": "Matt Egan",
+        "title": "The housing market is ‘stuck’ until at least 2026, Bank of America warns",
+        "description": "Help may not be on the way for first-time homebuyers frustrated by high mortgage rates and even higher home prices.",
+        "url": "https://www.cnn.com/2024/06/27/economy/housing-market-prices-inflation/index.html",
+        "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-1878228771.jpg?c=16x9&q=w_800,c_fill",
+        "publishedAt": "2024-06-27T10:00:42Z",
+        "content": "Help may not be on the way for first-time homebuyers frustrated by high mortgage rates and even higher home prices.\r\nEconomists at Bank of America warned this week that the US housing market is stuck… [+4310 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "ETF Daily News"
+        },
+        "author": "MarketBeat News",
+        "title": "Apple (NASDAQ:AAPL) Receives “Buy” Rating from Bank of America",
+        "description": "Bank of America reiterated their buy rating on shares of Apple (NASDAQ:AAPL – Free Report) in a research report sent to investors on Wednesday, Benzinga reports. Bank of America currently has a $230.00 price objective on the iPhone maker’s stock. Several othe…",
+        "url": "https://www.etfdailynews.com/2024/06/27/apple-nasdaqaapl-receives-buy-rating-from-bank-of-america/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/apple-inc-logo.png&w=240&h=240&zc=2",
+        "publishedAt": "2024-06-27T09:34:42Z",
+        "content": "Bank of America reiterated their buy rating on shares of Apple (NASDAQ:AAPL – Free Report) in a research report sent to investors on Wednesday, Benzinga reports. Bank of America currently has a $230.… [+6509 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "ETF Daily News"
+        },
+        "author": "MarketBeat News",
+        "title": "Bank of America Cuts Commercial Metals (NYSE:CMC) Price Target to $69.00",
+        "description": "Commercial Metals (NYSE:CMC – Free Report) had its price target cut by Bank of America from $70.00 to $69.00 in a research note published on Wednesday, Benzinga reports. They currently have a buy rating on the basic materials company’s stock. CMC has been the…",
+        "url": "https://www.etfdailynews.com/2024/06/27/bank-of-america-cuts-commercial-metals-nysecmc-price-target-to-69-00/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/commercial-metals-logo.png?v=20231006110553&w=240&h=240&zc=2",
+        "publishedAt": "2024-06-27T09:21:05Z",
+        "content": "Commercial Metals (NYSE:CMC – Free Report) had its price target cut by Bank of America from $70.00 to $69.00 in a research note published on Wednesday, Benzinga reports. They currently have a buy rat… [+4009 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "ETF Daily News"
+        },
+        "author": "MarketBeat News",
+        "title": "Amazon.com (NASDAQ:AMZN) Given New $220.00 Price Target at Bank of America",
+        "description": "Amazon.com (NASDAQ:AMZN) had its price target boosted by Bank of America from $210.00 to $220.00 in a report released on Wednesday, Benzinga reports. The brokerage currently has a buy rating on the e-commerce giant’s stock. A number of other research firms al…",
+        "url": "https://www.etfdailynews.com/2024/06/27/amazon-com-nasdaqamzn-given-new-220-00-price-target-at-bank-of-america/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/amazoncom-inc-logo.jpg&w=240&h=240&zc=2",
+        "publishedAt": "2024-06-27T09:01:23Z",
+        "content": "Amazon.com (NASDAQ:AMZN) had its price target boosted by Bank of America from $210.00 to $220.00 in a report released on Wednesday, Benzinga reports. The brokerage currently has a buy rating on the e… [+5808 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "ETF Daily News"
+        },
+        "author": "MarketBeat News",
+        "title": "Bank of America Trims MP Materials (NYSE:MP) Target Price to $24.00",
+        "description": "MP Materials (NYSE:MP – Free Report) had its price target lowered by Bank of America from $25.00 to $24.00 in a research report sent to investors on Wednesday morning, Benzinga reports. The firm currently has a buy rating on the stock. Several other equities …",
+        "url": "https://www.etfdailynews.com/2024/06/27/bank-of-america-trims-mp-materials-nysemp-target-price-to-24-00/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/mp-materials-corp-logo.png?v=20210326142812&w=240&h=240&zc=2",
+        "publishedAt": "2024-06-27T08:54:49Z",
+        "content": "MP Materials (NYSE:MP – Free Report) had its price target lowered by Bank of America from $25.00 to $24.00 in a research report sent to investors on Wednesday morning, Benzinga reports. The firm curr… [+5669 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "ETF Daily News"
+        },
+        "author": "MarketBeat News",
+        "title": "Franco-Nevada (NYSE:FNV) Price Target Raised to $142.00 at Bank of America",
+        "description": "Franco-Nevada (NYSE:FNV – Free Report) (TSE:FNV) had its target price hoisted by Bank of America from $141.00 to $142.00 in a report issued on Wednesday morning, Benzinga reports. Bank of America currently has a buy rating on the basic materials company’s sto…",
+        "url": "https://www.etfdailynews.com/2024/06/27/franco-nevada-nysefnv-price-target-raised-to-142-00-at-bank-of-america/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/franco-nevada-co-logo.png?v=20221103120812&w=240&h=240&zc=2",
+        "publishedAt": "2024-06-27T08:54:48Z",
+        "content": "Franco-Nevada (NYSE:FNV – Free Report) (TSE:FNV) had its target price hoisted by Bank of America from $141.00 to $142.00 in a report issued on Wednesday morning, Benzinga reports. Bank of America cur… [+4988 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "ETF Daily News"
+        },
+        "author": "MarketBeat News",
+        "title": "Nexa Resources (NYSE:NEXA) Price Target Increased to $8.00 by Analysts at Bank of America",
+        "description": "Nexa Resources (NYSE:NEXA – Free Report) had its price objective hoisted by Bank of America from $7.50 to $8.00 in a research report report published on Wednesday, Benzinga reports. The brokerage currently has an underperform rating on the stock. Other equiti…",
+        "url": "https://www.etfdailynews.com/2024/06/27/nexa-resources-nysenexa-price-target-increased-to-8-00-by-analysts-at-bank-of-america/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/nexa-resrcs-sa-logo.png&w=240&h=240&zc=2",
+        "publishedAt": "2024-06-27T08:54:47Z",
+        "content": "Nexa Resources (NYSE:NEXA – Free Report) had its price objective hoisted by Bank of America from $7.50 to $8.00 in a research report report published on Wednesday, Benzinga reports. The brokerage cur… [+3339 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "ETF Daily News"
+        },
+        "author": "MarketBeat News",
+        "title": "Wheaton Precious Metals (NYSE:WPM) Price Target Raised to $61.00 at Bank of America",
+        "description": "Wheaton Precious Metals (NYSE:WPM – Free Report) had its price target lifted by Bank of America from $60.00 to $61.00 in a report published on Wednesday, Benzinga reports. Bank of America currently has a buy rating on the stock. Other analysts have also issue…",
+        "url": "https://www.etfdailynews.com/2024/06/27/wheaton-precious-metals-nysewpm-price-target-raised-to-61-00-at-bank-of-america/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/wheaton-precious-metals-corp-logo.png?v=20221104133726&w=240&h=240&zc=2",
+        "publishedAt": "2024-06-27T08:54:46Z",
+        "content": "Wheaton Precious Metals (NYSE:WPM – Free Report) had its price target lifted by Bank of America from $60.00 to $61.00 in a report published on Wednesday, Benzinga reports. Bank of America currently h… [+4865 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "ETF Daily News"
+        },
+        "author": "MarketBeat News",
+        "title": "Royal Gold (NASDAQ:RGLD) Price Target Raised to $131.00 at Bank of America",
+        "description": "Royal Gold (NASDAQ:RGLD – Free Report) (TSE:RGL) had its price target upped by Bank of America from $129.00 to $131.00 in a research report report published on Wednesday, Benzinga reports. Bank of America currently has an underperform rating on the basic mate…",
+        "url": "https://www.etfdailynews.com/2024/06/27/royal-gold-nasdaqrgld-price-target-raised-to-131-00-at-bank-of-america/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/royal-gold-inc-logo.jpg&w=240&h=240&zc=2",
+        "publishedAt": "2024-06-27T08:38:43Z",
+        "content": "Royal Gold (NASDAQ:RGLD – Free Report) (TSE:RGL) had its price target upped by Bank of America from $129.00 to $131.00 in a research report report published on Wednesday, Benzinga reports. Bank of Am… [+5239 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "ETF Daily News"
+        },
+        "author": "MarketBeat News",
+        "title": "Glencore (LON:GLEN) Rating Reiterated by Bank of America",
+        "description": "Bank of America reissued their buy rating on shares of Glencore (LON:GLEN – Free Report) in a research note issued to investors on Wednesday morning, Marketbeat.com reports. They currently have a GBX 500 ($6.34) price target on the natural resources company’s…",
+        "url": "https://www.etfdailynews.com/2024/06/27/glencore-longlen-rating-reiterated-by-bank-of-america/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/glencore-international-logo.jpg&w=240&h=240&zc=2",
+        "publishedAt": "2024-06-27T08:36:45Z",
+        "content": "Bank of America reissued their buy rating on shares of Glencore (LON:GLEN – Free Report) in a research note issued to investors on Wednesday morning, Marketbeat.com reports. They currently have a GBX… [+2467 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "ETF Daily News"
+        },
+        "author": "MarketBeat News",
+        "title": "Rio Tinto Group’s (RIO) Buy Rating Reaffirmed at Bank of America",
+        "description": "Bank of America reaffirmed their buy rating on shares of Rio Tinto Group (LON:RIO – Free Report) in a report released on Wednesday morning, Marketbeat reports. Bank of America currently has a GBX 7,700 ($97.68) target price on the stock. Several other equitie…",
+        "url": "https://www.etfdailynews.com/2024/06/27/rio-tinto-groups-rio-buy-rating-reaffirmed-at-bank-of-america/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/rio-tinto-logo.jpg&w=240&h=240&zc=2",
+        "publishedAt": "2024-06-27T08:36:45Z",
+        "content": "Bank of America reaffirmed their buy rating on shares of Rio Tinto Group (LON:RIO – Free Report) in a report released on Wednesday morning, Marketbeat reports. Bank of America currently has a GBX 7,7… [+2511 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "ETF Daily News"
+        },
+        "author": "MarketBeat News",
+        "title": "Nucor (NYSE:NUE) PT Lowered to $200.00 at Bank of America",
+        "description": "Nucor (NYSE:NUE – Free Report) had its price objective lowered by Bank of America from $210.00 to $200.00 in a research note published on Wednesday, Benzinga reports. The brokerage currently has a buy rating on the basic materials company’s stock. Several oth…",
+        "url": "https://www.etfdailynews.com/2024/06/27/nucor-nysenue-pt-lowered-to-200-00-at-bank-of-america/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/nucor-co-logo.jpeg&w=240&h=240&zc=2",
+        "publishedAt": "2024-06-27T08:24:41Z",
+        "content": "Nucor (NYSE:NUE – Free Report) had its price objective lowered by Bank of America from $210.00 to $200.00 in a research note published on Wednesday, Benzinga reports. The brokerage currently has a bu… [+4463 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "ETF Daily News"
+        },
+        "author": "MarketBeat News",
+        "title": "Owens & Minor (NYSE:OMI) Given New $16.00 Price Target at Bank of America",
+        "description": "Owens & Minor (NYSE:OMI – Get Free Report) had its price objective dropped by Bank of America from $18.00 to $16.00 in a report issued on Tuesday, Benzinga reports. The brokerage presently has an “underperform” rating on the stock. Bank of America‘s target pr…",
+        "url": "https://www.etfdailynews.com/2024/06/27/owens-minor-nyseomi-given-new-16-00-price-target-at-bank-of-america/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/owens--minor-inc-logo-1200x675.png?v=20240515094850&w=240&h=240&zc=2",
+        "publishedAt": "2024-06-27T06:52:45Z",
+        "content": "Owens &amp; Minor (NYSE:OMI – Get Free Report) had its price objective dropped by Bank of America from $18.00 to $16.00 in a report issued on Tuesday, Benzinga reports. The brokerage presently has an… [+5960 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "ETF Daily News"
+        },
+        "author": "MarketBeat News",
+        "title": "Interpublic Group of Companies (NYSE:IPG) Given New $37.00 Price Target at Bank of America",
+        "description": "Interpublic Group of Companies (NYSE:IPG – Get Free Report) had its price target cut by Bank of America from $38.00 to $37.00 in a note issued to investors on Tuesday, Benzinga reports. The firm currently has a “buy” rating on the business services provider’s…",
+        "url": "https://www.etfdailynews.com/2024/06/27/interpublic-group-of-companies-nyseipg-given-new-37-00-price-target-at-bank-of-america/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/the-interpublic-group-of-companies-inc-logo-1200x675.png?v=20240417094336&w=240&h=240&zc=2",
+        "publishedAt": "2024-06-27T06:52:43Z",
+        "content": "Interpublic Group of Companies (NYSE:IPG – Get Free Report) had its price target cut by Bank of America from $38.00 to $37.00 in a note issued to investors on Tuesday, Benzinga reports. The firm curr… [+4524 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "ETF Daily News"
+        },
+        "author": "MarketBeat News",
+        "title": "Bank of America Co. (NYSE:BAC) is Community Bank of Raymore’s 4th Largest Position",
+        "description": "Community Bank of Raymore reduced its position in shares of Bank of America Co. (NYSE:BAC) by 9.3% in the 1st quarter, according to the company in its most recent 13F filing with the Securities and Exchange Commission. The fund owned 293,256 shares of the fin…",
+        "url": "https://www.etfdailynews.com/2024/06/26/bank-of-america-co-nysebac-is-community-bank-of-raymores-4th-largest-position/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/bank-of-america-co-logo-1200x675.jpg?v=20221020143030&w=240&h=240&zc=2",
+        "publishedAt": "2024-06-26T15:24:42Z",
+        "content": "Community Bank of Raymore reduced its position in shares of Bank of America Co. (NYSE:BAC) by 9.3% in the 1st quarter, according to the company in its most recent 13F filing with the Securities and E… [+5239 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "ETF Daily News"
+        },
+        "author": "MarketBeat News",
+        "title": "Affinity Capital Advisors LLC Cuts Stake in Bank of America Co. (NYSE:BAC)",
+        "description": "Affinity Capital Advisors LLC trimmed its position in shares of Bank of America Co. (NYSE:BAC) by 8.3% during the 1st quarter, according to its most recent 13F filing with the SEC. The fund owned 6,917 shares of the financial services provider’s stock after s…",
+        "url": "https://www.etfdailynews.com/2024/06/26/affinity-capital-advisors-llc-cuts-stake-in-bank-of-america-co-nysebac/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/bank-of-america-co-logo-1200x675.jpg?v=20221020143030&w=240&h=240&zc=2",
+        "publishedAt": "2024-06-26T14:40:41Z",
+        "content": "Affinity Capital Advisors LLC trimmed its position in shares of Bank of America Co. (NYSE:BAC) by 8.3% during the 1st quarter, according to its most recent 13F filing with the SEC. The fund owned 6,9… [+5557 chars]"
+    },
+    {
+        "source": {
+            "id": "news24",
+            "name": "News24"
+        },
+        "author": "Garth Theunissen",
+        "title": "News24 | Rand 'at the mercy of politics', to hit R18.40/$ in third quarter - Bank of America",
+        "description": "Despite its bearish third-quarter prognosis, BofA says the rand could strengthen later in the year as the dollar weakens on expectations that US rates will be cut.",
+        "url": "https://www.news24.com/fin24/markets/rand-at-the-mercy-of-politics-to-hit-r1840-in-third-quarter-bank-of-america-20240626",
+        "urlToImage": "https://cdn.24.co.za/files/Cms/General/d/11844/2975366f23704db5b988bb10ef4f1360.jpg",
+        "publishedAt": "2024-06-26T14:07:21Z",
+        "content": "Bank of America (BofA) Securities says it is \"bearish\" on the rand for now as the currency is at the mercy of politics and will likely slump in the third quarter.\r\nThe standoff between the ANC and th… [+371 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "ETF Daily News"
+        },
+        "author": "MarketBeat News",
+        "title": "Retirement Planning Group LLC Invests $225,000 in Bank of America Co. (NYSE:BAC)",
+        "description": "Retirement Planning Group LLC purchased a new position in shares of Bank of America Co. (NYSE:BAC – Free Report) in the first quarter, according to its most recent disclosure with the SEC. The firm purchased 5,931 shares of the financial services provider’s s…",
+        "url": "https://www.etfdailynews.com/2024/06/26/retirement-planning-group-llc-invests-225000-in-bank-of-america-co-nysebac/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/bank-of-america-co-logo-1200x675.jpg?v=20221020143030&w=240&h=240&zc=2",
+        "publishedAt": "2024-06-26T13:14:41Z",
+        "content": "Retirement Planning Group LLC purchased a new position in shares of Bank of America Co. (NYSE:BAC – Free Report) in the first quarter, according to its most recent disclosure with the SEC. The firm p… [+5123 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "ETF Daily News"
+        },
+        "author": "MarketBeat News",
+        "title": "Antofagasta’s (ANTO) “Buy” Rating Reiterated at Bank of America",
+        "description": "Antofagasta (LON:ANTO – Get Free Report)‘s stock had its “buy” rating reissued by Bank of America in a note issued to investors on Wednesday, Digital Look reports. They currently have a GBX 2,520 ($31.97) price target on the mining company’s stock. Bank of Am…",
+        "url": "https://www.etfdailynews.com/2024/06/26/antofagastas-anto-buy-rating-reiterated-at-bank-of-america/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/antofagasta-plc-logo-1200x675.png?v=20221107151614&w=240&h=240&zc=2",
+        "publishedAt": "2024-06-26T12:14:46Z",
+        "content": "Antofagasta (LON:ANTO – Get Free Report)‘s stock had its “buy” rating reissued by Bank of America in a note issued to investors on Wednesday, Digital Look reports. They currently have a GBX 2,520 ($3… [+2506 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "ETF Daily News"
+        },
+        "author": "MarketBeat News",
+        "title": "Anglo American (LON:AAL) Stock Rating Reaffirmed by Bank of America",
+        "description": "Anglo American (LON:AAL – Get Free Report)‘s stock had its “buy” rating reissued by analysts at Bank of America in a research report issued on Wednesday, Digital Look reports. They presently have a GBX 3,100 ($39.33) price target on the mining company’s stock…",
+        "url": "https://www.etfdailynews.com/2024/06/26/anglo-american-lonaal-stock-rating-reaffirmed-by-bank-of-america/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/anglo-american-logo-1200x675.jpg&w=240&h=240&zc=2",
+        "publishedAt": "2024-06-26T12:14:46Z",
+        "content": "Anglo American (LON:AAL – Get Free Report)‘s stock had its “buy” rating reissued by analysts at Bank of America in a research report issued on Wednesday, Digital Look reports. They presently have a G… [+3314 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "ETF Daily News"
+        },
+        "author": "MarketBeat News",
+        "title": "Bank of America Co. (NYSE:BAC) Shares Sold by Mechanics Bank Trust Department",
+        "description": "Mechanics Bank Trust Department lowered its holdings in shares of Bank of America Co. (NYSE:BAC) by 5.6% in the first quarter, Holdings Channel reports. The firm owned 29,667 shares of the financial services provider’s stock after selling 1,776 shares during …",
+        "url": "https://www.etfdailynews.com/2024/06/26/bank-of-america-co-nysebac-shares-sold-by-mechanics-bank-trust-department/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/bank-of-america-co-logo-1200x675.jpg?v=20221020143030&w=240&h=240&zc=2",
+        "publishedAt": "2024-06-26T11:30:42Z",
+        "content": "Mechanics Bank Trust Department lowered its holdings in shares of Bank of America Co. (NYSE:BAC) by 5.6% in the first quarter, Holdings Channel reports. The firm owned 29,667 shares of the financial … [+5389 chars]"
+    }
+]
+
+neuralink = [
+    {
+        "source": {
+            "id": None,
+            "name": "Github.com"
+        },
+        "author": "muragekibicho",
+        "title": "Show HN: Zero Knowledge Zip, Neuralink Compression Challenge Submission",
+        "description": "Article URL: https://github.com/MurageKibicho/Bellard/tree/main/Articles/Neuralink%20MVP%20-%20Zero%20Knowledge%20Zip\nComments URL: https://news.ycombinator.com/item?id=40860723\nPoints: 1\n# Comments: 0",
+        "url": "https://github.com/MurageKibicho/Bellard/tree/main/Articles/Neuralink%20MVP%20-%20Zero%20Knowledge%20Zip",
+        "urlToImage": "https://repository-images.githubusercontent.com/800578239/aad738d4-2fe2-465c-8713-a73283d2046e",
+        "publishedAt": "2024-07-02T21:47:15Z",
+        "content": "This is our submission for the Neuralink compression challenge.\r\nWe assume you have a Linux system with Bzip2 and GCC pre-installed.\r\nThis is not an archiver. It works on individual files.\r\nWe compar… [+1434 chars]"
+    },
+    {
+        "source": {
+            "id": "the-times-of-india",
+            "name": "The Times of India"
+        },
+        "author": "The Feed",
+        "title": "After Elon Musk's Neuralink project, China develops robots with lab-grown human brains. Will it replace humans?",
+        "description": "China has developed an innovative robot with a lab-grown human brain, aiming to create hybrid machines for complex tasks. This technology integrates human stem cells with neural interface chips.",
+        "url": "https://economictimes.indiatimes.com/news/international/us/after-elon-musks-neuralink-project-china-develops-robots-with-lab-grown-human-brains-will-it-replace-humans/articleshow/111440515.cms",
+        "urlToImage": "https://img.etimg.com/thumb/msid-111440499,width-1200,height-630,imgsize-162724,overlay-economictimes/photo.jpg",
+        "publishedAt": "2024-07-02T20:21:40Z",
+        "content": "(Catch all the US News, UK News, Canada News, International Breaking News Events, and Latest News Updates on The Economic Times.)\r\nDownload The Economic Times News App to get Daily International News… [+8 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Tom's Hardware UK"
+        },
+        "author": "Jeff Butts",
+        "title": "China plans standardized brain-computer tech similar to Elon Musk’s Neuralink",
+        "description": "Facing growing restrictions on technology from the U.S. and others, China says it needs to ramp up its domestic tech innovation.",
+        "url": "https://www.tomshardware.com/tech-industry/china-plans-standardized-brain-computer-tech-similar-to-elon-musks-neuralink",
+        "urlToImage": "https://cdn.mos.cms.futurecdn.net/4SosWufKBC7nHq86Pqfv9T-1200-80.jpg",
+        "publishedAt": "2024-07-02T14:36:25Z",
+        "content": "As Elon Musk’s Neuralink seeks people with quadriplegia for a clinical trial of its brain-computer implant, China is working to develop its own similar technology. Bloomberg reports that the country … [+2205 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "TweakTown"
+        },
+        "author": "Jak Connor",
+        "title": "Second Neuralink patient cancelled ahead of brain chip surgery over medical issues",
+        "description": "The second patient to get Neuralink's brain chip implant was canceled after it was discovered they were unsuitable for the trial following medical issues. Continue reading at TweakTown >",
+        "url": "https://www.tweaktown.com/news/99111/second-neuralink-patient-cancelled-ahead-of-brain-chip-surgery-over-medical-issues/index.html",
+        "urlToImage": "https://static.tweaktown.com/news/9/9/99111_156615_second-neuralink-patient-cancelled-over-medical-issues-ahead-of-brain-chip-surgery_full.jpg",
+        "publishedAt": "2024-07-02T06:32:03Z",
+        "content": "A week after Neuralink's first brain chip patient appeared on the Joe Rogan Experience podcast, the company has reportedly canceled the surgery for its second patient following the discovery of medic… [+1299 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "ReadWrite"
+        },
+        "author": "Suswati Basu",
+        "title": "China pushes to compete with Neuralink with new brain tech committee",
+        "description": "China has unveiled a proposal to establish a Brain-Computer Interface (BCI) Standardization Technical Committee as part of its Ministry of… Continue reading China pushes to compete with Neuralink with new brain tech committee\nThe post China pushes to compete …",
+        "url": "https://readwrite.com/china-pushes-to-compete-with-neuralink-with-new-brain-tech-committee/",
+        "urlToImage": "https://readwrite.com/wp-content/uploads/2024/07/China-pushes-to-compete-with-Neuralink-with-new-brain-tech-committee.png",
+        "publishedAt": "2024-07-01T21:13:35Z",
+        "content": "China has unveiled a proposal to establish a Brain-Computer Interface (BCI) Standardization Technical Committee as part of its Ministry of Industry and Information Technology (MIIT). The plan aims to… [+2101 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Futurism"
+        },
+        "author": "Noor Al-Sibai",
+        "title": "Neuralink Cancels Second Implant Surgery Due to Medical Issues",
+        "description": "Neuralink has canceled its second human implantation surgery after discovering additional medical issues in the person who was going to get the brain chip. As Bloomberg reports, the unnamed candidate in question suffers from the neurodegenerative disease amyo…",
+        "url": "https://futurism.com/neoscope/neuralink-cancels-second-implant-medical-issues",
+        "urlToImage": "https://wordpress-assets.futurism.com/2024/07/neuralink-cancels-second-implant-medical-issues.jpg",
+        "publishedAt": "2024-07-01T18:31:16Z",
+        "content": "Image byRichard Bord / WireImage via Getty / Futurism\r\nNeuralink has canceled its second human implantation surgery after discovering additional medical issues in the patient who was going to get the… [+2390 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Yahoo Entertainment"
+        },
+        "author": "Foster Wong",
+        "title": "China Plans Broader Push to Develop Tech Like Musk’s Neuralink",
+        "description": "(Bloomberg) -- China said Monday that it plans to task a committee with drafting standards to guide the use of brain-computer interfaces — a sign that the...",
+        "url": "https://finance.yahoo.com/news/china-plans-broader-push-develop-150607515.html",
+        "urlToImage": "https://s.yimg.com/ny/api/res/1.2/NgtPtDbymQHFwP00ATfCrA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://media.zenfs.com/en/bloomberg_technology_68/e05ee031c2135ef62821b7890d342c51",
+        "publishedAt": "2024-07-01T15:06:07Z",
+        "content": "(Bloomberg) -- China said Monday that it plans to task a committee with drafting standards to guide the use of brain-computer interfaces a sign that the country intends to step up its own development… [+1958 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "PCMag.com"
+        },
+        "author": "Kate Irwin",
+        "title": "Neuralink Calls Off Second Human Patient Procedure Due to Medical Issue",
+        "description": "Neuralink is now looking for a different person to be the second recipient of its brain chip implant next month.\nNeuralink had planned to surgically implant one of its brain chips in a second human patient last month, but the surgery was called off due to a m…",
+        "url": "https://uk.pcmag.com/health-fitness/153068/neuralink-calls-off-second-human-patient-procedure-due-to-medical-issue",
+        "urlToImage": "https://sm.pcmag.com/t/pcmag_uk/news/n/neuralink-/neuralink-calls-off-second-human-patient-procedure-due-to-me_awj9.1200.jpg",
+        "publishedAt": "2024-07-01T13:03:34Z",
+        "content": "Neuralink had planned to surgically implant one of its brain chips in a second human patient last month, but the surgery was called off due to a medical issue with the patient. The Elon Musk-founded … [+1797 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "PCMag.com"
+        },
+        "author": "Kate Irwin",
+        "title": "Neuralink Calls Off Second Human Patient Procedure Due to Medical Issue",
+        "description": "Neuralink is now looking for a different person to be the second recipient of its brain chip implant next month.\nNeuralink had planned to surgically implant one of its brain chips in a second human patient last month, but the surgery was called off due to a m…",
+        "url": "https://me.pcmag.com/en/health-fitness/24435/neuralink-calls-off-second-human-patient-procedure-due-to-medical-issue",
+        "urlToImage": "https://sm.pcmag.com/t/pcmag_me/news/n/neuralink-/neuralink-calls-off-second-human-patient-procedure-due-to-me_gjwt.1200.jpg",
+        "publishedAt": "2024-07-01T13:03:34Z",
+        "content": "Neuralink had planned to surgically implant one of its brain chips in a second human patient last month, but the surgery was called off due to a medical issue with the patient. The Elon Musk-founded … [+1797 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Rohitbhargava.com"
+        },
+        "author": "Lynnette McCurdy",
+        "title": "Neuralink May Create a Generation of Gamers with Superhuman Reflexes",
+        "description": "Earlier this year Noland Arbaugh became the first patient to receive a brain-computer chip implanted by Elon Musk’s startup Neuralink after a diving accident left him paralyzed. Aside from being able to move a cursor with his mind now, he recently told podcas…",
+        "url": "https://rohitbhargava.com/neuralink-may-create-a-generation-of-gamers-with-superhuman-reflexes/",
+        "urlToImage": "https://rohitbhargava.com/images/2024/07/Neurolink-May-Create-A-Generation-of-Gamers-With-Superhuman-Reflexes-900x600-1.jpg",
+        "publishedAt": "2024-06-28T09:23:07Z",
+        "content": "Earlier this year Noland Arbaugh became the first patient to receive a brain-computer chip implanted by Elon Musk’s startup Neuralink after a diving accident left him paralyzed. Aside from being able… [+832 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "TweakTown"
+        },
+        "author": "Jak Connor",
+        "title": "First Neuralink patient says gaming is easy now because he's got 'aimbot'",
+        "description": "The first Neuralink patient has said that his brain chip implant has given him 'aimbot' in games and that its accuracy is 'just not fair.' Continue reading at TweakTown >",
+        "url": "https://www.tweaktown.com/news/99022/first-neuralink-patient-says-gaming-is-easy-now-because-hes-got-aimbot/index.html",
+        "urlToImage": "https://static.tweaktown.com/news/9/9/99022_798_first-neuralink-patient-says-gaming-is-easy-now-because-hes-got-aimbot_full.jpg",
+        "publishedAt": "2024-06-26T07:19:03Z",
+        "content": "The first Neuralink patient has said his brain implant has given him \"aimbot\" making gaming particularly easy, so much so he believes there will be brain chip-dedicated leagues of gamers.\r\nNoland Arb… [+1330 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Futurism"
+        },
+        "author": "Victor Tangermann",
+        "title": "First Neuralink Patient Says Implant Has Given Him Incredible Gaming Skills",
+        "description": "Earlier this year, Noland Arbaugh became the first patient to have ever received a brain-computer chip implanted by Elon Musk's startup Neuralink. The 29-year-old lost control over his limbs after a diving accident eight years ago, but has since gained the ab…",
+        "url": "https://futurism.com/neoscope/first-neuralink-patient-gaming-skills",
+        "urlToImage": "https://wp-assets.futurism.com/2024/06/first-neuralink-patient-gaming-skills.jpg",
+        "publishedAt": "2024-06-25T21:06:04Z",
+        "content": "Image byJoe Rogan Experience\r\nEarlier this year, Noland Arbaugh became the first patient to receive a brain-computer chip implanted by Elon Musk's startup Neuralink.\r\nThe 29-year-old lost control ove… [+2642 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "yahoo.com",
+        "title": "Elon Musk welcomes third child with Neuralink executive",
+        "description": "Elon Musk had a third child with an executive at Neuralink, his brain implant company. Musk and Neuralink Corp. director of special projects, Shivon Zilis, welcomed the baby earlier this year, Bloomberg News reported.\nNeuralink didn't immediately respond to a…",
+        "url": "https://biztoc.com/x/448f89e58db66630",
+        "urlToImage": "https://biztoc.com/cdn/448f89e58db66630_s.webp",
+        "publishedAt": "2024-06-25T18:35:45Z",
+        "content": "Elon Musk had a third child with an executive at Neuralink, his brain implant company. Musk and Neuralink Corp. director of special projects, Shivon Zilis, welcomed the baby earlier this year, Bloomb… [+132 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Hip-Hop Wired"
+        },
+        "author": "Tron Snow",
+        "title": "Bootleg Tony Stark aka Elon Musk, The Father of Another Secret Child With Neuralink Exec",
+        "description": "The Donald Trump of technology, Elon Musk, is out here making babies like his company drops poorly designed electric vehicles.",
+        "url": "https://hiphopwired.com/2235236/elon-musk-secret-child-nerualink-executive/",
+        "urlToImage": "https://hiphopwired.com/wp-content/uploads/sites/43/2024/06/17193289465525.jpg",
+        "publishedAt": "2024-06-25T17:13:00Z",
+        "content": "HipHopWired Featured Video\r\nSource: Marc Piasecki / Getty / Elon Musk\r\nThe Donald Trump of technology, Elon Musk, is out here making babies like his company drops poorly designed electric vehicles.\r\n… [+2829 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "ReadWrite"
+        },
+        "author": "Sophie Atkinson",
+        "title": "First Neuralink patient says implant is like “an aimbot” for gaming, explains how gaming industry may have to change",
+        "description": "The first Neuralink patient gives a rave review about the implant and describes it as like having “an aim-bot” for… Continue reading First Neuralink patient says implant is like “an aimbot” for gaming, explains how gaming industry may have to change\nThe post …",
+        "url": "https://readwrite.com/first-neuralink-patient-says-implant-is-like-an-aimbot-for-gaming-explains-how-gaming-industry-may-have-to-change/",
+        "urlToImage": "https://readwrite.com/wp-content/uploads/2024/06/BV18hPCQQ4y9hlsZRDyZlw.webp",
+        "publishedAt": "2024-06-25T09:23:41Z",
+        "content": "The first Neuralink patient gives a rave review about the implant and describes it as like having an aim-bot for gaming in his head.\r\nNoland Arbaugh is the only person so far to have been fitted with… [+1593 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "NDTV News"
+        },
+        "author": None,
+        "title": "\"Not A Secret\": Elon Musk On New Baby With Neuralink Director Shivon Zilis",
+        "description": "Elon Musk and Neuralink executive Shivon Zilis welcomed a new baby earlier this year. While the public is only now learning about their child through media reports, the Tesla CEO clarified to Page Six that it was never a secret.",
+        "url": "https://www.ndtv.com/feature/elon-musk-and-shivon-zilis-welcomed-new-baby-this-year-was-never-a-secret-says-tesla-ceo-5964126",
+        "urlToImage": "https://c.ndtvimg.com/2023-11/jc2nlbvg_elon-musk_625x300_06_November_23.jpeg",
+        "publishedAt": "2024-06-25T05:45:35Z",
+        "content": "Elon Musk and Shivon Zilis previously welcomed twins, Strider and Azure, in November 2021.\r\nElon Musk and Neuralink executive Shivon Zilis welcomed a new baby earlier this year. While the public is o… [+2271 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "cbsnews.com",
+        "title": "Elon Musk welcomes third child with Neuralink executive. Here's how many kids he now has",
+        "description": "Elon Musk had a third child with an executive at Neuralink, his brain implant company. Musk and Neuralink Corp. director of special projects, Shivon Zilis, welcomed the baby earlier this year, Bloomberg News reported.\nNeuralink didn't immediately respond to a…",
+        "url": "https://biztoc.com/x/816e99c2c2e1b0ef",
+        "urlToImage": "https://biztoc.com/cdn/816e99c2c2e1b0ef_s.webp",
+        "publishedAt": "2024-06-25T01:06:51Z",
+        "content": "Elon Musk had a third child with an executive at Neuralink, his brain implant company. Musk and Neuralink Corp. director of special projects, Shivon Zilis, welcomed the baby earlier this year, Bloomb… [+134 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "cbsnews.com",
+        "title": "Elon Musk has third child with Neuralink executive",
+        "description": "The Tesla CEO has had a third child with an executive who works at his neural implant company Neuralink.",
+        "url": "https://biztoc.com/x/53e04f3b212e5f25",
+        "urlToImage": "https://biztoc.com/cdn/799/og.png",
+        "publishedAt": "2024-06-24T17:54:14Z",
+        "content": "The Tesla CEO has had a third child with an executive who works at his neural implant company Neuralink.\r\nThis story appeared on cbsnews.com, 2024-06-24."
+    },
+    {
+        "source": {
+            "id": "cbs-news",
+            "name": "CBS News"
+        },
+        "author": "Aimee Picchi",
+        "title": "Elon Musk has third child with Neuralink executive",
+        "description": "The Tesla CEO has had a third child with an executive who works at his neural implant company Neuralink.",
+        "url": "https://www.cbsnews.com/news/elon-musk-shivon-zilis-neuralink-new-baby/",
+        "urlToImage": "https://assets1.cbsnewsstatic.com/hub/i/r/2024/04/29/21f1db4e-3763-4f81-b33d-d41f6e9bc1cb/thumbnail/1200x630/81b623e90c57714cb03454ebcfc70a4b/gettyimages-2148589533.jpg?v=cb1f2643a8816828741cfb3a3fb2d931",
+        "publishedAt": "2024-06-24T17:48:00Z",
+        "content": "Elon Musk had a third child with an executive at Neuralink, his brain implant company. Musk and Neuralink Corp. director of special projects, Shivon Zilis, welcomed the baby earlier this year, Bloomb… [+3621 chars]"
+    },
+    {
+        "source": {
+            "id": "breitbart-news",
+            "name": "Breitbart News"
+        },
+        "author": "Lucas Nolan, Lucas Nolan",
+        "title": "Elon Musk Welcomes 12th Child, Third with Neuralink Executive",
+        "description": "Neuralink owner Elon Musk has recently confirmed the arrival of a new addition to his family, his twelfth child born earlier this year with Neuralink's Director of Special Projects, Shivon Zilis. This marks the third child Musk has had with his employee.\nThe …",
+        "url": "https://www.breitbart.com/tech/2024/06/24/elon-musk-welcomes-13th-child-third-with-neuralink-executive/",
+        "urlToImage": "https://media.breitbart.com/media/2024/06/Elon-Musk-forms-an-X-640x335.jpg",
+        "publishedAt": "2024-06-24T15:41:43Z",
+        "content": "Neuralink owner Elon Musk has recently confirmed the arrival of a new addition to his family, his twelfth child born earlier this year with Neuralink’s Director of Special Projects, Shivon Zilis. Thi… [+2790 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Gizchina.com"
+        },
+        "author": "Efe Udin",
+        "title": "Elon Musk Welcomes Third Child with Neuralink Executive Shivon Zilis: No Secret, Says Musk",
+        "description": "Elon Musk, the high-profile CEO of Tesla and SpaceX, has recently welcomed another child with Shivon Zilis, an executive at Neuralink, one of Musk’s companies. ...\nThe post Elon Musk Welcomes Third Child with Neuralink Executive Shivon Zilis: No Secret, Says …",
+        "url": "https://www.gizchina.com/2024/06/24/elon-musk-third-child-shivon-zilis/",
+        "urlToImage": "https://www.gizchina.com/wp-content/uploads/images/2024/06/Musk.jpg",
+        "publishedAt": "2024-06-24T07:32:30Z",
+        "content": "Elon Musk, the high-profile CEO of Tesla and SpaceX, has recently welcomed another child with Shivon Zilis, an executive at Neuralink, one of Musk’s companies. The news was confirmed in an interview … [+2985 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "dailymail.co.uk",
+        "title": "Elon Musk reveals details about his new baby with Neuralink executive Shivon Zilis - his 12th child - after he",
+        "description": "Elon Musk reveals details about his new baby with Neuralink executive Shivon Zilis - his 12th child - after he was accused of keeping the birth a secret\nElon Musk has confirmed he recently had a third baby with Neuralink executive Shivon Zilis, who works for …",
+        "url": "https://biztoc.com/x/432b5db3f3f4bf65",
+        "urlToImage": "https://biztoc.com/cdn/432b5db3f3f4bf65_s.webp",
+        "publishedAt": "2024-06-24T06:06:30Z",
+        "content": "Elon Musk reveals details about his new baby with Neuralink executive Shivon Zilis - his 12th child - after he was accused of keeping the birth a secretElon Musk has confirmed he recently had a third… [+128 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Radaronline.com"
+        },
+        "author": "Joshua Wilburn",
+        "title": "Elon Musk Quietly Has Third Child With Neuralink Exec Shivon Zilis Bringing His Total Number of Kids to 12",
+        "description": "Elon Musk had his 12th child an undisclosed number of months ago. The baby's name and sex are still unknown.",
+        "url": "https://radaronline.com/p/elon-musk-quietly-third-child-neuralink-exec-shivon-zilis/",
+        "urlToImage": "https://media.radaronline.com/brand-img/e5KLehdMh/1200x628/elon-musk-quietly-third-child-neuralink-exec-shivon-zilis-1719172497588.jpg",
+        "publishedAt": "2024-06-23T20:30:00Z",
+        "content": "According to Bloomberg, the owner of X, formerly known as Twitter, had his 12th child an undisclosed number of months ago. The baby's name and sex are still unknown.\r\nMusk told Page Six, As for secre… [+657 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "ndtv.com",
+        "title": "Elon Musk Had Another Secret Child With Neuralink Employee: Report",
+        "description": "A recent report claimed that a SpaceX employee alleged that Mr Musk had asked her to have his babies\nTesla and Neuralink CEO Elon Musk had another child with one of his employees earlier this year, reports suggest. Mr Musk and Shivon Zilis, head of Neuralink'…",
+        "url": "https://biztoc.com/x/3f8e5d23c1a7b850",
+        "urlToImage": "https://biztoc.com/cdn/799/og.png",
+        "publishedAt": "2024-06-23T10:01:58Z",
+        "content": "A recent report claimed that a SpaceX employee alleged that Mr Musk had asked her to have his babiesTesla and Neuralink CEO Elon Musk had another child with one of his employees earlier this year, re… [+129 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "NDTV News"
+        },
+        "author": None,
+        "title": "Elon Musk Had Another Secret Child With Neuralink Employee: Report",
+        "description": "Tesla and Neuralink CEO Elon Musk had another child with one of his employees earlier this year, reports suggest. Mr Musk and Shivon Zilis, head of Neuralink's special projects, had a third child together earlier this year, Bloomberg reported.",
+        "url": "https://www.ndtv.com/world-news/elon-musk-had-another-secret-child-with-neuralink-employee-report-5950152",
+        "urlToImage": "https://c.ndtvimg.com/2024-06/8trrs42_elon-musk_625x300_15_June_24.jpeg?im=FaceCrop,algorithm=dnn,width=1200,height=738?ver-20240615.100",
+        "publishedAt": "2024-06-23T04:29:27Z",
+        "content": "A recent report claimed that a SpaceX employee alleged that Mr Musk had asked her to have his babies\r\nTesla and Neuralink CEO Elon Musk had another child with one of his employees earlier this year, … [+1673 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Freerepublic.com"
+        },
+        "author": "New York Post",
+        "title": "Elon Musk Fathered a Third Child With Neuralink Executive Shivon Zilis: Report",
+        "description": "Tesla CEO Elon Musk fathered a third child with an executive at Neuralink, his brain-chip implant company, according to a report. Neuralink director Shivon Zilis had Musk’s child — whose name was not released — earlier this year, Bloomberg revealed Saturday. …",
+        "url": "https://freerepublic.com/focus/f-chat/4246107/posts",
+        "urlToImage": None,
+        "publishedAt": "2024-06-23T04:12:01Z",
+        "content": "Skip to comments.\r\nElon Musk Fathered a Third Child With Neuralink Executive Shivon Zilis: ReportNew York Post ^\r\n | June 22, 2024\r\n | Patrick Reilly\r\nPosted on 06/22/2024 9:12:01 PM PDT by nickcarra… [+2813 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Daily Beast"
+        },
+        "author": "The Daily Beast",
+        "title": "Elon Musk Secretly Had Third Child With Neuralink Exec: Report",
+        "description": "Marc Piasecki/Getty Images\r\nElon Musk secretly had a third child with Neuralink executive Shivon Zilis earlier this year, according to a new report from Bloomberg. The pair already have twins that Zilis gave birth to in 2021, just a few weeks before pop star …",
+        "url": "https://www.thedailybeast.com/elon-musk-secretly-had-third-child-with-neuralink-exec-report",
+        "urlToImage": "https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_1687,w_3000,x_0,y_108/dpr_2.0/c_limit,w_740/fl_lossy,q_auto/v1719112064/GettyImages-2158244111_wm6jc4",
+        "publishedAt": "2024-06-23T03:10:14Z",
+        "content": "Elon Musk secretly had a third child with Neuralink executive Shivon Zilis earlier this year, according to a new report from Bloomberg. The pair already have twins that Zilis gave birth to in 2021, j… [+674 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "nypost.com",
+        "title": "Elon Musk fathered a third child with Neuralink executive Shivon Zilis: report",
+        "description": "Musk, the world’s second richest man with some $200 billion, has fathered at least 12 children — six of them in the past five years — including three with Zillis and three with Canadian popstar Grimes, according to Bloomberg.\nMusk has previously joked that he…",
+        "url": "https://biztoc.com/x/1aafe1d931050aae",
+        "urlToImage": "https://biztoc.com/cdn/1aafe1d931050aae_s.webp",
+        "publishedAt": "2024-06-23T01:12:32Z",
+        "content": "Musk, the worlds second richest man with some $200 billion, has fathered at least 12 children six of them in the past five years including three with Zillis and three with Canadian popstar Grimes, ac… [+128 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Slashdot.org"
+        },
+        "author": "feedfeeder",
+        "title": "Elon Musk fathered a third child with Neuralink executive Shivon Zilis: report - New York Post",
+        "description": "Elon Musk fathered a third child with Neuralink executive Shivon Zilis: reportNew York Post Elon Musk has another secret child with exec at his brain implant companyThe Verge Elon Musk has a secret child, born earlier this year: ReportThe Times of India Elon …",
+        "url": "https://slashdot.org/firehose.pl?op=view&amp;id=174230839",
+        "urlToImage": None,
+        "publishedAt": "2024-06-23T01:12:13Z",
+        "content": "Sign up for the Slashdot newsletter! OR check out the new Slashdot job board to browse remote jobs or jobs in your areaDo you develop on GitHub? You can keep using GitHub but automatically sync your … [+268 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Page Six"
+        },
+        "author": "BreAnna Bell",
+        "title": "Elon Musk secretly welcomed third child with Neuralink exec Shivon Zilis earlier this year: report",
+        "description": "Musk previously welcomed twins with Zilis in November 2021.",
+        "url": "https://pagesix.com/2024/06/22/parents/elon-musk-secretly-welcomed-third-child-with-shivon-zilis-earlier-this-year-report/",
+        "urlToImage": "https://pagesix.com/wp-content/uploads/sites/3/2024/06/84296116.jpg?quality=75&strip=all&w=1024",
+        "publishedAt": "2024-06-23T00:44:55Z",
+        "content": "Congratulations may be in order for Elon Musk. \r\nAccording to Bloomberg, the billionaire allegedly welcomed his third child with top Neuralink executive Shivon Zilis earlier this year, bringing his b… [+1731 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "New York Post"
+        },
+        "author": "Patrick Reilly",
+        "title": "Elon Musk secretly fathered a third child with Neuralink executive: report",
+        "description": "Tesla CEO Elon Musk secretly fathered a third child with an executive at Neuralink, his brain-chip implant company, according to a report. Neuralink director Shivon Zilis had Musk’s child — whose name was not released — earlier this year, Bloomberg revealed S…",
+        "url": "https://nypost.com/2024/06/22/us-news/elon-musk-secretly-fathered-another-child-with-neuralink-executive-report/",
+        "urlToImage": "https://nypost.com/wp-content/uploads/sites/2/2024/06/84296469.jpg?quality=75&strip=all&w=1024",
+        "publishedAt": "2024-06-23T00:40:13Z",
+        "content": "Tesla CEO Elon Musk secretly fathered a third child with an executive at Neuralink, his brain-chip implant company, according to a report.\r\nNeuralink director Shivon Zilis had Musk’s child — whose na… [+2737 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "yahoo.com",
+        "title": "Elon Musk quietly had a 3rd child with his Neuralink executive Shivon Zilis",
+        "description": "Elon Musk quietly had a third child with Neuralink's Shivon Zilis, Bloomberg reported.\nMusk has at least 11 children, including five with his first wife and three with Grimes.\nMusk has faced scrutiny over his relationships with female employees at SpaceX.\nElo…",
+        "url": "https://biztoc.com/x/97a148144cbf5c68",
+        "urlToImage": "https://biztoc.com/cdn/97a148144cbf5c68_s.webp",
+        "publishedAt": "2024-06-22T12:09:02Z",
+        "content": "Elon Musk quietly had a third child with Neuralink's Shivon Zilis, Bloomberg reported.Musk has at least 11 children, including five with his first wife and three with Grimes.Musk has faced scrutiny o… [+129 chars]"
+    },
+    {
+        "source": {
+            "id": "the-times-of-india",
+            "name": "The Times of India"
+        },
+        "author": "The Feed",
+        "title": "Does Elon Musk have a secret child with Neuralink executive? The INSIDE story",
+        "description": "It is not yet known officially how many children Elon Musk has. But it is believed that the billionaire has 11 children- five with his first wife, the author Justine Wilson, three with the musician Grimes, and three with Neuralink executive Zilis.",
+        "url": "https://economictimes.indiatimes.com/news/international/us/does-elon-musk-have-a-secret-child-with-neuralink-executive-the-inside-story/articleshow/111176175.cms",
+        "urlToImage": "https://img.etimg.com/thumb/msid-111176173,width-1200,height-630,imgsize-1395174,overlay-economictimes/photo.jpg",
+        "publishedAt": "2024-06-21T20:32:43Z",
+        "content": "(Catch all the US News, UK News, Canada News, International Breaking News Events, and Latest News Updates on The Economic Times.)\r\nDownload The Economic Times News App to get Daily International News… [+8 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "businessinsider.com",
+        "title": "Elon Musk had third child with Neuralink exec Shivon Zilis",
+        "description": "Elon Musk quietly had a third child with Neuralink's Shivon Zilis, Bloomberg reported.\n- Musk has at least 11 children, including five with his first wife and three with Grimes.\n- Musk has faced scrutiny over his relationships with female employees at SpaceX.…",
+        "url": "https://biztoc.com/x/88816b67f82f628e",
+        "urlToImage": "https://biztoc.com/cdn/88816b67f82f628e_s.webp",
+        "publishedAt": "2024-06-21T20:28:50Z",
+        "content": "Elon Musk quietly had a third child with Neuralink's Shivon Zilis, Bloomberg reported.- Musk has at least 11 children, including five with his first wife and three with Grimes.- Musk has faced scruti… [+135 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Yahoo Entertainment"
+        },
+        "author": None,
+        "title": "Who is Shivon Zilis? Meet the Neuralink exec and AI expert who reportedly had a third child with Elon Musk",
+        "description": None,
+        "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_79cf9344-8763-4f3f-a710-88127e2b8f3d",
+        "urlToImage": None,
+        "publishedAt": "2024-06-21T19:30:35Z",
+        "content": "If you click 'Accept all', we and our partners, including 237 who are part of the IAB Transparency &amp; Consent Framework, will also store and/or access information on a device (in other words, use … [+678 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "businessinsider.com",
+        "title": "Elon Musk quietly had a third child with his Neuralink executive Shivon Zilis",
+        "description": "Elon Musk has 11 known children. \npicture alliance/Getty\nElon Musk quietly had a third child with Neuralink's Shivon Zilis, Bloomberg reported.\nMusk has at least 11 children, including five with his first wife and three with Grimes.\nMusk has faced scrutiny ov…",
+        "url": "https://biztoc.com/x/adbfa082e1cf7fb4",
+        "urlToImage": "https://biztoc.com/cdn/adbfa082e1cf7fb4_s.webp",
+        "publishedAt": "2024-06-21T16:45:58Z",
+        "content": "Elon Musk has 11 known children. picture alliance/GettyElon Musk quietly had a third child with Neuralink's Shivon Zilis, Bloomberg reported.Musk has at least 11 children, including five with his fir… [+137 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Yahoo Entertainment"
+        },
+        "author": None,
+        "title": "Elon Musk quietly had a third child with his Neuralink executive Shivon Zilis",
+        "description": None,
+        "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_5615eac9-a993-4317-a082-76676257fb93",
+        "urlToImage": None,
+        "publishedAt": "2024-06-21T16:35:07Z",
+        "content": "If you click 'Accept all', we and our partners, including 237 who are part of the IAB Transparency &amp; Consent Framework, will also store and/or access information on a device (in other words, use … [+678 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Quartz India"
+        },
+        "author": "Bruce Gil",
+        "title": "Neuralink competitor to test its brain chip in humans next year",
+        "description": "Austin-based startup Paradromics is developing a brain-computer interface to help people who have lost their ability to communicate verbally",
+        "url": "https://qz.com/neuralink-paradromics-1851553440",
+        "urlToImage": "https://i.kinja-img.com/image/upload/c_fill,h_675,pg_1,q_80,w_1200/62c893fc7530bae2de97c24e70fec01d.jpg",
+        "publishedAt": "2024-06-21T15:49:09Z",
+        "content": "Paradromics, an Austin-based neurotech startup, said it will start testing its brain-computer interface on humans next year.\r\nThe competitor to Elon Musks Neuralink was founded in 2015 and has raised… [+1651 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "businessinsider.com",
+        "title": "First Neuralink patient explains what could happen if his brain-chip implant gets hacked",
+        "description": "Noland Arbaugh said if he's connected to his computer, a hacker could in theory look at his texts and emails.\nSOPA Images/Getty\nNeuralink's first human patient discussed hacking concerns on Joe Rogan's podcast.\nNoland Arbaugh said a hacker could, in theory, s…",
+        "url": "https://biztoc.com/x/a93c2cb862ec3a74",
+        "urlToImage": "https://biztoc.com/cdn/a93c2cb862ec3a74_s.webp",
+        "publishedAt": "2024-06-21T15:17:19Z",
+        "content": "Noland Arbaugh said if he's connected to his computer, a hacker could in theory look at his texts and emails.SOPA Images/GettyNeuralink's first human patient discussed hacking concerns on Joe Rogan's… [+140 chars]"
+    },
+    {
+        "source": {
+            "id": "business-insider",
+            "name": "Business Insider"
+        },
+        "author": "Ana Altchek",
+        "title": "First Neuralink patient explains what could happen if his brain-chip implant gets hacked",
+        "description": "Noland Arbaugh said if he's connected to his computer, a hacker could control his cursor and access personal files.",
+        "url": "https://www.businessinsider.com/what-happens-if-neuralink-brain-implant-chip-hacked-2024-6",
+        "urlToImage": "https://i.insider.com/667495bd886e840164be9577?width=1200&format=jpeg",
+        "publishedAt": "2024-06-21T15:10:14Z",
+        "content": "Noland Arbaugh said if he's connected to his computer, a hacker could in theory look at his texts and emails.SOPA Images/Getty\r\n<ul><li>Neuralink's first human patient discussed hacking concerns on J… [+2794 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "benzinga.com",
+        "title": "Elon Musk's Neuralink Rival Paradromics Gears Up For Human Trials Of Brain Implant",
+        "description": "Neurotech startup Paradromics is gearing up to conduct human trials of its brain implant in the coming year, marking its entry into the competitive brain-computer interface (BCI) market where Elon Musk’s Neuralink is dominating the headlines.\nWhat Happened: P…",
+        "url": "https://biztoc.com/x/605d871ddbdadba4",
+        "urlToImage": "https://biztoc.com/cdn/605d871ddbdadba4_s.webp",
+        "publishedAt": "2024-06-21T13:48:22Z",
+        "content": "Neurotech startup Paradromics is gearing up to conduct human trials of its brain implant in the coming year, marking its entry into the competitive brain-computer interface (BCI) market where Elon Mu… [+132 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "cnbc.com",
+        "title": "Neuralink competitor Paradromics gears up to test its brain implant on humans",
+        "description": "Neurotech start-up Paradromics will be trialling its brain implant next year, as the race to be the leader in the brain computer interface (BCI) space heats up.",
+        "url": "https://biztoc.com/x/af0b2393b90b22f5",
+        "urlToImage": "https://biztoc.com/cdn/799/og.png",
+        "publishedAt": "2024-06-21T11:46:44Z",
+        "content": "Neurotech start-up Paradromics will be trialling its brain implant next year, as the race to be the leader in the brain computer interface (BCI) space heats up.\r\nThis story appeared on cnbc.com, 2024… [+6 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "CNBC"
+        },
+        "author": None,
+        "title": "Neuralink competitor Paradromics gears up to test its brain implant on humans",
+        "description": "Neurotech start-up Paradromics will be trialling its brain implant next year, as the race to be the leader in the brain computer interface (BCI) space heats up.",
+        "url": "https://www.cnbc.com/2024/06/21/paradromics-gears-up-to-test-its-brain-implant-on-humans.html",
+        "urlToImage": "https://image.cnbcfm.com/api/v1/image/107431586-1718962289235-3_Paradromics_System_Medical_Illustration_2_of_2.png?v=1718963194&w=1920&h=1080",
+        "publishedAt": "2024-06-21T11:36:15Z",
+        "content": "Neurotech start-up Paradromics will be trialing its brain implant next year, as the race to be the leader in the nascent brain-computer interface (BCI) space heats up.\r\n\"The brain is a super fascinat… [+2625 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "benzinga.com",
+        "title": "Elon Musk's Neuralink Patient Noland Arbaugh Set For Another Implant, Says Right Brian Hemisphere Jealous Of Left: 'If You Just Want To Replace My Entire Skull….'",
+        "description": "Noland Arbaugh, the first human recipient of a Neuralink implant, is preparing to receive a second brain-computer interface implant. This was announced by Neuaralink Corp. founder Elon Musk on social media.\nWhat Happened: On Thursday, Musk took to X, formerly…",
+        "url": "https://biztoc.com/x/9942cb0df1d0e412",
+        "urlToImage": "https://biztoc.com/cdn/9942cb0df1d0e412_s.webp",
+        "publishedAt": "2024-06-21T01:59:53Z",
+        "content": "Noland Arbaugh, the first human recipient of a Neuralink implant, is preparing to receive a second brain-computer interface implant. This was announced by Neuaralink Corp. founder Elon Musk on social… [+134 chars]"
+    },
+    {
+        "source": {
+            "id": "the-times-of-india",
+            "name": "The Times of India"
+        },
+        "author": "The Feed",
+        "title": "Trouble brews for Elon Musk as former woman employee sues Neuralink. Know in detail what she has said in lawsuit",
+        "description": "Lindsay Short is a former employee of Elon Musk's company Neuralink. She has filed a lawsuit against the company accusing it of failing to provide proper protective equipment and sacking her for being pregnant.",
+        "url": "https://economictimes.indiatimes.com/news/international/us/trouble-brews-for-elon-musk-as-former-woman-employee-sues-neuralink-know-in-detail-what-she-has-said-in-lawsuit/articleshow/111121070.cms",
+        "urlToImage": "https://img.etimg.com/thumb/msid-111121072,width-1200,height-630,imgsize-14278,overlay-economictimes/photo.jpg",
+        "publishedAt": "2024-06-19T19:07:52Z",
+        "content": "Billionaire entrepreneur Elon Musk has been caught in a controversy once again. A former employee has sued his company Neuralink accusing it of sacking her when she told her seniors that she was preg… [+2292 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Yahoo Entertainment"
+        },
+        "author": None,
+        "title": "Elon Musk’s Neuralink sued by staffer who claims she was exposed to herpes by infected lab monkeys",
+        "description": None,
+        "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_5a4f1b91-5a6a-4ead-8405-e3e386dedd84",
+        "urlToImage": None,
+        "publishedAt": "2024-06-18T18:39:48Z",
+        "content": "If you click 'Accept all', we and our partners, including 237 who are part of the IAB Transparency &amp; Consent Framework, will also store and/or access information on a device (in other words, use … [+678 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "[Removed]"
+        },
+        "author": None,
+        "title": "[Removed]",
+        "description": "[Removed]",
+        "url": "https://removed.com",
+        "urlToImage": None,
+        "publishedAt": "1970-01-01T00:00:00Z",
+        "content": "[Removed]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "businessinsider.com",
+        "title": "Elon Musk's gamer streams are a new way to hear him riff on Tesla, SpaceX, and Neuralink",
+        "description": "Tesla CEO Elon Musk.\nBeata Zawrzel/NurPhoto via Getty Images\nFans can tune into Elon Musk's gamer livestreams on X, which can last multiple hours.\nMusk streams under the handle cyb3rgam3r420 and plays games and answers questions via the chat.\nRecently, Musk t…",
+        "url": "https://biztoc.com/x/08cd2b74b4a76db1",
+        "urlToImage": "https://biztoc.com/cdn/08cd2b74b4a76db1_s.webp",
+        "publishedAt": "2024-06-18T09:56:35Z",
+        "content": "Tesla CEO Elon Musk.Beata Zawrzel/NurPhoto via Getty ImagesFans can tune into Elon Musk's gamer livestreams on X, which can last multiple hours.Musk streams under the handle cyb3rgam3r420 and plays g… [+135 chars]"
+    },
+    {
+        "source": {
+            "id": "business-insider",
+            "name": "Business Insider"
+        },
+        "author": "Jaures Yip",
+        "title": "Elon Musk's gamer streams are a new way to hear him riff on Tesla, SpaceX, and Neuralink",
+        "description": "Elon Musk has been streaming video games on X while talking about future plans with Tesla, SpaceX, Neuralink, and more.",
+        "url": "https://www.businessinsider.com/elon-musk-gamer-streams-riff-on-tesla-spacex-neuralink-2024-6",
+        "urlToImage": "https://i.insider.com/66708cf6ed9a404d829e74bf?width=1200&format=jpeg",
+        "publishedAt": "2024-06-18T09:43:02Z",
+        "content": "Tesla CEO Elon Musk.Beata Zawrzel/NurPhoto via Getty Images\r\n<ul><li>Fans can tune into Elon Musk's gamer livestreams on X, which can last multiple hours.</li><li>Musk streams under the handle cyb3rg… [+3160 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "TweakTown"
+        },
+        "author": "Jak Connor",
+        "title": "Former Neuralink employee sues after herpes-infected monkey attack",
+        "description": "Elon Musk's brain-implant startup Neuralink is facing a lawsuit from a former employee who claims she was attacked by a monkey carrying Herpes B. Continue reading at TweakTown >",
+        "url": "https://www.tweaktown.com/news/98884/former-neuralink-employee-sues-after-herpes-infected-monkey-attack/index.html",
+        "urlToImage": "https://static.tweaktown.com/news/9/8/98884_6515665_former-neuralink-employee-sues-after-herpes-infected-monkey-attack_full.png",
+        "publishedAt": "2024-06-18T09:35:03Z",
+        "content": "A former Neuralink employee has filed a lawsuit against Elon Musk's brain implant company following an incident with a monkey that was carrying Herpes.\r\nLindsay Short claims she was fired from Neural… [+1157 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "nypost.com",
+        "title": "Neuralink employee was scratched by monkeys infected with herpes and fired after she became pregnant, suit claims",
+        "description": "A former employee at Elon Musk’s brain chip company Neuralink alleged that a monkey infected with the Herpes B virus scratched her and that she was fired after informing her superiors that she was pregnant, according to a lawsuit.\nLindsay Short, who started w…",
+        "url": "https://biztoc.com/x/3489410d3136404d",
+        "urlToImage": "https://biztoc.com/cdn/3489410d3136404d_s.webp",
+        "publishedAt": "2024-06-17T19:08:22Z",
+        "content": "A former employee at Elon Musks brain chip company Neuralink alleged that a monkey infected with the Herpes B virus scratched her and that she was fired after informing her superiors that she was pre… [+130 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "go.theregister.com",
+        "title": "Wrongful termination lawsuit accuses Neuralink of Herpes B-infected monkey business",
+        "description": "Forced to work through lunch, attacked by virus-carrying primates, and sacked for being pregnant – allegedly\nAnother week, another lawsuit for an Elon Musk-owned company, this one filed by a former Neuralink employee claiming she was twice scratched by lab mo…",
+        "url": "https://biztoc.com/x/d4ce27f05a3b68da",
+        "urlToImage": "https://biztoc.com/cdn/799/og.png",
+        "publishedAt": "2024-06-17T18:45:00Z",
+        "content": "Forced to work through lunch, attacked by virus-carrying primates, and sacked for being pregnant allegedlyAnother week, another lawsuit for an Elon Musk-owned company, this one filed by a former Neur… [+139 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Theregister.com"
+        },
+        "author": "Richard Currie",
+        "title": "Wrongful termination lawsuit accuses Neuralink of Herpes B-infected monkey business",
+        "description": "Forced to work through lunch, attacked by virus-carrying primates, and sacked for being pregnant – allegedly\nAnother week, another lawsuit for an Elon Musk-owned company, this one filed by a former Neuralink employee claiming she was twice scratched by lab mo…",
+        "url": "https://www.theregister.com/2024/06/17/neuralink_monkey_attack_lawsuit/",
+        "urlToImage": "https://regmedia.co.uk/2024/06/17/shutterstock_rhesusmacaque.jpg",
+        "publishedAt": "2024-06-17T18:30:15Z",
+        "content": "Another week, another lawsuit for an Elon Musk-owned company, this one filed by a former Neuralink employee claiming she was twice scratched by lab monkeys carrying the Herpes B virus, which is poten… [+5134 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Quartz India"
+        },
+        "author": "Ben Kesslen",
+        "title": "A Neuralink employee says she was scratched by a herpes-infected monkey",
+        "description": "A former employee of Elon Musk’s controversial brain implant company Neuralink alleged in a new lawsuit that she was scratched by a monkey infected with herpes on the job and was later fired for being pregnant.Read more...",
+        "url": "https://qz.com/neuralink-employee-scratched-herpes-monkey-lawsuit-1851544332",
+        "urlToImage": "https://i.kinja-img.com/image/upload/c_fill,h_675,pg_1,q_80,w_1200/374c11164082dcc00eb8a4adbd1795cc.jpg",
+        "publishedAt": "2024-06-17T16:46:25Z",
+        "content": "A former employee of Elon Musks controversial brain implant company Neuralink alleged in a new lawsuit that she was scratched by a monkey infected with herpes on the job and was later fired for being… [+1921 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "New York Post"
+        },
+        "author": "Ariel Zilber",
+        "title": "Neuralink employee was scratched by monkeys infected with herpes and fired after she became pregnant, suit claims",
+        "description": "Lindsay Short, who worked at Neuralink as an animal care specialist, accused her former company of failing to provide adequate protective gear.",
+        "url": "https://nypost.com/2024/06/17/business/neuralink-employee-was-scratched-by-monkeys-infected-with-herpes-and-fired-after-she-became-pregnant-suit-claims/",
+        "urlToImage": "https://nypost.com/wp-content/uploads/sites/2/2024/06/83981033.jpg?quality=75&strip=all&w=1024",
+        "publishedAt": "2024-06-17T16:40:49Z",
+        "content": "A former employee at Elon Musk’s brain chip company Neuralink alleged that a monkey infected with the Herpes B virus scratched her and that she was fired after informing her superiors that she was pr… [+4692 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Yahoo Entertainment"
+        },
+        "author": None,
+        "title": "Neuralink employee was scratched by monkeys infected with herpes and fired after she became pregnant, suit claims",
+        "description": None,
+        "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_b964ae11-94e1-4759-8871-63edcb63a0ee",
+        "urlToImage": None,
+        "publishedAt": "2024-06-17T16:40:49Z",
+        "content": "If you click 'Accept all', we and our partners, including 238 who are part of the IAB Transparency &amp; Consent Framework, will also store and/or access information on a device (in other words, use … [+678 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Futurism"
+        },
+        "author": "Victor Tangermann",
+        "title": "Fired Neuralink Employee Sues, Says She Was Attacked by Lab Monkey Carrying Herpes",
+        "description": "A former employee at Elon Musk's brain-computer interface startup Neuralink is suing the company, alleging that she was forced to work with lab monkeys that carried Herpes and was close enough to have her bare skin scratched by them. As Bloomberg reports, the…",
+        "url": "https://futurism.com/neoscope/neuralink-employee-sues-lab-monkey",
+        "urlToImage": "https://wp-assets.futurism.com/2024/06/neuralink-employee-sues-lab-monkey.jpg",
+        "publishedAt": "2024-06-17T15:51:26Z",
+        "content": "Image byJEAN-FRANCOIS MONIER / AFP) (Photo by JEAN-FRANCOIS MONIER/AFP via Getty Images\r\nA former employee at Elon Musk's brain-computer interface startup Neuralink is suing the company, alleging tha… [+2564 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "The Punch"
+        },
+        "author": "Agency Report",
+        "title": "Former employee sues Neuralink",
+        "description": "Elon Musk’s brain-implant startup, Neuralink Corp., forced an employee to work with monkeys that carried the Herpes B virus in conditions in which the animals scratched her bare skin, according to a complaint filed Friday in state court in California. The emp…",
+        "url": "https://punchng.com/former-employee-sues-neuralink/",
+        "urlToImage": "https://cdn.punchng.com/wp-content/uploads/2023/05/26220648/Is-Elon-Musks-Neuralink.jpg",
+        "publishedAt": "2024-06-16T23:00:34Z",
+        "content": "Elon Musks brain-implant startup, Neuralink Corp., forced an employee to work with monkeys that carried the Herpes B virus in conditions in which the animals scratched her bare skin, according to a c… [+2004 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "fortune.com",
+        "title": "Elon Musk's Neuralink forced a pregnant employee to work with herpes-infected monkeys that scratched her, lawsuit says",
+        "description": "Elon Musk’s brain-implant startup Neuralink Corp. forced an employee to work with monkeys that carried the Herpes B virus in conditions in which the animals scratched her bare skin, according to a complaint filed Friday in state court in California.\nThe emplo…",
+        "url": "https://biztoc.com/x/1f561b870bc950d6",
+        "urlToImage": "https://biztoc.com/cdn/799/og.png",
+        "publishedAt": "2024-06-16T22:18:56Z",
+        "content": "Elon Musks brain-implant startup Neuralink Corp. forced an employee to work with monkeys that carried the Herpes B virus in conditions in which the animals scratched her bare skin, according to a com… [+135 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Twistedsifter.com"
+        },
+        "author": "Trisha Leigh",
+        "title": "Sources Say Neuralink Went Ahead With Human Implantation Knowing The Risk Of Malfunction Was High",
+        "description": "I don't think I'd sign up for the trials anytime soon.",
+        "url": "http://twistedsifter.com/2024/06/sources-say-neuralink-went-ahead-with-human-implantation-knowing-the-risk-of-malfunction-was-high/",
+        "urlToImage": "https://twistedsifter.com/wp-content/uploads/2024/06/NeuralinkTestSubject.jpg",
+        "publishedAt": "2024-06-16T19:11:34Z",
+        "content": "There’s not much that Elon Musk or his companies do these days that gets positive press.\r\nBetween Neuralink’s hasty advance to human trials and their battered (and sometimes deceased) monkey patients… [+2579 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "fortune.com",
+        "title": "Elon Musk's Neuralink forced a pregnant employee to work with herpes-infected monkeys that scratched her, lawsuit says",
+        "description": "The startup is in the early stages of clinical trials for its device, which is aimed at restoring function for paralyzed patients. Read More",
+        "url": "https://biztoc.com/x/ae233515dde2c0f0",
+        "urlToImage": "https://biztoc.com/cdn/799/og.png",
+        "publishedAt": "2024-06-16T15:59:04Z",
+        "content": "The startup is in the early stages of clinical trials for its device, which is aimed at restoring function for paralyzed patients. Read More\r\nThis story appeared on fortune.com, 2024-06-16."
+    },
+    {
+        "source": {
+            "id": "fortune",
+            "name": "Fortune"
+        },
+        "author": "Sarah McBride, Bloomberg",
+        "title": "Elon Musk's Neuralink forced a pregnant employee to work with herpes-infected monkeys that scratched her, lawsuit says",
+        "description": "The startup is in the early stages of clinical trials for its device, which is aimed at restoring function for paralyzed patients.",
+        "url": "https://fortune.com/2024/06/16/elon-musk-neuralink-herpes-monkeys-pregnant-employee-lawsuit/",
+        "urlToImage": "https://fortune.com/img-assets/wp-content/uploads/2024/06/GettyImages-1963646780-e1718552105327.jpg?resize=1200,600",
+        "publishedAt": "2024-06-16T15:45:57Z",
+        "content": "Elon Musks brain-implant startup Neuralink Corp. forced an employee to work with monkeys that carried the Herpes B virus in conditions in which the animals scratched her bare skin, according to a com… [+1999 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "NDTV News"
+        },
+        "author": None,
+        "title": "Neuralink Forced Employee To Work With Monkeys With Herpes, She Sued Them",
+        "description": "Elon Musk's brain-implant startup Neuralink Corp. forced an employee to work with monkeys that carried the Herpes B virus in conditions in which the animals scratched her bare skin, according to a complaint filed Friday in state court in California.",
+        "url": "https://www.ndtv.com/world-news/elon-musks-neuralink-forced-employee-to-work-with-monkeys-with-herpes-she-sues-them-5893833",
+        "urlToImage": "https://c.ndtvimg.com/2024-06/q54gnc38_neuralink-_625x300_15_June_24.jpeg?ver-20240615.100",
+        "publishedAt": "2024-06-15T02:17:07Z",
+        "content": "Elon Musk's brain-implant startup Neuralink is in the early stages of clinical trials for its device\r\nElon Musk's brain-implant startup Neuralink Corp. forced an employee to work with monkeys that ca… [+2236 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Yahoo Entertainment"
+        },
+        "author": None,
+        "title": "Former Neuralink Staffer Sues After Scratches From Herpes Monkey",
+        "description": None,
+        "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_031a0033-3bfa-405a-b9c3-f330d0f86533",
+        "urlToImage": None,
+        "publishedAt": "2024-06-15T00:30:47Z",
+        "content": "If you click 'Accept all', we and our partners, including 238 who are part of the IAB Transparency &amp; Consent Framework, will also store and/or access information on a device (in other words, use … [+678 chars]"
+    }
+]
+
+anthropic = [
+    {
+        "source": {
+            "id": None,
+            "name": "Amazon.com"
+        },
+        "author": "Qingwei Li",
+        "title": "Anthropic Claude 3.5 Sonnet ranks number 1 for business and finance in S&P AI Benchmarks by Kensho",
+        "description": "Anthropic Claude 3.5 Sonnet currently ranks at the top of S&P AI Benchmarks by Kensho, which assesses large language models (LLMs) for finance and business. Kensho is the AI Innovation Hub for S&P Global. Using Amazon Bedrock, Kensho was able to quickly run A…",
+        "url": "https://aws.amazon.com/blogs/machine-learning/anthropic-claude-3-5-sonnet-ranks-number-1-for-business-and-finance-in-sp-ai-benchmarks-by-kensho/",
+        "urlToImage": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2024/07/09/anthropic-claude-sonnet-ranks-number-one-1120x630.jpg",
+        "publishedAt": "2024-07-09T20:09:02Z",
+        "content": "Anthropic Claude 3.5 Sonnet currently ranks at the top of S&amp;P AI Benchmarks by Kensho, which assesses large language models (LLMs) for finance and business. Kensho is the AI Innovation Hub for S&… [+11923 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Livedoor.com"
+        },
+        "author": "GIGAZINE（ギガジン）",
+        "title": "「AIのトレーニングにかかるコストはわずか3年で1000億ドルに上昇するかもしれない」とAnthropicのCEOが予想",
+        "description": "チャットAI「Claude」などを開発するAI企業「Anthropic」のダリオ・アモデイCEOが、「2025年から2027年にかけての3年間で、AIのトレーニングコストが100億ドル(約1兆6000億円)～1000億ドル(約16兆円)にまで上昇する可能性があります」と主張しています。Dario Amodei - CEO of Anthropic | Podcast | In Good Company | Norges Bank Investment Management - YouTubeAI models t…",
+        "url": "https://news.livedoor.com/article/detail/26747914/",
+        "urlToImage": "https://image.news.livedoor.com/newsimage/stf/0/5/059a6_88_6893a89c5a6247a435b9a52d72a3e850.jpg",
+        "publishedAt": "2024-07-08T01:58:00Z",
+        "content": "AIClaudeAIAnthropicCEO202520273AI100(16000)1000(16)\r\nDario Amodei - CEO of Anthropic | Podcast | In Good Company | Norges Bank Investment Management - YouTube\r\nAI models that cost $1 billion to train… [+870 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Tom's Hardware UK"
+        },
+        "author": "Jowi Morales",
+        "title": "AI models that cost $1 billion to train are underway, $100 billion models coming — largest current models take 'only' $100 million to train: Anthropic CEO",
+        "description": "Anthropic CEO Dario Amodei says AI model training costs could jump to $100 billion as early as next year.",
+        "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-models-that-cost-dollar1-billion-to-train-are-in-development-dollar100-billion-models-coming-soon-largest-current-models-take-only-dollar100-million-to-train-anthropic-ceo",
+        "urlToImage": "https://cdn.mos.cms.futurecdn.net/sdXW5puLMXMbGTjqSqYXkD-1200-80.jpg",
+        "publishedAt": "2024-07-07T15:29:55Z",
+        "content": "Anthropic CEO Dario Amodei said in the In Good Company podcast that AI models in development today can cost up to $1 billion to train. Current models like ChatGPT-4o only cost about $100 million, but… [+3402 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "WebProNews"
+        },
+        "author": "Matt Milano",
+        "title": "Anthropic Calls For A New Way To Evaluate AI",
+        "description": "Anthropic, one of the leaders in AI development, is calling for proposals to help \"fund evaluations developed by third-party organizations.\"",
+        "url": "https://www.webpronews.com/anthropic-calls-for-a-new-way-to-evaluate-ai/",
+        "urlToImage": "https://i0.wp.com/www.webpronews.com/wp-content/uploads/2023/12/Anthropic.jpg?fit=1700%2C956&ssl=1",
+        "publishedAt": "2024-07-03T13:00:00Z",
+        "content": "Anthropic, one of the leaders in AI development, is calling for proposals to help “fund evaluations developed by third-party organizations.”\r\nProperly evaluating AI’s potential is a growing challenge… [+6780 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "ReadWrite"
+        },
+        "author": "Rachael Davies",
+        "title": "AI safety and research company Anthropic calls for proposals to evaluate advanced models",
+        "description": "Anthropic, a company that does research into AI safety, is calling for proposals on ways to evaluate advanced learning models.… Continue reading AI safety and research company Anthropic calls for proposals to evaluate advanced models\nThe post AI safety and re…",
+        "url": "https://readwrite.com/anthropic-ai-research-learning/",
+        "urlToImage": "https://readwrite.com/wp-content/uploads/2024/07/AI-evalutations.webp",
+        "publishedAt": "2024-07-03T02:31:03Z",
+        "content": "Anthropic, a company that does research into AI safety, is calling for proposals on ways to evaluate advanced learning models.\r\nThe rapid growth of AI means there are new AI providers and models all … [+1694 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Digital Trends"
+        },
+        "author": "Andrew Tarantola",
+        "title": "Anthropic aims to fix one of the biggest problems in AI right now",
+        "description": "Anthropic announced Monday that it will launch a program funding development of third-party benchmark tests against which to evaluate its upcoming AI models.",
+        "url": "https://www.digitaltrends.com/computing/anthropic-ai-benchmark-funding-program/",
+        "urlToImage": "https://www.digitaltrends.com/wp-content/uploads/2024/06/claudetop.webp?resize=1200%2C630&p=1",
+        "publishedAt": "2024-07-02T18:00:57Z",
+        "content": "Anthropic\r\nHot on the heels of the announcement that its Claude 3.5 Sonnet large language model beat out other leading models, including GPT-4o and Llama-400B, AI startup Anthropic announced Monday t… [+1785 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "WebProNews"
+        },
+        "author": "Matt Milano",
+        "title": "Apple May Include Google Gemini At A.I. Launch, Anthropic May Onboard Later",
+        "description": "The latest report indicates that Apple may include Google Gemini alongside ChatGPT when its Apple Intelligence (A.I.) launches, with Anthropic a possible later addition.",
+        "url": "https://www.webpronews.com/apple-may-include-google-gemini-at-a-i-launch-anthropic-may-onboard-later/",
+        "urlToImage": "https://www.webpronews.com/wp-content/uploads/2024/06/Apple-WWDC-2024-Apple-Intelligence-Credit-Apple.jpg",
+        "publishedAt": "2024-07-02T16:30:59Z",
+        "content": "The latest report indicates that Apple may include Google Gemini alongside ChatGPT when its Apple Intelligence (A.I.) launches, with Anthropic a possible later addition.\r\nApple unveiled A.I. at WWDC … [+1843 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "inc.com",
+        "title": "As AI Rises, Startup Anthropic Wants Other People to Invent Tools to Measure if it’s Safe or Threatening",
+        "description": "To keep AIs safe, Anthropic is offering grants to third parties to develop \"benchmarks\" that will assess the effectiveness and potential threats from new AI models.",
+        "url": "https://biztoc.com/x/13cd614a1b7c06a2",
+        "urlToImage": "https://biztoc.com/cdn/13cd614a1b7c06a2_s.webp",
+        "publishedAt": "2024-07-02T16:22:49Z",
+        "content": "To keep AIs safe, Anthropic is offering grants to third parties to develop \"benchmarks\" that will assess the effectiveness and potential threats from new AI models.\r\nThis story appeared on inc.com, 2… [+9 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Gadgets360.com"
+        },
+        "author": "Akash Dutta, Siddharth Suvarna",
+        "title": "Anthropic to Fund Initiative to Develop New Third-Party AI Benchmarks to Assess AI Models",
+        "description": "Anthropic announced a new initiative to develop new benchmarks to test the capabilities of advanced artificial intelligence (AI) models on Tuesday. The AI firm will be funding the project and has invited applications from interested entities. The company said…",
+        "url": "https://www.gadgets360.com/ai/news/anthropic-fund-initiative-ai-third-party-benchmarks-ai-models-development-6018025",
+        "urlToImage": "https://i.gadgets360cdn.com/large/claude_app_1719920364720.jpg",
+        "publishedAt": "2024-07-02T12:04:19Z",
+        "content": "Anthropic announced a new initiative to develop new benchmarks to test the capabilities of advanced artificial intelligence (AI) models on Tuesday. The AI firm will be funding the project and has inv… [+2364 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "InfoWorld"
+        },
+        "author": "Gyana Swain",
+        "title": "Anthropic launches fund to measure capabilities of AI models",
+        "description": "AI research is hurtling forward, but our ability to assess its capabilities and potential risks appears to be lagging behind. To bridge this critical gap, and recognize the current limitations in third-party evaluation ecosystems, Anthropic has started an ini…",
+        "url": "https://www.infoworld.com/article/3715709/anthropic-launches-fund-to-measure-capabilities-of-ai-models.html",
+        "urlToImage": "https://images.idgesg.net/images/idge/imported/imageapi/2023/10/26/19/istock-1167639112-2-100947781-large.jpg?auto=webp&quality=85,70",
+        "publishedAt": "2024-07-02T12:00:00Z",
+        "content": "AI research is hurtling forward, but our ability to assess its capabilities and potential risks appears to be lagging behind. To bridge this critical gap, and recognize the current limitations in thi… [+5260 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "SiliconANGLE News"
+        },
+        "author": "Mike Wheatley",
+        "title": "Anthropic launches new program to fund the creation of more reliable AI benchmarks",
+        "description": "Generative artificial intelligence startup Anthropic PBC wants to prove that its large language models are the best in the business. To do that, it has announced the launch of a new program that will incentivize researchers to create new industry benchmarks t…",
+        "url": "https://siliconangle.com/2024/07/01/anthropic-launches-new-program-fund-creation-reliable-ai-benchmarks/",
+        "urlToImage": "https://d15shllkswkct0.cloudfront.net/wp-content/blogs.dir/1/files/2024/07/document-3.jpeg",
+        "publishedAt": "2024-07-02T02:13:07Z",
+        "content": "Generative artificial intelligence startup Anthropic PBC wants to prove that its large language models are the best in the business. To do that, it has announced the launch of a new program that will… [+4699 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Slashdot.org"
+        },
+        "author": "msmash",
+        "title": "Anthropic Looks To Fund a New, More Comprehensive Generation of AI Benchmarks",
+        "description": "AI firm Anthropic launched a funding program Monday to develop new benchmarks for evaluating AI models, including its chatbot Claude. The initiative will pay third-party organizations to create metrics for assessing advanced AI capabilities. Anthropic aims to…",
+        "url": "https://slashdot.org/story/24/07/02/022219/anthropic-looks-to-fund-a-new-more-comprehensive-generation-of-ai-benchmarks",
+        "urlToImage": "https://a.fsdn.com/sd/topics/ai_64.png",
+        "publishedAt": "2024-07-02T02:02:00Z",
+        "content": "As we've highlighted before, AI has a benchmarking problem. The most commonly cited benchmarks for AI today do a poor job of capturing how the average person actually uses the systems being tested. T… [+388 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "techcrunch.com",
+        "title": "Anthropic looks to fund a new, more comprehensive generation of AI benchmarks",
+        "description": "Unveiled on Monday, Anthropic’s program will dole out grants to third-party organizations that can, as the company puts it in a blog post, “effectively measure advanced capabilities in AI models.” Those interested can submit applications to be evaluated on a …",
+        "url": "https://biztoc.com/x/591323115707bb7f",
+        "urlToImage": "https://biztoc.com/cdn/799/og.png",
+        "publishedAt": "2024-07-01T23:56:08Z",
+        "content": "Unveiled on Monday, Anthropics program will dole out grants to third-party organizations that can, as the company puts it in a blog post, effectively measure advanced capabilities in AI models. Those… [+125 chars]"
+    },
+    {
+        "source": {
+            "id": "techcrunch",
+            "name": "TechCrunch"
+        },
+        "author": "Kyle Wiggers",
+        "title": "Anthropic looks to fund a new, more comprehensive generation of AI benchmarks | TechCrunch",
+        "description": "Anthropic has launched a new program to fund the creation of AI benchmarks, tooling and evaluation techniques.",
+        "url": "https://techcrunch.com/2024/07/01/anthropic-looks-to-fund-a-new-more-comprehensive-generation-of-ai-benchmarks/",
+        "urlToImage": "https://techcrunch.com/wp-content/uploads/2024/06/YouTube-Thumb-Text-2-3.png?resize=1200,675",
+        "publishedAt": "2024-07-01T23:54:48Z",
+        "content": "Anthropic is launching a program to fund the development of new types of benchmarks capable of evaluating the performance and impact of AI models, including generative models like its own Claude.\r\nUn… [+4271 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Yahoo Entertainment"
+        },
+        "author": None,
+        "title": "Anthropic looks to fund a new, more comprehensive generation of AI benchmarks",
+        "description": None,
+        "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_9a939a39-a63d-4bf5-9731-e78c3e7ffcb0",
+        "urlToImage": None,
+        "publishedAt": "2024-07-01T23:45:59Z",
+        "content": "If you click 'Accept all', we and our partners, including 237 who are part of the IAB Transparency &amp; Consent Framework, will also store and/or access information on a device (in other words, use … [+678 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Amazon.com"
+        },
+        "author": "Rony Roy",
+        "title": "Indian language RAG with Cohere multilingual embeddings and Anthropic Claude 3 on Amazon Bedrock",
+        "description": "Media and entertainment companies serve multilingual audiences with a wide range of content catering to diverse audience segments. These enterprises have access to massive amounts of data collected over their many years of operations. Much of this data is uns…",
+        "url": "https://aws.amazon.com/blogs/machine-learning/indian-language-rag-with-cohere-multilingual-embeddings-and-anthropic-claude-3-on-amazon-bedrock/",
+        "urlToImage": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2024/06/21/Featured-image-1228x630.png",
+        "publishedAt": "2024-07-01T18:38:00Z",
+        "content": "Media and entertainment companies serve multilingual audiences with a wide range of content catering to diverse audience segments. These enterprises have access to massive amounts of data collected o… [+14785 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "fortune.com",
+        "title": "Bridgewater starts $2 billion fund that uses machine learning for decision-making and will include models from OpenAI, Anthropic and Perplexity",
+        "description": "Bridgewater’s humans will aid the machine-learning process for a number of functions including risk management, data acquisition and trade execution. Read More",
+        "url": "https://biztoc.com/x/d85de16d6496a574",
+        "urlToImage": "https://biztoc.com/cdn/d85de16d6496a574_s.webp",
+        "publishedAt": "2024-07-01T16:43:16Z",
+        "content": "Bridgewaters humans will aid the machine-learning process for a number of functions including risk management, data acquisition and trade execution. Read More\r\nThis story appeared on fortune.com, 202… [+7 chars]"
+    },
+    {
+        "source": {
+            "id": "fortune",
+            "name": "Fortune"
+        },
+        "author": "Sonali Basak, Bloomberg",
+        "title": "Bridgewater starts $2 billion fund that uses machine learning for decision-making and will include models from OpenAI, Anthropic and Perplexity",
+        "description": "Bridgewater’s humans will aid the machine-learning process for a number of functions including risk management, data acquisition and trade execution.",
+        "url": "https://fortune.com/2024/07/01/bridgewater-2-billion-fund-machine-learning-decision-making-openai-anthropic-perplexity/",
+        "urlToImage": "https://fortune.com/img-assets/wp-content/uploads/2024/07/GettyImages-1929081243-e1719850538436.jpg?resize=1200,600",
+        "publishedAt": "2024-07-01T16:28:42Z",
+        "content": "Bridgewater Associates is launching a fund that uses machine learning as the primary basis of its decision-making.The vehicle will debut with almost $2 billion of capital from more than a half-dozen … [+3718 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Lukemuehlhauser.com"
+        },
+        "author": "sarimkx",
+        "title": "Why I Resigned From The Anthropic Board",
+        "description": "Article URL: https://lukemuehlhauser.com/why-i-resigned-from-the-anthropic-board/\nComments URL: https://news.ycombinator.com/item?id=40816823\nPoints: 6\n# Comments: 0",
+        "url": "https://lukemuehlhauser.com/why-i-resigned-from-the-anthropic-board/",
+        "urlToImage": None,
+        "publishedAt": "2024-06-28T01:00:54Z",
+        "content": "On May 28th, I resigned from the Anthropic Board of Directors (announced here).\r\nNaturally, many people have asked why I resigned. In the wake of many recentsafety-relatedresignations at OpenAI, some… [+625 chars]"
+    },
+    {
+        "source": {
+            "id": "techradar",
+            "name": "TechRadar"
+        },
+        "author": "erichs211@gmail.com (Eric Hal Schwartz)",
+        "title": "Anthropic wants its AI assistant Claude to be your favorite coworker",
+        "description": "New Projects and Artifacts features help you manage and speed up tasks at the office",
+        "url": "https://www.techradar.com/computing/artificial-intelligence/anthropic-wants-its-ai-assistant-claude-to-be-your-favorite-coworker",
+        "urlToImage": "https://cdn.mos.cms.futurecdn.net/B5Qa7pRTnJXp8KGWfPhkZ8-1200-80.png",
+        "publishedAt": "2024-06-27T18:54:16Z",
+        "content": "Anthropic has upgraded its Claude generative AI assistant to be more useful in the office. Claude Pro and Claude Team subscribers can now better organize and track their work with the AI assistant th… [+2115 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "go.theregister.com",
+        "title": "Anthropic tries 'to enable beneficial uses' of AI by government agencies",
+        "description": "Not keen on smart weapons, more interested in stopping human trafficking\nAnthropic wants governments to think of it when they want AI to make the world a better place. No, seriously.…",
+        "url": "https://biztoc.com/x/6b227d6cd3d13139",
+        "urlToImage": "https://biztoc.com/cdn/799/og.png",
+        "publishedAt": "2024-06-27T12:36:39Z",
+        "content": "Not keen on smart weapons, more interested in stopping human traffickingAnthropic wants governments to think of it when they want AI to make the world a better place. No, seriously.\r\nThis story appea… [+37 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Theregister.com"
+        },
+        "author": "Thomas Claburn",
+        "title": "Anthropic tries 'to enable beneficial uses' of AI by government agencies",
+        "description": "Not keen on smart weapons, more interested in stopping human trafficking\nAnthropic wants governments to think of it when they want AI to make the world a better place. No, seriously.…",
+        "url": "https://www.theregister.com/2024/06/27/anthropic_claude_government/",
+        "urlToImage": "https://regmedia.co.uk/2024/06/26/government.jpg",
+        "publishedAt": "2024-06-27T12:34:15Z",
+        "content": "Anthropic wants governments to think of it when they want AI to make the world a better place. No, seriously.\r\nThe AI startup's ambitions were this week expressed in its decision to offer its Claude … [+3632 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "PCMag.com"
+        },
+        "author": "Joe Hindy",
+        "title": "Anthropic Wants Its Claude AI to Be Your New Project Manager",
+        "description": "With Projects, Pro and Team members can dump all sorts of data into Claude, and the AI will spit out information personalized to that specific project.\nAnthropic has two new collaboration features for its Claude AI that aim to streamline workflows. Projects a…",
+        "url": "https://uk.pcmag.com/ai/153011/anthropic-wants-its-claude-ai-to-be-your-new-project-manager",
+        "urlToImage": "https://sm.pcmag.com/t/pcmag_uk/news/a/anthropic-/anthropic-wants-its-claude-ai-to-be-your-new-project-manager_tg3d.1200.jpg",
+        "publishedAt": "2024-06-26T21:44:14Z",
+        "content": "Anthropic has two new collaboration features for its Claude AI that aim to streamline workflows. \r\nProjects allow teams to create a central hub where they can dump everything they need for that parti… [+1747 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "PCMag.com"
+        },
+        "author": "Joe Hindy",
+        "title": "Anthropic Wants Its Claude AI to Be Your New Project Manager",
+        "description": "With Projects, Pro and Team members can dump all sorts of data into Claude, and the AI will spit out information personalized to that specific project.\nAnthropic has two new collaboration features for its Claude AI that aim to streamline workflows. Projects a…",
+        "url": "https://me.pcmag.com/en/ai/24375/anthropic-wants-its-claude-ai-to-be-your-new-project-manager",
+        "urlToImage": "https://sm.pcmag.com/t/pcmag_me/news/a/anthropic-/anthropic-wants-its-claude-ai-to-be-your-new-project-manager_mdph.1200.jpg",
+        "publishedAt": "2024-06-26T21:44:14Z",
+        "content": "Anthropic has two new collaboration features for its Claude AI that aim to streamline workflows. \r\nProjects allow teams to create a central hub where they can dump everything they need for that parti… [+1747 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Anthropic.com"
+        },
+        "author": None,
+        "title": "Anthropic: Expanding Access to Claude for Government",
+        "description": "Anthropic's mission is to build reliable, interpretable, steerable AI systems. We have been excited to see our technology used in areas like coding, customer service, drug discovery, and medical research. We're eager to make these tools available through expa…",
+        "url": "https://www.anthropic.com/news/expanding-access-to-claude-for-government",
+        "urlToImage": "https://cdn.sanity.io/images/4zrzovbb/website/4b8bc05b916dc4fbaf2543f76f946e5587aaeb43-2400x1260.png",
+        "publishedAt": "2024-06-26T17:32:04Z",
+        "content": "Anthropic's mission is to build reliable, interpretable, steerable AI systems. We have been excited to see our technology used in areas like coding, customer service, drug discovery, and medical rese… [+3054 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Gadgets360.com"
+        },
+        "author": "Akash Dutta, Siddharth Suvarna",
+        "title": "Anthropic Launches a New Collaborative Feature for Claude AI",
+        "description": "nthropic released a new collaborative tool for its artificial intelligence (AI) chatbot Claude on Tuesday. Dubbed Projects, the tool will allow users to ground the output of the chatbot to the internal knowledge provided to it. Using this, users can create an…",
+        "url": "https://www.gadgets360.com/ai/news/anthropic-claude-ai-projects-feature-collaborative-tool-released-5972768",
+        "urlToImage": "https://i.gadgets360cdn.com/large/claude_logo_1719386430289.jpg",
+        "publishedAt": "2024-06-26T08:28:15Z",
+        "content": "Anthropic released a new collaborative tool for its artificial intelligence (AI) chatbot Claude on Tuesday. Dubbed Projects, the tool will allow users to ground the output of the chatbot to the inter… [+2468 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "pymnts.com",
+        "title": "Anthropic Debuts Collaboration Tools for Claude AI Assistant",
+        "description": "Anthropic, the company behind the Claude AI assistant, has announced an update to its platform on Tuesday (June 25), adding new features to improve team collaboration and productivity. The update introduces Projects functionality to Claude.ai Pro and Team use…",
+        "url": "https://biztoc.com/x/9a4f743ac362d957",
+        "urlToImage": "https://biztoc.com/cdn/799/og.png",
+        "publishedAt": "2024-06-25T19:17:39Z",
+        "content": "Anthropic, the company behind the Claude AI assistant, has announced an update to its platform on Tuesday (June 25), adding new features to improve team collaboration and productivity. The update int… [+131 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "pymnts.com"
+        },
+        "author": "PYMNTS",
+        "title": "Anthropic Debuts Collaboration Tools for Claude AI Assistant",
+        "description": "Anthropic, the company behind the Claude AI assistant, has announced an update to its platform on Tuesday (June 25), adding new features to improve team collaboration and productivity. The update introduces Projects functionality to Claude.ai Pro and Team use…",
+        "url": "https://www.pymnts.com/artificial-intelligence-2/2024/anthropic-debuts-collaboration-tools-for-claude-ai-assistant/",
+        "urlToImage": "https://www.pymnts.com/wp-content/uploads/2024/05/Anthropic-Claude-AI.jpg",
+        "publishedAt": "2024-06-25T19:11:11Z",
+        "content": "Anthropic, the company behind the Claude AI assistant, has announced an update to its platform on Tuesday (June 25), adding new features to improve team collaboration and productivity. The update int… [+3839 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Futurism"
+        },
+        "author": "Jon Christian",
+        "title": "The CEO of Anthropic Has a Framed Picture of a Giant Robot Destroying a City on His Wall",
+        "description": "Anthropic has consistently painted itself as the ultra-responsible good guy on the frontier of AI development. The group was founded by defectors from OpenAI, and its CEO Dario Amodei recently said that the goal was to put \"positive pressure on this industry …",
+        "url": "https://futurism.com/anthropic-ceo-dario-amodei-giant-robot",
+        "urlToImage": "https://wp-assets.futurism.com/2024/06/ceo-anthropic-dario-amodei-giant-robot.jpg",
+        "publishedAt": "2024-06-25T18:00:02Z",
+        "content": "Anthropic has consistently painted itself as the ultra-responsible good guy on the frontier of AI development. The group was founded by defectors from OpenAI, and its CEO Dario Amodei recently said t… [+4469 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "inc.com",
+        "title": "AI Startup Anthropic Just Announced A Big New Feature for Business",
+        "description": "Enterprise clients will be able to give the AI important knowledge as part of a new shared workspace called Projects. Here's how it will work.",
+        "url": "https://biztoc.com/x/f719ac2fb5625f31",
+        "urlToImage": "https://biztoc.com/cdn/f719ac2fb5625f31_s.webp",
+        "publishedAt": "2024-06-25T15:04:24Z",
+        "content": "Enterprise clients will be able to give the AI important knowledge as part of a new shared workspace called Projects. Here's how it will work.\r\nThis story appeared on inc.com, 2024-06-25."
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Anthropic.com"
+        },
+        "author": None,
+        "title": "Anthropic: Collaborate with Claude on Projects",
+        "description": "Claude Pro and Team users can now organize chats into Projects. Projects bring together internal knowledge and chat activity in one place so Claude can be your go-to expert for generating ideas, making decisions, and moving work forward.",
+        "url": "https://www.anthropic.com/news/projects",
+        "urlToImage": "https://cdn.sanity.io/images/4zrzovbb/website/2c41b718412e53020ca101ed99165da0586c6f22-5120x2688.png",
+        "publishedAt": "2024-06-25T14:55:04Z",
+        "content": "Our vision for Claude has always been to create AI systems that work alongside people and meaningfully enhance their workflows. As a step in this direction, Claude.ai Pro and Team users can now organ… [+4091 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "observer.com",
+        "title": "Anthropic CEO Dario Amodei Thinks Altman and Musk’s Inequality Solution Is ‘Kind of Dystopian’",
+        "description": "In an automated world where A.I. machines replace humans in the workforce, how will individuals earn a living? This is one of the pressing questions presented by the rise of A.I. and the emerging technology’s potential to threaten employment across various se…",
+        "url": "https://biztoc.com/x/ca985dd2dd23b5d3",
+        "urlToImage": "https://biztoc.com/cdn/ca985dd2dd23b5d3_s.webp",
+        "publishedAt": "2024-06-24T21:47:02Z",
+        "content": "In an automated world where A.I. machines replace humans in the workforce, how will individuals earn a living? This is one of the pressing questions presented by the rise of A.I. and the emerging tec… [+137 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Observer"
+        },
+        "author": "Alexandra Tremayne-Pengelly, Alexandra Tremayne-Pengelly",
+        "title": "Anthropic CEO Dario Amodei Thinks Altman and Musk’s Inequality Solution Is ‘Kind of Dystopian’",
+        "description": "The Anthropic CEO would \"much prefer a world in which everyone can contribute.\"",
+        "url": "https://observer.com/2024/06/anthropic-dario-amodei-universal-basic-income/",
+        "urlToImage": "https://observer.com/wp-content/uploads/sites/2/2024/06/GettyImages-2153554432.jpg?quality=80",
+        "publishedAt": "2024-06-24T21:43:52Z",
+        "content": "Anthropic head Dario Amodei says a solution is needed to address AI’s impact on inequality. Julien de Rosa/AFP via Getty Images\r\nIn an automated world where A.I. machines replace humans in the workfo… [+3656 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "TechSpot"
+        },
+        "author": "Rob Thubron",
+        "title": "Anthropic CEO says a universal basic income isn't enough to address AI job losses",
+        "description": "We've previously heard OpenAI CEO Sam Altman talk about a UBI to help address problems caused by the impact of generative AI on the jobs market. Anthropic boss Amodei agrees that something needs to be done, but worries that it needs to be more than just a UBI…",
+        "url": "https://www.techspot.com/news/103517-anthropic-ceo-universal-basic-income-alone-isnt-enough.html",
+        "urlToImage": "https://www.techspot.com/images2/news/bigimage/2024/06/2024-06-24-image-16.jpg",
+        "publishedAt": "2024-06-24T12:37:00Z",
+        "content": "A hot potato: Many predict that the artificial intelligence revolution will disrupt society and the workplace in an unprecedented manner. Its potential to put so many people out of a job while also c… [+2908 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "ComputerWeekly.com"
+        },
+        "author": "Adrian Bridgwater",
+        "title": "Tabnine AI coding assistant supports Anthropic Claude 3",
+        "description": "Tabnine helps development teams of every size use AI to accelerate software development. As an AI coding assistant technology, Tabnine has now announced Anthropic’s Claude 3 model is now available ...",
+        "url": "https://www.computerweekly.com/blog/CW-Developer-Network/Tabnine-AI-coding-assistant-supports-Anthropic-Claude-3",
+        "urlToImage": None,
+        "publishedAt": "2024-06-24T04:43:31Z",
+        "content": "Tabnine helps development teams of every size use AI to accelerate software development.\r\nAs an AI coding assistant technology, Tabnine has now announced Anthropics Claude 3 model is now available as… [+3193 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "businessinsider.com",
+        "title": "Anthropic CEO says we're gonna need more than UBI to solve inequality",
+        "description": "Rapid advances in AI may concentrate power and wealth among a small elite.\n- Anthropic CEO Dario Amodei says a universal basic income may not sufficiently address the shift.\n- He says there needs to be a broader economic reorganization.\nThe rapid advances in …",
+        "url": "https://biztoc.com/x/727fd57f30d86ad9",
+        "urlToImage": "https://biztoc.com/cdn/727fd57f30d86ad9_s.webp",
+        "publishedAt": "2024-06-24T02:58:21Z",
+        "content": "Rapid advances in AI may concentrate power and wealth among a small elite.- Anthropic CEO Dario Amodei says a universal basic income may not sufficiently address the shift.- He says there needs to be… [+139 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "businessinsider.com",
+        "title": "Anthropic CEO says we need to think bigger than a universal basic income if we want to solve the AI inequality problem",
+        "description": "Anthropic CEO Dario Amodei thinks universal basic income isn't going to cut it. \nAnthropic\nRapid advances in AI may concentrate power and wealth among a small elite.\nAnthropic CEO Dario Amodei says a universal basic income may not sufficiently address the shi…",
+        "url": "https://biztoc.com/x/e45dcf24bc8a2472",
+        "urlToImage": "https://biztoc.com/cdn/799/og.png",
+        "publishedAt": "2024-06-23T21:26:16Z",
+        "content": "Anthropic CEO Dario Amodei thinks universal basic income isn't going to cut it. AnthropicRapid advances in AI may concentrate power and wealth among a small elite.Anthropic CEO Dario Amodei says a un… [+141 chars]"
+    },
+    {
+        "source": {
+            "id": "business-insider",
+            "name": "Business Insider"
+        },
+        "author": "Lakshmi Varanasi",
+        "title": "Anthropic CEO says we need to think bigger than a universal basic income if we want to solve the AI inequality problem",
+        "description": "Anthropic CEO Dario Amodei says AI will change the economy so drastically that a universal basic income won't be enough.",
+        "url": "https://www.businessinsider.com/anthropic-ceo-dario-amodei-universal-basic-income-ubi-ai-inequality-2024-6",
+        "urlToImage": "https://i.insider.com/66788c6140cf2af6e4f4df35?width=1200&format=jpeg",
+        "publishedAt": "2024-06-23T21:20:37Z",
+        "content": "Anthropic CEO Dario Amodei thinks universal basic income isn't going to cut it. Anthropic\r\n<ul><li>Rapid advances in AI may concentrate power and wealth among a small elite.</li><li>Anthropic CEO Dar… [+2074 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Techmeme.com"
+        },
+        "author": None,
+        "title": "Sources: Meta has held discussions with Apple to integrate its AI model into Apple Intelligence; Anthropic and Perplexity also discussed integrations with Apple (Wall Street Journal)",
+        "description": "Wall Street Journal:\nSources: Meta has held discussions with Apple to integrate its AI model into Apple Intelligence; Anthropic and Perplexity also discussed integrations with Apple  —  The longtime rivals have held talks about potentially integrating Meta's …",
+        "url": "https://www.techmeme.com/240623/p4",
+        "urlToImage": "https://images.wsj.net/im-972702/social",
+        "publishedAt": "2024-06-23T13:45:02Z",
+        "content": "About This Page\r\nThis is a Techmeme archive page.\r\nIt shows how the site appeared at 9:50 AM ET, June 23, 2024.\r\nThe most current version of the site as always is available at our home page.\r\nTo view… [+67 chars]"
+    },
+    {
+        "source": {
+            "id": "time",
+            "name": "Time"
+        },
+        "author": "Billy Perrigo",
+        "title": "Anthropic CEO Dario Amodei on Being an Underdog, AI Safety, and Economic Inequality",
+        "description": "Dario Amodei spoke with TIME about AI safety, the company's culture, and economic inequality.",
+        "url": "https://time.com/6990386/anthropic-dario-amodei-interview/",
+        "urlToImage": "https://api.time.com/wp-content/uploads/2024/05/time-most-influential-companies-anthropic-dario-amodei.jpg?quality=85&crop=0px%2C507px%2C1787px%2C935px&resize=1200%2C628&strip",
+        "publishedAt": "2024-06-23T11:00:00Z",
+        "content": "Hanging on the wall of Anthropics offices in San Francisco in early May, a stones throw from the conference room where CEO Dario Amodei would shortly sit for an interview with TIME, was a framed meme… [+13597 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Github.com"
+        },
+        "author": "cr4zy",
+        "title": "Show HN: Python lib to run evals across providers: OpenAI, Anthropic, etc.",
+        "description": "Library makes requests asynchronously across models, so you can spend a lot of $$ quickly if you want XD. But seriously I hope this enables folks to create and run evals (especially safety ones) a lot easier than before.\n\nComments URL: https://news.ycombinato…",
+        "url": "https://github.com/crizCraig/evals",
+        "urlToImage": "https://opengraph.githubassets.com/73b82256ff1998076de4be534132c0f720516f81fac9adda9b551b825a575308/crizCraig/evals",
+        "publishedAt": "2024-06-22T22:54:12Z",
+        "content": "conda create -n evals python=3.12 &amp;&amp; conda activate evals\r\nThis allows rerunning the fetch code without re-fetching identical prompts. Modify the @cached from 1 month as needed. Note that whe… [+122 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Slashdot.org"
+        },
+        "author": "feedfeeder",
+        "title": "OpenAI, Anthropic Ignore Rule That Prevents Bots Scraping Web Content - Business Insider",
+        "description": "OpenAI, Anthropic Ignore Rule That Prevents Bots Scraping Web ContentBusiness Insider Perplexity AI CEO Aravind Srinivas on plagiarism accusationsFast Company Exclusive: Multiple AI companies bypassing web standard to scrape publisher sites, licensing firm sa…",
+        "url": "https://slashdot.org/firehose.pl?op=view&amp;id=174226019",
+        "urlToImage": None,
+        "publishedAt": "2024-06-22T04:53:44Z",
+        "content": "Sign up for the Slashdot newsletter! OR check out the new Slashdot job board to browse remote jobs or jobs in your areaDo you develop on GitHub? You can keep using GitHub but automatically sync your … [+268 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "businessinsider.com",
+        "title": "OpenAI, Anthropic Ignore Rule That Prevents Bots Scraping Web Content",
+        "description": "Generative AI tools are based on models that use huge amounts of content scraped from the web.\n- OpenAI and Anthropic have said publicly they respect robots.txt and blocks to their web crawlers.\n- Yet, both companies are ignoring or circumventing such blocks,…",
+        "url": "https://biztoc.com/x/e6394177dd9c1d6b",
+        "urlToImage": "https://biztoc.com/cdn/e6394177dd9c1d6b_s.webp",
+        "publishedAt": "2024-06-21T22:19:14Z",
+        "content": "Generative AI tools are based on models that use huge amounts of content scraped from the web.- OpenAI and Anthropic have said publicly they respect robots.txt and blocks to their web crawlers.- Yet,… [+140 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "observer.com",
+        "title": "Anthropic Claude 3.5 Sonnet vs. OpenAI GPT-4o: Which Is Better?",
+        "description": "Anthropic, an A.I. startup founded by former OpenAI engineers yesterday (June 20) released Claude 3.5 Sonnet, its most powerful A.I. model yet. The new model is not only twice the speed of its predecessor, Claude 3 Opus, released just three months ago, but su…",
+        "url": "https://biztoc.com/x/afc6e31414f777c1",
+        "urlToImage": "https://biztoc.com/cdn/afc6e31414f777c1_s.webp",
+        "publishedAt": "2024-06-21T18:59:44Z",
+        "content": "Anthropic, an A.I. startup founded by former OpenAI engineers yesterday (June 20) released Claude 3.5 Sonnet, its most powerful A.I. model yet. The new model is not only twice the speed of its predec… [+131 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Observer"
+        },
+        "author": "Alexandra Tremayne-Pengelly, Alexandra Tremayne-Pengelly",
+        "title": "Anthropic Claude 3.5 Sonnet vs. OpenAI GPT-4o: Which Is Better?",
+        "description": "Anthropic says its newest model largely outperforms OpenAI's GPT-4o.",
+        "url": "https://observer.com/2024/06/anthropic-release-claude-ai-model-gpt-comparison/",
+        "urlToImage": "https://observer.com/wp-content/uploads/sites/2/2024/06/Anthropic-Dario-Daniela.jpg?quality=80",
+        "publishedAt": "2024-06-21T18:58:03Z",
+        "content": "Anthropic was founded by Dario and Daniela Amodei in 2021. Courtesy Anthropic.\r\nAnthropic, an A.I. startup founded by former OpenAI engineers yesterday (June 20) released Claude 3.5 Sonnet, its most … [+4532 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Windows Central"
+        },
+        "author": "kevinokemwa@outlook.com (Kevin Okemwa)",
+        "title": "Anthropic rivals OpenAI's 'magical' GPT-4o with impressive vision (and a great sense of humor)",
+        "description": "Anthropic unveiled Claude 3.5 Sonnet to take on GPT-4o, Gemini 1.5 Pro, and Meta’s Llama 3 400B. It spots great coding and vision capabilities and ships with a new Artifacts feature to improve the user experience.",
+        "url": "https://www.windowscentral.com/software-apps/anthropic-rivals-openais-magical-gpt-4o-with-impressive-vision-and-a-great-sense-of-humor",
+        "urlToImage": "https://cdn.mos.cms.futurecdn.net/rNCY8sq3Lbs4Tri4MbADh5-1200-80.jpg",
+        "publishedAt": "2024-06-21T15:51:30Z",
+        "content": "What you need to know\r\n<ul><li>Anthropic unveiled Claude 3.5 Sonnet, available on the web or iOS.</li><li>The model is great at interpreting complex graphs and charts, translating code, and more.</li… [+3312 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "TechSpot"
+        },
+        "author": "Zo Ahmed",
+        "title": "Anthropic launches Claude 3.5 Sonnet AI model, claims it outperforms GPT-4o in some tests",
+        "description": "Claude 3.5 Sonnet is the first release of the v3.5 family, coming a few months after the release of the Claude 3 family. The biggest improvements are in the academic and coding departments. Anthropic claims the new model beats the company's current flagship –…",
+        "url": "https://www.techspot.com/news/103490-anthropic-launches-claude-35-sonnet-claims-outperforms-gpt.html",
+        "urlToImage": "https://www.techspot.com/images2/news/bigimage/2024/06/2024-06-21-image-7.jpg",
+        "publishedAt": "2024-06-21T14:13:00Z",
+        "content": "TL;DR: Anthropic has been on a roll of late, playing catch-up with OpenAI's offerings with new features. On Thursday, the company launched Claude 3.5 Sonnet, touting it as a leap over previous iterat… [+2389 chars]"
+    },
+    {
+        "source": {
+            "id": "the-times-of-india",
+            "name": "The Times of India"
+        },
+        "author": "Reuters",
+        "title": "Anthropic launches newest AI model, three months after its last",
+        "description": "Anthropic, backed by Google, released the updated AI model, Claude 3.5 Sonnet, offering improved performance at a lower cost. CEO Dario Amodei highlighted the advancements, emphasizing the faster speed and affordability compared to Claude 3 Opus.",
+        "url": "https://economictimes.indiatimes.com/tech/technology/anthropic-launches-newest-ai-model-three-months-after-its-last/articleshow/111170719.cms",
+        "urlToImage": "https://img.etimg.com/thumb/msid-111170729,width-1200,height-630,imgsize-50976,overlay-ettech/photo.jpg",
+        "publishedAt": "2024-06-21T12:41:09Z",
+        "content": "Anthropic, a startup backed by Google and Amazon.com, on Thursday released an updated artificial intelligence model and a new layout to boost user productivity, continuing an industry sprint to push … [+1823 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "MediaNama.com"
+        },
+        "author": "Sharveya Parasnis",
+        "title": "Anthropic Announces Its New AI Model, Claude 3.5 Sonnet",
+        "description": "Claude 3.5 Sonnet reportedly demonstrates improvement in understanding nuance, humor, and complex instructions.\nThe post Anthropic Announces Its New AI Model, Claude 3.5 Sonnet appeared first on MEDIANAMA.",
+        "url": "https://www.medianama.com/2024/06/223-anthropic-new-ai-model-claude-3-point-5-sonnet/",
+        "urlToImage": "https://www.medianama.com/wp-content/uploads/2024/06/ai-8529399_1920.jpg",
+        "publishedAt": "2024-06-21T12:12:13Z",
+        "content": "AI startup Anthropic has announced the launch of its new AI model, titled Claude 3.5 Sonnet. In a press release, the company claims that Claude 3.5 Sonnet sets new industry benchmarks across various … [+2420 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Computerworld"
+        },
+        "author": "Gyana Swain",
+        "title": "Anthropic Claude 3.5 Sonnet is here, and it’s free",
+        "description": "Anthropic, the AI startup that claims to differentiate itself from its peers as a responsible AI firm, launched a new AI model — Claude 3.5 Sonnet. This is the first model in its anticipated Claude 3.5 series and the company claims it surpasses current indust…",
+        "url": "https://www.computerworld.com/article/2472913/anthropic-claude-3-5-sonnet-is-here-and-its-free.html",
+        "urlToImage": "https://www.computerworld.com/wp-content/uploads/2024/06/shutterstock_editorial_2338803257.jpg?quality=50&strip=all&w=1024",
+        "publishedAt": "2024-06-21T11:32:09Z",
+        "content": "“Claude 3.5 Sonnet is now available for free on Claude.ai and the Claude iOS app, while Claude Pro and Team plan subscribers can access it with significantly higher rate limits,” an Anthropic announc… [+782 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Nextbigwhat.com"
+        },
+        "author": "Tom",
+        "title": "Anthropic introduces Claude 3.5, outshining GPT-4 Omni in several aspects",
+        "description": "Anthropic launched Claude 3.5 Sonnet, surpassing previous models and GPT-4 Omni in various metrics, and introduced Artifacts for dynamic AI project collaboration. The release marks Anthropic’s commitment to developing AI…\nThe post Anthropic introduces Claude …",
+        "url": "https://nextbigwhat.com/anthropic-introduces-claude-3-5-outshining-gpt-4-omni-in-several-aspects/",
+        "urlToImage": "https://i0.wp.com/nextbigwhat.com/wp-content/uploads/2023/03/nextbigwhat-social-media-logo.jpg?fit=1080%2C1080&ssl=1",
+        "publishedAt": "2024-06-21T09:39:24Z",
+        "content": "Discover more from nextbig [what]\r\nSubscribe to get the latest posts to your email."
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "siliconrepublic.com",
+        "title": "Anthropic launches its first Claude 3.5 model to challenge OpenAI",
+        "description": "Anthropic said its Claude 3.5 Sonnet model outperforms competitor models on various benchmarks but with the speed and cost of its mid-tier Claude model.\nRead more: Anthropic launches its first Claude 3.5 model to challenge OpenAI",
+        "url": "https://biztoc.com/x/effd12e20be7cbb2",
+        "urlToImage": "https://biztoc.com/cdn/effd12e20be7cbb2_s.webp",
+        "publishedAt": "2024-06-21T07:54:07Z",
+        "content": "Anthropic said its Claude 3.5 Sonnet model outperforms competitor models on various benchmarks but with the speed and cost of its mid-tier Claude model.Read more: Anthropic launches its first Claude … [+85 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Gadgets360.com"
+        },
+        "author": "Akash Dutta, Siddharth Suvarna",
+        "title": "Anthropic Releases Claude 3.5 Sonnet, Makes It Available for Free to All Users",
+        "description": "Anthropic launched the first entrant in the Claude 3.5 large language model (LLM) family, Claude 3.5 Sonnet, on Friday. The new release comes just three months after the AI firm launched the Claude 3 family of artificial intelligence (AI) models. As per the c…",
+        "url": "https://www.gadgets360.com/ai/news/anthropic-claude-3-5-sonnet-available-for-free-to-all-users-5936990",
+        "urlToImage": "https://i.gadgets360cdn.com/large/claude_3_AI_1718951563615.jpg",
+        "publishedAt": "2024-06-21T07:52:20Z",
+        "content": "Anthropic released the first entrant in the Claude 3.5 large language model (LLM) family, Claude 3.5 Sonnet, on Friday. The new release comes just three months after the AI firm unveiled the Claude 3… [+2926 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Madshrimps.be"
+        },
+        "author": "Stefan Mileschin",
+        "title": "Anthropics newest Claude chatbot beats OpenAIs GPT-4o in some benchmarks",
+        "description": "Anthropic rolled out its newest AI language model on Thursday, Claude 3.5 Sonnet. The updated chatbot outperforms the companys previous top-tier model, Claude 3 Opus, while working at twice the speed. Claude users (including those on free accounts) can check…",
+        "url": "http://www.madshrimps.be/news/item/230755",
+        "urlToImage": None,
+        "publishedAt": "2024-06-21T07:38:34Z",
+        "content": "Copyright © 2001-2011 Madshrimps, All rights reserved.Graphic Design by Dennis Kestelle, Programming by Maarten Menten,\r\nOverall Site design by John Meys\r\nAll information and graphics contained in Ma… [+135 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Geeky Gadgets"
+        },
+        "author": "Julian Horsey",
+        "title": "Anthropic releases Claude 3.5 Sonnet large language AI model",
+        "description": "Anthropic has unveiled its most advanced AI model to date, Claude 3.5 Sonnet. This new model sets unprecedented benchmarks, outperforming its predecessors and competitors alike. Claude 3.5 Sonnet excels in various domains, including coding, customer support, …",
+        "url": "https://www.geeky-gadgets.com/claude-3-5-sonnet/",
+        "urlToImage": "https://www.geeky-gadgets.com/wp-content/uploads/2024/06/Claude-3-5-large-language-model.jpg",
+        "publishedAt": "2024-06-21T05:12:25Z",
+        "content": "Anthropic has unveiled its most advanced AI model to date, Claude 3.5 Sonnet. This new model sets unprecedented benchmarks, outperforming its predecessors and competitors alike. Claude 3.5 Sonnet exc… [+3758 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "go.theregister.com",
+        "title": "Anthropic delivers Claude 3.5 model – and a new way to work with chatbots",
+        "description": "Fast, funny, visionary, perhaps, but hey at least there's real-time output tweaking\nVideo OpenAI challenger Anthropic has delivered its latest model — Claude 3.5 Sonnet — and claimed it outperforms rivals on many tasks.…",
+        "url": "https://biztoc.com/x/113a6e482f4023a9",
+        "urlToImage": "https://biztoc.com/cdn/799/og.png",
+        "publishedAt": "2024-06-20T23:47:04Z",
+        "content": "Fast, funny, visionary, perhaps, but hey at least there's real-time output tweakingVideo OpenAI challenger Anthropic has delivered its latest model Claude 3.5 Sonnet and claimed it outperforms rivals… [+70 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Theregister.com"
+        },
+        "author": "Tobias Mann",
+        "title": "Anthropic delivers Claude 3.5 model – and a new way to work with chatbots",
+        "description": "Fast, funny, visionary, perhaps, but hey at least there's real-time output tweaking Video  OpenAI challenger Anthropic has delivered its latest model — Claude 3.5 Sonnet — and claimed it outperforms rivals on many tasks.…",
+        "url": "https://www.theregister.com/2024/06/20/anthropic_claude_35/",
+        "urlToImage": "https://regmedia.co.uk/2024/05/01/shutterstock_generic_claude.jpg",
+        "publishedAt": "2024-06-20T23:35:06Z",
+        "content": "Video OpenAI challenger Anthropic has delivered its latest model Claude 3.5 Sonnet and claimed it outperforms rivals on many tasks.\r\nAnthropic delivered the model the first release of the Claude 3.5 … [+3658 chars]"
+    },
+    {
+        "source": {
+            "id": "ars-technica",
+            "name": "Ars Technica"
+        },
+        "author": "Benj Edwards",
+        "title": "Anthropic introduces Claude 3.5 Sonnet, matching GPT-4o on benchmarks",
+        "description": "Claude 3.5 Sonnet is a speedy mid-sized entry in a new family of AI models.",
+        "url": "https://arstechnica.com/information-technology/2024/06/anthropics-latest-best-ai-model-is-twice-as-fast-and-still-terrible-at-dad-jokes/",
+        "urlToImage": "https://cdn.arstechnica.net/wp-content/uploads/2024/06/claude35sonnet_hero_2-760x380.jpg",
+        "publishedAt": "2024-06-20T21:04:59Z",
+        "content": "1\r\nOn Thursday, Anthropic announced Claude 3.5 Sonnet, its latest AI language model and the first in a new series of \"3.5\" models that build upon Claude 3, launched in March. Claude 3.5 can compose t… [+7556 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Businesspost.ie"
+        },
+        "author": "Charlie Taylor",
+        "title": "Anthropic releases superior GenAI model known as Claude 3.5 Sonnet",
+        "description": "Company claims AI tool ‘raises the industry bar’ by outperforming competitor models and its own Claude 3 Opus on a wide range of evaluations",
+        "url": "https://www.businesspost.ie/tech/anthropic-releases-superior-genai-model-known-as-claude-3-5-sonnet/",
+        "urlToImage": "https://imengine.public.prod.sbp.infomaker.io/?uuid=ea696a47-5f47-56c1-86e2-9144b3b833f3&type=preview&function=original",
+        "publishedAt": "2024-06-20T19:47:26Z",
+        "content": "Company claims AI tool raises the industry bar by outperforming competitor models and its own Claude 3 Opus on a wide range of evaluations"
+    },
+    {
+        "source": {
+            "id": "time",
+            "name": "Time"
+        },
+        "author": "Tharin Pillay",
+        "title": "Anthropic Touts New AI Model as ‘Most Intelligent Yet’",
+        "description": "Anthropic launched a new AI model Thursday called Claude 3.5 Sonnet which it says is its “most intelligent model yet.”",
+        "url": "https://time.com/6990358/anthropic-ai-model-claude-3-5-sonnet/",
+        "urlToImage": "https://api.time.com/wp-content/uploads/2024/06/GettyImages-2150494902.jpg?quality=85&w=1024&h=628&crop=1",
+        "publishedAt": "2024-06-20T19:04:20Z",
+        "content": "Anthropic launched a new AI model Thursday which it says is its most intelligent model yet.\r\nThe new model, Claude 3.5 Sonnet, is reportedly twice as fast as Claude 3 Opus, the companys previous best… [+3957 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Neowin"
+        },
+        "author": "Omer Dursun",
+        "title": "Anthropic unveils Claude 3.5 Sonnet, claiming it beats GPT-4o and Gemini 1.5 Pro",
+        "description": "Anthropic released Claude 3.5 Sonnet, a more powerful AI model that excels in coding, vision, and language understanding. Sonnet outperforms even top-of-the-line models on internal benchmarks. Read more...",
+        "url": "https://www.neowin.net/news/anthropic-unveils-claude-35-sonnet-claiming-it-beats-gpt-4o-and-gemini-15-pro/",
+        "urlToImage": "https://cdn.neowin.com/news/images/uploaded/2024/03/1709565744_4e78f69ef8d4186fb5691714abe36224483d91b0-2880x1620_story.jpg",
+        "publishedAt": "2024-06-20T18:52:02Z",
+        "content": "Anthropic today launched Claude 3.5 Sonnet. The new AI model improves on its predecessor with faster performance and better skills in coding, vision, and natural language understanding.\r\nWhile Sonnet… [+2467 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "aboutamazon.com",
+        "title": "Amazon Bedrock adds Claude 3.5 Sonnet Anthropic AI model",
+        "description": "Anthropic’s Claude 3.5 Sonnet, the newest addition to the state-of-the-art Claude family of AI models, is more intelligent and one-fifth of the price of Claude 3 Opus.\nClaude 3.5 Sonnet, the latest and most capable model from artificial intelligence (AI) safe…",
+        "url": "https://biztoc.com/x/acb40398300b10ab",
+        "urlToImage": "https://biztoc.com/cdn/acb40398300b10ab_s.webp",
+        "publishedAt": "2024-06-20T18:48:53Z",
+        "content": "Anthropics Claude 3.5 Sonnet, the newest addition to the state-of-the-art Claude family of AI models, is more intelligent and one-fifth of the price of Claude 3 Opus.Claude 3.5 Sonnet, the latest and… [+133 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "gizmodo.com",
+        "title": "Anthropic Says New Claude 3.5 AI Model Outperforms GPT-4 Omni",
+        "description": "Anthropic launched Claude 3.5 Sonnet on Thursday, which the AI startup says outperforms its previous AI models and OpenAI’s recently launched GPT-4 Omni on several metrics. The company also released Artifacts, a new dynamic workspace within Claude where users…",
+        "url": "https://biztoc.com/x/756a354ab0570f6f",
+        "urlToImage": "https://biztoc.com/cdn/756a354ab0570f6f_s.webp",
+        "publishedAt": "2024-06-20T18:15:51Z",
+        "content": "Anthropic launched Claude 3.5 Sonnet on Thursday, which the AI startup says outperforms its previous AI models and OpenAIs recently launched GPT-4 Omni on several metrics. The company also released A… [+131 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Investopedia"
+        },
+        "author": "Aaron McDade",
+        "title": "Amazon-Backed Anthropic Debuts Most Advanced Version of Claude Chatbot",
+        "description": "Anthropic debuted the most capable version of its Claude chatbot Thursday, as the Amazon- and Google-backed company said the Claude 3.5 Sonnet model performs on par or better than the latest models of other popular AI chatbots.",
+        "url": "https://www.investopedia.com/amazon-backed-anthropic-debuts-most-advanced-version-of-claude-chatbot-8666493",
+        "urlToImage": "https://www.investopedia.com/thmb/oiiqV_8xXnLGd0-nF1yr_jGTGmk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1808365613-0798e65ea5094865a275004515bceb4e.jpg",
+        "publishedAt": "2024-06-20T17:14:53Z",
+        "content": "<ul><li>Anthropic, an artificial intelligence (AI) company backed by tech giants like Amazon and Google, released the newest version of its Claude chatbot Thursday.</li><li>Claude 3.5 Sonnet performs… [+2147 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Quartz India"
+        },
+        "author": "Ben Kesslen",
+        "title": "Anthropic just fired the latest AI salvo in its race with ChatGPT",
+        "description": "AI startup Anthropic on Thursday debuted its updated AI model, Claude 3.5 Sonnet, which it said bests OpenAI’s GPT-4 in important tasks and is twice as fast as its previous model, Claude 3 Opus.Read more...",
+        "url": "https://qz.com/anthropic-claude-3-5-sonnet-ai-chatgpt-openai-1851551091",
+        "urlToImage": "https://i.kinja-img.com/image/upload/c_fill,h_675,pg_1,q_80,w_1200/9d219e1cf2545cb277bbc453ee99f805.jpg",
+        "publishedAt": "2024-06-20T17:12:00Z",
+        "content": "AI startup Anthropic on Thursday debuted its updated AI model, Claude 3.5 Sonnet, which it said bests OpenAIs GPT-4 in important tasks and is twice as fast as its previous model, Claude 3 Opus.\r\nClau… [+1509 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Designtaxi.com"
+        },
+        "author": "Roboticker",
+        "title": "OpenAI Rival Anthropic Unveils Claude 3.5 Sonnet, Its Most Powerful AI Model Yet",
+        "description": "Image: Anthropic/YouTube Anthropic, the Amazon-backed artificial intelligence upstart, has unveiled its latest marvel, Claude 3.5 Sonnet. This cutting-edge AI model is not only faster than its predecessor but also boasts an improved understanding of humor and…",
+        "url": "https://community.designtaxi.com/topic/3833-openai-rival-anthropic-reportedly-pitched-claude-35-sonnet-its-most-powerful-ai-model-yet-against-gpt-4o%E2%80%94and-won/",
+        "urlToImage": "https://content.invisioncic.com/y329496/monthly_2024_06/anthropiccrabgame.png.85c3644dd74cac4578d849f022a0ae04.png",
+        "publishedAt": "2024-06-20T17:11:55Z",
+        "content": "Image: Anthropic/YouTube\r\nAnthropic, the Amazon-backed artificial intelligence upstart, has unveiled its latest marvel, Claude 3.5 Sonnet. This cutting-edge AI model is not only faster than its prede… [+1566 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "SiliconANGLE News"
+        },
+        "author": "Kyt Dotson",
+        "title": "Anthropic launches Claude 3.5 Sonnet to raise bar for model intelligence in coding and visual processing",
+        "description": "Anthropic PBC today launched Claude 3.5 Sonnet, the company’s first release in a forthcoming artificial intelligence large language model family that outperforms both competing models and its Claude 3 Opus model, which was introduced three months ago. The AI …",
+        "url": "https://siliconangle.com/2024/06/20/anthropic-launches-claude-3-5-sonnet-raise-bar-model-intelligence-coding-visual-processing/",
+        "urlToImage": "https://d15shllkswkct0.cloudfront.net/wp-content/blogs.dir/1/files/2023/11/Claude2_Blog_V1-1.png",
+        "publishedAt": "2024-06-20T17:10:13Z",
+        "content": "Anthropic PBC today launched Claude 3.5 Sonnet, the companys first release in a forthcoming artificial intelligence large language model family that outperforms both competing models and its Claude 3… [+3902 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Android Authority"
+        },
+        "author": "Calvin Wankhede",
+        "title": "Anthropic releases Claude 3.5 Sonnet, claims it outperforms GPT-4o and Gemini 1.5 Pro",
+        "description": "AI startup Anthropic has announced Claude 3.5 Sonnet, a new language model that delivers better responses than GPT-4o and Gemini 1.5 Pro.",
+        "url": "https://www.androidauthority.com/claude-35-sonnet-release-3453137/",
+        "urlToImage": "https://www.androidauthority.com/wp-content/uploads/2023/12/claude-homepage.jpg",
+        "publishedAt": "2024-06-20T16:47:40Z",
+        "content": "<ul><li>Anthropic AI has announced Claude 3.5, its next-generation large language model family.</li><li>The mid-tier Claude 3.5 Sonnet model is available for free today, with larger and smaller varia… [+2953 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "pymnts.com",
+        "title": "Anthropic Debuts New AI Model, Claude 3.5 Sonnet, That Understands Humor",
+        "description": "Artificial intelligence (AI) company Anthropic released its latest chatbot, Claude 3.5 Sonnet, on Thursday (June 20). The bot supposedly outperforms its previous top-tier offering, Claude 3 Opus.\nClaude 3.5 Sonnet is now available for free on Claude.ai and th…",
+        "url": "https://biztoc.com/x/f17c4072a3e70aa6",
+        "urlToImage": "https://biztoc.com/cdn/799/og.png",
+        "publishedAt": "2024-06-20T16:25:24Z",
+        "content": "Artificial intelligence (AI) company Anthropic released its latest chatbot, Claude 3.5 Sonnet, on Thursday (June 20). The bot supposedly outperforms its previous top-tier offering, Claude 3 Opus.Clau… [+135 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "pymnts.com"
+        },
+        "author": "PYMNTS",
+        "title": "Anthropic Debuts New AI Model, Claude 3.5 Sonnet, That Understands Humor",
+        "description": "Artificial intelligence (AI) company Anthropic released its latest chatbot, Claude 3.5 Sonnet, on Thursday (June 20). The bot supposedly outperforms its previous top-tier offering, Claude 3 Opus. Claude 3.5 Sonnet is now available for free on Claude.ai and th…",
+        "url": "https://www.pymnts.com/artificial-intelligence-2/2024/anthropic-debuts-new-ai-model-claude-3-5-sonnet-that-understands-humor/",
+        "urlToImage": "https://www.pymnts.com/wp-content/uploads/2023/10/Anthropic-AI-Artificial-Intelligence.jpg",
+        "publishedAt": "2024-06-20T16:14:28Z",
+        "content": "Artificial intelligence (AI) company Anthropic released its latest chatbot, Claude 3.5 Sonnet, on Thursday (June 20). The bot supposedly outperforms its previous top-tier offering, Claude 3 Opus.\r\nCl… [+3364 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "cnbc.com",
+        "title": "OpenAI competitor Anthropic announces its most powerful AI yet",
+        "description": "OpenAI competitor Anthropic announced Claude 3.5 Sonnet, its most powerful artificial intelligence model yet.\n- The news follows Anthropic's debut of its Claude 3 family of models in March and OpenAI's GPT-4o in May.\n- The company said Claude 3.5 Sonnet is fa…",
+        "url": "https://biztoc.com/x/0d17246836fc3dff",
+        "urlToImage": "https://biztoc.com/cdn/0d17246836fc3dff_s.webp",
+        "publishedAt": "2024-06-20T16:04:20Z",
+        "content": "OpenAI competitor Anthropic announced Claude 3.5 Sonnet, its most powerful artificial intelligence model yet.- The news follows Anthropic's debut of its Claude 3 family of models in March and OpenAI'… [+125 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "WebProNews"
+        },
+        "author": "Matt Milano",
+        "title": "Anthropic Releases Claude 3.5 Sonnet, Says It Beats GPT-4o",
+        "description": "Anthropic announced the release of Claude 3.5 Sonnet, the latest version of its AI model, and says it beats GPT-4o in seven of nine tests.",
+        "url": "https://www.webpronews.com/anthropic-releases-claude-3-5-sonnet-says-it-beats-gpt-4o/",
+        "urlToImage": "https://www.webpronews.com/wp-content/uploads/2024/06/Claude-3.5-Sonnet-Credit-Anthropic.jpg",
+        "publishedAt": "2024-06-20T15:58:00Z",
+        "content": "Anthropic announced the release of Claude 3.5 Sonnet, the latest version of its AI model, and says it beats GPT-4o in seven of nine tests.\r\nAnthropic is OpenAI’s main competitor and was founded by fo… [+2768 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "PCMag.com"
+        },
+        "author": "Michael Kan",
+        "title": "Anthropic: Our Claude 3.5 Model Beats OpenAI's GPT-4o",
+        "description": "Anthropic is hyping up Claude 3.5 Sonnet as the company's 'most intelligent model yet.'\nAnthropic is releasing a new AI model that promises to outperform OpenAI’s ChatGPT and Google’s Gemini. The advancement is arriving as an update to Claude 3 Sonnet, one of…",
+        "url": "https://me.pcmag.com/en/ai/24245/anthropic-our-claude-35-model-beats-openais-gpt-4o",
+        "urlToImage": "https://sm.pcmag.com/t/pcmag_me/news/a/anthropic-/anthropic-our-claude-35-model-beats-openais-gpt-4o_45s3.1200.jpg",
+        "publishedAt": "2024-06-20T15:53:39Z",
+        "content": "Anthropic is releasing a new AI model that promises to outperform OpenAIs ChatGPT and Googles Gemini. \r\nThe advancement is arriving as an update to Claude 3 Sonnet, one of three AI models that the co… [+2690 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "PCMag.com"
+        },
+        "author": "Michael Kan",
+        "title": "Anthropic: Our Claude 3.5 Model Beats OpenAI's GPT-4o",
+        "description": "Anthropic is hyping up Claude 3.5 Sonnet as the company's 'most intelligent model yet.'\nAnthropic is releasing a new AI model that promises to outperform OpenAI’s ChatGPT and Google’s Gemini. The advancement is arriving as an update to Claude 3 Sonnet, one of…",
+        "url": "https://uk.pcmag.com/ai/152912/anthropic-our-claude-35-model-beats-openais-gpt-4o",
+        "urlToImage": "https://sm.pcmag.com/t/pcmag_uk/news/a/anthropic-/anthropic-our-claude-35-model-beats-openais-gpt-4o_es6p.1200.jpg",
+        "publishedAt": "2024-06-20T15:53:39Z",
+        "content": "Anthropic is releasing a new AI model that promises to outperform OpenAIs ChatGPT and Googles Gemini. \r\nThe advancement is arriving as an update to Claude 3 Sonnet, one of three AI models that the co… [+2690 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Slashdot.org"
+        },
+        "author": "msmash",
+        "title": "Anthropic Launches Claude 3.5 Sonnet, Says New Model Outperforms GPT-4 Omni",
+        "description": "Anthropic launched Claude 3.5 Sonnet on Thursday, claiming it outperforms previous models and OpenAI's GPT-4 Omni. The AI startup also introduced Artifacts, a workspace for users to edit AI-generated projects. This release, part of the Claude 3.5 family, foll…",
+        "url": "https://slashdot.org/story/24/06/20/1449220/anthropic-launches-claude-35-sonnet-says-new-model-outperforms-gpt-4-omni",
+        "urlToImage": "https://a.fsdn.com/sd/topics/ai_64.png",
+        "publishedAt": "2024-06-20T14:49:00Z",
+        "content": "Anthropic launched Claude 3.5 Sonnet on Thursday, claiming it outperforms previous models and OpenAI's GPT-4 Omni. The AI startup also introduced Artifacts, a workspace for users to edit AI-generated… [+898 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "ZDNet"
+        },
+        "author": "Tiernan Ray",
+        "title": "Anthropic launches Claude 3.5 Sonnet and debuts Artifacts for collaboration",
+        "description": "The Artifacts function allows a prediction, such as a piece of code, to be displayed in a separate window for group collaboration.",
+        "url": "https://www.zdnet.com/article/anthropic-launches-claude-3-5-sonnet-and-debuts-artifacts-for-collaboration/",
+        "urlToImage": "https://www.zdnet.com/a/img/resize/a470b86d503558e3e7d987e072fab093ed192cc6/2024/06/20/8a1bf587-bb2b-451c-97cb-81cfe35cc5cf/anthropic-claude-mobile.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "publishedAt": "2024-06-20T14:40:00Z",
+        "content": "The Claude 3.5 version of Sonnet is twice as fast as the previously highest-performing model, Opus, but at a lower cost, says Anthropic.\r\nAnthropic\r\nAnthropic, the main commercial competitor to OpenA… [+3261 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "euronews.com",
+        "title": "Anthropic launches its latest, most powerful generative AI model",
+        "description": "Generative AI companies are racing to get one step ahead of the other.\nAnthropic has launched a new and more powerful generative artificial intelligence (AI) model, which comes three months after its earlier version, and claims it outperforms its competitors …",
+        "url": "https://biztoc.com/x/017ced3a5f562060",
+        "urlToImage": "https://biztoc.com/cdn/017ced3a5f562060_s.webp",
+        "publishedAt": "2024-06-20T14:23:48Z",
+        "content": "Generative AI companies are racing to get one step ahead of the other.Anthropic has launched a new and more powerful generative artificial intelligence (AI) model, which comes three months after its … [+130 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "reuters.com",
+        "title": "Anthropic launches newest AI model, three months after its last",
+        "description": "Anthropic, a startup backed by Google and Amazon.com , on Thursday released an updated artificial intelligence model and a new layout to boost user productivity, continuing an industry sprint to push technology's frontier.",
+        "url": "https://biztoc.com/x/007ed2569340ba1c",
+        "urlToImage": "https://biztoc.com/cdn/007ed2569340ba1c_s.webp",
+        "publishedAt": "2024-06-20T14:23:16Z",
+        "content": "Anthropic, a startup backed by Google and Amazon.com , on Thursday released an updated artificial intelligence model and a new layout to boost user productivity, continuing an industry sprint to push… [+71 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "cnbc.com",
+        "title": "OpenAI competitor Anthropic announces its most powerful AI yet",
+        "description": "The company said Claude 3.5 Sonnet is faster than its previous leading model, Claude 3 Opus, and is the first model from Anthropic's new Claude 3.5 family.",
+        "url": "https://biztoc.com/x/2c4b243a9d0ec720",
+        "urlToImage": "https://biztoc.com/cdn/799/og.png",
+        "publishedAt": "2024-06-20T14:12:29Z",
+        "content": "The company said Claude 3.5 Sonnet is faster than its previous leading model, Claude 3 Opus, and is the first model from Anthropic's new Claude 3.5 family.\r\nThis story appeared on cnbc.com, 2024-06-2… [+1 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Yahoo Entertainment"
+        },
+        "author": "Jeffrey Dastin",
+        "title": "Anthropic launches newest AI model, three months after its last",
+        "description": "Anthropic, a startup backed by Google and Amazon.com, on Thursday released an updated artificial intelligence model and a new layout to boost user...",
+        "url": "https://finance.yahoo.com/news/anthropic-launches-newest-ai-model-140503409.html",
+        "urlToImage": "https://media.zenfs.com/en/reuters-finance.com/13218acc9b22c4030d8c1df71b84d5de",
+        "publishedAt": "2024-06-20T14:05:03Z",
+        "content": "By Jeffrey Dastin\r\n(Reuters) - Anthropic, a startup backed by Google and Amazon.com, on Thursday released an updated artificial intelligence model and a new layout to boost user productivity, continu… [+1503 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "CNA"
+        },
+        "author": None,
+        "title": "Anthropic launches newest AI model, three months after its last",
+        "description": "Anthropic, a startup backed by Google and Amazon.com, on Thursday released an updated artificial intelligence model and a new layout to boost user productivity, continuing an industry sprint to push technology's frontier.Three months after rolling out its Cla…",
+        "url": "https://www.channelnewsasia.com/business/anthropic-launches-newest-ai-model-three-months-after-its-last-4424641",
+        "urlToImage": "https://onecms-res.cloudinary.com/image/upload/s--RMiRksW2--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_676,w_1200/v1/one-cms/core/2024-06-20t140503z_1_lynxmpek5j0i3_rtroptp_3_anthropic-ai.jpg?itok=Kd7CYMAL",
+        "publishedAt": "2024-06-20T14:05:03Z",
+        "content": "Anthropic, a startup backed by Google and Amazon.com, on Thursday released an updated artificial intelligence model and a new layout to boost user productivity, continuing an industry sprint to push … [+1473 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "inc.com",
+        "title": "Anthropic Just Announced Its Most Advanced AI Model Yet. These Are Its Top Use Cases",
+        "description": "The model is called Claude 3.5 Sonnet, and it's faster and cheaper than Anthropic's current flagship, Claude 3 Opus.",
+        "url": "https://biztoc.com/x/66fd59a6b79cdd8e",
+        "urlToImage": "https://biztoc.com/cdn/66fd59a6b79cdd8e_s.webp",
+        "publishedAt": "2024-06-20T14:01:22Z",
+        "content": "The model is called Claude 3.5 Sonnet, and it's faster and cheaper than Anthropic's current flagship, Claude 3 Opus.\r\nThis story appeared on inc.com, 2024-06-20."
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "techcrunch.com",
+        "title": "Anthropic claims its latest model is best-in-class",
+        "description": "Claude 3.5 Sonnet can analyze both text and images as well as generate text, and it’s Anthropic’s best-performing model yet — at least on paper. Across several AI benchmarks for reading, coding, math and vision, Claude 3.5 Sonnet outperforms the model it’s re…",
+        "url": "https://biztoc.com/x/b99dffa6f2aa0ab1",
+        "urlToImage": "https://biztoc.com/cdn/799/og.png",
+        "publishedAt": "2024-06-20T14:01:11Z",
+        "content": "Claude 3.5 Sonnet can analyze both text and images as well as generate text, and its Anthropics best-performing model yet at least on paper. Across several AI benchmarks for reading, coding, math and… [+135 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "CNBC"
+        },
+        "author": None,
+        "title": "OpenAI competitor Anthropic announces its most powerful AI yet",
+        "description": "The company said Claude 3.5 Sonnet is faster than its previous leading model, Claude 3 Opus, and is the first model from Anthropic's new Claude 3.5 family.",
+        "url": "https://www.cnbc.com/2024/06/20/anthropic-claude-3point5-sonnet-ai-announced.html",
+        "urlToImage": "https://image.cnbcfm.com/api/v1/image/107306693-1695740177947-gettyimages-1690054729-porzycki-anthropi230926_npo3u.jpeg?v=1718889739&w=1920&h=1080",
+        "publishedAt": "2024-06-20T14:00:01Z",
+        "content": "OpenAI competitor Anthropic on Thursday announced Claude 3.5 Sonnet, its most powerful artificial intelligence model yet.\r\nClaude is one of the chatbots that, like OpenAI's ChatGPT and Google's Gemin… [+2905 chars]"
+    },
+    {
+        "source": {
+            "id": "the-verge",
+            "name": "The Verge"
+        },
+        "author": "David Pierce",
+        "title": "Anthropic has a fast new AI model — and a clever new way to interact with chatbots",
+        "description": "Anthropic says its new faster, smarter AI model, named Claude 3.5 Sonnet, is useful for things like code translation, text transcription, and writing better emails.",
+        "url": "https://www.theverge.com/2024/6/20/24181961/anthropic-claude-35-sonnet-model-ai-launch",
+        "urlToImage": "https://cdn.vox-cdn.com/thumbor/it330Q4_IVO1RMpa5K-YlXFShLA=/0x0:3840x2160/1200x628/filters:focal(1920x1080:1921x1081)/cdn.vox-cdn.com/uploads/chorus_asset/file/25498067/Claude_3_5_Model_Selector.png",
+        "publishedAt": "2024-06-20T14:00:00Z",
+        "content": "Anthropic has a fast new AI model and a clever new way to interact with chatbots\r\nAnthropic has a fast new AI model and a clever new way to interact with chatbots\r\n / Claude 3.5 Sonnet is apparently … [+3595 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Fast Company"
+        },
+        "author": "Mark Sullivan",
+        "title": "Anthropic reveals new state-of-the-art AI with new Claude 3.5 Sonnet",
+        "description": "Welcome to AI Decoded, Fast Company’s weekly newsletter that breaks down the most important news in the world of AI. You can sign up to receive this newsletter every week here.\n\n\n\nAnthropic ups the ante with a new state-of-the-art LLM, Claude 1.5 \n\n\n\nThree mo…",
+        "url": "https://www.fastcompany.com/91143136/anthropic-claude-3-5-sonnet-release",
+        "urlToImage": "https://images.fastcompany.com/image/upload/f_auto,q_auto,c_fit/wp-cms-2/2024/06/p-91143136-decoded-anthropic-llm.jpg",
+        "publishedAt": "2024-06-20T14:00:00Z",
+        "content": "Welcome to AI Decoded, Fast Companys weekly newsletter that breaks down the most important news in the world of AI. You can sign up to receive this newsletter every week here.\r\nThree months after rel… [+5852 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Gizmodo.com"
+        },
+        "author": "Maxwell Zeff",
+        "title": "Anthropic Says New Claude 3.5 AI Model Outperforms GPT-4 Omni",
+        "description": "Anthropic launched Claude 3.5 Sonnet on Thursday, which the AI startup says outperforms its previous AI models and OpenAI’s recently launched GPT-4 Omni on several metrics. The company also released Artifacts, a new dynamic workspace within Claude where users…",
+        "url": "https://gizmodo.com/anthropic-claude-ai-outperforms-openai-gpt-omni-1851550441",
+        "urlToImage": "https://i.kinja-img.com/image/upload/c_fill,h_675,pg_1,q_80,w_1200/0e232639f7b14a06425f26b4f28f4bde.png",
+        "publishedAt": "2024-06-20T14:00:00Z",
+        "content": "Anthropic launched Claude 3.5 Sonnet on Thursday, which the AI startup says outperforms its previous AI models and OpenAIs recently launched GPT-4 Omni on several metrics. The company also released A… [+2320 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Biztoc.com"
+        },
+        "author": "theinformation.com",
+        "title": "OpenAI CEO Says Company Could Become Benefit Corporation Akin to Rivals Anthropic, xAI",
+        "description": "OpenAI CEO Says Company Could Become Benefit Corporation Akin to Rivals Anthropic, xAI The Information\nOpenAI reportedly considering shift to for-profit as CEO stacks board Cointelegraph\nOpenAI top boss reportedly says company could become benefit corporation…",
+        "url": "https://biztoc.com/x/a00671948dece127",
+        "urlToImage": "https://biztoc.com/cdn/799/og.png",
+        "publishedAt": "2024-06-16T00:09:50Z",
+        "content": "OpenAI CEO Says Company Could Become Benefit Corporation Akin to Rivals Anthropic, xAI The InformationOpenAI reportedly considering shift to for-profit as CEO stacks board CointelegraphOpenAI top bos… [+135 chars]"
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "Slashdot.org"
+        },
+        "author": "EditorDavid",
+        "title": "OpenAI CEO Says Company Could Become a For-Profit Corporation Like xAI, Anthropic",
+        "description": "Wednesday The Information reported that OpenAI had doubled its annualized revenue — a measure of the previous month's revenue multiplied by 12 — in the last six months. It's now $3.4 billion (which is up from around $1 billion last summer, notes Engadget). \n\n…",
+        "url": "https://slashdot.org/story/24/06/15/1927218/openai-ceo-says-company-could-become-a-for-profit-corporation-like-xai-anthropic",
+        "urlToImage": "https://a.fsdn.com/sd/topics/ai_64.png",
+        "publishedAt": "2024-06-15T20:34:00Z",
+        "content": "Wednesday The Informationreported that OpenAI had doubled its annualized revenue — a measure of the previous month's revenue multiplied by 12 — in the last six months. It's now $3.4 billion (which is… [+1383 chars]"
+    }
+]
+
 data = {
     'microsoft': pd.DataFrame(microsoft),
     'figma': pd.DataFrame(figma),
-    'robinhood': pd.DataFrame(robinhood)
+    'robinhood': pd.DataFrame(robinhood),
+    'bank of america': pd.DataFrame(bofa),
+    'neuralink': pd.DataFrame(neuralink),
+    'anthropic': pd.DataFrame(anthropic),
 }
