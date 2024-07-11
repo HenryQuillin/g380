@@ -78,7 +78,7 @@ if fetch_button: # when fetch button is pressed
     create_notifications(all_filtered_news)
 
 if 'news_log' in st.session_state and st.session_state.news_log: # if news log has been initialized and isn't empty
-    company_options = {company['id']: company['name'] for company in companies}
+    company_options = {company['id']: company['name'] for company in companies if company['name']}
     selected_company_id = st.selectbox('Select a company to view news', options=list(company_options.keys()),
                                        format_func=lambda x: company_options[x])
 
