@@ -60,7 +60,7 @@ source_filter = st.sidebar.multiselect('Select Sources', options=sorted(df['sour
 date_range = st.sidebar.date_input('Select Date Range',
                                    value=(df['publishedAt'].min().date(), df['publishedAt'].max().date()),
                                    min_value=df['publishedAt'].min().date(), max_value=df['publishedAt'].max().date())
-search_term = st.sidebar.text_input('Search in Title or Description')
+search_term = st.sidebar.text_input('Search')
 
 # Apply filters
 filtered_df = df.copy()
@@ -73,7 +73,8 @@ if date_range:
         (filtered_df['publishedAt'].dt.date >= date_range[0]) & (filtered_df['publishedAt'].dt.date <= date_range[1])]
 if search_term:
     filtered_df = filtered_df[filtered_df['title'].str.contains(search_term, case=False) |
-                              filtered_df['description'].str.contains(search_term, case=False)]
+                              filtered_df['description'].str.contains(search_term, case=False) |
+                              filtered_df['content'].str.contains(search_term, case=False)]
 
 
 # Styling function
@@ -91,7 +92,7 @@ def style_dataframe(df):
     styled = styled.format({
         'description': lambda x: truncate(x, 100),
         'content': lambda x: truncate(x, 200),
-        'publishedAt': lambda x: x.strftime('%b %-d %Y, %-I%p').lower() if pd.notna(x) else ''
+        'publishedAt': lambda x: x.strftime('%b %-d %Y, %-I%p') if pd.notna(x) else ''
     })
 
     return styled
@@ -109,7 +110,7 @@ st.dataframe(
         "company": st.column_config.Column("Company", width="small"),
         "url": st.column_config.LinkColumn("URL", width="small"),
         "source_name": st.column_config.Column("Source", width="small"),
-        "publishedAt": st.column_config.Column("Published At", width="medium"),
+        "publishedAt": st.column_config.Column("Published At", width="small"),
         "description": st.column_config.Column("Description", width="large"),
         "content": st.column_config.Column("Content", width="large")
     },
@@ -117,7 +118,3 @@ st.dataframe(
     use_container_width=True,
     hide_index=True
 )
-
-# Add information about sorting and filtering
-st.info(
-    'Click on column headers to sort the table. Use the sidebar to filter the news. Click on the URLs in the URL column to open the articles.')

@@ -36,11 +36,13 @@ def get_all_companies_data(start_date, end_date):
         filtered_df = company_df.loc[mask]
 
         # Add company name to the DataFrame
+        filtered_df = filtered_df.copy()
         filtered_df['company'] = company_name
 
         all_data.append(filtered_df)
 
     # Combine all company data into a single DataFrame
     combined_df = pd.concat(all_data, ignore_index=True)
+    combined_df = combined_df.sort_values(by='publishedAt', ascending=False)
 
     return combined_df
