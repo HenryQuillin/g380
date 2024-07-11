@@ -13,7 +13,7 @@ with open('./styles.css') as f:
 st.markdown(f'<style>{css}</style>', unsafe_allow_html=True)
 
 companies = get_all_companies()
-st.title('News Log')
+st.title('NEWS LOG')
 
 
 # Start date, end date, and fetch news buttons:

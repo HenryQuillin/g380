@@ -7,7 +7,7 @@ st.set_page_config(page_title="All News", page_icon="📰", layout="wide")
 
 
 
-st.title('All News')
+st.title('ALL NEWS')
 
 end_date = datetime.now()
 start_date = end_date - timedelta(days=365)

@@ -27,18 +27,23 @@ This application is a news alert tool that allows users to monitor news for spec
 
 3. Open a web browser and go to `http://localhost:8501` to view the application.
 
-## Using the News Alerts Tool
+## Usage
 
 1. **Settings**: Add companies you want to track and edit keywords for each company
 
-2. **News Log**: Fetch and view news.
+2. **My Alerts**: Fetch and view news
+
+3**All News**: Browse news for all companies in the mock data  
 
 ## Mock Data 
 
-- The mock data includes pre-defined news articles for three companies:
+- The mock data includes news for six companies:
    - Microsoft
    - Figma
    - Robinhood
+   - Bank of America 
+   - Anthropic
+   - Neuralink
 - Currently, you can only add these three companies to the watchlist.
 - The get_mock_data() function in `mock_data.py` simulates fetching news articles for these companies.
 
