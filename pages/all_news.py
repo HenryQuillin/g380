@@ -5,55 +5,26 @@ from datetime import datetime, timedelta
 
 st.set_page_config(page_title="All News", page_icon="📰", layout="wide")
 
-# Custom CSS for styling
-st.markdown("""
-<style>
-    .dataframe {
-        font-family: Arial, sans-serif;
-    }
-    .dataframe th {
-        background-color: #f8f9fa;
-        color: #202124;
-        font-weight: bold;
-        text-align: left;
-        padding: 10px;
-    }
-    .dataframe td {
-        padding: 8px;
-    }
-    .dataframe tr:nth-child(even) {
-        background-color: #f8f9fa;
-    }
-    .dataframe tr:hover {
-        background-color: #e8eaed;
-    }
-</style>
-""", unsafe_allow_html=True)
+
 
 st.title('All News')
 
-# Fetch all news
 end_date = datetime.now()
-start_date = end_date - timedelta(days=365)  # Fetch news for the last year
+start_date = end_date - timedelta(days=365)
 df = get_all_companies_data(start_date, end_date)
 
 
-# Function to extract source name
-def get_source_name(source):
-    if isinstance(source, dict) and 'name' in source:
-        return source['name']
-    return str(source)
+# source is an object so need to extract the source name
+df['source_name'] = df['source'].apply(lambda source: source['name'])
 
 
-# Extract source names
-df['source_name'] = df['source'].apply(get_source_name)
-
-# Create a consistent color map for all companies
+#
 all_companies = sorted(df['company'].unique())
 colors = ['#e6f3ff', '#fff0e6', '#e6ffe6', '#ffe6e6', '#e6e6ff', '#f0f0f0', '#ffe6cc', '#e6fffa', '#fff5e6', '#e6e6ff']
+# create pairs of company names and colors then turn into dictionary
 color_map = dict(zip(all_companies, colors[:len(all_companies)]))
 
-# Create filter inputs
+# FILTERS
 st.sidebar.header('Filters')
 company_filter = st.sidebar.multiselect('Select Companies', options=all_companies)
 source_filter = st.sidebar.multiselect('Select Sources', options=sorted(df['source_name'].unique()))
@@ -77,32 +48,37 @@ if search_term:
                               filtered_df['content'].str.contains(search_term, case=False)]
 
 
-# Styling function
+
 def style_dataframe(df):
-    def highlight_companies(s):
-        return [f'background-color: {color_map.get(val, "#ffffff")}' for val in s]
+    # changes the background color of the company column & formats the date
+    def highlight_company_names(series):
+        background_color_styles = []
 
-    def truncate(text, length=100):
-        if pd.isna(text):
-            return ''
-        return str(text)[:length] + '...' if len(str(text)) > length else str(text)
+        for company_name in series:
+            background_color = color_map.get(company_name, "#ffffff")
+            background_color_styles.append(f'background-color: {background_color}')
 
-    styled = df.style.apply(highlight_companies, subset=['company'])
+        return background_color_styles
 
-    styled = styled.format({
-        'description': lambda x: truncate(x, 100),
-        'content': lambda x: truncate(x, 200),
-        'publishedAt': lambda x: x.strftime('%b %-d %Y, %-I%p') if pd.notna(x) else ''
+    styled_dataframe = df.style.apply(highlight_company_names, subset=['company'])
+
+    def format_published_at(date_value):
+        if pd.notna(date_value):
+            formatted_date = date_value.strftime('%b %-d %Y, %-I%p')
+        else:
+            formatted_date = ''
+
+        return formatted_date
+    styled_dataframe = styled_dataframe.format({
+        'publishedAt': format_published_at
     })
 
-    return styled
+    return styled_dataframe
 
 
-# Apply styling
 display_columns = ['title', 'company', 'url', 'source_name', 'publishedAt', 'description', 'content']
 styled_df = style_dataframe(filtered_df[display_columns])
 
-# Display the styled dataframe with custom column labels and LinkColumn for URL
 st.dataframe(
     styled_df,
     column_config={

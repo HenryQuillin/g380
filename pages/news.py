@@ -89,16 +89,19 @@ if 'news_log' in st.session_state and st.session_state.news_log: # if news log h
         filtered_news = st.session_state.news_log[selected_company_name]
 
         # display the filtered news for the selected company
-        for article in filtered_news:
-            with st.container():
-                st.markdown(f"###### [{article.get('title', 'No Title')}]({article.get('url', '#')})")
-                st.markdown(
-                    f"**Source:** [{article.get('source', {}).get('name', 'Unknown Source')}]({article.get('url', '#')})")
-                if 'publishedAt' in article:
-                    if isinstance(article['publishedAt'], pd.Timestamp):
-                        published_date = article['publishedAt'].to_pydatetime()
-                    else:
-                        published_date = datetime.strptime(article['publishedAt'], "%Y-%m-%dT%H:%M:%SZ")
-                    st.markdown(f"**Published:** {published_date.strftime('%B %d, %Y at %I:%M %p')}")
-                st.markdown(f"**Description:** {article.get('description', 'No description available')}")
-                st.markdown("---")
+        if filtered_news:
+            for article in filtered_news:
+                with st.container():
+                    st.markdown(f"###### [{article.get('title', 'No Title')}]({article.get('url', '#')})")
+                    st.markdown(
+                        f"**Source:** [{article.get('source', {}).get('name', 'Unknown Source')}]({article.get('url', '#')})")
+                    if 'publishedAt' in article:
+                        if isinstance(article['publishedAt'], pd.Timestamp):
+                            published_date = article['publishedAt'].to_pydatetime()
+                        else:
+                            published_date = datetime.strptime(article['publishedAt'], "%Y-%m-%dT%H:%M:%SZ")
+                        st.markdown(f"**Published:** {published_date.strftime('%B %d, %Y at %I:%M %p')}")
+                    st.markdown(f"**Description:** {article.get('description', 'No description available')}")
+                    st.markdown("---")
+        else:
+            st.markdown(f"**No news found for {selected_company_name}**")
