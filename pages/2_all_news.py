@@ -64,7 +64,7 @@ def style_dataframe(df):
 
     def format_published_at(date_value):
         if pd.notna(date_value):
-            formatted_date = date_value.strftime('%b %-d %Y, %-I%p')
+            formatted_date = date_value.strftime('%b %d %Y, %I%p')
         else:
             formatted_date = ''
 

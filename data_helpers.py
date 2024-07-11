@@ -32,7 +32,7 @@ def get_all_companies_data(start_date, end_date):
         filtered_df = company_df.loc[mask]
 
         filtered_df = filtered_df.copy()
-        filtered_df['company'] = company_name.title()
+        filtered_df['company'] = company_name.title() #inish cap
 
         all_data.append(filtered_df)
 

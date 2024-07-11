@@ -8,7 +8,7 @@ def render_keywords():
     st.subheader('Keywords')
     # setting up comapny
     companies = get_all_companies()
-    company_options = {company['id']: company['name'] for company in companies}
+    company_options = {company['id']: company['name'] for company in companies if company['name']}
 
     selected_company_id = st.selectbox('Select a company', options=list(company_options.keys()),
                                        format_func=lambda x: company_options[x])
