@@ -68,3 +68,19 @@ Article Log:
     - User can filter by company, source, and date range
     - User can search the articles (title, description, and content)
     - User can sort by clicking on a column (sorted by publishing date by default)
+
+
+   Touchpoint notes:
+
+   - The table a bit content heavy. UI should be cleaner, more open, and less cluttered.
+- Take out the url column and hyperlink the titles.
+- Take out the content column — having both content and description is redundant.
+- Find a way to wrap text - as opposed to it being cut off.
+- Explore a news card display (reference code week project).
+- Clean up the data
+    - Remove rows with any missing fields
+    - Filter out the non english articles
+- Start thinking about end to end user experience.
+    - There should be a button where I can add those filters as an alert.
+    - If I’m searching  news and find a combination of filters that I like, I should be able to add that as an alert via a button.
+- The settings page should be the last on the navigation panel.
