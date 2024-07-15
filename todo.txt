@@ -72,7 +72,7 @@ Article Log:
 
    Touchpoint notes:
 
-   - The table a bit content heavy. UI should be cleaner, more open, and less cluttered.
+  - The table a bit content heavy. UI should be cleaner, more open, and less cluttered.
 - Take out the url column and hyperlink the titles.
 - Take out the content column — having both content and description is redundant.
 - Find a way to wrap text - as opposed to it being cut off.
