@@ -84,3 +84,15 @@ Article Log:
     - There should be a button where I can add those filters as an alert.
     - If I’m searching  news and find a combination of filters that I like, I should be able to add that as an alert via a button.
 - The settings page should be the last on the navigation panel.
+
+
+All NEws PR
+
+Added:
+'All News' page for browsing all news (independent of watchlist and keyword list)
+Grid and list views
+Filtering options for companies, sources, date range, and keyword search
+Toggle for showing/hiding article descriptions
+Color-coded company tags for easy identification
+Subtle hover animation for news cards
+
