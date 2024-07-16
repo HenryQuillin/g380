@@ -12,9 +12,6 @@ This application is a news alert tool that allows users to monitor news for spec
   ```
   venv\Scripts\activate
   ```
-  ```
-  source venv/bin/activate
-  ```
 
 5. Install the required packages:
 ```pip install -r requirements.txt```
