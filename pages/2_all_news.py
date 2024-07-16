@@ -15,14 +15,15 @@ end_date = datetime.now()
 start_date = end_date - timedelta(days=365)
 df = get_all_companies_data(start_date, end_date)
 
+# source is an object so need to extract the source name
 df['source_name'] = df['source'].apply(lambda source: source['name'])
 
-
+# Color map stuff ------------------
 all_companies = sorted(df['company'].unique())
 colors = ['#e6f3ff', '#fff0e6', '#e6ffe6', '#ffe6e6', '#e6e6ff', '#f0f0f0', '#ffe6cc', '#e6fffa', '#fff5e6', '#e6e6ff']
-color_map = dict(zip(all_companies, colors[:len(all_companies)]))
+color_map = dict(zip(all_companies, colors[:len(all_companies)])) #map company to color
 
-# Display options -------------
+# Grid vs list options  -------------
 col1, col2 = st.columns([1,1])
 with col1:
     show_descriptions = st.toggle('Show Descriptions', value=True)
@@ -60,22 +61,30 @@ if search_term:
                               filtered_df['content'].str.contains(search_term, case=False)]
 
 
-filtered_df = filtered_df.sort_values('publishedAt', ascending=False)
+filtered_df = filtered_df.sort_values('publishedAt', ascending=False) #default filter by published date
 
-
+# News card grid ------------
 news_container = st.container()
 with news_container:
     if view_mode == "Grid":
-        cols = st.columns(3)
         news_card_class = "news-card-grid-view"
         if not show_descriptions:
             news_card_class = "news-card-grid-view-no-descriptions"
-    else:
-        cols = [st.columns(1)[0]]  #list view
+
+        col1, col2, col3 = st.columns(3)
+        cols = [col1, col2, col3]
+    else: #  want just one column for grid view
+        cols = [st.columns(1)[0]]
         news_card_class = ""
 
-    for index, row in filtered_df.iterrows():
-        col = cols[index % len(cols)]
+    # Was having some issues with using the index returned by iterrrows()
+    # so using enumerate() as a fix
+    for i, (_, row) in enumerate(filtered_df.iterrows()):
+        if view_mode == "Grid":
+            col = cols[i % 3]
+        else:
+            col = cols[0]
+
         with col:
             company_color = color_map.get(row['company'], "#ffffff")
             description_html = ""

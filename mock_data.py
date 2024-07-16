@@ -1566,19 +1566,6 @@ figma = [
     {
         "source": {
             "id": None,
-            "name": "Applech2.com"
-        },
-        "author": "applech2",
-        "title": "Apple、macOS 15 SequoiaやiOS/iPadOS 18、visionOS 2のSketch用デザインテンプレートを公開。今後Figmaでの提供も開始し、Adobe XDでの提供は終了。",
-        "description": "AppleがmacOS 15 SequoiaとiOS/iPadOS 18のSketch用デザインテンプレートを公開。今後Figmaでの提供も開始するそうです。詳細は以下から。 　Appleは現地時間2024年06月11 […]\nThe post Apple、macOS 15 SequoiaやiOS/iPadOS 18、visionOS 2のSketch用デザインテンプレートを公開。今後Figmaでの提供も開始し、Adobe XDでの提供は終了。 first appeared on AAPL Ch..",
-        "url": "https://applech2.com/archives/20240614-apple-design-resources-2024.html",
-        "urlToImage": "https://applech2.com/wp-content/uploads/2024/06/macOS-Sequoia-and-iOS-18-Design-Templates-Hero.jpg",
-        "publishedAt": "2024-06-14T02:09:11Z",
-        "content": "ApplemacOS 15 SequoiaiOS/iPadOS 18SketchFigma\r\nApple20240611WWDC24iOS 18iPadOS 18iOS 1812macOS 15 SequoiavisionOS 2Sketch\r\n/macOS 15 SequoiavisionOS (2)TechnologiesApp Clips Design Template, Apple Pa… [+455 chars]"
-    },
-    {
-        "source": {
-            "id": None,
             "name": "Freebiesbug.com"
         },
         "author": "Pasquale Vitiello",
@@ -5204,19 +5191,6 @@ anthropic = [
     {
         "source": {
             "id": None,
-            "name": "Livedoor.com"
-        },
-        "author": "GIGAZINE（ギガジン）",
-        "title": "「AIのトレーニングにかかるコストはわずか3年で1000億ドルに上昇するかもしれない」とAnthropicのCEOが予想",
-        "description": "チャットAI「Claude」などを開発するAI企業「Anthropic」のダリオ・アモデイCEOが、「2025年から2027年にかけての3年間で、AIのトレーニングコストが100億ドル(約1兆6000億円)～1000億ドル(約16兆円)にまで上昇する可能性があります」と主張しています。Dario Amodei - CEO of Anthropic | Podcast | In Good Company | Norges Bank Investment Management - YouTubeAI models t…",
-        "url": "https://news.livedoor.com/article/detail/26747914/",
-        "urlToImage": "https://image.news.livedoor.com/newsimage/stf/0/5/059a6_88_6893a89c5a6247a435b9a52d72a3e850.jpg",
-        "publishedAt": "2024-07-08T01:58:00Z",
-        "content": "AIClaudeAIAnthropicCEO202520273AI100(16000)1000(16)\r\nDario Amodei - CEO of Anthropic | Podcast | In Good Company | Norges Bank Investment Management - YouTube\r\nAI models that cost $1 billion to train… [+870 chars]"
-    },
-    {
-        "source": {
-            "id": None,
             "name": "Tom's Hardware UK"
         },
         "author": "Jowi Morales",
@@ -5501,6 +5475,126 @@ anthropic = [
         "content": "Anthropic has two new collaboration features for its Claude AI that aim to streamline workflows. \r\nProjects allow teams to create a central hub where they can dump everything they need for that parti… [+1747 chars]"
     },
     {
+        "source": {
+            "id": None,
+            "name": "Anthropic.com"
+        },
+        "author": None,
+        "title": "Anthropic: Expanding Access to Claude for Government",
+        "description": "Anthropic's mission is to build reliable, interpretable, steerable AI systems. We have been excited to see our technology used in areas like coding, customer service, drug discovery, and medical research. We're eager to make these tools available through expa…",
+        "url": "https://www.anthropic.com/news/expanding-access-to-claude-for-government",
+        "urlToImage": "https://cdn.sanity.io/images/4zrzovbb/website/4b8bc05b916dc4fbaf2543f76f946e5587aaeb43-2400x1260.png",
+        "publishedAt": "2024-06-26T17:32:04Z",
+        "content": "Anthropic's mission is to build reliable, interpretable, steerable AI systems. We have been excited to see our technology used in areas like coding, customer service, drug discovery, and medical rese… [+3054 chars]"
+    },    {
+        "source": {
+            "id": None,
+            "name": "Anthropic.com"
+        },
+        "author": None,
+        "title": "Anthropic: Expanding Access to Claude for Government",
+        "description": "Anthropic's mission is to build reliable, interpretable, steerable AI systems. We have been excited to see our technology used in areas like coding, customer service, drug discovery, and medical research. We're eager to make these tools available through expa…",
+        "url": "https://www.anthropic.com/news/expanding-access-to-claude-for-government",
+        "urlToImage": "https://cdn.sanity.io/images/4zrzovbb/website/4b8bc05b916dc4fbaf2543f76f946e5587aaeb43-2400x1260.png",
+        "publishedAt": "2024-06-26T17:32:04Z",
+        "content": "Anthropic's mission is to build reliable, interpretable, steerable AI systems. We have been excited to see our technology used in areas like coding, customer service, drug discovery, and medical rese… [+3054 chars]"
+    },    {
+        "source": {
+            "id": None,
+            "name": "Anthropic.com"
+        },
+        "author": None,
+        "title": "Anthropic: Expanding Access to Claude for Government",
+        "description": "Anthropic's mission is to build reliable, interpretable, steerable AI systems. We have been excited to see our technology used in areas like coding, customer service, drug discovery, and medical research. We're eager to make these tools available through expa…",
+        "url": "https://www.anthropic.com/news/expanding-access-to-claude-for-government",
+        "urlToImage": "https://cdn.sanity.io/images/4zrzovbb/website/4b8bc05b916dc4fbaf2543f76f946e5587aaeb43-2400x1260.png",
+        "publishedAt": "2024-06-26T17:32:04Z",
+        "content": "Anthropic's mission is to build reliable, interpretable, steerable AI systems. We have been excited to see our technology used in areas like coding, customer service, drug discovery, and medical rese… [+3054 chars]"
+    },    {
+        "source": {
+            "id": None,
+            "name": "Anthropic.com"
+        },
+        "author": None,
+        "title": "Anthropic: Expanding Access to Claude for Government",
+        "description": "Anthropic's mission is to build reliable, interpretable, steerable AI systems. We have been excited to see our technology used in areas like coding, customer service, drug discovery, and medical research. We're eager to make these tools available through expa…",
+        "url": "https://www.anthropic.com/news/expanding-access-to-claude-for-government",
+        "urlToImage": "https://cdn.sanity.io/images/4zrzovbb/website/4b8bc05b916dc4fbaf2543f76f946e5587aaeb43-2400x1260.png",
+        "publishedAt": "2024-06-26T17:32:04Z",
+        "content": "Anthropic's mission is to build reliable, interpretable, steerable AI systems. We have been excited to see our technology used in areas like coding, customer service, drug discovery, and medical rese… [+3054 chars]"
+    },{
+        "source": {
+            "id": None,
+            "name": "Anthropic.com"
+        },
+        "author": None,
+        "title": "Anthropic: Expanding Access to Claude for Government",
+        "description": "Anthropic's mission is to build reliable, interpretable, steerable AI systems. We have been excited to see our technology used in areas like coding, customer service, drug discovery, and medical research. We're eager to make these tools available through expa…",
+        "url": "https://www.anthropic.com/news/expanding-access-to-claude-for-government",
+        "urlToImage": "https://cdn.sanity.io/images/4zrzovbb/website/4b8bc05b916dc4fbaf2543f76f946e5587aaeb43-2400x1260.png",
+        "publishedAt": "2024-06-26T17:32:04Z",
+        "content": "Anthropic's mission is to build reliable, interpretable, steerable AI systems. We have been excited to see our technology used in areas like coding, customer service, drug discovery, and medical rese… [+3054 chars]"
+    },{
+        "source": {
+            "id": None,
+            "name": "Anthropic.com"
+        },
+        "author": None,
+        "title": "Anthropic: Expanding Access to Claude for Government",
+        "description": "Anthropic's mission is to build reliable, interpretable, steerable AI systems. We have been excited to see our technology used in areas like coding, customer service, drug discovery, and medical research. We're eager to make these tools available through expa…",
+        "url": "https://www.anthropic.com/news/expanding-access-to-claude-for-government",
+        "urlToImage": "https://cdn.sanity.io/images/4zrzovbb/website/4b8bc05b916dc4fbaf2543f76f946e5587aaeb43-2400x1260.png",
+        "publishedAt": "2024-06-26T17:32:04Z",
+        "content": "Anthropic's mission is to build reliable, interpretable, steerable AI systems. We have been excited to see our technology used in areas like coding, customer service, drug discovery, and medical rese… [+3054 chars]"
+    },{
+        "source": {
+            "id": None,
+            "name": "Anthropic.com"
+        },
+        "author": None,
+        "title": "Anthropic: Expanding Access to Claude for Government",
+        "description": "Anthropic's mission is to build reliable, interpretable, steerable AI systems. We have been excited to see our technology used in areas like coding, customer service, drug discovery, and medical research. We're eager to make these tools available through expa…",
+        "url": "https://www.anthropic.com/news/expanding-access-to-claude-for-government",
+        "urlToImage": "https://cdn.sanity.io/images/4zrzovbb/website/4b8bc05b916dc4fbaf2543f76f946e5587aaeb43-2400x1260.png",
+        "publishedAt": "2024-06-26T17:32:04Z",
+        "content": "Anthropic's mission is to build reliable, interpretable, steerable AI systems. We have been excited to see our technology used in areas like coding, customer service, drug discovery, and medical rese… [+3054 chars]"
+    },{
+        "source": {
+            "id": None,
+            "name": "Anthropic.com"
+        },
+        "author": None,
+        "title": "Anthropic: Expanding Access to Claude for Government",
+        "description": "Anthropic's mission is to build reliable, interpretable, steerable AI systems. We have been excited to see our technology used in areas like coding, customer service, drug discovery, and medical research. We're eager to make these tools available through expa…",
+        "url": "https://www.anthropic.com/news/expanding-access-to-claude-for-government",
+        "urlToImage": "https://cdn.sanity.io/images/4zrzovbb/website/4b8bc05b916dc4fbaf2543f76f946e5587aaeb43-2400x1260.png",
+        "publishedAt": "2024-06-26T17:32:04Z",
+        "content": "Anthropic's mission is to build reliable, interpretable, steerable AI systems. We have been excited to see our technology used in areas like coding, customer service, drug discovery, and medical rese… [+3054 chars]"
+    },{
+        "source": {
+            "id": None,
+            "name": "Anthropic.com"
+        },
+        "author": None,
+        "title": "Anthropic: Expanding Access to Claude for Government",
+        "description": "Anthropic's mission is to build reliable, interpretable, steerable AI systems. We have been excited to see our technology used in areas like coding, customer service, drug discovery, and medical research. We're eager to make these tools available through expa…",
+        "url": "https://www.anthropic.com/news/expanding-access-to-claude-for-government",
+        "urlToImage": "https://cdn.sanity.io/images/4zrzovbb/website/4b8bc05b916dc4fbaf2543f76f946e5587aaeb43-2400x1260.png",
+        "publishedAt": "2024-06-26T17:32:04Z",
+        "content": "Anthropic's mission is to build reliable, interpretable, steerable AI systems. We have been excited to see our technology used in areas like coding, customer service, drug discovery, and medical rese… [+3054 chars]"
+    },{
+        "source": {
+            "id": None,
+            "name": "Anthropic.com"
+        },
+        "author": None,
+        "title": "Anthropic: Expanding Access to Claude for Government",
+        "description": "Anthropic's mission is to build reliable, interpretable, steerable AI systems. We have been excited to see our technology used in areas like coding, customer service, drug discovery, and medical research. We're eager to make these tools available through expa…",
+        "url": "https://www.anthropic.com/news/expanding-access-to-claude-for-government",
+        "urlToImage": "https://cdn.sanity.io/images/4zrzovbb/website/4b8bc05b916dc4fbaf2543f76f946e5587aaeb43-2400x1260.png",
+        "publishedAt": "2024-06-26T17:32:04Z",
+        "content": "Anthropic's mission is to build reliable, interpretable, steerable AI systems. We have been excited to see our technology used in areas like coding, customer service, drug discovery, and medical rese… [+3054 chars]"
+    },{
         "source": {
             "id": None,
             "name": "Anthropic.com"
