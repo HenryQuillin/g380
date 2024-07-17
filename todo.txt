@@ -96,3 +96,4 @@ Toggle for showing/hiding article descriptions
 Color-coded company tags for easy identification
 Subtle hover animation for news cards
 
+Honestly though I had to use html and css to improve the UI from what it was previously. Streamlit has nice looking buttons but I don't think it will help in terms of UI much more than a good css library. It does help though a lot in terms of replacing JS logic, event listeners, etc.
