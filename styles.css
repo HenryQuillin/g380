@@ -98,3 +98,67 @@ header {visibility: hidden;}
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
+
+.st-emotion-cache-1jicfl2 {
+    width: 85%;
+}
+
+
+/* Duplicate dropdown styles */
+.duplicates-dropdown {
+    margin-top: 10px;
+    border-top: 1px solid #e0e0e0;
+    padding-top: 10px;
+}
+
+.duplicates-dropdown summary {
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.duplicates-dropdown summary:hover {
+    color: #FF4B4B
+}
+
+.duplicates-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.duplicate-item {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.duplicate-title {
+    display: block;
+    color: #1e88e5 !important;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+
+.duplicate-title:hover {
+    text-decoration: underline;
+}
+
+.duplicate-meta {
+    font-size: 0.8em;
+    color: #666;
+}
+
+/* Remove these individual styles for source and date
+.duplicate-source {
+    font-weight: bold;
+}
+
+.duplicate-date {
+    font-style: italic;
+}
+*/
+
+.st-c5.st-c6.st-c7.st-bb.st-an.st-ap.st-aq.st-ao.st-f6.st-f7.st-fj.st-b5.st-ew.st-j5.st-gk.st-gl {
+    left: 90px;
+}
+

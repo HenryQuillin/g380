@@ -30,7 +30,6 @@ with col1:
 with col2:
     view_mode = st.radio('View Mode', options=['List', 'Grid'], horizontal=True, label_visibility="collapsed")
 
-
 # FILTERS -----------
 col1, col2, col3, col4 = st.columns(4)
 with col1:
@@ -44,7 +43,14 @@ with col3:
 with col4:
     search_term = st.text_input('Search')
 
-
+# Handle date range filtering
+if isinstance(date_range, tuple) and len(date_range) == 2:
+    start_date, end_date = date_range
+elif isinstance(date_range, (list, tuple)) and len(date_range) == 1:
+    start_date = end_date = date_range[0]
+else:
+    start_date = df['publishedAt'].min().date()
+    end_date = df['publishedAt'].max().date()
 
 # filters logic -------------------
 filtered_df = df.copy()
@@ -52,14 +58,17 @@ if company_filter:
     filtered_df = filtered_df[filtered_df['company'].isin(company_filter)]
 if source_filter:
     filtered_df = filtered_df[filtered_df['source_name'].isin(source_filter)]
-if date_range:
-    filtered_df = filtered_df[
-        (filtered_df['publishedAt'].dt.date >= date_range[0]) & (filtered_df['publishedAt'].dt.date <= date_range[1])]
+
+# Date range filter
+filtered_df = filtered_df[
+    (filtered_df['publishedAt'].dt.date >= start_date) &
+    (filtered_df['publishedAt'].dt.date <= end_date)
+]
+
 if search_term:
     filtered_df = filtered_df[filtered_df['title'].str.contains(search_term, case=False) |
                               filtered_df['description'].str.contains(search_term, case=False) |
                               filtered_df['content'].str.contains(search_term, case=False)]
-
 
 filtered_df = filtered_df.sort_values('publishedAt', ascending=False) #default filter by published date
 
