@@ -73,7 +73,6 @@ def format_date(date_str):
     except:
         return date_str
 
-# Fetch news function
 def fetch_news():
     all_news = []
     for company in companies:
@@ -103,11 +102,6 @@ def fetch_news():
     st.session_state.no_news_reason = None
     create_notifications(grouped_articles)
     st.success(f"Found {len(grouped_articles)} unique articles.")
-
-# Filter articles function (assuming you have this from before)
-def filter_articles(articles, keywords):
-    # Implement your filtering logic here
-    return articles
 
 if fetch_button:
     fetch_news()
@@ -153,10 +147,9 @@ if st.session_state.news_log:
                     if show_descriptions and pd.notna(article.get('description')):
                         description_html = f"<div class='news-description'>{article['description']}</div>"
 
-                    # Format the main article's date
                     formatted_date = format_date(article.get('publishedAt', 'Unknown Date'))
 
-                    # Prepare duplicate articles HTML
+                    # duplicate articles HTML ---------
                     duplicates_html = ""
                     if 'duplicates' in article and article['duplicates']:
                         duplicates_html = f"""<details class="duplicates-dropdown">
@@ -176,7 +169,7 @@ if st.session_state.news_log:
                             else:
                                 duplicates_html += f"<li>Invalid duplicate data: {dup}</li>"
                         duplicates_html += "</ul></details>"
-
+                    #news card html -----------
                     st.markdown(f"""
                     <div class="news-card {news_card_class}">
                         <div class="news-title">

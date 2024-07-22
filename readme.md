@@ -44,3 +44,32 @@ This application is a news alert tool that allows users to monitor news for spec
 - Currently, you can only add these three companies to the watchlist.
 - The get_mock_data() function in `mock_data.py` simulates fetching news articles for these companies.
 
+# Project Wiki 
+
+
+## Duplicate detection
+
+- Computing similarity (compute_similarity function):
+    - Uses TF-IDF (Term Frequency-Inverse Document Frequency) vectorization to convert texts into numerical vectors.
+        - TF-IDF measures the importance of words in each text relative to all the titles and descriptions.
+    - Cosine similarity is then computed between all pairs of these vectors.
+    - The result is a 2d array where each element [i, j] represents the similarity between text i and text j.
+- Duplicate Detection (detect_duplicates function):
+    - Takes a list of articles as input.
+    - extracts titles and descriptions from these articles.
+    - Similarity matrices are computed separately for titles and descriptions using the compute_similarity function.
+    - Two thresholds: 0.5 for titles and 0.8 for descriptions.
+    - For each article:
+        - It finds indices of articles with similar titles (similarity > 0.5) and indices of articles with similar descriptions (similarity > 0.8) and then combines them
+    - If an article has any similar articles (other than itself), it's added to the duplicates dictionary.
+  - Grouping Articles 
+      - The code then iterates through all articles again.
+      - For each article not yet processed:
+          - If it has duplicates:
+              - The article is made as the "primary" article.
+              - Information about each duplicate is added to a 'duplicates' list in this primary article.
+              - The primary article (and its duplicates) is added to grouped_articles.
+              - All duplicates are marked as processed to avoid processing them again later.
+          - If it has no duplicates, it's added to grouped_articles as is.
+
+The final output is a list of grouped articles, where each group consists of a primary article and its duplicates (could be none). The duplicates are then included in a dropdown list in the news cards.
