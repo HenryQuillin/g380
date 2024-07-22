@@ -8,19 +8,16 @@ from duplicate_detection import detect_duplicates
 
 st.set_page_config(page_title="My Alerts", page_icon="🚨", layout="wide")
 
-# Import CSS
 with open('./styles.css') as f:
     css = f.read()
 st.markdown(f'<style>{css}</style>', unsafe_allow_html=True)
 
 st.title('MY ALERTS')
 
-# Sidebar
-st.sidebar.header("Controls")
+st.sidebar.header("Simulate Fetch")
 
-# Initialize session state variables if they don't exist
 if 'date_range' not in st.session_state:
-    st.session_state.date_range = (datetime.now() - timedelta(days=30), datetime.now())
+    st.session_state.date_range = (datetime(2024, 6, 1), datetime.now())
 if 'news_log' not in st.session_state:
     st.session_state.news_log = []
 if 'fetch_attempted' not in st.session_state:
@@ -28,15 +25,15 @@ if 'fetch_attempted' not in st.session_state:
 if 'no_news_reason' not in st.session_state:
     st.session_state.no_news_reason = None
 
-# Date range in sidebar
+# Ssidebar ---------------
 date_range = st.sidebar.date_input(
     "Select Date Range",
     value=st.session_state.date_range,
     min_value=datetime.now() - timedelta(days=365),
     max_value=datetime.now(),
 )
+fetch_button = st.sidebar.button('Fetch News')
 
-# Ensure we always have two dates, even if the user only selects one
 if len(date_range) == 2:
     start_date, end_date = date_range
 # elif len(date_range) == 1:
@@ -44,18 +41,17 @@ if len(date_range) == 2:
 else:
     start_date, end_date = st.session_state.date_range
 
-# Update session state
 st.session_state.date_range = (start_date, end_date)
 
-# Fetch news button in sidebar
-fetch_button = st.sidebar.button('Fetch News')
 
-# Main content area
-# Control options on the same line
+
+
 
 companies = get_all_companies()
 company_options = {company['id']: company['name'] for company in companies if company['name']}
 
+
+# filters and stuff ------------
 col1, col2 = st.columns([1,1])
 with col1:
     show_descriptions = st.toggle('Show Descriptions', value=True)
@@ -65,18 +61,17 @@ with col2:
 selected_company_ids = st.multiselect('Filter Companies', options=list(company_options.keys()),
                                       format_func=lambda x: company_options[x])
 
-# Color map
+# colors -------------
 all_companies = sorted(company_options.values())
 colors = ['#e6f3ff', '#fff0e6', '#e6ffe6', '#ffe6e6', '#e6e6ff', '#f0f0f0', '#ffe6cc', '#e6fffa', '#fff5e6', '#e6e6ff']
 color_map = dict(zip(all_companies, colors[:len(all_companies)]))
 
-# Date formatting function
 def format_date(date_str):
     try:
         date = datetime.strptime(date_str, "%Y-%m-%dT%H:%M:%SZ")
         return date.strftime("%b %d %Y, %I:%M %p")
     except:
-        return date_str  # Return original string if parsing fails
+        return date_str
 
 # Fetch news function
 def fetch_news():
@@ -107,7 +102,7 @@ def fetch_news():
     st.session_state.fetch_attempted = True
     st.session_state.no_news_reason = None
     create_notifications(grouped_articles)
-    st.success(f"Found {len(grouped_articles)} articles.")
+    st.success(f"Found {len(grouped_articles)} unique articles.")
 
 # Filter articles function (assuming you have this from before)
 def filter_articles(articles, keywords):

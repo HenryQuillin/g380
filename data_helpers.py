@@ -7,13 +7,13 @@ def get_mock_data(company_name, start_date, end_date, keywords):
     start = start_date if isinstance(start_date, datetime) else datetime.combine(start_date, datetime.min.time())
     end = end_date if isinstance(end_date, datetime) else datetime.combine(end_date, datetime.max.time())
 
-    df = data.get(company_name.lower(), pd.DataFrame(columns=['title','description','url','publishedAt']))
+    df = data.get(company_name.lower(), pd.DataFrame(columns=['title', 'description', 'url', 'publishedAt']))
 
     df['publishedAt'] = pd.to_datetime(df['publishedAt'], format="%Y-%m-%dT%H:%M:%SZ", errors='coerce')
 
     # Filter by date
     mask = (df['publishedAt'] >= start) & (df['publishedAt'] <= end)
-    filtered_df = df.loc[mask]
+    filtered_df = df.loc[mask].copy()  # Create an explicit copy
 
     # Filter by keywords
     if keywords:
@@ -24,9 +24,9 @@ def get_mock_data(company_name, start_date, end_date, keywords):
         ), axis=1)
         filtered_df = filtered_df[keyword_mask]
 
-    # Replace None values with empty strings
-    filtered_df['title'] = filtered_df['title'].fillna('')
-    filtered_df['description'] = filtered_df['description'].fillna('')
+    # Replace None values with empty strings using .loc
+    filtered_df.loc[:, 'title'] = filtered_df['title'].fillna('')
+    filtered_df.loc[:, 'description'] = filtered_df['description'].fillna('')
 
     return filtered_df
 
