@@ -14,8 +14,8 @@ def compute_similarity(texts):
 
 
 def detect_duplicates(articles):
-    title_threshold = 0.5
-    description_threshold = 0.8
+    title_threshold = 0.3
+    description_threshold = 0.6
     if not articles:
         return []
 

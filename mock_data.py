@@ -4,6 +4,44 @@ microsoft = [
     {
         "source": {
             "id": None,
+            "name": "TechCrunch.com"
+        },
+        "author": "John Smith",
+        "title": "Microsoft pushes OneDrive integration in latest Windows 11 update",
+        "description": "Windows 11 users report automatic OneDrive folder backups during fresh installs, raising privacy concerns.",
+        "url": "https://techcrunch.com/2024/06/26/microsoft-onedrive-windows11",
+        "urlToImage": "https://techcrunch.com/wp-content/uploads/2024/06/windows11-onedrive.jpg",
+        "publishedAt": "2024-07-08T10:22:15Z",
+        "content": "Microsoft's latest Windows 11 update has sparked controversy as users discover their files are being automatically backed up to OneDrive without explicit permission. This move has raised questions about user privacy and data control."
+    },    {
+        "source": {
+            "id": None,
+            "name": "TechCrunch.com"
+        },
+        "author": "John Smith",
+        "title": "Windows 11 update includes required OneDrive integration",
+        "description": "Windows 11 users report automatic OneDrive folder backups during fresh installs, raising privacy concerns.",
+        "url": "https://techcrunch.com/2024/06/26/microsoft-onedrive-windows11",
+        "urlToImage": "https://techcrunch.com/wp-content/uploads/2024/06/windows11-onedrive.jpg",
+        "publishedAt": "2024-07-08T10:22:15Z",
+        "content": "Microsoft's latest Windows 11 update has sparked controversy as users discover their files are being automatically backed up to OneDrive without explicit permission. This move has raised questions about user privacy and data control."
+    },
+    {
+        "source": {
+            "id": None,
+            "name": "ZDNet.com"
+        },
+        "author": "Jane Doe",
+        "title": "Windows 11 update: OneDrive backup now harder to bypass",
+        "description": "New Windows 11 installations are now defaulting to OneDrive backup, making it more challenging for users to opt-out of cloud storage.",
+        "url": "https://www.zdnet.com/article/windows-11-update-onedrive-backup",
+        "urlToImage": "https://zdnet.com/a/img/2024/06/onedrive-windows11.png",
+        "publishedAt": "2024-07-07T20:50:15Z",
+        "content": "Microsoft's latest Windows 11 update has made it increasingly difficult for users to avoid OneDrive integration during new installations. The tech giant seems to be pushing its cloud storage solution more aggressively, raising concerns about user choice and data privacy."
+    },
+    {
+        "source": {
+            "id": None,
             "name": "PCMag.com"
         },
         "author": "Brian Westover",
@@ -237,19 +275,6 @@ microsoft = [
     {
         "source": {
             "id": None,
-            "name": "WebProNews"
-        },
-        "author": "Matt Milano",
-        "title": "Microsoft Enables Windows 11 OneDrive Backup Without Asking",
-        "description": "In yet another instance of strong-arming users, Microsoft has changed Windows 11 setup so OneDrive backup is enabled by default.",
-        "url": "https://www.webpronews.com/microsoft-enables-windows-11-onedrive-backup-without-asking/",
-        "urlToImage": "https://www.webpronews.com/wp-content/uploads/2023/11/Microsoft-OneDrive.jpg",
-        "publishedAt": "2024-06-26T18:28:30Z",
-        "content": "In yet another instance of strong-arming users, Microsoft has changed Windows 11 setup so OneDrive backup is enabled by default.\r\nSpotted by Neowin, Microsoft appears to have made the change without … [+1293 chars]"
-    },
-    {
-        "source": {
-            "id": None,
             "name": "TechSpot"
         },
         "author": "Alfonso Maruccia",
@@ -356,19 +381,6 @@ microsoft = [
             "id": None,
             "name": "Biztoc.com"
         },
-        "author": "go.theregister.com",
-        "title": "Microsoft makes it harder to avoid OneDrive during new Windows 11 installs",
-        "description": "Hey, OneDrive! Leave my files alone\nUser data is being slurped into Microsoft's cloud via OneDrive folder backup without user permission.…",
-        "url": "https://biztoc.com/x/3f47354b0e2120b6",
-        "urlToImage": "https://biztoc.com/cdn/799/og.png",
-        "publishedAt": "2024-06-26T15:12:04Z",
-        "content": "Hey, OneDrive! Leave my files aloneUser data is being slurped into Microsoft's cloud via OneDrive folder backup without user permission.\r\nThis story appeared on go.theregister.com, 2024-06-26."
-    },
-    {
-        "source": {
-            "id": None,
-            "name": "Biztoc.com"
-        },
         "author": "benzinga.com",
         "title": "Dan Ives Labels Nvidia Correction A 'Near-Term Pullback', Hails Palantir As 'Purest AI Name' Amid Growing Market Use Cases - Microsoft (NASDAQ:MSFT), Apple (NASDAQ:AAPL)",
         "description": "The stock of NVIDIA Corp NVDA has seen a significant rebound after a recent correction, with a prominent analyst suggesting that the company’s market cap could reach $4 trillion. Additionally, the analyst has identified Palantir Technologies Inc. PLTR as the …",
@@ -376,19 +388,6 @@ microsoft = [
         "urlToImage": "https://biztoc.com/cdn/3284fd97ffa561c3_s.webp",
         "publishedAt": "2024-06-26T15:02:15Z",
         "content": "The stock of NVIDIA Corp NVDA has seen a significant rebound after a recent correction, with a prominent analyst suggesting that the companys market cap could reach $4 trillion. Additionally, the ana… [+128 chars]"
-    },
-    {
-        "source": {
-            "id": None,
-            "name": "Theregister.com"
-        },
-        "author": "Richard Speed",
-        "title": "Microsoft makes it harder to avoid OneDrive during new Windows 11 installs",
-        "description": "Hey, OneDrive! Leave my files alone\nUser data is being slurped into Microsoft's cloud via OneDrive folder backup without user permission.…",
-        "url": "https://www.theregister.com/2024/06/26/microsoft_makes_onedrive_avoidance_trickier/",
-        "urlToImage": "https://regmedia.co.uk/2015/12/09/shutterstock_bureaucrat_paper_pusher.jpg",
-        "publishedAt": "2024-06-26T15:00:06Z",
-        "content": "User data is being slurped into Microsoft's cloud via OneDrive folder backup without user permission.\r\nFirst reported by Neowin, a change in Windows 11's setup for new devices has resulted in OneDriv… [+2047 chars]"
     },
     {
         "source": {
