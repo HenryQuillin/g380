@@ -6,7 +6,7 @@ def render_keywords():
     init_db()
 
     st.subheader('Keywords')
-    # setting up comapny
+    # setting up company dropdown
     companies = get_all_companies()
     company_options = {company['id']: company['name'] for company in companies if company['name']}
 
@@ -33,11 +33,11 @@ def render_keywords():
                     add_keyword_to_db(selected_company_id, new_keyword)
                     st.rerun()
             with col2:
-                # remove
+                #remove
                 if st.button("Remove", key=f"remove_keyword_{keyword['id']}"):
                     remove_keyword_from_db(keyword['id'])
                     st.rerun()
-        # add
+        #add
         if st.button('Add keyword'):
             add_keyword()
 

@@ -1,10 +1,12 @@
 import streamlit as st
 import pandas as pd
 from data_helpers import get_mock_data
-from database import get_all_companies, get_company_keywords
+from database import get_all_companies, get_company_keywords, add_article_to_db, get_all_articles, clear_article_log, \
+    article_exists
 from datetime import datetime, timedelta
 from notifications import create_notifications
 from duplicate_detection import detect_duplicates
+import json
 
 st.set_page_config(page_title="My Alerts", page_icon="🚨", layout="wide")
 
@@ -18,8 +20,6 @@ st.sidebar.header("Simulate Fetch")
 
 if 'date_range' not in st.session_state:
     st.session_state.date_range = (datetime(2024, 6, 1), datetime.now())
-if 'news_log' not in st.session_state:
-    st.session_state.news_log = []
 if 'fetch_attempted' not in st.session_state:
     st.session_state.fetch_attempted = False
 if 'no_news_reason' not in st.session_state:
@@ -33,26 +33,23 @@ date_range = st.sidebar.date_input(
     max_value=datetime.now(),
 )
 fetch_button = st.sidebar.button('Fetch News')
+clear_log_button = st.sidebar.button('Clear Log')
 
 if len(date_range) == 2:
     start_date, end_date = date_range
-# elif len(date_range) == 1:
-#     start_date = end_date = date_range[0]
 else:
     start_date, end_date = st.session_state.date_range
 
+start_date = datetime.combine(start_date, datetime.min.time())
+end_date = datetime.combine(end_date, datetime.max.time())
+
 st.session_state.date_range = (start_date, end_date)
-
-
-
-
 
 companies = get_all_companies()
 company_options = {company['id']: company['name'] for company in companies if company['name']}
 
-
 # filters and stuff ------------
-col1, col2 = st.columns([1,1])
+col1, col2 = st.columns([1, 1])
 with col1:
     show_descriptions = st.toggle('Show Descriptions', value=True)
 with col2:
@@ -73,8 +70,25 @@ def format_date(date_str):
     except:
         return date_str
 
+
+def convert_timestamps(obj):
+    if isinstance(obj, pd.Timestamp):
+        return obj.strftime("%Y-%m-%dT%H:%M:%SZ")
+    elif isinstance(obj, dict):
+        return {k: convert_timestamps(v) for k, v in obj.items()}
+    elif isinstance(obj, list):
+        return [convert_timestamps(i) for i in obj]
+    return obj
+
+
 def fetch_news():
     all_news = []
+    companies = get_all_companies()
+
+    if not companies:
+        st.warning("No companies in the watchlist. Please add companies in the Settings page.")
+        return
+
     for company in companies:
         if company['name']:
             keywords = get_company_keywords(company['id'])
@@ -86,9 +100,8 @@ def fetch_news():
             all_news.extend(filtered_articles)
 
     if not all_news:
-        st.session_state.news_log = []
-        st.session_state.fetch_attempted = True
-        st.session_state.no_news_reason = "date_range"
+        st.warning(
+            f"No news found for the selected date range ({start_date.strftime('%Y-%m-%d')} to {end_date.strftime('%Y-%m-%d')}).")
         return
 
     # Sort by publishing date
@@ -97,19 +110,36 @@ def fetch_news():
     # Apply duplicate detection
     grouped_articles = detect_duplicates(all_news)
 
-    st.session_state.news_log = grouped_articles
-    st.session_state.fetch_attempted = True
-    st.session_state.no_news_reason = None
+    # save to db
+    new_articles_count = 0
+    for article in grouped_articles:
+        if not article_exists(article['url']):
+
+            article = convert_timestamps(article)
+            article['duplicates'] = json.dumps(article.get('duplicates', []))
+            add_article_to_db(article)
+            new_articles_count += 1
+
+    if new_articles_count > 0:
+        st.success(f"Found {new_articles_count} new unique articles.")
+    else:
+        st.info("No new articles found. All articles for this date range are already in the database.")
+
     create_notifications(grouped_articles)
-    st.success(f"Found {len(grouped_articles)} unique articles.")
+
 
 if fetch_button:
     fetch_news()
 
+if clear_log_button:
+    clear_article_log()
+    st.success("Article log cleared.")
+
 # Display news
-if st.session_state.news_log:
+news_log = get_all_articles()
+if news_log:
     # Filter news based on selected companies
-    filtered_news = st.session_state.news_log
+    filtered_news = news_log
     if selected_company_ids:
         selected_companies = [company_options[id] for id in selected_company_ids]
         filtered_news = [article for article in filtered_news if article.get('company') in selected_companies]
@@ -136,27 +166,23 @@ if st.session_state.news_log:
                     col = cols[0]
 
                 with col:
-                    # Check if article is a dictionary, if not, skip it
-                    if not isinstance(article, dict):
-                        st.warning(f"Skipping invalid article data: {article}")
-                        continue
-
                     company_name = article.get('company', 'Unknown Company')
                     company_color = color_map.get(company_name, "#ffffff")
                     description_html = ""
-                    if show_descriptions and pd.notna(article.get('description')):
+                    if show_descriptions and article.get('description'):
                         description_html = f"<div class='news-description'>{article['description']}</div>"
 
                     formatted_date = format_date(article.get('publishedAt', 'Unknown Date'))
 
                     # duplicate articles HTML ---------
                     duplicates_html = ""
-                    if 'duplicates' in article and article['duplicates']:
+                    duplicates = json.loads(article.get('duplicates', '[]'))
+                    if duplicates:
                         duplicates_html = f"""<details class="duplicates-dropdown">
-                            <summary>Show {len(article['duplicates'])} duplicate article(s)</summary>
+                            <summary>Show {len(duplicates)} duplicate article(s)</summary>
                             <ul class="duplicates-list">"""
 
-                        for dup in article['duplicates']:
+                        for dup in duplicates:
                             if isinstance(dup, dict):
                                 dup_formatted_date = format_date(dup.get('publishedAt', 'Unknown Date'))
                                 duplicates_html += f"""
@@ -177,16 +203,10 @@ if st.session_state.news_log:
                         </div>
                         <div class="news-meta">
                             <span class="company-tag" style="background-color: {company_color}; color: #000000;">{company_name}</span> | 
-                            {article.get('source', {}).get('name', 'Unknown Source')} | {formatted_date}
+                            {article.get('source_name', 'Unknown Source')} | {formatted_date}
                         </div>
                         {description_html}{duplicates_html}
                     </div>
                     """, unsafe_allow_html=True)
-
-elif st.session_state.fetch_attempted:
-    if st.session_state.no_news_reason == "date_range":
-        st.warning("No news found for the selected date range.")
-    else:
-        st.info("No news found for the selected date range and filters.")
 else:
-    st.info("Click 'Fetch News' in the sidebar to get started.")
+    st.info("No articles in the database. Click 'Fetch News' to get started.")

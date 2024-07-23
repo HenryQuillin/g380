@@ -3,7 +3,7 @@ from mock_data import data
 from datetime import datetime, date
 
 def get_mock_data(company_name, start_date, end_date, keywords):
-    # Ensure start_date and end_date are datetime objects
+    # Ensure start_date and end_date are datetime objects. Needed to add this to fix a comparison error
     start = start_date if isinstance(start_date, datetime) else datetime.combine(start_date, datetime.min.time())
     end = end_date if isinstance(end_date, datetime) else datetime.combine(end_date, datetime.max.time())
 

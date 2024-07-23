@@ -43,7 +43,7 @@ with col3:
 with col4:
     search_term = st.text_input('Search')
 
-# Handle date range filtering
+# date range filtering --------
 if isinstance(date_range, tuple) and len(date_range) == 2:
     start_date, end_date = date_range
 elif isinstance(date_range, (list, tuple)) and len(date_range) == 1:
@@ -59,7 +59,6 @@ if company_filter:
 if source_filter:
     filtered_df = filtered_df[filtered_df['source_name'].isin(source_filter)]
 
-# Date range filter
 filtered_df = filtered_df[
     (filtered_df['publishedAt'].dt.date >= start_date) &
     (filtered_df['publishedAt'].dt.date <= end_date)
