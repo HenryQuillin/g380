@@ -112,20 +112,21 @@ def fetch_news():
 
     # save to db
     new_articles_count = 0
+    new_articles = []
     for article in grouped_articles:
         if not article_exists(article['url']):
-
+            # Convert Timestamps to strings
             article = convert_timestamps(article)
             article['duplicates'] = json.dumps(article.get('duplicates', []))
             add_article_to_db(article)
+            new_articles.append(article)
             new_articles_count += 1
 
     if new_articles_count > 0:
         st.success(f"Found {new_articles_count} new unique articles.")
+        create_notifications(new_articles)
     else:
         st.info("No new articles found. All articles for this date range are already in the database.")
-
-    create_notifications(grouped_articles)
 
 
 if fetch_button:
@@ -195,7 +196,8 @@ if news_log:
                             else:
                                 duplicates_html += f"<li>Invalid duplicate data: {dup}</li>"
                         duplicates_html += "</ul></details>"
-                    #news card html -----------
+
+                    # news card html -----------
                     st.markdown(f"""
                     <div class="news-card {news_card_class}">
                         <div class="news-title">
