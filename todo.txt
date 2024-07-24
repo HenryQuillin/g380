@@ -97,3 +97,37 @@ Color-coded company tags for easy identification
 Subtle hover animation for news cards
 
 Honestly though I had to use html and css to improve the UI from what it was previously. Streamlit has nice looking buttons but I don't think it will help in terms of UI much more than a good css library. It does help though a lot in terms of replacing JS logic, event listeners, etc.
+
+
+News Log PR:
+
+updated the  file to include a new table for articles and added functions:
+
+- Updated database.py:
+    - Added an articles table in the init_db() function.
+    - Created add_article_to_db() function to save articles to the database.
+    - Added get_all_articles() function to retrieve all articles from the database.
+    - Implemented clear_article_log() function to delete all articles from the database.
+    - Added article_exists() function to check if an article is already in the database.
+
+- Updated the fetch news logic to save fetched articles to the DB
+- Added a 'Clear Log' button (mostly for testing purposes)
+
+implemented various messages to handle edge cases:
+- Warning when there are no companies in the watchlist.
+- Info message when no new articles are found for the selected date range.
+- Info message when the database is empty.
+
+- Updated duplicate_detection.py to remove exact duplicates
+- Updated watchlist.py to prevent the user from adding duplicate companies
+
+
+
+
+updated the fetch_news() function to:
+- Check if there are companies in the watchlist.
+- Fetch news for each company using the get_mock_data() function.
+- Apply duplicate detection using the detect_duplicates() function.
+- Save new, unique articles to the database.
+Display appropriate messages based on the fetch results.
+

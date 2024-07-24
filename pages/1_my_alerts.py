@@ -126,7 +126,7 @@ def fetch_news():
         st.success(f"Found {new_articles_count} new unique articles.")
         create_notifications(new_articles)
     else:
-        st.info("No new articles found. All articles for this date range are already in the database.")
+        st.info("No new articles found.")
 
 
 if fetch_button:
@@ -211,4 +211,4 @@ if news_log:
                     </div>
                     """, unsafe_allow_html=True)
 else:
-    st.info("No articles in the database. Click 'Fetch News' to get started.")
+    st.info("No recent alerts. Click 'Fetch News' to check for news.")
