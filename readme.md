@@ -49,8 +49,10 @@ This application is a news alert tool that allows users to monitor news for spec
 
 ## Duplicate detection
 
+
+
 - Computing similarity (compute_similarity function):
-    - Uses TF-IDF (Term Frequency-Inverse Document Frequency) vectorization to convert texts into numerical vectors.
+    - Uses TF-IDF (see section below for an explanation) vectorization to convert texts into numerical vectors.
         - TF-IDF measures the importance of words in each text relative to all the titles and descriptions.
     - Cosine similarity is then computed between all pairs of these vectors.
     - The result is a 2d array where each element [i, j] represents the similarity between text i and text j.
@@ -73,3 +75,18 @@ This application is a news alert tool that allows users to monitor news for spec
           - If it has no duplicates, it's added to grouped_articles as is.
 
 The final output is a list of grouped articles, where each group consists of a primary article and its duplicates (could be none). The duplicates are then included in a dropdown list in the news cards.
+
+### TF-IDF
+TF-IDF (Term Frequency-Inverse Document Frequency) gives the importance of a word in a text within a collection of texts.
+
+Term Frequency:
+This measures how frequently a word appears in an article.
+The more times a word appears in the article, the higher its TF.
+
+
+Inverse Document Frequency:
+This measures how important a term is across all articles. It's calculated by dividing the total number of articles by the number of articles containing the term, and then taking the logarithm of that quotient.
+So words that appear in many documents ("the", "a", "an, etc) will have a low IDF, while rarer words will have a high IDF.
+
+
+TF-IDF: This is the product of TF and IDF for each term. It gives a high wieght to terms that appear more in a particular article but rarely in other articles.
