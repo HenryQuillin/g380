@@ -24,6 +24,10 @@ if 'fetch_attempted' not in st.session_state:
     st.session_state.fetch_attempted = False
 if 'no_news_reason' not in st.session_state:
     st.session_state.no_news_reason = None
+if 'fetched_date_ranges' not in st.session_state:
+    st.session_state.fetched_date_ranges = []
+if 'log_cleared' not in st.session_state:
+    st.session_state.log_cleared = False
 
 # Ssidebar ---------------
 date_range = st.sidebar.date_input(
@@ -70,7 +74,6 @@ def format_date(date_str):
     except:
         return date_str
 
-
 def convert_timestamps(obj):
     if isinstance(obj, pd.Timestamp):
         return obj.strftime("%Y-%m-%dT%H:%M:%SZ")
@@ -80,8 +83,18 @@ def convert_timestamps(obj):
         return [convert_timestamps(i) for i in obj]
     return obj
 
+def is_date_range_contained(start, end):
+    for prev_start, prev_end in st.session_state.fetched_date_ranges:
+        if start >= prev_start and end <= prev_end:
+            return True
+    return False
 
 def fetch_news():
+    st.session_state.log_cleared = False
+    if is_date_range_contained(start_date, end_date):
+        st.info("No new articles found.")
+        return
+
     all_news = []
     companies = get_all_companies()
 
@@ -128,17 +141,20 @@ def fetch_news():
     else:
         st.info("No new articles found.")
 
+    st.session_state.fetched_date_ranges.append((start_date, end_date))
 
 if fetch_button:
     fetch_news()
 
 if clear_log_button:
     clear_article_log()
+    st.session_state.fetched_date_ranges = []  # Clear the fetched date ranges
+    st.session_state.log_cleared = True
     st.success("Article log cleared.")
 
 # Display news
 news_log = get_all_articles()
-if news_log:
+if news_log and not st.session_state.log_cleared:
     # Filter news based on selected companies
     filtered_news = news_log
     if selected_company_ids:
@@ -210,5 +226,5 @@ if news_log:
                         {description_html}{duplicates_html}
                     </div>
                     """, unsafe_allow_html=True)
-else:
-    st.info("No recent alerts. Click 'Fetch News' to check for news.")
+elif not st.session_state.log_cleared:
+    st.info("No recent alerts. Click 'Fetch News' to get started.")

@@ -24,8 +24,8 @@ def get_mock_data(company_name, start_date, end_date, keywords):
         ), axis=1)
         filtered_df = filtered_df[keyword_mask]
 
-    filtered_df.loc[:, 'title'] = filtered_df['title'].fillna('')
-    filtered_df.loc[:, 'description'] = filtered_df['description'].fillna('')
+    # filtered_df.loc[:, 'title'] = filtered_df['title'].fillna('')
+    # filtered_df.loc[:, 'description'] = filtered_df['description'].fillna('')
 
     return filtered_df
 
