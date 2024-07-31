@@ -148,7 +148,7 @@ if fetch_button:
 
 if clear_log_button:
     clear_article_log()
-    st.session_state.fetched_date_ranges = []  # Clear the fetched date ranges
+    st.session_state.fetched_date_ranges = []
     st.session_state.log_cleared = True
     st.success("Article log cleared.")
 
@@ -196,7 +196,7 @@ if news_log and not st.session_state.log_cleared:
                     duplicates = json.loads(article.get('duplicates', '[]'))
                     if duplicates:
                         duplicates_html = f"""<details class="duplicates-dropdown">
-                            <summary>Show {len(duplicates)} duplicate article(s)</summary>
+                            <summary>Show {len(duplicates)} similar article(s)</summary>
                             <ul class="duplicates-list">"""
 
                         for dup in duplicates:
@@ -227,4 +227,4 @@ if news_log and not st.session_state.log_cleared:
                     </div>
                     """, unsafe_allow_html=True)
 elif not st.session_state.log_cleared:
-    st.info("No recent alerts. Click 'Fetch News' to get started.")
+    st.info("No recent alerts. Click 'Fetch News' to check for news.")

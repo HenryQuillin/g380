@@ -1727,7 +1727,7 @@ robinhood = [
             "name": "ETF Daily News"
         },
         "author": "MarketBeat News",
-        "title": "test - Robinhood Markets (NASDAQ:HOOD) Stock Price Up 2.3 percent",
+        "title": "Robinhood Markets (NASDAQ:HOOD) Stock Price Up 2.3 percent",
         "description": "Robinhood Markets, Inc. (NASDAQ:HOOD – Get Free Report)’s share price rose 2.3% during mid-day trading on Tuesday . The company traded as high as $21.89 and last traded at $21.87. Approximately 3,414,269 shares traded hands during trading, a decline of 79% fr…",
         "url": "https://www.etfdailynews.com/2024/06/27/robinhood-markets-nasdaqhood-stock-price-up-2-3/",
         "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/robinhood-markets-inc-logo-1200x675.png?v=20210729133331&w=240&h=240&zc=2",
