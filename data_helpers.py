@@ -1,6 +1,7 @@
 import pandas as pd
 from mock_data import data
-from datetime import datetime, date
+from datetime import datetime
+import json
 
 def get_mock_data(company_name, start_date, end_date, keywords):
     # Ensure start_date and end_date are datetime objects. Needed to add this to fix a comparison error
@@ -52,3 +53,18 @@ def get_all_companies_data(start_date, end_date):
     combined_df = combined_df.sort_values(by='publishedAt', ascending=False)
 
     return combined_df
+
+
+def is_new_article(article, existing_articles):
+    article_titles = set([article['title'].lower()])
+    if 'duplicates' in article:
+        article_titles.update(dup['title'].lower() for dup in article['duplicates'])
+
+    for existing in existing_articles:
+        existing_titles = set([existing['title'].lower()])
+        existing_duplicates = json.loads(existing.get('duplicates', '[]'))
+        existing_titles.update(dup['title'].lower() for dup in existing_duplicates)
+
+        if article_titles.intersection(existing_titles):
+            return False
+    return True

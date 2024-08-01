@@ -39,19 +39,7 @@ microsoft = [
         "publishedAt": "2024-07-07T20:50:15Z",
         "content": "Microsoft's latest Windows 11 update has made it increasingly difficult for users to avoid OneDrive integration during new installations. The tech giant seems to be pushing its cloud storage solution more aggressively, raising concerns about user choice and data privacy."
     },
-    {
-        "source": {
-            "id": None,
-            "name": "PCMag.com"
-        },
-        "author": "Brian Westover",
-        "title": "test - Microsoft Surface Pro (2024)",
-        "description": "Arm makes this stunning flagship 2-in-1 a bit of a stretch\nWatching history circle around again is fascinating, especially at the intersection of laptops and tablet PCs. The original device that would eventually be called the Surface Pro remains a vivid memor…",
-        "url": "https://uk.pcmag.com/laptops/153008/microsoft-surface-pro-2024",
-        "urlToImage": "https://sm.pcmag.com/t/pcmag_uk/review/m/microsoft-/microsoft-surface-pro-2024_pt8m.1200.jpg",
-        "publishedAt": "2024-07-01T20:24:59Z",
-        "content": "Watching history circle around again is fascinating, especially at the intersection of laptops and tablet PCs. The original device that would eventually be called the Surface Pro remains a vivid memo… [+36810 chars]"
-    },    {
+   {
         "source": {
             "id": None,
             "name": "PCMag.com"

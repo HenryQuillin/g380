@@ -1,8 +1,7 @@
 import streamlit as st
 import pandas as pd
-from data_helpers import get_mock_data
-from database import get_all_companies, get_company_keywords, add_article_to_db, get_all_articles, clear_article_log, \
-    article_exists
+from data_helpers import get_mock_data, is_new_article
+from database import get_all_companies, get_company_keywords, add_article_to_db, get_all_articles, clear_article_log
 from datetime import datetime, timedelta
 from notifications import create_notifications
 from duplicate_detection import detect_duplicates
@@ -12,6 +11,13 @@ st.set_page_config(page_title="My Alerts", page_icon="🚨", layout="wide")
 
 with open('./styles.css') as f:
     css = f.read()
+
+# specific CSS for the calendar
+css += """
+div:has(div > [aria-label="Calendar."]) {
+    left: 45px;
+}
+"""
 st.markdown(f'<style>{css}</style>', unsafe_allow_html=True)
 
 st.title('MY ALERTS')
@@ -24,8 +30,6 @@ if 'fetch_attempted' not in st.session_state:
     st.session_state.fetch_attempted = False
 if 'no_news_reason' not in st.session_state:
     st.session_state.no_news_reason = None
-if 'fetched_date_ranges' not in st.session_state:
-    st.session_state.fetched_date_ranges = []
 if 'log_cleared' not in st.session_state:
     st.session_state.log_cleared = False
 
@@ -83,18 +87,9 @@ def convert_timestamps(obj):
         return [convert_timestamps(i) for i in obj]
     return obj
 
-def is_date_range_contained(start, end):
-    for prev_start, prev_end in st.session_state.fetched_date_ranges:
-        if start >= prev_start and end <= prev_end:
-            return True
-    return False
 
 def fetch_news():
     st.session_state.log_cleared = False
-    if is_date_range_contained(start_date, end_date):
-        st.info("No new articles found.")
-        return
-
     all_news = []
     companies = get_all_companies()
 
@@ -123,11 +118,14 @@ def fetch_news():
     # Apply duplicate detection
     grouped_articles = detect_duplicates(all_news)
 
+    # Get existing articles
+    existing_articles = get_all_articles()
+
     # save to db
     new_articles_count = 0
     new_articles = []
     for article in grouped_articles:
-        if not article_exists(article['url']):
+        if is_new_article(article, existing_articles):
             # Convert Timestamps to strings
             article = convert_timestamps(article)
             article['duplicates'] = json.dumps(article.get('duplicates', []))
@@ -141,14 +139,12 @@ def fetch_news():
     else:
         st.info("No new articles found.")
 
-    st.session_state.fetched_date_ranges.append((start_date, end_date))
 
 if fetch_button:
     fetch_news()
 
 if clear_log_button:
     clear_article_log()
-    st.session_state.fetched_date_ranges = []
     st.session_state.log_cleared = True
     st.success("Article log cleared.")
 
