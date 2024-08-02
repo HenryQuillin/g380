@@ -131,3 +131,17 @@ updated the fetch_news() function to:
 - Save new, unique articles to the database.
 Display appropriate messages based on the fetch results.
 
+
+
+
+Our approach uses what's called extractive summarization. Instead of generating new text, we identify and extract the most crucial sentences from the original email. Let me break down how this works:
+
+First, we start with preprocessing. When you receive an email, it often begins with a greeting like 'Hi John,' or 'Dear Team,'. Our first step is to remove these introductions, allowing us to focus solely on the main content.
+
+We then remove all stop words (these are words like ‘the’, ‘or’, ‘and’ etcetera) as well as punctuation.
+
+Then, using a natural language processing library called SpaCy, we break down the email into individual words. We  count how often each word appears. This process helps us identify the most important topics in the email.
+
+With our word frequencies in hand, we move on to sentence scoring. We look at each sentence in the email and give it a score based on the words it contains. Sentences that have more high-frequency words – those words we identified as important in the previous step – receive higher scores. This allows us to quantify which sentences are likely to be the most informative.
+
+We then select the top-scoring sentences, by default the two highest-scoring ones, though this number can be adjusted. We make sure to arrange these sentences in the order they appeared in the original email to maintain the flow of the original message.
