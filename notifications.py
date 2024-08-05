@@ -35,7 +35,7 @@ def setup_notifications(title, body, icon, url):
 
 
 def show_notification(title, body, icon="https://img.icons8.com/?size=100&id=12452&format=png&color=000000.png",
-                      url="http://localhost:8501/News"):
+                      url="http://localhost:8501/my_alerts"):
     notification_js = setup_notifications(title, body, icon, url)
     notification_html = f"<script>{notification_js}</script>"
     html(notification_html)

@@ -184,19 +184,6 @@ microsoft = [
     },
     {
         "source": {
-            "id": None,
-            "name": "PCMag.com"
-        },
-        "author": "Michael Kan",
-        "title": "Microsoft: 'Skeleton Key' Jailbreak Can Trick Major Chatbots Into Behaving Badly",
-        "description": "The jailbreak can prompt a chatbot to engage in prohibited behaviors, including generating content related to explosives, bioweapons, and drugs.\nMicrosoft has uncovered a jailbreak that allows someone to trick chatbots like ChatGPT or Google Gemini into overr…",
-        "url": "https://me.pcmag.com/en/ai/24364/microsoft-skeleton-key-jailbreak-can-trick-major-chatbots-into-behaving-badly",
-        "urlToImage": "https://sm.pcmag.com/t/pcmag_me/news/m/microsoft-/microsoft-skeleton-key-jailbreak-can-trick-major-chatbots-in_y5sm.1200.jpg",
-        "publishedAt": "2024-06-26T19:23:40Z",
-        "content": "Microsoft has uncovered a jailbreak that allows someone to trick chatbots like ChatGPT or Google Gemini into overriding their restrictions and engaging in prohibited activities.\r\nMicrosoft has dubbed… [+2174 chars]"
-    },
-    {
-        "source": {
             "id": "financial-post",
             "name": "Financial Post"
         },
@@ -4329,19 +4316,6 @@ bofa = [
 neuralink = [
     {
         "source": {
-            "id": None,
-            "name": "Github.com"
-        },
-        "author": "muragekibicho",
-        "title": "Show HN: Zero Knowledge Zip, Neuralink Compression Challenge Submission",
-        "description": "Article URL: https://github.com/MurageKibicho/Bellard/tree/main/Articles/Neuralink%20MVP%20-%20Zero%20Knowledge%20Zip\nComments URL: https://news.ycombinator.com/item?id=40860723\nPoints: 1\n# Comments: 0",
-        "url": "https://github.com/MurageKibicho/Bellard/tree/main/Articles/Neuralink%20MVP%20-%20Zero%20Knowledge%20Zip",
-        "urlToImage": "https://repository-images.githubusercontent.com/800578239/aad738d4-2fe2-465c-8713-a73283d2046e",
-        "publishedAt": "2024-07-02T21:47:15Z",
-        "content": "This is our submission for the Neuralink compression challenge.\r\nWe assume you have a Linux system with Bzip2 and GCC pre-installed.\r\nThis is not an archiver. It works on individual files.\r\nWe compar… [+1434 chars]"
-    },
-    {
-        "source": {
             "id": "the-times-of-india",
             "name": "The Times of India"
         },
@@ -4350,7 +4324,7 @@ neuralink = [
         "description": "China has developed an innovative robot with a lab-grown human brain, aiming to create hybrid machines for complex tasks. This technology integrates human stem cells with neural interface chips.",
         "url": "https://economictimes.indiatimes.com/news/international/us/after-elon-musks-neuralink-project-china-develops-robots-with-lab-grown-human-brains-will-it-replace-humans/articleshow/111440515.cms",
         "urlToImage": "https://img.etimg.com/thumb/msid-111440499,width-1200,height-630,imgsize-162724,overlay-economictimes/photo.jpg",
-        "publishedAt": "2024-07-02T20:21:40Z",
+        "publishedAt": "2024-07-04T20:21:40Z",
         "content": "(Catch all the US News, UK News, Canada News, International Breaking News Events, and Latest News Updates on The Economic Times.)\r\nDownload The Economic Times News App to get Daily International News… [+8 chars]"
     },
     {
@@ -4509,19 +4483,19 @@ neuralink = [
         "publishedAt": "2024-06-25T17:13:00Z",
         "content": "HipHopWired Featured Video\r\nSource: Marc Piasecki / Getty / Elon Musk\r\nThe Donald Trump of technology, Elon Musk, is out here making babies like his company drops poorly designed electric vehicles.\r\n… [+2829 chars]"
     },
-    {
-        "source": {
-            "id": None,
-            "name": "ReadWrite"
-        },
-        "author": "Sophie Atkinson",
-        "title": "First Neuralink patient says implant is like “an aimbot” for gaming, explains how gaming industry may have to change",
-        "description": "The first Neuralink patient gives a rave review about the implant and describes it as like having “an aim-bot” for… Continue reading First Neuralink patient says implant is like “an aimbot” for gaming, explains how gaming industry may have to change\nThe post …",
-        "url": "https://readwrite.com/first-neuralink-patient-says-implant-is-like-an-aimbot-for-gaming-explains-how-gaming-industry-may-have-to-change/",
-        "urlToImage": "https://readwrite.com/wp-content/uploads/2024/06/BV18hPCQQ4y9hlsZRDyZlw.webp",
-        "publishedAt": "2024-06-25T09:23:41Z",
-        "content": "The first Neuralink patient gives a rave review about the implant and describes it as like having an aim-bot for gaming in his head.\r\nNoland Arbaugh is the only person so far to have been fitted with… [+1593 chars]"
-    },
+    # {
+    #     "source": {
+    #         "id": None,
+    #         "name": "ReadWrite"
+    #     },
+    #     "author": "Sophie Atkinson",
+    #     "title": "First Neuralink patient says implant is like “an aimbot” for gaming, explains how gaming industry may have to change",
+    #     "description": "The first Neuralink patient gives a rave review about the implant and describes it as like having “an aim-bot” for… Continue reading First Neuralink patient says implant is like “an aimbot” for gaming, explains how gaming industry may have to change\nThe post …",
+    #     "url": "https://readwrite.com/first-neuralink-patient-says-implant-is-like-an-aimbot-for-gaming-explains-how-gaming-industry-may-have-to-change/",
+    #     "urlToImage": "https://readwrite.com/wp-content/uploads/2024/06/BV18hPCQQ4y9hlsZRDyZlw.webp",
+    #     "publishedAt": "2024-06-25T09:23:41Z",
+    #     "content": "The first Neuralink patient gives a rave review about the implant and describes it as like having an aim-bot for gaming in his head.\r\nNoland Arbaugh is the only person so far to have been fitted with… [+1593 chars]"
+    # },
     {
         "source": {
             "id": None,
