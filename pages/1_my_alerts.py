@@ -13,10 +13,9 @@ with open('./styles.css') as f:
     css = f.read()
 
 st.logo(
-    "https://i.ibb.co/fN83TGf/Untitled-design-2-removebg-preview.png",
+    "NewsNudgeLogo.png",
     link="https://streamlit.io/gallery"
 )
-
 # specific CSS for the calendar
 css += """
 div:has(div > [aria-label="Calendar."]) {

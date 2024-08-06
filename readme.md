@@ -1,4 +1,6 @@
-# News Alert Tool
+# NewsNudge 
+
+
 
 This application is a news alert tool that allows users to monitor news for specific companies and receive notifications based on keyword filters.
 

@@ -5,7 +5,7 @@ from datetime import datetime, timedelta
 
 st.set_page_config(page_title="All News", page_icon="📰", layout="wide")
 st.logo(
-    "https://i.ibb.co/fN83TGf/Untitled-design-2-removebg-preview.png",
+    "NewsNudgeLogo.png",
     link="https://streamlit.io/gallery"
 )
 with open('./styles.css') as f:
