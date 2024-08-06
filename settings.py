@@ -5,6 +5,10 @@ import streamlit as st
 
 st.set_page_config(page_title="Settings", page_icon="", layout="centered")
 
+st.logo(
+    "https://i.ibb.co/fN83TGf/Untitled-design-2-removebg-preview.png",
+    link="https://streamlit.io/gallery"
+)
 
 st.title('SETTINGS')
 
